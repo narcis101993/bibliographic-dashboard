@@ -2,6 +2,7 @@
   "use strict";
 
   var LANG_KEY = "stamatie-dashboard-lang";
+  var DARK_KEY = "stamatie-dashboard-dark";
   var PAGE_SIZE = 10;
   var PUB_PAGE_SIZE = 50;
   var CIT_PAGE_SIZE = 50;
@@ -314,6 +315,7 @@
 
   var state = {
     lang: "ro",
+    dark: false,
     data: null,
     manifest: null,
     version: null,
@@ -957,7 +959,16 @@
     document.querySelectorAll(".lang-btn").forEach(function (button) {
       button.classList.toggle("is-active", button.getAttribute("data-lang") === state.lang);
     });
+    document.querySelectorAll(".theme-btn").forEach(function (button) {
+      button.classList.toggle("is-active", button.getAttribute("data-theme-value") === (state.dark ? "dark" : "light"));
+    });
     document.title = t("appTitle") + " · Gabriela Daniela Stamatie";
+  }
+
+  function applyTheme() {
+    try {
+      document.documentElement.setAttribute("data-theme", state.dark ? "dark" : "light");
+    } catch (error) { /* ignore */ }
   }
 
   function fillSelect(select, allLabel, values, current, labelFn) {
@@ -1903,6 +1914,17 @@
       });
     });
 
+    document.querySelectorAll(".theme-btn").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var theme = button.getAttribute("data-theme-value");
+        if ((theme === "dark") === state.dark) return;
+        state.dark = theme === "dark";
+        try { localStorage.setItem(DARK_KEY, state.dark ? "1" : "0"); } catch (error) { /* ignore */ }
+        applyTheme();
+        applyI18n();
+      });
+    });
+
     window.addEventListener("popstate", onUrlPopState);
   }
 
@@ -1914,13 +1936,20 @@
       if (saved === "ro" || saved === "en") state.lang = saved;
     } catch (error) { /* ignore */ }
 
+    try {
+      var darkSaved = localStorage.getItem(DARK_KEY);
+      state.dark = darkSaved === "1";
+    } catch (error) { /* ignore */ }
+
     if (urlState.lang === "ro" || urlState.lang === "en") state.lang = urlState.lang;
 
     bindEvents();
     applyI18n();
+    applyTheme();
     loadData().then(function () {
       applyUrlState(urlState);
       try { localStorage.setItem(LANG_KEY, state.lang); } catch (error) { /* storage may be blocked on file:// */ }
+      try { localStorage.setItem(DARK_KEY, state.dark ? "1" : "0"); } catch (error) { /* ignore */ }
       renderAll();
       writeUrlState("replace");
     }).catch(showLoadError);
