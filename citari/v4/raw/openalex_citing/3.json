@@ -1,0 +1,3345 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "3",
+ "payload": [
+  {
+   "id": "https://openalex.org/W4309604656",
+   "doi": "https://doi.org/10.3390/foods11223667",
+   "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+   "display_name": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+   "publication_year": 2022,
+   "publication_date": "2022-11-16",
+   "ids": {
+    "openalex": "https://openalex.org/W4309604656",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/36429258",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689233"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3390/foods11223667",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223667",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5116710859",
+      "display_name": "Gabriela Daniela Criveanu-Stamatie",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gabriela Daniela Stamatie",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5012036452",
+      "display_name": "Iulia Elena Susman",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Iulia Elena Susman",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5064050829",
+      "display_name": "Sabina Andreea Bobea",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sabina Andreea Bobea",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5018831245",
+      "display_name": "Elena Matei",
+      "orcid": "https://orcid.org/0000-0002-8387-2562",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8387-2562"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210087521",
+       "display_name": "National Institute of Materials Physics",
+       "ror": "https://ror.org/002ghjd91",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210087521"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Elena Matei",
+     "raw_affiliation_strings": [
+      "National Institute of Materials Physics, Atomistilor 405A, 077125 Magurele, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Institute of Materials Physics, Atomistilor 405A, 077125 Magurele, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210087521"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5036772751",
+      "display_name": "Denisa Eglantina Duță",
+      "orcid": "https://orcid.org/0000-0002-8821-7268",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8821-7268"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Denisa Eglantina Duta",
+     "raw_affiliation_strings": [
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-8821-7268",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5050801350",
+      "display_name": "Florentina Israel-Roming",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Florentina Israel-Roming",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 3,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5036772751"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210109653"
+   ],
+   "apc_list": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "apc_paid": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "fwci": 1.5473,
+   "has_fulltext": true,
+   "cited_by_count": 11,
+   "citation_normalized_percentile": {
+    "value": 0.80197293,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 93,
+    "max": 98
+   },
+   "biblio": {
+    "volume": "11",
+    "issue": "22",
+    "first_page": "3667",
+    "last_page": "3667"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9014000296592712,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.9014000296592712,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.035999998450279236,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12403",
+     "display_name": "Seed and Plant Biochemistry",
+     "score": 0.03500000014901161,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/bread",
+     "display_name": "bread",
+     "score": 0.44200000166893005
+    },
+    {
+     "id": "https://openalex.org/keywords/pea-protein-concentrate",
+     "display_name": "pea protein concentrate",
+     "score": 0.9110000133514404
+    },
+    {
+     "id": "https://openalex.org/keywords/plant-proteins",
+     "display_name": "plant proteins",
+     "score": 0.36500000953674316
+    },
+    {
+     "id": "https://openalex.org/keywords/whole-wheat-flour",
+     "display_name": "whole wheat flour",
+     "score": 0.800000011920929
+    },
+    {
+     "id": "https://openalex.org/keywords/dough-rheology",
+     "display_name": "dough rheology",
+     "score": 0.7390000224113464
+    },
+    {
+     "id": "https://openalex.org/keywords/sensory-acceptance",
+     "display_name": "sensory acceptability",
+     "score": 0.8320000171661377
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-texture",
+     "display_name": "bread texture",
+     "score": 0.5759999752044678
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-microstructure",
+     "display_name": "bread microstructure",
+     "score": 0.5509999990463257
+    },
+    {
+     "id": "https://openalex.org/keywords/functional-bakery-products",
+     "display_name": "functional bakery products",
+     "score": 0.6309999823570251
+    },
+    {
+     "id": "https://openalex.org/keywords/by-product-utilization",
+     "display_name": "by-product utilization",
+     "score": 0.6809999942779541
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.8142272233963013
+    },
+    {
+     "id": "https://openalex.org/C2781283633",
+     "wikidata": "https://www.wikidata.org/wiki/Q7157196",
+     "display_name": "Pea protein",
+     "level": 2,
+     "score": 0.6891413927078247
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.5466457605361938
+    },
+    {
+     "id": "https://openalex.org/C3020229070",
+     "wikidata": "https://www.wikidata.org/wiki/Q8054",
+     "display_name": "High protein",
+     "level": 2,
+     "score": 0.5264250040054321
+    },
+    {
+     "id": "https://openalex.org/C3019985465",
+     "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+     "display_name": "Wheat flour",
+     "level": 2,
+     "score": 0.46416905522346497
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.45848485827445984
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.21834057569503784
+    },
+    {
+     "id": "https://openalex.org/C151730666",
+     "wikidata": "https://www.wikidata.org/wiki/Q7205",
+     "display_name": "Paleontology",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 4,
+   "locations": [
+    {
+     "id": "doi:10.3390/foods11223667",
+     "doi": "https://doi.org/10.3390/foods11223667",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/foods11223667",
+     "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+     "source": {
+      "id": "https://openalex.org/S2737939966",
+      "display_name": "Foods",
+      "issn_l": "2304-8158",
+      "issn": [
+       "2304-8158"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:pubmedcentral.nih.gov:9689233",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689233",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "Text"
+    },
+    {
+     "id": "pmid:36429258",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36429258",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods (Basel, Switzerland)",
+     "raw_type": "Journal Article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:ec0d832c98894fb39e6e4d97ede79eab",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://doaj.org/article/ec0d832c98894fb39e6e4d97ede79eab",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Foods, Vol 11, Iss 22, p 3667 (2022)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.3390/foods11223667",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223667",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "id": "https://metadata.un.org/sdg/2",
+     "score": 0.958299994468689
+    },
+    {
+     "display_name": "Responsible consumption and production",
+     "id": "https://metadata.un.org/sdg/12",
+     "score": 0.833299994468689
+    }
+   ],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G2955856430",
+     "display_name": null,
+     "funder_award_id": "PN19-03",
+     "funder_id": "https://openalex.org/F4320318622",
+     "funder_display_name": "Ministerul Cercetării, Inovării şi Digitalizării"
+    },
+    {
+     "id": "https://openalex.org/G6424961490",
+     "display_name": null,
+     "funder_award_id": "Core Program PN19-03",
+     "funder_id": "https://openalex.org/F4320318622",
+     "funder_display_name": "Ministerul Cercetării, Inovării şi Digitalizării"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320318622",
+     "display_name": "Ministerul Cercetării, Inovării şi Digitalizării",
+     "ror": null
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4309604656.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4309604656.grobid-xml"
+   },
+   "referenced_works_count": 23,
+   "referenced_works": [
+    "https://openalex.org/W1671063336",
+    "https://openalex.org/W1904908546",
+    "https://openalex.org/W1982007196",
+    "https://openalex.org/W2079951377",
+    "https://openalex.org/W2093507745",
+    "https://openalex.org/W2148552406",
+    "https://openalex.org/W2165709871",
+    "https://openalex.org/W2462145088",
+    "https://openalex.org/W2597353754",
+    "https://openalex.org/W2602944230",
+    "https://openalex.org/W2619873112",
+    "https://openalex.org/W2800491965",
+    "https://openalex.org/W2951834508",
+    "https://openalex.org/W2965607236",
+    "https://openalex.org/W3008930228",
+    "https://openalex.org/W3012154420",
+    "https://openalex.org/W3023009505",
+    "https://openalex.org/W3164035158",
+    "https://openalex.org/W3186347790",
+    "https://openalex.org/W3193511336",
+    "https://openalex.org/W3200176682",
+    "https://openalex.org/W4220705259",
+    "https://openalex.org/W4313819645"
+   ],
+   "related_works": [
+    "https://openalex.org/W7167711793",
+    "https://openalex.org/W4416414353",
+    "https://openalex.org/W3118213806",
+    "https://openalex.org/W7219808431",
+    "https://openalex.org/W4387184522",
+    "https://openalex.org/W4293678330",
+    "https://openalex.org/W4417065490",
+    "https://openalex.org/W4285308603",
+    "https://openalex.org/W3118797666",
+    "https://openalex.org/W7154570737"
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0,
+     159,
+     172,
+     193,
+     209,
+     253
+    ],
+    "current": [
+     1
+    ],
+    "consumption": [
+     2
+    ],
+    "trends": [
+     3
+    ],
+    "of": [
+     4,
+     18,
+     26,
+     31,
+     41,
+     79,
+     161,
+     229,
+     244,
+     250
+    ],
+    "plant": [
+     5,
+     166
+    ],
+    "based": [
+     6
+    ],
+    "functional": [
+     7
+    ],
+    "products": [
+     8,
+     22
+    ],
+    "have": [
+     9
+    ],
+    "encouraged": [
+     10
+    ],
+    "researchers": [
+     11
+    ],
+    "and": [
+     12,
+     61,
+     85,
+     102,
+     137,
+     139,
+     165,
+     183,
+     190,
+     202,
+     207,
+     237,
+     273
+    ],
+    "industry": [
+     13
+    ],
+    "to": [
+     14,
+     74,
+     95,
+     216
+    ],
+    "study": [
+     15
+    ],
+    "the": [
+     16,
+     29,
+     32,
+     35,
+     76,
+     148,
+     196,
+     222,
+     242,
+     248,
+     251,
+     257,
+     274
+    ],
+    "production": [
+     17
+    ],
+    "protein": [
+     19,
+     82,
+     106,
+     167,
+     212,
+     261
+    ],
+    "enriched": [
+     20
+    ],
+    "bakery": [
+     21
+    ],
+    "as": [
+     23,
+     46,
+     54
+    ],
+    "a": [
+     24,
+     71,
+     282
+    ],
+    "source": [
+     25,
+     228
+    ],
+    "protein.": [
+     27
+    ],
+    "In": [
+     28
+    ],
+    "context": [
+     30
+    ],
+    "circular": [
+     33
+    ],
+    "economy,": [
+     34
+    ],
+    "press": [
+     36,
+     90
+    ],
+    "cakes": [
+     37,
+     91
+    ],
+    "remaining": [
+     38
+    ],
+    "after": [
+     39
+    ],
+    "extraction": [
+     40
+    ],
+    "juices/oil": [
+     42
+    ],
+    "from": [
+     43,
+     89,
+     211,
+     214
+    ],
+    "plants": [
+     44
+    ],
+    "such": [
+     45
+    ],
+    "sea": [
+     47,
+     86,
+     112,
+     277
+    ],
+    "buckthorn": [
+     48,
+     87,
+     113,
+     278
+    ],
+    "or": [
+     49
+    ],
+    "hemp": [
+     50,
+     84,
+     119,
+     264
+    ],
+    "can": [
+     51,
+     224
+    ],
+    "be": [
+     52,
+     225
+    ],
+    "valorized": [
+     53
+    ],
+    "they": [
+     55
+    ],
+    "are": [
+     56
+    ],
+    "rich": [
+     57
+    ],
+    "in": [
+     58,
+     67,
+     99,
+     195,
+     233,
+     246
+    ],
+    "proteins,": [
+     59
+    ],
+    "fibers": [
+     60
+    ],
+    "many": [
+     62
+    ],
+    "bioactive": [
+     63
+    ],
+    "compounds.": [
+     64
+    ],
+    "Their": [
+     65
+    ],
+    "use": [
+     66
+    ],
+    "bread": [
+     68,
+     173,
+     270,
+     284
+    ],
+    "making": [
+     69,
+     271,
+     285
+    ],
+    "is": [
+     70
+    ],
+    "good": [
+     72
+    ],
+    "solution": [
+     73
+    ],
+    "enrich": [
+     75
+    ],
+    "nutritional": [
+     77
+    ],
+    "value": [
+     78
+    ],
+    "bread.": [
+     80
+    ],
+    "Pea": [
+     81
+    ],
+    "concentrate,": [
+     83,
+     262
+    ],
+    "ingredients": [
+     88,
+     168
+    ],
+    "by-products": [
+     92
+    ],
+    "were": [
+     93,
+     123,
+     169,
+     175,
+     186,
+     205,
+     256
+    ],
+    "added": [
+     94,
+     145
+    ],
+    "whole": [
+     96,
+     155,
+     162
+    ],
+    "wheat": [
+     97,
+     154,
+     163
+    ],
+    "flour": [
+     98,
+     164
+    ],
+    "different": [
+     100
+    ],
+    "percentages": [
+     101
+    ],
+    "combinations": [
+     103
+    ],
+    "(2%": [
+     104
+    ],
+    "pea": [
+     105,
+     109,
+     116,
+     260
+    ],
+    "concentrate;": [
+     107
+    ],
+    "1%": [
+     108,
+     115
+    ],
+    "+": [
+     110,
+     117
+    ],
+    "2%": [
+     111,
+     118
+    ],
+    "ingredients;": [
+     114
+    ],
+    "ingredients).": [
+     120
+    ],
+    "Bread": [
+     121
+    ],
+    "samples": [
+     122,
+     174,
+     223,
+     234,
+     258
+    ],
+    "obtained": [
+     124,
+     266
+    ],
+    "through": [
+     125,
+     267,
+     281
+    ],
+    "three": [
+     126
+    ],
+    "technological": [
+     127
+    ],
+    "methods:": [
+     128
+    ],
+    "one": [
+     129,
+     140
+    ],
+    "phase": [
+     130,
+     141
+    ],
+    "baking": [
+     131
+    ],
+    "process": [
+     132,
+     272,
+     286
+    ],
+    "(dough),": [
+     133
+    ],
+    "two": [
+     134
+    ],
+    "phases": [
+     135
+    ],
+    "(sponge": [
+     136
+    ],
+    "dough)": [
+     138
+    ],
+    "with": [
+     142,
+     235,
+     259,
+     263,
+     276
+    ],
+    "dried": [
+     143,
+     238,
+     288
+    ],
+    "sourdough": [
+     144,
+     239
+    ],
+    "directly": [
+     146
+    ],
+    "into": [
+     147
+    ],
+    "dough.": [
+     149
+    ],
+    "A": [
+     150
+    ],
+    "control": [
+     151
+    ],
+    "sample": [
+     152,
+     275
+    ],
+    "(100%": [
+     153
+    ],
+    "flour)": [
+     156
+    ],
+    "was": [
+     157
+    ],
+    "considered.": [
+     158
+    ],
+    "mixtures": [
+     160
+    ],
+    "rheologically": [
+     170
+    ],
+    "tested.": [
+     171
+    ],
+    "physicochemically": [
+     176
+    ],
+    "analyzed": [
+     177
+    ],
+    "(protein,": [
+     178
+    ],
+    "fat,": [
+     179
+    ],
+    "carbohydrates,": [
+     180
+    ],
+    "energy": [
+     181,
+     210
+    ],
+    "value)": [
+     182
+    ],
+    "sensory": [
+     184,
+     203
+    ],
+    "characteristics": [
+     185
+    ],
+    "evaluated": [
+     187,
+     206
+    ],
+    "(texture,": [
+     188
+    ],
+    "color": [
+     189
+    ],
+    "overall": [
+     191
+    ],
+    "acceptability).": [
+     192
+    ],
+    "changes": [
+     194
+    ],
+    "physicochemical": [
+     197
+    ],
+    "characteristics,": [
+     198
+    ],
+    "rheology": [
+     199
+    ],
+    "behavior,": [
+     200
+    ],
+    "microstructure": [
+     201
+    ],
+    "quality": [
+     204
+    ],
+    "compared.": [
+     208
+    ],
+    "varied": [
+     213
+    ],
+    "17.26": [
+     215
+    ],
+    "19.34%": [
+     217
+    ],
+    "which": [
+     218,
+     240
+    ],
+    "means": [
+     219
+    ],
+    "that": [
+     220
+    ],
+    "all": [
+     221
+    ],
+    "considered": [
+     226
+    ],
+    "\"a": [
+     227
+    ],
+    "protein\".": [
+     230
+    ],
+    "Hardness": [
+     231
+    ],
+    "decreased": [
+     232
+    ],
+    "sponge": [
+     236
+    ],
+    "reflect": [
+     241
+    ],
+    "importance": [
+     243
+    ],
+    "technology": [
+     245
+    ],
+    "keeping": [
+     247
+    ],
+    "freshness": [
+     249
+    ],
+    "product.": [
+     252
+    ],
+    "most": [
+     254
+    ],
+    "appreciated": [
+     255
+    ],
+    "ingredient": [
+     265,
+     279
+    ],
+    "an": [
+     268
+    ],
+    "indirect": [
+     269
+    ],
+    "prepared": [
+     280
+    ],
+    "direct": [
+     283
+    ],
+    "using": [
+     287
+    ],
+    "sourdough.": [
+     289
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 3
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 5
+    }
+   ],
+   "updated_date": "2026-10-28T10:33:24.094632",
+   "created_date": "2022-11-28T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7163193862",
+   "doi": "https://doi.org/10.3390/su18115441",
+   "title": "Sustainable Use of Rapeseed (Brassica napus L.) Meal as a Functional Ingredient in Bread: Impact on Dough Rheology, Nutritional Profile, and Bread Quality",
+   "display_name": "Sustainable Use of Rapeseed (Brassica napus L.) Meal as a Functional Ingredient in Bread: Impact on Dough Rheology, Nutritional Profile, and Bread Quality",
+   "publication_year": 2026,
+   "publication_date": "2026-05-28",
+   "ids": {
+    "openalex": "https://openalex.org/W7163193862",
+    "doi": "https://doi.org/10.3390/su18115441"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3390/su18115441",
+    "doi": "https://doi.org/10.3390/su18115441",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/su18115441",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S10134376",
+     "display_name": "Sustainability",
+     "issn_l": "2071-1050",
+     "issn": [
+      "2071-1050"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sustainability",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.3390/su18115441",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5092471821",
+      "display_name": "Sylvestre Dossa",
+      "orcid": "https://orcid.org/0000-0002-3152-6801",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3152-6801"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sylvestre Dossa",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3152-6801",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5137709884",
+      "display_name": "Cristian Argyelan",
+      "orcid": "https://orcid.org/0009-0009-7114-4144",
+      "observed_orcids": [
+       "https://orcid.org/0009-0009-7114-4144"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Cristian Argyelan",
+     "raw_affiliation_strings": [
+      "Doctoral School, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Doctoral School, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5011838549",
+      "display_name": "A. Rinovetz",
+      "orcid": "https://orcid.org/0009-0005-6551-2327",
+      "observed_orcids": [
+       "https://orcid.org/0009-0005-6551-2327"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Alexandru Rinovetz",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0009-0005-6551-2327",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5108518749",
+      "display_name": "Corina Neagu",
+      "orcid": "https://orcid.org/0000-0002-3652-2113",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3652-2113"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Christine Neagu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5027362152",
+      "display_name": "Daniela Stoin",
+      "orcid": "https://orcid.org/0000-0002-3380-3390",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3380-3390"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Daniela Stoin",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-3380-3390",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5028675052",
+      "display_name": "Dacian Virgil Lalescu",
+      "orcid": "https://orcid.org/0000-0002-1784-2357",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-1784-2357"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Dacian Lalescu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-1784-2357",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5046559621",
+      "display_name": "Călin Jianu",
+      "orcid": "https://orcid.org/0000-0002-0414-3805",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0414-3805"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Călin Jianu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-0414-3805",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5056895102",
+      "display_name": "Isidora Radulov",
+      "orcid": "https://orcid.org/0000-0001-7113-9163",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-7113-9163"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Isidora Radulov",
+     "raw_affiliation_strings": [
+      "Faculty of Agriculture, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7113-9163",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Agriculture, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5121790393",
+      "display_name": "Lelia Serpe",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Lelia Serpe",
+     "raw_affiliation_strings": [
+      "S.C. PROSPERO S.R.L., Timisoara, Strada Gheorghe Lazăr 26, 300081 Timisoara, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "S.C. PROSPERO S.R.L., Timisoara, Strada Gheorghe Lazăr 26, 300081 Timisoara, Romania",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5121811012",
+      "display_name": "Adina Brinzeu",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Adina Brinzeu",
+     "raw_affiliation_strings": [
+      "S.C. PROSPERO S.R.L., Timisoara, Strada Gheorghe Lazăr 26, 300081 Timisoara, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "S.C. PROSPERO S.R.L., Timisoara, Strada Gheorghe Lazăr 26, 300081 Timisoara, Romania",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5043727727",
+      "display_name": "Ersilia Alexa",
+      "orcid": "https://orcid.org/0000-0003-4641-7365",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-4641-7365"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I85920734",
+       "display_name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+       "ror": "https://ror.org/02pjx9m11",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ersilia Alexa",
+     "raw_affiliation_strings": [
+      "Doctoral School, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+      "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-4641-7365",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Doctoral School, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Faculty of Food Engineering, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      },
+      {
+       "raw_affiliation_string": "“Food Science” Research Center, University of Life Sciences “King Mihai I” from Timisoara, Aradului Street No. 119, 300645 Timisoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I85920734"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+   },
+   "apc_paid": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+   },
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.336018,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "18",
+    "issue": "11",
+    "first_page": "5441",
+    "last_page": "5441"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9976000189781189,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.9976000189781189,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12403",
+     "display_name": "Seed and Plant Biochemistry",
+     "score": 0.0010999999940395355,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.0005000000237487257,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/rapeseed-meal",
+     "display_name": "rapeseed meal",
+     "score": 1.0
+    },
+    {
+     "id": "https://openalex.org/keywords/wheat-flour-substitution",
+     "display_name": "wheat flour substitution",
+     "score": 0.7099999785423279
+    },
+    {
+     "id": "https://openalex.org/keywords/bread",
+     "display_name": "bread",
+     "score": 0.7459999918937683
+    },
+    {
+     "id": "https://openalex.org/keywords/dough-rheology",
+     "display_name": "dough rheology",
+     "score": 0.8450000286102295
+    },
+    {
+     "id": "https://openalex.org/keywords/nutritional-profile",
+     "display_name": "nutritional profile",
+     "score": 0.8569999933242798
+    },
+    {
+     "id": "https://openalex.org/keywords/antioxidant-capacity",
+     "display_name": "antioxidant capacity",
+     "score": 0.7549999952316284
+    },
+    {
+     "id": "https://openalex.org/keywords/polyphenols",
+     "display_name": "polyphenols",
+     "score": 0.9559999704360962
+    },
+    {
+     "id": "https://openalex.org/keywords/agro-industrial-by-product-valorization",
+     "display_name": "agro-industrial by-product valorization",
+     "score": 0.8709999918937683
+    },
+    {
+     "id": "https://openalex.org/keywords/circular-bioeconomy",
+     "display_name": "circular bioeconomy",
+     "score": 0.9739999771118164
+    },
+    {
+     "id": "https://openalex.org/keywords/gluten-network",
+     "display_name": "gluten network",
+     "score": 0.7049999833106995
+    },
+    {
+     "id": "https://openalex.org/keywords/starch-retrogradation",
+     "display_name": "starch retrogradation",
+     "score": 0.7789999842643738
+    },
+    {
+     "id": "https://openalex.org/keywords/sensory-acceptance",
+     "display_name": "sensory acceptability",
+     "score": 0.8420000076293945
+    },
+    {
+     "id": "https://openalex.org/keywords/sustainable-food-systems",
+     "display_name": "sustainable food systems",
+     "score": 0.5669999718666077
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.8410999774932861
+    },
+    {
+     "id": "https://openalex.org/C2780589914",
+     "wikidata": "https://www.wikidata.org/wiki/Q10675206",
+     "display_name": "Ingredient",
+     "level": 2,
+     "score": 0.795199990272522
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.7002000212669373
+    },
+    {
+     "id": "https://openalex.org/C2776336767",
+     "wikidata": "https://www.wikidata.org/wiki/Q188251",
+     "display_name": "Gluten",
+     "level": 2,
+     "score": 0.6520000100135803
+    },
+    {
+     "id": "https://openalex.org/C70899900",
+     "wikidata": "https://www.wikidata.org/wiki/Q290439",
+     "display_name": "Polyphenol",
+     "level": 3,
+     "score": 0.6485999822616577
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.6011000275611877
+    },
+    {
+     "id": "https://openalex.org/C529335014",
+     "wikidata": "https://www.wikidata.org/wiki/Q41534",
+     "display_name": "Starch",
+     "level": 2,
+     "score": 0.5830000042915344
+    },
+    {
+     "id": "https://openalex.org/C2779726014",
+     "wikidata": "https://www.wikidata.org/wiki/Q177932",
+     "display_name": "Rapeseed",
+     "level": 2,
+     "score": 0.5419999957084656
+    },
+    {
+     "id": "https://openalex.org/C2780132029",
+     "wikidata": "https://www.wikidata.org/wiki/Q752276",
+     "display_name": "Functional food",
+     "level": 2,
+     "score": 0.5327000021934509
+    },
+    {
+     "id": "https://openalex.org/C2778345441",
+     "wikidata": "https://www.wikidata.org/wiki/Q6460735",
+     "display_name": "Meal",
+     "level": 2,
+     "score": 0.4788999855518341
+    },
+    {
+     "id": "https://openalex.org/C168314062",
+     "wikidata": "https://www.wikidata.org/wiki/Q2550696",
+     "display_name": "Absorption of water",
+     "level": 2,
+     "score": 0.46059998869895935
+    },
+    {
+     "id": "https://openalex.org/C3019985465",
+     "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+     "display_name": "Wheat flour",
+     "level": 2,
+     "score": 0.4327000081539154
+    },
+    {
+     "id": "https://openalex.org/C513059894",
+     "wikidata": "https://www.wikidata.org/wiki/Q540912",
+     "display_name": "Food industry",
+     "level": 2,
+     "score": 0.3790999948978424
+    },
+    {
+     "id": "https://openalex.org/C3018675036",
+     "wikidata": "https://www.wikidata.org/wiki/Q215210",
+     "display_name": "Dietary fibre",
+     "level": 2,
+     "score": 0.3310000002384186
+    },
+    {
+     "id": "https://openalex.org/C206139338",
+     "wikidata": "https://www.wikidata.org/wiki/Q192355",
+     "display_name": "Raw material",
+     "level": 2,
+     "score": 0.3285999894142151
+    },
+    {
+     "id": "https://openalex.org/C36259021",
+     "wikidata": "https://www.wikidata.org/wiki/Q692689",
+     "display_name": "Coproduct",
+     "level": 2,
+     "score": 0.314300000667572
+    },
+    {
+     "id": "https://openalex.org/C17857428",
+     "wikidata": "https://www.wikidata.org/wiki/Q533025",
+     "display_name": "Nutraceutical",
+     "level": 2,
+     "score": 0.2962000072002411
+    },
+    {
+     "id": "https://openalex.org/C2776873940",
+     "wikidata": "https://www.wikidata.org/wiki/Q188672",
+     "display_name": "Bran",
+     "level": 3,
+     "score": 0.2962000072002411
+    },
+    {
+     "id": "https://openalex.org/C24223341",
+     "wikidata": "https://www.wikidata.org/wiki/Q218385",
+     "display_name": "Sensory analysis",
+     "level": 2,
+     "score": 0.29339998960494995
+    },
+    {
+     "id": "https://openalex.org/C40231798",
+     "wikidata": "https://www.wikidata.org/wiki/Q1333743",
+     "display_name": "Composition (language)",
+     "level": 2,
+     "score": 0.2727000117301941
+    },
+    {
+     "id": "https://openalex.org/C2778220771",
+     "wikidata": "https://www.wikidata.org/wiki/Q1522579",
+     "display_name": "Substitution (logic)",
+     "level": 2,
+     "score": 0.26190000772476196
+    },
+    {
+     "id": "https://openalex.org/C2778004101",
+     "wikidata": "https://www.wikidata.org/wiki/Q133948",
+     "display_name": "Antioxidant",
+     "level": 2,
+     "score": 0.25119999051094055
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.3390/su18115441",
+     "doi": "https://doi.org/10.3390/su18115441",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/su18115441",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S10134376",
+      "display_name": "Sustainability",
+      "issn_l": "2071-1050",
+      "issn": [
+       "2071-1050"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Sustainability",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.3390/su18115441",
+    "doi": "https://doi.org/10.3390/su18115441",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/su18115441",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S10134376",
+     "display_name": "Sustainability",
+     "issn_l": "2071-1050",
+     "issn": [
+      "2071-1050"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sustainability",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "id": "https://metadata.un.org/sdg/2",
+     "score": 1.0
+    },
+    {
+     "display_name": "Responsible consumption and production",
+     "id": "https://metadata.un.org/sdg/12",
+     "score": 1.0
+    }
+   ],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 71,
+   "referenced_works": [
+    "https://openalex.org/W1560121729",
+    "https://openalex.org/W1978300051",
+    "https://openalex.org/W1992738268",
+    "https://openalex.org/W1994005221",
+    "https://openalex.org/W1994962088",
+    "https://openalex.org/W1998807304",
+    "https://openalex.org/W2000017069",
+    "https://openalex.org/W2001798072",
+    "https://openalex.org/W2012316910",
+    "https://openalex.org/W2032695638",
+    "https://openalex.org/W2055178500",
+    "https://openalex.org/W2072937406",
+    "https://openalex.org/W2077712525",
+    "https://openalex.org/W2084369427",
+    "https://openalex.org/W2093950099",
+    "https://openalex.org/W2152200079",
+    "https://openalex.org/W2481582912",
+    "https://openalex.org/W2557912180",
+    "https://openalex.org/W2775545376",
+    "https://openalex.org/W2789936192",
+    "https://openalex.org/W2790577382",
+    "https://openalex.org/W2809457880",
+    "https://openalex.org/W2889715461",
+    "https://openalex.org/W2890239906",
+    "https://openalex.org/W2900681088",
+    "https://openalex.org/W2903882736",
+    "https://openalex.org/W2923381441",
+    "https://openalex.org/W2934368907",
+    "https://openalex.org/W2963443034",
+    "https://openalex.org/W2965781221",
+    "https://openalex.org/W2968794097",
+    "https://openalex.org/W2972732857",
+    "https://openalex.org/W2981871570",
+    "https://openalex.org/W2990314148",
+    "https://openalex.org/W2991387305",
+    "https://openalex.org/W2997134885",
+    "https://openalex.org/W2997753659",
+    "https://openalex.org/W3014964639",
+    "https://openalex.org/W3092731302",
+    "https://openalex.org/W3093661926",
+    "https://openalex.org/W3132018801",
+    "https://openalex.org/W3160195494",
+    "https://openalex.org/W3164035158",
+    "https://openalex.org/W3172962487",
+    "https://openalex.org/W3214455248",
+    "https://openalex.org/W4200020581",
+    "https://openalex.org/W4206001379",
+    "https://openalex.org/W4211082570",
+    "https://openalex.org/W4280544577",
+    "https://openalex.org/W4285088803",
+    "https://openalex.org/W4295008860",
+    "https://openalex.org/W4307030410",
+    "https://openalex.org/W4312173688",
+    "https://openalex.org/W4318586780",
+    "https://openalex.org/W4384340463",
+    "https://openalex.org/W4389244358",
+    "https://openalex.org/W4402681191",
+    "https://openalex.org/W4403334834",
+    "https://openalex.org/W4403399209",
+    "https://openalex.org/W4403968582",
+    "https://openalex.org/W4404019833",
+    "https://openalex.org/W4405009306",
+    "https://openalex.org/W4407186591",
+    "https://openalex.org/W4408612285",
+    "https://openalex.org/W4410788785",
+    "https://openalex.org/W4414558896",
+    "https://openalex.org/W7118005774",
+    "https://openalex.org/W7118165029",
+    "https://openalex.org/W7128171214",
+    "https://openalex.org/W7128724246",
+    "https://openalex.org/W7133898401"
+   ],
+   "related_works": [
+    "https://openalex.org/W4413519605",
+    "https://openalex.org/W4414558896",
+    "https://openalex.org/W4401786390",
+    "https://openalex.org/W4366606398",
+    "https://openalex.org/W7116764473",
+    "https://openalex.org/W3168265494",
+    "https://openalex.org/W4417097252",
+    "https://openalex.org/W879391057",
+    "https://openalex.org/W7084160006",
+    "https://openalex.org/W4415342510"
+   ],
+   "abstract_inverted_index": {
+    "In": [
+     0,
+     290
+    ],
+    "this": [
+     1
+    ],
+    "study,": [
+     2
+    ],
+    "we": [
+     3
+    ],
+    "investigated": [
+     4
+    ],
+    "the": [
+     5,
+     36,
+     78,
+     83,
+     138,
+     147,
+     157,
+     180,
+     230,
+     236,
+     255,
+     266,
+     274,
+     300,
+     319
+    ],
+    "possibility": [
+     6
+    ],
+    "of": [
+     7,
+     23,
+     38,
+     52,
+     160,
+     232,
+     238,
+     250,
+     295,
+     321
+    ],
+    "partially": [
+     8
+    ],
+    "substituting": [
+     9
+    ],
+    "wheat": [
+     10,
+     251
+    ],
+    "flour": [
+     11,
+     252
+    ],
+    "in": [
+     12,
+     77,
+     85,
+     92,
+     98,
+     102,
+     129,
+     135,
+     174,
+     179,
+     222
+    ],
+    "bread-making": [
+     13
+    ],
+    "technology": [
+     14
+    ],
+    "with": [
+     15,
+     82,
+     202,
+     270,
+     326
+    ],
+    "a": [
+     16,
+     74,
+     172,
+     210,
+     227
+    ],
+    "by-product": [
+     17
+    ],
+    "(rapeseed": [
+     18
+    ],
+    "meal)": [
+     19
+    ],
+    "obtained": [
+     20
+    ],
+    "after": [
+     21
+    ],
+    "pressing": [
+     22
+    ],
+    "rapeseed": [
+     24
+    ],
+    "seeds": [
+     25
+    ],
+    "used": [
+     26
+    ],
+    "to": [
+     27,
+     96,
+     107,
+     116,
+     125,
+     168,
+     235,
+     257,
+     286,
+     297
+    ],
+    "obtain": [
+     28
+    ],
+    "edible": [
+     29
+    ],
+    "oil.": [
+     30
+    ],
+    "The": [
+     31,
+     71
+    ],
+    "research": [
+     32
+    ],
+    "was": [
+     33,
+     141
+    ],
+    "conducted": [
+     34,
+     48
+    ],
+    "within": [
+     35
+    ],
+    "context": [
+     37
+    ],
+    "sustainable": [
+     39,
+     331
+    ],
+    "food": [
+     40,
+     287
+    ],
+    "systems": [
+     41
+    ],
+    "and": [
+     42,
+     55,
+     59,
+     69,
+     100,
+     109,
+     112,
+     118,
+     131,
+     151,
+     188,
+     198,
+     244,
+     282,
+     309,
+     314,
+     330
+    ],
+    "circular": [
+     43,
+     327
+    ],
+    "bioeconomy": [
+     44,
+     328
+    ],
+    "strategies.": [
+     45
+    ],
+    "Experiments": [
+     46
+    ],
+    "were": [
+     47,
+     90
+    ],
+    "using": [
+     49
+    ],
+    "substitution": [
+     50,
+     204,
+     213,
+     249
+    ],
+    "rates": [
+     51
+    ],
+    "10%,": [
+     53
+    ],
+    "20%,": [
+     54
+    ],
+    "30%": [
+     56
+    ],
+    "(RMW1,": [
+     57
+    ],
+    "RMW2,": [
+     58
+    ],
+    "RMW3),": [
+     60
+    ],
+    "as": [
+     61,
+     63,
+     144
+    ],
+    "well": [
+     62
+    ],
+    "their": [
+     64
+    ],
+    "corresponding": [
+     65
+    ],
+    "breads": [
+     66
+    ],
+    "(RMWB1,": [
+     67
+    ],
+    "RMWB2,": [
+     68
+    ],
+    "RMWB3).": [
+     70
+    ],
+    "results": [
+     72
+    ],
+    "reveal": [
+     73
+    ],
+    "notable": [
+     75
+    ],
+    "improvement": [
+     76
+    ],
+    "nutritional": [
+     79,
+     306
+    ],
+    "profile,": [
+     80
+    ],
+    "correlated": [
+     81
+    ],
+    "increase": [
+     84
+    ],
+    "RM.": [
+     86
+    ],
+    "Indeed,": [
+     87
+    ],
+    "significant": [
+     88,
+     223
+    ],
+    "increases": [
+     89
+    ],
+    "observed": [
+     91
+    ],
+    "protein": [
+     93
+    ],
+    "content": [
+     94,
+     105,
+     114
+    ],
+    "(up": [
+     95,
+     106,
+     115
+    ],
+    "16.64%": [
+     97
+    ],
+    "flours": [
+     99,
+     130
+    ],
+    "14.19%": [
+     101
+    ],
+    "breads),": [
+     103
+    ],
+    "fat": [
+     104
+    ],
+    "8.72%": [
+     108
+    ],
+    "7.89%,": [
+     110
+    ],
+    "respectively),": [
+     111,
+     120
+    ],
+    "ash": [
+     113
+    ],
+    "2.30%": [
+     117
+    ],
+    "2.85%,": [
+     119
+    ],
+    "while": [
+     121,
+     191
+    ],
+    "carbohydrates": [
+     122
+    ],
+    "decreased": [
+     123,
+     201
+    ],
+    "(down": [
+     124
+    ],
+    "63.72": [
+     126
+    ],
+    "g/100": [
+     127,
+     133
+    ],
+    "g": [
+     128,
+     134
+    ],
+    "45.76": [
+     132
+    ],
+    "breads).": [
+     136
+    ],
+    "Furthermore,": [
+     137
+    ],
+    "phytochemical": [
+     139
+    ],
+    "profile": [
+     140,
+     277
+    ],
+    "significantly": [
+     142
+    ],
+    "enhanced,": [
+     143
+    ],
+    "reflected": [
+     145
+    ],
+    "by": [
+     146,
+     171
+    ],
+    "increased": [
+     148,
+     165
+    ],
+    "antioxidant": [
+     149,
+     276
+    ],
+    "capacity": [
+     150
+    ],
+    "elevated": [
+     152
+    ],
+    "total": [
+     153
+    ],
+    "polyphenol": [
+     154
+    ],
+    "concentration,": [
+     155
+    ],
+    "highlighting": [
+     156
+    ],
+    "functional": [
+     158,
+     308
+    ],
+    "potential": [
+     159,
+     256
+    ],
+    "RM-enriched": [
+     161
+    ],
+    "products.": [
+     162
+    ],
+    "Water": [
+     163
+    ],
+    "absorption": [
+     164
+    ],
+    "from": [
+     166
+    ],
+    "55%": [
+     167
+    ],
+    "61%,": [
+     169
+    ],
+    "accompanied": [
+     170
+    ],
+    "decrease": [
+     173,
+     258
+    ],
+    "dough": [
+     175
+    ],
+    "stability,": [
+     176
+    ],
+    "suggesting": [
+     177
+    ],
+    "modifications": [
+     178
+    ],
+    "gluten": [
+     181
+    ],
+    "network.": [
+     182
+    ],
+    "Mixolab": [
+     183
+    ],
+    "analyses": [
+     184
+    ],
+    "indicated": [
+     185
+    ],
+    "reduced": [
+     186
+    ],
+    "viscosity": [
+     187
+    ],
+    "starch": [
+     189
+    ],
+    "retrogradation,": [
+     190
+    ],
+    "physical": [
+     192
+    ],
+    "bread": [
+     193
+    ],
+    "properties,": [
+     194,
+     311
+    ],
+    "including": [
+     195
+    ],
+    "porosity,": [
+     196
+    ],
+    "elasticity,": [
+     197
+    ],
+    "H/D": [
+     199
+    ],
+    "ratio,": [
+     200
+    ],
+    "increasing": [
+     203
+    ],
+    "levels.": [
+     205
+    ],
+    "Sensory": [
+     206
+    ],
+    "evaluation": [
+     207
+    ],
+    "revealed": [
+     208
+    ],
+    "that": [
+     209
+    ],
+    "10%": [
+     211
+    ],
+    "RM": [
+     212,
+     233
+    ],
+    "ensured": [
+     214
+    ],
+    "optimal": [
+     215
+    ],
+    "acceptability,": [
+     216,
+     313
+    ],
+    "whereas": [
+     217
+    ],
+    "higher": [
+     218
+    ],
+    "levels": [
+     219
+    ],
+    "(30%)": [
+     220
+    ],
+    "resulted": [
+     221
+    ],
+    "quality": [
+     224
+    ],
+    "deterioration.": [
+     225
+    ],
+    "From": [
+     226
+    ],
+    "sustainability": [
+     228,
+     315
+    ],
+    "perspective,": [
+     229
+    ],
+    "incorporation": [
+     231,
+     293
+    ],
+    "contributes": [
+     234
+    ],
+    "valorization": [
+     237
+    ],
+    "agro-industrial": [
+     239
+    ],
+    "by-products,": [
+     240
+    ],
+    "reducing": [
+     241
+    ],
+    "waste": [
+     242
+    ],
+    "streams": [
+     243
+    ],
+    "promoting": [
+     245
+    ],
+    "resource": [
+     246
+    ],
+    "efficiency.": [
+     247
+    ],
+    "Partial": [
+     248
+    ],
+    "also": [
+     253
+    ],
+    "has": [
+     254
+    ],
+    "reliance": [
+     259
+    ],
+    "on": [
+     260
+    ],
+    "primary": [
+     261
+    ],
+    "agricultural": [
+     262
+    ],
+    "inputs,": [
+     263
+    ],
+    "thereby": [
+     264,
+     317
+    ],
+    "lowering": [
+     265
+    ],
+    "environmental": [
+     267
+    ],
+    "footprint": [
+     268
+    ],
+    "associated": [
+     269
+    ],
+    "cereal": [
+     271
+    ],
+    "production.": [
+     272
+    ],
+    "Additionally,": [
+     273
+    ],
+    "improved": [
+     275,
+     305
+    ],
+    "may": [
+     278
+    ],
+    "enhance": [
+     279
+    ],
+    "product": [
+     280
+    ],
+    "stability": [
+     281
+    ],
+    "shelf": [
+     283
+    ],
+    "life,": [
+     284
+    ],
+    "contributing": [
+     285
+    ],
+    "loss": [
+     288
+    ],
+    "reduction.": [
+     289
+    ],
+    "conclusion,": [
+     291
+    ],
+    "an": [
+     292
+    ],
+    "level": [
+     294
+    ],
+    "up": [
+     296
+    ],
+    "20%": [
+     298
+    ],
+    "provided": [
+     299
+    ],
+    "most": [
+     301
+    ],
+    "suitable": [
+     302
+    ],
+    "compromise": [
+     303
+    ],
+    "between": [
+     304
+    ],
+    "value,": [
+     307
+    ],
+    "technological": [
+     310
+    ],
+    "consumer": [
+     312
+    ],
+    "considerations,": [
+     316
+    ],
+    "supporting": [
+     318
+    ],
+    "formulation": [
+     320
+    ],
+    "novel": [
+     322
+    ],
+    "bakery": [
+     323
+    ],
+    "products": [
+     324
+    ],
+    "consistent": [
+     325
+    ],
+    "concepts": [
+     329
+    ],
+    "dietary": [
+     332
+    ],
+    "approaches.": [
+     333
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-09-29T14:09:16.559479",
+   "created_date": "2026-06-03T00:00:00"
+  }
+ ]
+}

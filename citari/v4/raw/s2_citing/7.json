@@ -1,0 +1,437 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "7",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "d87d73cc92080ece2c08d19d30a27d68a2e0ff82",
+    "externalIds": {
+     "DOI": "10.3390/agronomy16181832",
+     "CorpusId": 292176729
+    },
+    "title": "Soil Water Deficit During Wheat Grain Filling Drives Wholemeal Bread Texture in an Extreme Climatic Year",
+    "venue": "Agronomy",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-09-17",
+    "journal": {
+     "name": "Agronomy"
+    },
+    "authors": [
+     {
+      "authorId": "52151702",
+      "name": "V. Gagiu"
+     },
+     {
+      "authorId": "12811623",
+      "name": "D. Duță"
+     },
+     {
+      "authorId": "83277125",
+      "name": "C. Pomohaci"
+     },
+     {
+      "authorId": "2299856664",
+      "name": "G. Criveanu-Stamatie"
+     },
+     {
+      "authorId": "2501556912",
+      "name": "Elena Iulia Lazar"
+     },
+     {
+      "authorId": "2386309776",
+      "name": "Cristian Lazăr"
+     },
+     {
+      "authorId": "108366464",
+      "name": "Oana-Alexandra Oprea"
+     },
+     {
+      "authorId": "2350073064",
+      "name": "Elena Mateescu"
+     },
+     {
+      "authorId": "41156964",
+      "name": "N. Belc"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "ff6627f3a00847a27b21f39c327539270d00d39e",
+    "externalIds": {
+     "DOI": "10.1080/09637486.2025.2579728",
+     "CorpusId": 282733635,
+     "PubMed": "41178731"
+    },
+    "title": "Tailor-made protein-rich bread for the elderly: integrating sensory preferences with nutritional and technological goals",
+    "venue": "International Journal of Food Science and Nutrition",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-11-03",
+    "journal": {
+     "volume": "76",
+     "pages": "888 - 898",
+     "name": "International Journal of Food Sciences and Nutrition"
+    },
+    "authors": [
+     {
+      "authorId": "2114496719",
+      "name": "Martina Moretton"
+     },
+     {
+      "authorId": "51226169",
+      "name": "Camilla Cattaneo"
+     },
+     {
+      "authorId": "3691415",
+      "name": "N. Pellegrini"
+     },
+     {
+      "authorId": "2247829328",
+      "name": "Ella Pagliarini"
+     },
+     {
+      "authorId": "2266072372",
+      "name": "Monica Anese"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "d512b2333e52b44cf33018b73ddedd4a16c3363f",
+    "externalIds": {
+     "DOI": "10.25699/tohbipp.2024.90.71.018",
+     "CorpusId": 273301018
+    },
+    "title": "ОСТАТОЧНЫЕ НАПРЯЖЕНИЯ ПРИ ЭЛЕКТРОФОРМОВАНИИ ПОЛИМЕРНЫХ КОМПОЗИЦИОННЫХ МАТЕРИАЛОВ НА ОСНОВЕ СТЕКЛОВОЛОКНА",
+    "venue": "Технологии и оборудование химической, биотехнологической и пищевой промышленности",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-10-10",
+    "journal": {
+     "name": "Технологии и оборудование химической, биотехнологической и пищевой промышленности"
+    },
+    "authors": [
+     {
+      "authorId": "2481832468",
+      "name": "А. Ю. Калинин"
+     },
+     {
+      "authorId": "2503836852",
+      "name": "В. А. Новоженов"
+     },
+     {
+      "authorId": "2482726499",
+      "name": "Виктор Павлович Смагин"
+     },
+     {
+      "authorId": "2503843741",
+      "name": "К. В. Геньш"
+     },
+     {
+      "authorId": "2481258620",
+      "name": "Алина Валентиновна Белова"
+     },
+     {
+      "authorId": "2503848859",
+      "name": "И. С. Биль"
+     },
+     {
+      "authorId": "2485554189",
+      "name": "Е. А. Алексеева"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6de93551d48a4c13dda58c148457c877d3bd4aae",
+    "externalIds": {
+     "DOI": "10.1039/d4fo02767a",
+     "CorpusId": 272979641,
+     "PubMed": "39344261"
+    },
+    "title": "Effect of high pressure homogenization on in vitro digestibility and colon fermentability of pea protein-rich bread designed for elderly consumers.",
+    "venue": "Food & Function",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-09-30",
+    "journal": {
+     "name": "Food & function"
+    },
+    "authors": [
+     {
+      "authorId": "2114496719",
+      "name": "Martina Moretton"
+     },
+     {
+      "authorId": "2146930590",
+      "name": "M. Casertano"
+     },
+     {
+      "authorId": "3691415",
+      "name": "N. Pellegrini"
+     },
+     {
+      "authorId": "2266072372",
+      "name": "Monica Anese"
+     },
+     {
+      "authorId": "2247755034",
+      "name": "V. Fogliano"
+     },
+     {
+      "authorId": "2129145",
+      "name": "E. Capuano"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "1ff3499630df2202e83f32e3c67c333064870ac6",
+    "externalIds": {
+     "DOI": "10.3897/ejfa.2024.127265",
+     "CorpusId": 271999544
+    },
+    "title": "Assessment of the quality of bread made from ancient wheat flour with the addition of amaranth, flax and hemp seeds",
+    "venue": "Emirates Journal of Food and Agriculture",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-08-27",
+    "journal": {
+     "name": "Emirates Journal of Food and Agriculture"
+    },
+    "authors": [
+     {
+      "authorId": "2280667831",
+      "name": "Wacław Jarecki"
+     },
+     {
+      "authorId": "1479586528",
+      "name": "R. Tobiasz-Salach"
+     },
+     {
+      "authorId": "1421523530",
+      "name": "A. Augustyńska-Prejsnar"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "ea6a7a2bc32e0d48c5f791239ad8ae1ffa174c00",
+    "externalIds": {
+     "PubMedCentral": "10706578",
+     "DOI": "10.3390/foods12234327",
+     "CorpusId": 265637131,
+     "PubMed": "38231840"
+    },
+    "title": "Hemp Seed Cake Flour as a Source of Proteins, Minerals and Polyphenols and Its Impact on the Nutritional, Sensorial and Technological Quality of Bread",
+    "venue": "Foods",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-11-29",
+    "journal": {
+     "volume": "12",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "87116343",
+      "name": "T. Capcanari"
+     },
+     {
+      "authorId": "2134786195",
+      "name": "E. Covaliov"
+     },
+     {
+      "authorId": "2269615508",
+      "name": "C. Negoița"
+     },
+     {
+      "authorId": "90497468",
+      "name": "R. Siminiuc"
+     },
+     {
+      "authorId": "113678419",
+      "name": "A. Chirsanova"
+     },
+     {
+      "authorId": "97039508",
+      "name": "Vladislav Reșitca"
+     },
+     {
+      "authorId": "2020745434",
+      "name": "D. Țurcanu"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "aefd85d02c969ef74103de03db3c1b6885dc69e8",
+    "externalIds": {
+     "DOI": "10.1016/j.lwt.2023.115530",
+     "CorpusId": 265268828
+    },
+    "title": "Steering protein and carbohydrate digestibility by food design to address elderly needs: The case of pea protein enriched bread",
+    "venue": "LWT",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-11-01",
+    "journal": {
+     "name": "LWT"
+    },
+    "authors": [
+     {
+      "authorId": "2114496719",
+      "name": "Martina Moretton"
+     },
+     {
+      "authorId": "51075484",
+      "name": "M. Alongi"
+     },
+     {
+      "authorId": "2091281525",
+      "name": "Niccolò Renoldi"
+     },
+     {
+      "authorId": "2266072372",
+      "name": "Monica Anese"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "840add3b65b6c2517dd0eae99bcd605c91da8019",
+    "externalIds": {
+     "DOI": "10.3389/fsufs.2023.1202322",
+     "CorpusId": 261207191
+    },
+    "title": "Influence of Peruvian Andean grain flours on the nutritional, rheological, physical, and sensory properties of sliced bread",
+    "venue": "Frontiers in Sustainable Food Systems",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-08-24",
+    "journal": {
+     "name": "Frontiers in Sustainable Food Systems"
+    },
+    "authors": [
+     {
+      "authorId": "2233952759",
+      "name": "Fernando García-Ramón"
+     },
+     {
+      "authorId": "2079542693",
+      "name": "A. Sotelo-Méndez"
+     },
+     {
+      "authorId": "2233956734",
+      "name": "Hermelinda Alvarez-Chancasanampa"
+     },
+     {
+      "authorId": "2233953742",
+      "name": "Edgar Norabuena"
+     },
+     {
+      "authorId": "2233957058",
+      "name": "Liliana Sumarriva"
+     },
+     {
+      "authorId": "2233951518",
+      "name": "Karina Yachi"
+     },
+     {
+      "authorId": null,
+      "name": "Teresa Gonzales Huamán"
+     },
+     {
+      "authorId": "2257022237",
+      "name": "Marlitt F. Naupay-Vega"
+     },
+     {
+      "authorId": "1404200280",
+      "name": "H. P. Cornelio-Santiago"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "8822ca516d3914adcba1a1b0cd24ed602e8c3d95",
+    "externalIds": {
+     "PubMedCentral": "10001388",
+     "DOI": "10.3390/foods12050958",
+     "CorpusId": 257203488,
+     "PubMed": "36900475"
+    },
+    "title": "The Influence of the Addition of Hemp Press Cake Flour on the Properties of Bovine and Ovine Yoghurts",
+    "venue": "Foods",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-02-24",
+    "journal": {
+     "volume": "12",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "90585589",
+      "name": "G. Nakov"
+     },
+     {
+      "authorId": "73810553",
+      "name": "Biljana Trajkovska"
+     },
+     {
+      "authorId": "1403402624",
+      "name": "N. Atanasova-Pancevska"
+     },
+     {
+      "authorId": "101854649",
+      "name": "D. Daniloski"
+     },
+     {
+      "authorId": "89255456",
+      "name": "Nastia Ivanova"
+     },
+     {
+      "authorId": "2508325383",
+      "name": "Mirela Lučan Čolić"
+     },
+     {
+      "authorId": "21076161",
+      "name": "M. Jukič"
+     },
+     {
+      "authorId": "66566351",
+      "name": "J. Lukinac"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1149 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "3",
+ "payload": {
+  "id": "https://openalex.org/W3164035158",
+  "doi": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+  "title": "The Influence of Plant Proteins (from Pleurotus, pea, corn, soy, oat, hemp and sea buckthorn) Addition on Wheat Dough Rheology",
+  "display_name": "The Influence of Plant Proteins (from Pleurotus, pea, corn, soy, oat, hemp and sea buckthorn) Addition on Wheat Dough Rheology",
+  "publication_year": 2021,
+  "publication_date": "2021-05-16",
+  "ids": {
+   "openalex": "https://openalex.org/W3164035158",
+   "doi": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "mag": "3164035158"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.15835/buasvmcn-fst:2020.0047",
+   "doi": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210167740",
+    "display_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca Food Science and Technology",
+    "issn_l": "2344-2344",
+    "issn": [
+     "2344-2344",
+     "2344-5300",
+     "2457-1393"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-d",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": "https://openalex.org/P4310314673",
+    "host_organization_name": "AcademicPres",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310314673",
+     "https://openalex.org/P4310314595"
+    ],
+    "host_organization_lineage_names": [
+     "AcademicPres",
+     "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca. Food Science and Technology",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref",
+   "doaj"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801529014",
+      "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "ror": "https://ror.org/04rssyw40",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Daniela STAMATIE",
+    "raw_affiliation_strings": [
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Mărăști Blvd., District 1, Bucharest"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Mărăști Blvd., District 1, Bucharest",
+      "institution_ids": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Denisa Eglantina DUȚĂ",
+    "raw_affiliation_strings": [
+     "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5014215135",
+     "display_name": "Alina Culețu",
+     "orcid": "https://orcid.org/0000-0002-1592-5394",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1592-5394"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Alina Culețu",
+    "raw_affiliation_strings": [
+     "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5012036452",
+     "display_name": "Iulia Elena Susman",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Iulia Elena SUSMAN",
+    "raw_affiliation_strings": [
+     "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5083496706",
+     "display_name": "Marina Schimbator",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Marina SCHIMBATOR",
+    "raw_affiliation_strings": [
+     "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of Research and Development for Food Bioresources – IBA Bucharest, 6 Dinu Vintilă street, 021102, Bucharest 2",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5050801350",
+     "display_name": "Florentina Israel-Roming",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801529014",
+      "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "ror": "https://ror.org/04rssyw40",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Florentina ISRAEL-ROMING",
+    "raw_affiliation_strings": [
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Mărăști Blvd., District 1, Bucharest"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Mărăști Blvd., District 1, Bucharest",
+      "institution_ids": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+   "value": 85,
+   "currency": "EUR",
+   "value_usd": 91
+  },
+  "apc_paid": {
+   "value": 85,
+   "currency": "EUR",
+   "value_usd": 91
+  },
+  "fwci": 0.1602,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+   "value": 0.45202322,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+   "min": 89,
+   "max": 96
+  },
+  "biblio": {
+   "volume": "78",
+   "issue": "1",
+   "first_page": "101",
+   "last_page": "112"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10140",
+   "display_name": "Food composition and properties",
+   "score": 0.9926999807357788,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2916",
+    "display_name": "Nutrition and Dietetics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/29",
+    "display_name": "Nursing"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9926999807357788,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10411",
+    "display_name": "Proteins in Food Systems",
+    "score": 0.005200000014156103,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12192",
+    "display_name": "Polysaccharides Composition and Applications",
+    "score": 0.0006000000284984708,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/wheat-dough-rheology",
+    "display_name": "wheat dough rheology",
+    "score": 0.8799999952316284
+   },
+   {
+    "id": "https://openalex.org/keywords/wheat-flour-substitution",
+    "display_name": "wheat flour substitution",
+    "score": 0.656000018119812
+   },
+   {
+    "id": "https://openalex.org/keywords/pea-protein-isolate",
+    "display_name": "pea protein isolate",
+    "score": 0.9909999966621399
+   },
+   {
+    "id": "https://openalex.org/keywords/soy-protein-isolate",
+    "display_name": "soy protein isolate",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/oat-protein",
+    "display_name": "oat protein",
+    "score": 0.9929999709129333
+   },
+   {
+    "id": "https://openalex.org/keywords/hemp-seed-protein",
+    "display_name": "hemp seed protein",
+    "score": 0.902999997138977
+   },
+   {
+    "id": "https://openalex.org/keywords/water-uptake",
+    "display_name": "water absorption",
+    "score": 0.7919999957084656
+   },
+   {
+    "id": "https://openalex.org/keywords/starch-gelatinization",
+    "display_name": "starch gelatinization",
+    "score": 0.8629999756813049
+   },
+   {
+    "id": "https://openalex.org/keywords/enzyme-activation",
+    "display_name": "enzyme activation",
+    "score": 0.7699999809265137
+   },
+   {
+    "id": "https://openalex.org/keywords/bread-quality",
+    "display_name": "bread quality",
+    "score": 0.5320000052452087
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.8069761991500854
+   },
+   {
+    "id": "https://openalex.org/C2781283633",
+    "wikidata": "https://www.wikidata.org/wiki/Q7157196",
+    "display_name": "Pea protein",
+    "level": 2,
+    "score": 0.6676703095436096
+   },
+   {
+    "id": "https://openalex.org/C2777014122",
+    "wikidata": "https://www.wikidata.org/wiki/Q7571993",
+    "display_name": "Soy protein",
+    "level": 2,
+    "score": 0.6493213176727295
+   },
+   {
+    "id": "https://openalex.org/C3019985465",
+    "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+    "display_name": "Wheat flour",
+    "level": 2,
+    "score": 0.6284425854682922
+   },
+   {
+    "id": "https://openalex.org/C168314062",
+    "wikidata": "https://www.wikidata.org/wiki/Q2550696",
+    "display_name": "Absorption of water",
+    "level": 2,
+    "score": 0.5649532675743103
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.5501476526260376
+   },
+   {
+    "id": "https://openalex.org/C200990466",
+    "wikidata": "https://www.wikidata.org/wiki/Q271707",
+    "display_name": "Rheology",
+    "level": 2,
+    "score": 0.5454966425895691
+   },
+   {
+    "id": "https://openalex.org/C3019009989",
+    "wikidata": "https://www.wikidata.org/wiki/Q8054",
+    "display_name": "Plant protein",
+    "level": 2,
+    "score": 0.5248451232910156
+   },
+   {
+    "id": "https://openalex.org/C529335014",
+    "wikidata": "https://www.wikidata.org/wiki/Q41534",
+    "display_name": "Starch",
+    "level": 2,
+    "score": 0.5006637573242188
+   },
+   {
+    "id": "https://openalex.org/C2992245215",
+    "wikidata": "https://www.wikidata.org/wiki/Q5171726",
+    "display_name": "Corn flour",
+    "level": 4,
+    "score": 0.4733072519302368
+   },
+   {
+    "id": "https://openalex.org/C28800991",
+    "wikidata": "https://www.wikidata.org/wiki/Q15634405",
+    "display_name": "Hydrolysate",
+    "level": 3,
+    "score": 0.4234570860862732
+   },
+   {
+    "id": "https://openalex.org/C86803240",
+    "wikidata": "https://www.wikidata.org/wiki/Q420",
+    "display_name": "Biology",
+    "level": 0,
+    "score": 0.21774253249168396
+   },
+   {
+    "id": "https://openalex.org/C59822182",
+    "wikidata": "https://www.wikidata.org/wiki/Q441",
+    "display_name": "Botany",
+    "level": 1,
+    "score": 0.20959210395812988
+   },
+   {
+    "id": "https://openalex.org/C206139338",
+    "wikidata": "https://www.wikidata.org/wiki/Q192355",
+    "display_name": "Raw material",
+    "level": 2,
+    "score": 0.14707332849502563
+   },
+   {
+    "id": "https://openalex.org/C94412978",
+    "wikidata": "https://www.wikidata.org/wiki/Q103135",
+    "display_name": "Hydrolysis",
+    "level": 2,
+    "score": 0.1193961501121521
+   },
+   {
+    "id": "https://openalex.org/C192562407",
+    "wikidata": "https://www.wikidata.org/wiki/Q228736",
+    "display_name": "Materials science",
+    "level": 0,
+    "score": 0.0989096462726593
+   },
+   {
+    "id": "https://openalex.org/C55493867",
+    "wikidata": "https://www.wikidata.org/wiki/Q7094",
+    "display_name": "Biochemistry",
+    "level": 1,
+    "score": 0.08209797739982605
+   },
+   {
+    "id": "https://openalex.org/C159985019",
+    "wikidata": "https://www.wikidata.org/wiki/Q181790",
+    "display_name": "Composite material",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C178790620",
+    "wikidata": "https://www.wikidata.org/wiki/Q11351",
+    "display_name": "Organic chemistry",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C2776873940",
+    "wikidata": "https://www.wikidata.org/wiki/Q188672",
+    "display_name": "Bran",
+    "level": 3,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.15835/buasvmcn-fst:2020.0047",
+    "doi": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210167740",
+     "display_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca Food Science and Technology",
+     "issn_l": "2344-2344",
+     "issn": [
+      "2344-2344",
+      "2344-5300",
+      "2457-1393"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-d",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": "https://openalex.org/P4310314673",
+     "host_organization_name": "AcademicPres",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310314673",
+      "https://openalex.org/P4310314595"
+     ],
+     "host_organization_lineage_names": [
+      "AcademicPres",
+      "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca. Food Science and Technology",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:doaj.org/article:3da75e5b4a9b4452ad8b875da4e0bee6",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://doaj.org/article/3da75e5b4a9b4452ad8b875da4e0bee6",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401280",
+     "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-sa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca: Food Science and Technology, Vol 78, Iss 1, Pp 101-112 (2021)",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.15835/buasvmcn-fst:2020.0047",
+   "doi": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.15835/buasvmcn-fst:2020.0047",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210167740",
+    "display_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca Food Science and Technology",
+    "issn_l": "2344-2344",
+    "issn": [
+     "2344-2344",
+     "2344-5300",
+     "2457-1393"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-d",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": "https://openalex.org/P4310314673",
+    "host_organization_name": "AcademicPres",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310314673",
+     "https://openalex.org/P4310314595"
+    ],
+    "host_organization_lineage_names": [
+     "AcademicPres",
+     "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca. Food Science and Technology",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "score": 0.9208999872207642,
+    "id": "https://metadata.un.org/sdg/2",
+    "display_name": "Zero hunger"
+   }
+  ],
+  "sustainable_development_goals_aurora": [
+   {
+    "score": 0.8899999856948853,
+    "id": "https://metadata.un.org/sdg/14",
+    "display_name": "Life below water"
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+   "https://openalex.org/W4200509890",
+   "https://openalex.org/W4413101390",
+   "https://openalex.org/W2613779078",
+   "https://openalex.org/W7167624346",
+   "https://openalex.org/W2331879623",
+   "https://openalex.org/W2515846392",
+   "https://openalex.org/W4405317673",
+   "https://openalex.org/W2376188800",
+   "https://openalex.org/W3043752163",
+   "https://openalex.org/W2003519931"
+  ],
+  "abstract_inverted_index": {
+   "Replacing": [
+    0
+   ],
+   "wheat": [
+    1,
+    34,
+    42,
+    89,
+    104
+   ],
+   "flour": [
+    2,
+    35,
+    43,
+    90,
+    105,
+    118,
+    165
+   ],
+   "with": [
+    3,
+    36,
+    92,
+    107,
+    116
+   ],
+   "protein": [
+    4,
+    38,
+    46,
+    54,
+    56,
+    61,
+    98,
+    112,
+    170
+   ],
+   "rich": [
+    5,
+    47
+   ],
+   "flours,": [
+    6
+   ],
+   "determine": [
+    7
+   ],
+   "changes": [
+    8
+   ],
+   "in": [
+    9,
+    16,
+    87,
+    102,
+    172
+   ],
+   "the": [
+    10,
+    13,
+    17,
+    20,
+    25,
+    29,
+    76,
+    80,
+    88,
+    93,
+    103,
+    108,
+    120,
+    129,
+    138,
+    156,
+    161,
+    167
+   ],
+   "rheology": [
+    11
+   ],
+   "of": [
+    12,
+    19,
+    24,
+    28,
+    41,
+    79,
+    95,
+    110,
+    123,
+    128,
+    155,
+    163,
+    169
+   ],
+   "dough": [
+    14,
+    30
+   ],
+   "and": [
+    15,
+    44,
+    100,
+    166
+   ],
+   "quality": [
+    18
+   ],
+   "finished.": [
+    21
+   ],
+   "The": [
+    22,
+    114,
+    126,
+    143,
+    152
+   ],
+   "study": [
+    23
+   ],
+   "rheological": [
+    26,
+    77,
+    153
+   ],
+   "behavior": [
+    27
+   ],
+   "when": [
+    31
+   ],
+   "replacing": [
+    32
+   ],
+   "10%": [
+    33,
+    45
+   ],
+   "plant": [
+    37
+   ],
+   "flours.": [
+    39
+   ],
+   "Mixtures": [
+    40
+   ],
+   "ingredients": [
+    48,
+    99
+   ],
+   "were": [
+    49
+   ],
+   "used:": [
+    50
+   ],
+   "Pleurotus": [
+    51,
+    117
+   ],
+   "flour,": [
+    52
+   ],
+   "pea": [
+    53
+   ],
+   "isolate,": [
+    55,
+    62
+   ],
+   "hydrolysate": [
+    57
+   ],
+   "from": [
+    58,
+    85
+   ],
+   "corn,": [
+    59
+   ],
+   "soy": [
+    60,
+    111
+   ],
+   "oat": [
+    63
+   ],
+   "protein,": [
+    64,
+    66
+   ],
+   "hemp": [
+    65,
+    96
+   ],
+   "sea": [
+    67
+   ],
+   "buckthorn": [
+    68
+   ],
+   "protein.": [
+    69
+   ],
+   "Mixolab": [
+    70
+   ],
+   "system": [
+    71
+   ],
+   "was": [
+    72,
+    149
+   ],
+   "used": [
+    73
+   ],
+   "to": [
+    74
+   ],
+   "perform": [
+    75
+   ],
+   "analysis": [
+    78
+   ],
+   "dough.": [
+    81
+   ],
+   "Water": [
+    82
+   ],
+   "absorption": [
+    83
+   ],
+   "ranged": [
+    84
+   ],
+   "57.1%": [
+    86
+   ],
+   "sample": [
+    91,
+    106,
+    115
+   ],
+   "addition": [
+    94,
+    109
+   ],
+   "seed": [
+    97
+   ],
+   "67.4%": [
+    101
+   ],
+   "isolate.": [
+    113
+   ],
+   "had": [
+    119
+   ],
+   "lowest": [
+    121
+   ],
+   "degree": [
+    122
+   ],
+   "soaking": [
+    124
+   ],
+   "(C2=0.226).": [
+    125
+   ],
+   "gelatinization": [
+    127
+   ],
+   "starch": [
+    130
+   ],
+   "took": [
+    131
+   ],
+   "place": [
+    132
+   ],
+   "at": [
+    133
+   ],
+   "different": [
+    134
+   ],
+   "temperatures": [
+    135
+   ],
+   "depending": [
+    136
+   ],
+   "on": [
+    137
+   ],
+   "sample,": [
+    139
+   ],
+   "being": [
+    140
+   ],
+   "between": [
+    141,
+    150
+   ],
+   "79.1-84.5°C.": [
+    142
+   ],
+   "temperature": [
+    144
+   ],
+   "range": [
+    145
+   ],
+   "for": [
+    146
+   ],
+   "enzymatic": [
+    147
+   ],
+   "activation": [
+    148
+   ],
+   "86.4-88.8°C.": [
+    151
+   ],
+   "characteristics": [
+    154
+   ],
+   "samples": [
+    157
+   ],
+   "are": [
+    158
+   ],
+   "influenced": [
+    159
+   ],
+   "by": [
+    160
+   ],
+   "type": [
+    162
+   ],
+   "added": [
+    164
+   ],
+   "amount": [
+    168
+   ],
+   "present": [
+    171
+   ],
+   "each": [
+    173
+   ],
+   "sample.": [
+    174
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-12T09:40:04.860316",
+  "created_date": "2021-06-07T00:00:00"
+ }
+}

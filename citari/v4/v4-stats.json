@@ -1,0 +1,23 @@
+{
+ "works": 107,
+ "links": 110,
+ "selfWorks": 2,
+ "selfLinks": 4,
+ "retainedFromV3": 1,
+ "bySource": {
+  "OpenAlex": 98,
+  "Semantic Scholar": 88
+ },
+ "byConfidence": {
+  "ridicat": 98,
+  "mediu": 8,
+  "scăzut": 1
+ },
+ "coveredPubs": 11,
+ "excludedCandidates": 1,
+ "coverageStatus": {
+  "acoperit": 11,
+  "parțial verificat - fără identificator": 3,
+  "zero confirmat": 5
+ }
+}

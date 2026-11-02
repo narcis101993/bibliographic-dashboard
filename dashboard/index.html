@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard bibliografic · Gabriela Daniela Stamatie</title>
+  <meta name="description" content="Bilingual RO/EN dashboard for the bibliography and citation record of Gabriela Daniela Stamatie.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">GS</div>
+      <div class="title-block">
+        <h1 data-i18n="appTitle">Dashboard bibliografic</h1>
+        <p data-i18n="appSubtitle">Gabriela Daniela Stamatie (Criveanu-Stamatie) · IBA București</p>
+      </div>
+      <div class="topbar-meta">
+        <div class="lang-switch" role="group" aria-label="Language / Limbă">
+          <button class="lang-btn" type="button" data-lang="ro">RO</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+        <span class="version-chip" id="versionChip">v3</span>
+        <span class="updated" id="updatedLabel">—</span>
+      </div>
+    </header>
+
+    <div class="detect-banner" role="status">
+      <span class="status-dot" id="statusDot" aria-hidden="true"></span>
+      <div class="detect-text">
+        <strong id="detectLabel">—</strong>
+        <span id="detectDetail">—</span>
+      </div>
+      <button class="btn btn-ghost btn-small" id="redetect" type="button" data-i18n="redetect">Re-detectează</button>
+    </div>
+
+    <div class="workspace">
+      <div class="content">
+        <input class="tab-input" type="radio" name="tabs" id="tab-publicatii" checked>
+        <input class="tab-input" type="radio" name="tabs" id="tab-citari">
+        <input class="tab-input" type="radio" name="tabs" id="tab-sinteza">
+
+        <nav class="tabs" aria-label="Sections">
+          <label for="tab-publicatii" class="tab"><span data-i18n="tabPublications">Publicații</span> <span class="tab-count" id="pubTabCount">0</span></label>
+          <label for="tab-citari" class="tab"><span data-i18n="tabCitations">Citări</span> <span class="tab-count" id="citTabCount">0</span></label>
+          <label for="tab-sinteza" class="tab"><span data-i18n="tabSynthesis">Sinteză</span></label>
+        </nav>
+
+        <main>
+          <section class="panel panel-publicatii" aria-labelledby="h-publicatii">
+            <div class="panel-head">
+              <div>
+                <h2 id="h-publicatii" data-i18n="tabPublications">Publicații</h2>
+                <p id="pubPanelSub">—</p>
+              </div>
+              <div class="panel-actions">
+                <button class="btn btn-ghost" type="button" id="exportPubCsv" data-i18n="exportCsv">Export CSV</button>
+                <a class="btn btn-primary" id="downloadXlsx" href="#" download data-i18n="exportXlsx">Descarcă XLSX</a>
+              </div>
+            </div>
+
+            <div class="charts-row" aria-label="Publication charts">
+              <div class="card chart-card">
+                <div class="card-head">
+                  <h3 data-i18n="pubByYear">Publicații pe an</h3>
+                </div>
+                <div class="chart-wrap"><canvas id="pubYearChart" aria-label="Publications per year"></canvas></div>
+                <p class="chart-caption" data-i18n="pubByYearCap">Înregistrări pe an de publicare (filtrate).</p>
+              </div>
+
+              <div class="card chart-card">
+                <div class="card-head">
+                  <h3 data-i18n="pubTypes">Tipuri de publicații</h3>
+                </div>
+                <div class="chart-wrap"><canvas id="pubTypeChart" aria-label="Publication types"></canvas></div>
+                <p class="chart-caption" data-i18n="pubTypesCap">Distribuție pe tipuri (filtrate).</p>
+              </div>
+            </div>
+
+            <div class="filterbar" aria-label="Publication filters">
+              <label class="field field-search">
+                <span data-i18n="search">Caută</span>
+                <input type="search" id="pubSearch" data-i18n-placeholder="pubSearchPh" placeholder="Titlu, autor, DOI…" autocomplete="off">
+              </label>
+              <label class="field">
+                <span data-i18n="author">Autor / co-autor</span>
+                <input type="search" id="pubAuthor" list="authorsList" data-i18n-placeholder="authorPh" placeholder="Nume autor…" autocomplete="off">
+              </label>
+              <label class="field">
+                <span data-i18n="year">An</span>
+                <select id="pubYear"></select>
+              </label>
+              <label class="field">
+                <span data-i18n="type">Tip</span>
+                <select id="pubType"></select>
+              </label>
+              <label class="field">
+                <span data-i18n="venue">Revistă</span>
+                <select id="pubVenue"></select>
+              </label>
+              <label class="check">
+                <input type="checkbox" id="pubDoiOnly">
+                <span data-i18n="doiOnly">Doar cu DOI</span>
+              </label>
+              <button class="btn btn-ghost btn-small" type="button" id="pubReset" data-i18n="reset">Resetează</button>
+            </div>
+            <p class="mock-note" id="pubFilterNote" data-i18n="pubFilterNote">Filtrele se aplică instantaneu pe datele versiunii detectate.</p>
+
+            <div class="grid-main">
+              <div class="card table-card">
+                <div class="table-head">
+                  <h3 data-i18n="pubTableTitle">Centralizator</h3>
+                  <span class="muted" id="pubTableCount">—</span>
+                </div>
+                <div class="table-wrap">
+                  <table id="pubTable">
+                    <thead>
+                      <tr>
+                        <th class="num sortable" data-sort="id" data-i18n="colNr">Nr.</th>
+                        <th class="num sortable" data-sort="year" data-i18n="colYear">An</th>
+                        <th class="sortable" data-sort="title" data-i18n="colTitle">Titlu</th>
+                        <th class="sortable" data-sort="venue" data-i18n="colVenue">Revistă</th>
+                        <th data-i18n="colVolume">Volum/Issue</th>
+                        <th class="sortable" data-sort="type" data-i18n="colType">Tip</th>
+                        <th data-i18n="colDoi">DOI</th>
+                        <th data-i18n="colLink">Link</th>
+                        <th data-i18n="colAuthors">Autori</th>
+                        <th class="num sortable" data-sort="citations" data-i18n="colCitations">Citări</th>
+                      </tr>
+                    </thead>
+                    <tbody id="pubBody"></tbody>
+                  </table>
+                </div>
+                <div class="table-foot">
+                  <span class="muted" id="pubRange">—</span>
+                  <div class="pager">
+                    <button class="btn btn-ghost btn-small" type="button" id="pubPrev" data-i18n="prev">Anterior</button>
+                    <span class="page-num" id="pubPage">1</span>
+                    <button class="btn btn-ghost btn-small" type="button" id="pubNext" data-i18n="next">Următor</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="side-stack">
+              </div>
+            </div>
+          </section>
+
+          <section class="panel panel-citari" aria-labelledby="h-citari">
+            <div class="panel-head">
+              <div>
+                <h2 id="h-citari" data-i18n="tabCitations">Citări</h2>
+                <p id="citPanelSub">—</p>
+              </div>
+              <div class="panel-actions">
+                <button class="btn btn-ghost" type="button" id="exportCitCsv" data-i18n="exportCsv">Export CSV</button>
+              </div>
+            </div>
+
+            <div class="charts-row" aria-label="Citation charts">
+              <div class="card chart-card">
+                <div class="card-head">
+                  <h3 data-i18n="citByYear">Citări pe an</h3>
+                </div>
+                <div class="chart-wrap"><canvas id="citYearChart" aria-label="Citation links per year"></canvas></div>
+                <p class="chart-caption" data-i18n="citByYearCap">Legături de citare pe an de citare (filtrate).</p>
+              </div>
+
+              <div class="card chart-card">
+                <div class="card-head">
+                  <h3 data-i18n="topCited">Top articole citate</h3>
+                </div>
+                <div class="chart-wrap"><canvas id="citTopChart" aria-label="Most cited articles"></canvas></div>
+                <p class="chart-caption" data-i18n="topCitedCap">Legături de citare per articol (filtrate).</p>
+              </div>
+            </div>
+
+            <div class="filterbar" aria-label="Citation filters">
+              <label class="field field-search">
+                <span data-i18n="search">Caută</span>
+                <input type="search" id="citSearch" data-i18n-placeholder="citSearchPh" placeholder="Lucrare citată, autor, DOI…" autocomplete="off">
+              </label>
+              <label class="field">
+                <span data-i18n="author">Autor / co-autor</span>
+                <input type="search" id="citAuthor" list="authorsList" data-i18n-placeholder="authorPh" placeholder="Nume autor…" autocomplete="off">
+              </label>
+              <label class="field">
+                <span data-i18n="citYear">An citare</span>
+                <select id="citYear"></select>
+              </label>
+              <label class="field">
+                <span data-i18n="article">Articol citat</span>
+                <select id="citArticle"></select>
+              </label>
+              <label class="field">
+                <span data-i18n="venue">Revistă</span>
+                <select id="citVenue"></select>
+              </label>
+              <label class="field">
+                <span data-i18n="type">Tip</span>
+                <select id="citType"></select>
+              </label>
+              <label class="check">
+                <input type="checkbox" id="citDoiOnly">
+                <span data-i18n="doiOnly">Doar cu DOI</span>
+              </label>
+              <label class="check">
+                <input type="checkbox" id="citExcludeSelf">
+                <span data-i18n="excludeSelf">Exclude auto-citări</span>
+              </label>
+              <button class="btn btn-ghost btn-small" type="button" id="citReset" data-i18n="reset">Resetează</button>
+            </div>
+            <p class="mock-note" id="citFilterNote" data-i18n="citFilterNote">Auto-citările sunt evidențiate; totalurile reflectă filtrele active.</p>
+
+            <div class="kpi-row">
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiCiting">Lucrări citante</span><b id="citKpiWorks">0</b><span class="kpi-sub" id="citKpiExternal">—</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiLinks">Legături citare</span><b id="citKpiLinks">0</b><span class="kpi-sub" id="citKpiLinksSub">—</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiSelf">Auto-citări</span><b id="citKpiSelf">0</b><span class="kpi-sub" data-i18n="kpiHighlighted">evidențiate</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiMaxYear">An maxim</span><b id="citKpiMaxYear">—</b><span class="kpi-sub" id="citKpiMaxYearSub">—</span></div>
+            </div>
+
+            <div class="grid-main">
+              <div class="card table-card">
+                <div class="table-head">
+                  <h3 data-i18n="citTableTitle">Lucrări citante</h3>
+                  <span class="muted" id="citTableCount">—</span>
+                </div>
+                <div class="table-wrap">
+                  <table id="citTable">
+                    <thead>
+                      <tr>
+                        <th class="num sortable" data-sort="id" data-i18n="colNr">Nr.</th>
+                        <th class="num sortable" data-sort="articleId" data-i18n="colArticle">Art.</th>
+                        <th class="num sortable" data-sort="year" data-i18n="colCitYear">An citare</th>
+                        <th class="sortable" data-sort="title" data-i18n="colCiting">Lucrare citată</th>
+                        <th data-i18n="colAuthors">Autori</th>
+                        <th class="sortable" data-sort="venue" data-i18n="colVenue">Revistă</th>
+                        <th class="sortable" data-sort="type" data-i18n="colType">Tip</th>
+                        <th data-i18n="colDoi">DOI</th>
+                        <th class="sortable" data-sort="self" data-i18n="colSelf">Auto</th>
+                      </tr>
+                    </thead>
+                    <tbody id="citBody"></tbody>
+                  </table>
+                </div>
+                <div class="table-foot">
+                  <span class="muted" id="citRange">—</span>
+                  <div class="pager">
+                    <button class="btn btn-ghost btn-small" type="button" id="citPrev" data-i18n="prev">Anterior</button>
+                    <span class="page-num" id="citPage">1</span>
+                    <button class="btn btn-ghost btn-small" type="button" id="citNext" data-i18n="next">Următor</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="side-stack">
+              </div>
+            </div>
+          </section>
+
+          <section class="panel panel-sinteza" aria-labelledby="h-sinteza">
+            <div class="panel-head">
+              <div>
+                <h2 id="h-sinteza" data-i18n="tabSynthesis">Sinteză</h2>
+                <p data-i18n="synPanelSub">Indicatori, matrice articol × an de citare și acoperirea datelor.</p>
+              </div>
+            </div>
+
+            <div class="kpi-row kpi-row-4">
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiPublications">Publicații</span><b id="synPubs">0</b><span class="kpi-sub" id="synPubsSub">—</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiCiting">Lucrări citante</span><b id="synWorks">0</b><span class="kpi-sub" id="synWorksSub">—</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiLinks">Legături citare</span><b id="synLinks">0</b><span class="kpi-sub" id="synLinksSub">—</span></div>
+              <div class="kpi"><span class="kpi-label" data-i18n="kpiNoCitations">Articole fără citări</span><b id="synMissing">0</b><span class="kpi-sub" id="synMissingSub">—</span></div>
+            </div>
+
+            <div class="grid-main">
+              <div class="card">
+                <div class="card-head">
+                  <h3 data-i18n="synMatrix">Matrice articol × an de citare</h3>
+                  <span class="pill pill-ghost" data-i18n="pillAllData">toate datele</span>
+                </div>
+                <div class="table-wrap">
+                  <table class="matrix" id="matrixTable">
+                    <thead id="matrixHead"></thead>
+                    <tbody id="matrixBody"></tbody>
+                  </table>
+                </div>
+                <p class="chart-caption" data-i18n="synMatrixCap">Celulele numără legăturile de citare; rândurile pot totaliza mai mult decât lucrările unice.</p>
+              </div>
+
+              <div class="side-stack">
+                <div class="card">
+                  <div class="card-head">
+                    <h3 data-i18n="coverage">Acoperire date</h3>
+                    <span class="pill pill-warn" id="coverageBadge">—</span>
+                  </div>
+                  <ul class="coverage" id="coverageList"></ul>
+                  <p class="chart-caption" data-i18n="coverageCap">Articolele fără legături de citare sunt marcate separat.</p>
+                  <div class="partial-coverage" id="partialCoverage" style="display:none">
+                    <h4 data-i18n="coveragePartialBadge" class="partial-title">—</h4>
+                    <ul class="coverage" id="partialCoverageList"></ul>
+                    <p class="chart-caption" data-i18n="coveragePartialCap">Articole fără identificator, în curs de re-verificare.</p>
+                    <p class="chart-caption" data-i18n="coveragePartialNote">Nu sunt incluse în cifrele de „fără citări” conform metodologiei v4.</p>
+                  </div>
+                </div>
+
+                <div class="card chart-card">
+                  <div class="card-head">
+                    <h3 data-i18n="citTypes">Tipuri de lucrări citante</h3>
+                  </div>
+                  <div class="chart-wrap"><canvas id="citTypeChart" aria-label="Citing work types"></canvas></div>
+                </div>
+
+                <div class="card">
+                  <div class="card-head"><h3 data-i18n="qa">QA &amp; recomandări</h3></div>
+                  <ul class="notes-list" id="notesList"></ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <aside class="meta" aria-label="Metadata and sources">
+        <section class="card meta-card">
+          <div class="card-head"><h3 data-i18n="dateExtracted">Date extrase</h3><span class="pill pill-ok" data-i18n="pillCurrent">la zi</span></div>
+          <dl class="meta-list">
+            <div><dt data-i18n="lastExtract">Ultima extragere</dt><dd id="metaExtracted">—</dd></div>
+            <div><dt data-i18n="generatedAt">Generat</dt><dd id="metaGenerated">—</dd></div>
+            <div><dt data-i18n="kpiPublications">Publicații</dt><dd id="metaPubs">—</dd></div>
+            <div><dt data-i18n="kpiCiting">Lucrări citante</dt><dd id="metaWorks">—</dd></div>
+            <div><dt data-i18n="kpiLinks">Legături citare</dt><dd id="metaLinks">—</dd></div>
+            <div><dt data-i18n="kpiSelf">Auto-citări</dt><dd id="metaSelf">—</dd></div>
+            <div><dt data-i18n="kpiSelfLinks">Legături auto-citare</dt><dd id="metaSelfLinks">—</dd></div>
+            <div><dt data-i18n="kpiExternalLinks">Legături externe citare</dt><dd id="metaExternalLinks">—</dd></div>
+            <div><dt data-i18n="sourceFile">Fișier sursă</dt><dd class="mono" id="metaSource">—</dd></div>
+          </dl>
+        </section>
+
+        <section class="card meta-card">
+          <div class="card-head"><h3 data-i18n="versionTitle">Versiune &amp; auto-detectare</h3></div>
+          <div class="detect-box">
+            <span class="version-big" id="versionBig">—</span>
+            <div>
+              <p class="detect-title" data-i18n="detectedAuto">Detectată automat</p>
+              <p class="detect-path mono" id="detectPath">—</p>
+            </div>
+          </div>
+          <ol class="detect-steps">
+            <li data-i18n="step1">Scanează centralizator/v*/ și citari/v*/.</li>
+            <li data-i18n="step2">Alege versiunea numerică maximă comună.</li>
+            <li data-i18n="step3">Citește manifestul dashboard/data/version-manifest.json.</li>
+            <li data-i18n="step4">Încarcă CSV-urile versiunii; revine la datele încorporate pe file://.</li>
+          </ol>
+        </section>
+
+        <section class="card meta-card">
+          <div class="card-head"><h3 data-i18n="sources">Surse</h3></div>
+          <ul class="sources" id="sourcesList"></ul>
+        </section>
+
+        <section class="card meta-card meta-foot">
+          <p data-i18n="footerNote">Date din livrabilele versionate ale centralizatorului și raportului de citări.</p>
+          <p class="mono" id="footerVersion">—</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="page-foot">
+      <span data-i18n="footLeft">Dashboard bibliografic · v1.0</span>
+      <span id="footRight">—</span>
+    </footer>
+  </div>
+
+  <datalist id="authorsList"></datalist>
+
+  <noscript>
+    <p style="padding:16px">This dashboard needs JavaScript to load the bibliography data. / Dashboard-ul necesită JavaScript.</p>
+  </noscript>
+
+  <script src="vendor/chart.umd.min.js"></script>
+  <script src="data/dashboard-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
