@@ -23,5 +23,5 @@ npm-debug.log*
 .env
 .env.local
 
-# Deploy folder (generated for GitHub Pages)
-docs/
+# Deploy folder (included for GitHub Pages)
+# docs/

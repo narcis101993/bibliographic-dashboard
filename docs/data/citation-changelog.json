@@ -1,0 +1,152 @@
+[
+  {
+    "from": "v1",
+    "to": "v3",
+    "totals": {
+      "works": {
+        "from": 99,
+        "to": 99
+      },
+      "links": {
+        "from": 102,
+        "to": 102
+      }
+    },
+    "publications": [],
+    "added": [],
+    "removed": []
+  },
+  {
+    "from": "v3",
+    "to": "v4",
+    "totals": {
+      "works": {
+        "from": 99,
+        "to": 107
+      },
+      "links": {
+        "from": 102,
+        "to": 110
+      }
+    },
+    "publications": [
+      {
+        "id": 4,
+        "from": 40,
+        "to": 42,
+        "delta": 2
+      },
+      {
+        "id": 11,
+        "from": 24,
+        "to": 28,
+        "delta": 4
+      },
+      {
+        "id": 13,
+        "from": 2,
+        "to": 4,
+        "delta": 2
+      }
+    ],
+    "added": [
+      {
+        "key": "doi:10.1007/s13197-024-06072-3",
+        "title": "Effect of incorporating plant and animal-derived protein sources into whole wheat flour on its physical, rheological, nutritional, and chapati-making attributes",
+        "year": 2024,
+        "doi": "10.1007/s13197-024-06072-3",
+        "articleIds": [
+          4
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.1016/j.tifs.2026.106102",
+        "title": "The phytochemicals of durian (Durio zibethinus) pulp and agricultural by-products: A systematic review of their benefits for metabolic health and bio-waste valorisation",
+        "year": 2026,
+        "doi": "10.1016/j.tifs.2026.106102",
+        "articleIds": [
+          11
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.11591/ijphs.v15i2.27121",
+        "title": "Effect of red beet flour substitution on iron content and acceptability of functional muffins: an experimental study for anemia prevention",
+        "year": 2026,
+        "doi": "10.11591/ijphs.v15i2.27121",
+        "articleIds": [
+          13
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.25047/tefa.v3i1.6755",
+        "title": "Potential Consumer Profiles and Market Demand Projections of Gluten and Lactose-Free Cookies",
+        "year": 2026,
+        "doi": "10.25047/tefa.v3i1.6755",
+        "articleIds": [
+          11
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.3390/foods15122193",
+        "title": "From Brewing By-Products to Next-Generation Food Ingredients: Processing, Functionality, Safety, and Industrial Translation",
+        "year": 2026,
+        "doi": "10.3390/foods15122193",
+        "articleIds": [
+          11
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.3390/molecules31071198",
+        "title": "Enrichment of Wheat–Chia Bread with Hemp, and Buckwheat Flours and Cistus incanus L. Infusion: Impact on Chemical Composition, Polyphenols, Fatty Acids, Amino Acids, and Consumer Acceptance",
+        "year": 2026,
+        "doi": "10.3390/molecules31071198",
+        "articleIds": [
+          13
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "doi:10.3390/nu18121859",
+        "title": "Food Industry By-Products as Natural Preservatives: Supporting Adolescent Food Literacy and Critical Food Choices",
+        "year": 2026,
+        "doi": "10.3390/nu18121859",
+        "articleIds": [
+          11
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "key": "title:rheological approaches of wheat flour dough enriched with germinated soybean and lentil|2021",
+        "title": "Rheological Approaches of Wheat Flour Dough Enriched with Germinated Soybean and Lentil",
+        "year": 2021,
+        "doi": "",
+        "articleIds": [
+          4
+        ],
+        "sources": [
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "removed": []
+  }
+]

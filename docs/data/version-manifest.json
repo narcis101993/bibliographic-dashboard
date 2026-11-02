@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "project": "Gabriela Daniela Stamatie — bibliografie și citări",
+  "generatedAt": "2026-11-01T00:00:00+00:00",
+  "generatedAtRule": "SOURCE_DATE_EPOCH if set, else newest citation verification date",
+  "inputDigest": "sha256:b284efdf086be78d53b06964aa7b858c2758afe3729e92da89fab5870cc4dedb",
+  "pipeline": {
+    "script": "scripts/build_dashboard_data.py",
+    "schemaVersion": 2,
+    "command": "python3 scripts/build_dashboard_data.py"
+  },
+  "dataExtractedAt": "2026-10-31",
+  "latest": {
+    "common": "v4",
+    "centralizator": "v4",
+    "citari": "v4"
+  },
+  "resolution": {
+    "order": [
+      "manifest",
+      "folder-scan",
+      "embedded-fallback"
+    ],
+    "rule": "Highest numeric vN present in both centralizator/vN and citari/vN"
+  },
+  "versions": [
+    {
+      "version": "v1",
+      "centralizator": {
+        "csv": "../centralizator/v1/Centralizator_Articole_Gabriela_Daniela_Stamatie.csv",
+        "records": 19
+      },
+      "citari": {
+        "csv": "../citari/v1/Citari_Articole_Gabriela_Daniela_Stamatie.csv",
+        "records": 99
+      },
+      "stats": {
+        "publications": 19,
+        "citations": 99,
+        "citationLinks": 102,
+        "selfCitations": 2,
+        "externalCitations": 97,
+        "selfCitationLinks": 4,
+        "externalCitationLinks": 98,
+        "publicationsWithDoi": 14,
+        "citingVenues": 52,
+        "publicationYearRange": [
+          2018,
+          2026
+        ]
+      },
+      "coverageStats": null,
+      "data": {
+        "publications": "data/v1/publications.json",
+        "citations": "data/v1/citations.json",
+        "coverage": null
+      }
+    },
+    {
+      "version": "v3",
+      "centralizator": {
+        "csv": "../centralizator/v3/Centralizator_Articole_Gabriela_Daniela_Stamatie_v3.csv",
+        "records": 19
+      },
+      "citari": {
+        "csv": "../citari/v3/Citari_Articole_Gabriela_Daniela_Stamatie_v3.csv",
+        "records": 99
+      },
+      "stats": {
+        "publications": 19,
+        "citations": 99,
+        "citationLinks": 102,
+        "selfCitations": 2,
+        "externalCitations": 97,
+        "selfCitationLinks": 4,
+        "externalCitationLinks": 98,
+        "publicationsWithDoi": 14,
+        "citingVenues": 52,
+        "publicationYearRange": [
+          2018,
+          2026
+        ]
+      },
+      "coverageStats": null,
+      "data": {
+        "publications": "data/v3/publications.json",
+        "citations": "data/v3/citations.json",
+        "coverage": null
+      }
+    },
+    {
+      "version": "v4",
+      "centralizator": {
+        "csv": "../centralizator/v4/Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "records": 19
+      },
+      "citari": {
+        "csv": "../citari/v4/Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "records": 107
+      },
+      "stats": {
+        "publications": 19,
+        "citations": 107,
+        "citationLinks": 110,
+        "selfCitations": 2,
+        "externalCitations": 105,
+        "selfCitationLinks": 4,
+        "externalCitationLinks": 106,
+        "publicationsWithDoi": 14,
+        "citingVenues": 56,
+        "publicationYearRange": [
+          2018,
+          2026
+        ]
+      },
+      "coverageStats": {
+        "publications": 19,
+        "covered": 11,
+        "zeroConfirmed": 5,
+        "partiallyVerified": 3,
+        "byStatus": {
+          "acoperit": 11,
+          "parțial verificat - fără identificator": 3,
+          "zero confirmat": 5
+        }
+      },
+      "data": {
+        "publications": "data/v4/publications.json",
+        "citations": "data/v4/citations.json",
+        "coverage": "data/v4/coverage.json"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "url": "https://openalex.org",
+      "count": 101,
+      "countKind": "citationLinks"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org",
+      "count": 91,
+      "countKind": "citationLinks"
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "url": "https://www.crossref.org",
+      "count": 13,
+      "countKind": "publicationsVerified"
+    },
+    {
+      "id": "datacite",
+      "name": "DataCite",
+      "url": "https://datacite.org",
+      "count": 1,
+      "countKind": "publicationsVerified"
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID",
+      "url": "https://orcid.org",
+      "count": null,
+      "countKind": "publicationsVerified"
+    }
+  ],
+  "stats": {
+    "publications": 19,
+    "citations": 107,
+    "citationLinks": 110,
+    "selfCitations": 2,
+    "externalCitations": 105,
+    "selfCitationLinks": 4,
+    "externalCitationLinks": 106,
+    "publicationsWithDoi": 14,
+    "citingVenues": 56,
+    "publicationYearRange": [
+      2018,
+      2026
+    ]
+  },
+  "changelog": "data/changelog.json",
+  "lastVerified": "2026-11-01",
+  "sourceRetrievedAt": "2026-11-01",
+  "freshness": {
+    "value": "2026-11-01",
+    "label": "newest citation verification date",
+    "rule": "newest 'Data verificării' across citation rows; generatedAt otherwise"
+  }
+}
