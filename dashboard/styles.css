@@ -433,6 +433,13 @@ a.btn:hover { text-decoration: none; }
   min-width: 0;
 }
 
+.panel-publicatii th,
+.panel-citari th {
+  flex: 1;
+  min-width: 0;
+  white-space: normal;
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--border);

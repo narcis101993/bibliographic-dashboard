@@ -336,7 +336,7 @@
   var CIT_SORT_KEYS = ["id", "articleId", "year", "title", "venue", "type", "self"];
   var PUB_NUMERIC_SORTS = ["id", "year", "citations"];
   var CIT_NUMERIC_SORTS = ["id", "articleId", "year", "self"];
-  var DEFAULT_PUB_SORT = { key: "citations", dir: "desc" };
+  var DEFAULT_PUB_SORT = { key: "id", dir: "asc" };
   var DEFAULT_CIT_SORT = { key: "year", dir: "desc" };
 
   function emptyUrlState() {
