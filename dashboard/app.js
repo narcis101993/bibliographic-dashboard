@@ -15,6 +15,7 @@
       updated: "Actualizat",
       redetect: "Re-detectează",
       rescanning: "Se scanează…",
+      refreshData: "Reîncarcă",
       detected: "Versiune detectată automat: {v}",
       notDetected: "Versiune nedetectată",
       rule: "regulă: versiune numerică maximă comună",
@@ -154,6 +155,7 @@
       updated: "Updated",
       redetect: "Re-detect",
       rescanning: "Scanning…",
+      refreshData: "Refresh",
       detected: "Auto-detected version: {v}",
       notDetected: "Version not detected",
       rule: "rule: highest common numeric version",
@@ -1902,6 +1904,9 @@
     $("exportPubCsv").addEventListener("click", exportPublications);
     $("exportCitCsv").addEventListener("click", exportCitations);
     $("redetect").addEventListener("click", redetect);
+    $("refreshData").addEventListener("click", function () {
+      location.reload();
+    });
 
     document.querySelectorAll(".lang-btn").forEach(function (button) {
       button.addEventListener("click", function () {
