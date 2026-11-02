@@ -121,6 +121,21 @@ citari/v4/*.xlsx           (pentru download XLSX)
 - Grafice Chart.js: publicații pe an/tip, citări pe an, top articole citate
 - Panou detalii expandabil pentru fiecare publicație
 - Acoperire date: badge-uri pentru zero confirmat / parțial verificat
+- **Actualizare automată** a datelor prin GitHub Actions (lunar)
+- Buton **Reîncarcă** în UI pentru reîncărcarea paginii
+
+## Actualizare automată a datelor
+
+Datele se actualizează automat lunar prin [GitHub Actions](https://github.com/narcis101993/bibliographic-dashboard/actions):
+
+1. **Fetch** — extragere date noi din surse (OpenAlex, Semantic Scholar, DataCite, Crossref)
+2. **Build** — procesare și normalizare în `citari/v4/` și `centralizator/v4/`
+3. **Deploy** — regenerare `dashboard/data/` și commit automat în branch-ul `main`
+
+Pentru actualizare manuală, accesează:
+- [Run workflow](https://github.com/narcis101993/bibliographic-dashboard/actions/workflows/refresh-citations.yml)
+
+Butonul **Reîncarcă** din dashboard reîncarcă pagina pentru a afișa ultimele date disponibile.
 
 ## Licențe
 
