@@ -355,10 +355,11 @@ a.btn:hover { text-decoration: none; }
   border: 1px dashed var(--border-strong);
   border-radius: var(--radius);
   margin-bottom: 8px;
+  overflow-x: auto;
 }
 
-.field { display: flex; flex-direction: column; gap: 4px; min-width: 130px; }
-.field-search { flex: 1 1 220px; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 130px; flex: 1 1 auto; }
+.field-search { flex: 1 1 220px; min-width: 0; }
 .field span { font-size: 11px; font-weight: 700; letter-spacing: .3px; text-transform: uppercase; color: var(--muted); }
 
 .field input,
@@ -415,9 +416,9 @@ a.btn:hover { text-decoration: none; }
 
 .charts-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 14px;
-  margin-bottom: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .panel-publicatii > .grid-main,
@@ -447,6 +448,7 @@ a.btn:hover { text-decoration: none; }
   width: 100%;
   display: flex;
   flex-direction: column;
+  min-width: 720px;
 }
 
 .panel-publicatii thead,
@@ -465,6 +467,7 @@ a.btn:hover { text-decoration: none; }
 .panel-publicatii tr,
 .panel-citari tr {
   display: flex;
+  min-width: 720px;
 }
 
 .panel-publicatii tbody tr:last-child,
@@ -476,6 +479,7 @@ a.btn:hover { text-decoration: none; }
 .panel-citari td {
   flex: 1;
   min-width: 0;
+  padding: 8px 10px;
 }
 
 .panel-publicatii th,
@@ -483,6 +487,7 @@ a.btn:hover { text-decoration: none; }
   flex: 1;
   min-width: 0;
   white-space: normal;
+  padding: 8px 10px;
 }
 
 .card {
@@ -558,10 +563,10 @@ tbody tr:hover { background: #f2f8fb; }
 tbody tr.row-self td { background: var(--self); }
 tbody tr.row-self:hover td { background: #ffefc2; }
 
-.num { text-align: right; white-space: nowrap; }
+.num { text-align: right; white-space: nowrap; min-width: 36px; }
 .strong { font-weight: 700; color: var(--navy); }
-.cell-title { max-width: 340px; color: var(--text); }
-.cell-authors { max-width: 170px; color: var(--muted); }
+.cell-title { max-width: 340px; color: var(--text); min-width: 140px; }
+.cell-authors { max-width: 170px; color: var(--muted); min-width: 100px; }
 
 .doi {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -855,23 +860,99 @@ tbody tr.row-self:hover td { background: #ffefc2; }
   .kpi-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
+@media (max-width: 860px) {
+  .filterbar { gap: 6px; padding: 8px; }
+  .field { min-width: 100px; }
+  .field-search { flex: 1 1 180px; }
+  .panel-head { gap: 10px; }
+  .panel-head h2 { font-size: 16px; }
+  .charts-row { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; }
+  .chart-card { padding: 10px; }
+  .chart-caption { font-size: 10px; }
+  .table-head { padding: 8px 10px; }
+  .table-foot { padding: 8px 10px; }
+  .btn { padding: 6px 10px; font-size: 12px; }
+  .btn-small { padding: 4px 8px; font-size: 11px; }
+}
+
 @media (max-width: 680px) {
-  .app { padding: 14px 12px 8px; }
-  .topbar { flex-wrap: wrap; }
-  .topbar-meta { width: 100%; margin-left: 58px; flex-wrap: wrap; }
-  .detect-banner { flex-wrap: wrap; }
-  .detect-banner .btn { margin-left: 19px; }
+  .app { padding: 10px 8px 6px; }
+  .topbar { flex-wrap: wrap; gap: 8px; }
+  .topbar-meta { width: 100%; margin-left: 0; flex-wrap: wrap; gap: 6px; }
+  .detect-banner { flex-wrap: wrap; gap: 8px; }
+  .detect-banner .btn { margin-left: 0; }
   .tabs { overflow-x: auto; }
-  .tab { padding: 9px 12px; white-space: nowrap; }
-  main { padding: 14px 12px 16px; }
-  .panel-head { flex-direction: column; }
+  .tab { padding: 8px 10px; font-size: 12.5px; white-space: nowrap; }
+  main { padding: 10px 8px 12px; }
+  .panel-head { flex-direction: column; gap: 8px; }
   .panel-actions { margin-left: 0; flex-wrap: wrap; }
-  .filterbar { flex-direction: column; align-items: stretch; }
+  .filterbar { flex-direction: column; align-items: stretch; gap: 8px; padding: 10px; }
   .field, .field-search { min-width: 0; flex: 1 1 auto; }
-  .check { height: 28px; }
+  .field span { font-size: 10px; }
+  .field input, .field select { height: 32px; font-size: 12px; padding: 0 8px; }
+  .check { height: 32px; font-size: 12px; }
   .meta { grid-template-columns: minmax(0, 1fr); }
   .side-stack { flex-direction: column; }
-  .page-foot { flex-direction: column; }
+  .page-foot { flex-direction: column; gap: 8px; }
+  .card { padding: 10px; }
+  .table-head { padding: 10px; }
+  .charts-row { grid-template-columns: 1fr; }
+  .chart-card { padding: 10px; }
+  .chart-caption { font-size: 10px; }
+  .kpi-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .kpi-card { padding: 8px 10px; }
+  .kpi-value { font-size: 18px; }
+  .kpi-label { font-size: 10px; }
+  .panel-publicatii td,
+  .panel-citari td { padding: 6px 8px; font-size: 12px; }
+  .panel-publicatii th,
+  .panel-citari th { padding: 6px 8px; font-size: 10px; }
+  .table-wrap { -webkit-overflow-scrolling: touch; }
+}
+
+@media (max-width: 480px) {
+  .app { padding: 8px 6px 4px; }
+  .topbar { gap: 6px; }
+  .brand-mark { width: 36px; height: 36px; flex: 0 0 36px; font-size: 14px; border-radius: 10px; }
+  .title-block h1 { font-size: 17px; }
+  .title-block p { font-size: 11px; }
+  .topbar-meta { gap: 4px; }
+  .lang-btn { padding: 5px 7px; font-size: 10px; }
+  .theme-btn { padding: 3px 6px; font-size: 12px; }
+  .version-chip { height: 22px; padding: 0 7px; font-size: 10px; }
+  .detect-banner { padding: 8px; font-size: 11px; }
+  .detect-text strong { font-size: 11px; }
+  .detect-text span { font-size: 10px; }
+  main { padding: 8px 6px 10px; }
+  .panel-head h2 { font-size: 15px; }
+  .panel-actions { gap: 6px; }
+  .btn { padding: 5px 9px; font-size: 11px; }
+  .btn-small { padding: 3px 7px; font-size: 10px; }
+  .filterbar { padding: 8px; gap: 6px; }
+  .field span { font-size: 9px; }
+  .field input, .field select { height: 30px; font-size: 11px; padding: 0 6px; }
+  .check { height: 30px; font-size: 11px; gap: 4px; }
+  .card { padding: 8px; }
+  .table-head { padding: 8px; }
+  .table-head h3 { font-size: 12px; }
+  .table-foot { padding: 6px 8px; }
+  .charts-row { gap: 6px; }
+  .chart-card { padding: 8px; }
+  .chart-wrap { height: 160px; }
+  .kpi-row { gap: 4px; }
+  .kpi-card { padding: 6px 8px; }
+  .kpi-value { font-size: 16px; }
+  .kpi-label { font-size: 9px; }
+  .panel-publicatii td,
+  .panel-citari td { padding: 5px 6px; font-size: 11px; }
+  .panel-publicatii th,
+  .panel-citari th { padding: 5px 6px; font-size: 9px; }
+  .tab { padding: 7px 10px; font-size: 12px; }
+  .tab-count { min-width: 18px; height: 16px; padding: 0 4px; font-size: 10px; }
+  .detail-panel { padding: 8px 10px; gap: 6px 10px; }
+  .detail-label { font-size: 10px; }
+  .detail-value { font-size: 11px; }
+  .page-foot { font-size: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
