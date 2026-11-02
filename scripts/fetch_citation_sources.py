@@ -50,9 +50,13 @@ def init_paths(source_version=None, target_version=None):
     global SOURCE_VERSION, TARGET_VERSION, CENTRALIZATOR, RAW
     SOURCE_VERSION = source_version or SOURCE_VERSION
     TARGET_VERSION = target_version or TARGET_VERSION
+    if not SOURCE_VERSION.startswith("v"):
+        SOURCE_VERSION = "v" + SOURCE_VERSION
+    if not TARGET_VERSION.startswith("v"):
+        TARGET_VERSION = "v" + TARGET_VERSION
     CENTRALIZATOR = os.path.join(
         ROOT, "centralizator", SOURCE_VERSION,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
     )
     RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
 

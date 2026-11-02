@@ -56,11 +56,11 @@ def init_paths(source_version=None, target_version=None):
     RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
     V3_CITARI = os.path.join(
         ROOT, "citari", SOURCE_VERSION,
-        "Citari_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+        "Citari_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
     )
     V3_CENTRALIZATOR = os.path.join(
         ROOT, "centralizator", SOURCE_VERSION,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
     )
     OUT_CIT = os.path.join(ROOT, "citari", TARGET_VERSION)
     OUT_CEN = os.path.join(ROOT, "centralizator", TARGET_VERSION)

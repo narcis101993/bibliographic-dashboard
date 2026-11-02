@@ -35,7 +35,7 @@ def init_paths(source_version=None, target_version=None):
         target_version = "v" + target_version
     CENTRALIZATOR = os.path.join(
         ROOT, "centralizator", source_version,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % source_version
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % source_version
     )
     OUT = os.path.join(ROOT, "citari", target_version, "raw", "crossref_counts.json")
 
