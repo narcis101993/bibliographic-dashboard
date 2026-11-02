@@ -23,6 +23,5 @@ npm-debug.log*
 .env
 .env.local
 
-# Large data files (keep in repo, but exclude from git LFS unless needed)
-# *.xlsx
-# *.csv
+# Deploy folder (generated for GitHub Pages)
+docs/
