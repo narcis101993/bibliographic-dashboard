@@ -877,3 +877,144 @@ tbody tr.row-self:hover td { background: #ffefc2; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+[data-theme="dark"] {
+  /* Table */
+  thead th {
+    background: #1f2937;
+    color: #e5e7eb;
+  }
+  tbody td {
+    border-bottom-color: #374151;
+  }
+  tbody tr:nth-child(even) {
+    background: #0f172a;
+  }
+  tbody tr:hover {
+    background: #1e3a5f;
+  }
+  tbody tr.row-self td {
+    background: #3b2a05;
+  }
+  tbody tr.row-self:hover td {
+    background: #5c3d1a;
+  }
+  tbody tr.pub-expanded {
+    background: #1e3a5f !important;
+  }
+
+  /* Detail panel */
+  .detail-panel {
+    background: #0f172a;
+  }
+  .detail-label {
+    color: #9ca3af;
+  }
+  .detail-value {
+    color: #e5e7eb;
+  }
+
+  /* Forms / filters */
+  .field input,
+  .field select {
+    background: #111827;
+    border-color: #374151;
+    color: #e5e7eb;
+  }
+  .field input::placeholder {
+    color: #6b7280;
+  }
+  .check {
+    background: #111827;
+    border-color: #374151;
+  }
+  .filterbar {
+    background: #0f172a;
+    border-color: #374151;
+  }
+
+  /* Pills */
+  .pill-review {
+    background: #5c3d1a;
+    color: #fbbf24;
+  }
+  .pill-conf {
+    background: #064e3b;
+    color: #34d399;
+  }
+  .pill-chapter {
+    background: #3b2a05;
+    color: #c084fc;
+  }
+  .pill-neutral {
+    background: #1f2937;
+    color: #9ca3af;
+  }
+  .pill-ghost {
+    background: #1f2937;
+    border-color: #374151;
+    color: #e5e7eb;
+  }
+
+  /* Detect banner */
+  .detect-banner {
+    background: #0f172a;
+    border-color: #1e3a5f;
+  }
+  .detect-text strong,
+  .detect-text span {
+    color: #e5e7eb;
+  }
+  .status-dot {
+    background: #60a5fa;
+  }
+
+  /* Version chip */
+  .version-chip {
+    background: #374151;
+    color: #e5e7eb;
+  }
+
+  /* Charts */
+  .chart-card {
+    background: #111827;
+    border-color: #1f2937;
+  }
+  .chart-caption {
+    color: #9ca3af;
+  }
+
+  /* Sidebar meta */
+  .meta {
+    background: #0f172a;
+    border-color: #1f2937;
+  }
+  .meta-label {
+    color: #9ca3af;
+  }
+  .meta-value {
+    color: #e5e7eb;
+  }
+
+  /* KPI cards */
+  .kpi-card {
+    background: #111827;
+    border-color: #1f2937;
+  }
+  .kpi-value {
+    color: #e5e7eb;
+  }
+  .kpi-label {
+    color: #9ca3af;
+  }
+
+  /* Synthesis */
+  .source-row:hover {
+    background: #1e3a5f;
+  }
+
+  /* Footer / page foot */
+  .page-foot {
+    color: #9ca3af;
+  }
+}
