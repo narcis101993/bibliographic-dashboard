@@ -25,7 +25,27 @@ UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
 RETRIEVAL_DATE = "2026-11-01"
 
 
+def init_paths(source_version=None, target_version=None):
+    global CENTRALIZATOR, OUT
+    source_version = source_version or "v3"
+    target_version = target_version or "v4"
+    if not source_version.startswith("v"):
+        source_version = "v" + source_version
+    if not target_version.startswith("v"):
+        target_version = "v" + target_version
+    CENTRALIZATOR = os.path.join(
+        ROOT, "centralizator", source_version,
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % source_version
+    )
+    OUT = os.path.join(ROOT, "citari", target_version, "raw", "crossref_counts.json")
+
+
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source-version", default=None, help="source version (e.g. v3, v4)")
+    ap.add_argument("--target-version", default=None, help="target version (e.g. v4, v5)")
+    args = ap.parse_args()
+    init_paths(args.source_version, args.target_version)
     with open(CENTRALIZATOR, encoding="utf-8-sig") as f:
         pubs = list(csv.DictReader(f, delimiter=";"))
     out = {"retrievedOn": RETRIEVAL_DATE, "publications": []}

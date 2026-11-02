@@ -36,6 +36,27 @@ UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
 RETRIEVAL_DATE = "2026-11-01"
 
 
+def parse_version_arg(args, flag, default):
+    val = getattr(args, flag, None)
+    if val:
+        return val if val.startswith("v") else "v" + val
+    return default
+
+SOURCE_VERSION = "v3"
+TARGET_VERSION = "v4"
+
+
+def init_paths(source_version=None, target_version=None):
+    global SOURCE_VERSION, TARGET_VERSION, CENTRALIZATOR, RAW
+    SOURCE_VERSION = source_version or SOURCE_VERSION
+    TARGET_VERSION = target_version or TARGET_VERSION
+    CENTRALIZATOR = os.path.join(
+        ROOT, "centralizator", SOURCE_VERSION,
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+    )
+    RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
+
+
 def fetch(url, tries=4, pause=2.0):
     last = None
     for attempt in range(tries):
@@ -164,7 +185,10 @@ def datacite_record(pub):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="", help="comma separated publication ids")
+    ap.add_argument("--source-version", default=None, help="source version (e.g. v3, v4)")
+    ap.add_argument("--target-version", default=None, help="target version (e.g. v4, v5)")
     args = ap.parse_args()
+    init_paths(args.source_version, args.target_version)
     only = {x.strip() for x in args.only.split(",") if x.strip()}
     pubs = [p for p in load_publications() if not only or p["Nr."] in only]
     summary = []

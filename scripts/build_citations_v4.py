@@ -26,6 +26,7 @@ import csv
 import json
 import os
 import re
+import argparse
 import unicodedata
 from collections import defaultdict
 
@@ -39,6 +40,30 @@ OUT_CIT = os.path.join(ROOT, "citari", "v4")
 OUT_CEN = os.path.join(ROOT, "centralizator", "v4")
 RETRIEVAL_DATE = "2026-11-01"
 SELF_NAMES = ("stamatie", "criveanu")
+
+SOURCE_VERSION = "v3"
+TARGET_VERSION = "v4"
+
+
+def init_paths(source_version=None, target_version=None):
+    global RAW, V3_CITARI, V3_CENTRALIZATOR, OUT_CIT, OUT_CEN, SOURCE_VERSION, TARGET_VERSION
+    SOURCE_VERSION = source_version or SOURCE_VERSION
+    TARGET_VERSION = target_version or TARGET_VERSION
+    if not SOURCE_VERSION.startswith("v"):
+        SOURCE_VERSION = "v" + SOURCE_VERSION
+    if not TARGET_VERSION.startswith("v"):
+        TARGET_VERSION = "v" + TARGET_VERSION
+    RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
+    V3_CITARI = os.path.join(
+        ROOT, "citari", SOURCE_VERSION,
+        "Citari_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+    )
+    V3_CENTRALIZATOR = os.path.join(
+        ROOT, "centralizator", SOURCE_VERSION,
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie%s.csv" % SOURCE_VERSION
+    )
+    OUT_CIT = os.path.join(ROOT, "citari", TARGET_VERSION)
+    OUT_CEN = os.path.join(ROOT, "centralizator", TARGET_VERSION)
 
 # Candidates excluded after manual plausibility review. Every entry must state
 # the reason and stay documented in Excluded_Candidates_v4.csv.
@@ -198,6 +223,12 @@ def is_self(w):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source-version", default=None, help="source version (e.g. v3, v4)")
+    ap.add_argument("--target-version", default=None, help="target version (e.g. v4, v5)")
+    args = ap.parse_args()
+    init_paths(args.source_version, args.target_version)
+
     pubs = load_pubs()
     pub_by_id = {p["Nr."]: p for p in pubs}
     summary = {r["publicationId"]: r for r in json.load(open(os.path.join(RAW, "retrieval-summary.json")))["publications"]}
