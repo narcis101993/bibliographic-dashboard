@@ -585,6 +585,7 @@ def build_manifest(
     digest: str = "",
     generated_at: str = "",
     source_retrieved_at: Optional[str] = None,
+    data_extracted_at: Optional[str] = None,
 ) -> Dict[str, Any]:
     latest = max(versions, key=lambda item: version_key(item["version"]))
     source_counter = Counter(
@@ -669,7 +670,7 @@ def build_manifest(
             "schemaVersion": 2,
             "command": "python3 scripts/build_dashboard_data.py",
         },
-        "dataExtractedAt": DATA_EXTRACTED_AT,
+        "dataExtractedAt": data_extracted_at or DATA_EXTRACTED_AT,
         "latest": {
             "common": latest["version"],
             "centralizator": latest["version"],
@@ -966,11 +967,14 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     digest = input_digest(input_paths)
     generated_at = build_timestamp(prepared[-1]["citations"])
+    all_retrieved = [item["retrievedAt"] for item in prepared if item.get("retrievedAt")]
+    data_extracted_at = max(all_retrieved) if all_retrieved else None
     manifest = build_manifest(
         prepared,
         digest=digest,
         generated_at=generated_at,
         source_retrieved_at=prepared[-1]["retrievedAt"],
+        data_extracted_at=data_extracted_at,
     )
     problems.extend(validate_manifest(manifest, prepared))
     if problems:

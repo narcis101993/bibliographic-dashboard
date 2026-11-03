@@ -9,7 +9,7 @@
     "schemaVersion": 2,
     "command": "python3 scripts/build_dashboard_data.py"
   },
-  "dataExtractedAt": "2026-10-31",
+  "dataExtractedAt": "2026-11-01",
   "latest": {
     "common": "v5",
     "centralizator": "v5",

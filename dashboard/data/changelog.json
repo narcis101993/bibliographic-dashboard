@@ -173,7 +173,7 @@
     }
   ],
   "run": {
-    "comparedAgainst": null,
+    "comparedAgainst": "dashboard/data/v5",
     "added": [],
     "removed": [],
     "changed": []

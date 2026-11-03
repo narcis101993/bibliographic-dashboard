@@ -15,4 +15,4 @@ Work identity: Citation works are matched by DOI, then by folded title and year.
 
 ## Since the previous build
 
-No previous generated data for this version — baseline run.
+Compared with `dashboard/data/v5`: 0 added, 0 removed, 0 changed.
