@@ -66,6 +66,12 @@ jobs:
           cd scripts
           python3 build_dashboard_data.py
 
+      - name: Sync dashboard to docs for GitHub Pages
+        run: |
+          rsync -a --delete dashboard/ docs/
+          # Ensure docs has the latest data
+          echo "Synced dashboard → docs"
+
       - name: Update README with latest stats
         run: |
           cd scripts
