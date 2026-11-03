@@ -240,7 +240,11 @@ def main():
         data = load_json(path, [])
         return len(data or [])
     crossref = {r["publicationId"]: r for r in json.load(open(os.path.join(RAW, "crossref_counts.json")))["publications"]}
-    dc_search = json.load(open(os.path.join(RAW, "datacite_search", "no_doi_publications.json")))["results"]
+    dc_path = os.path.join(RAW, "datacite_search", "no_doi_publications.json")
+    if os.path.exists(dc_path):
+        dc_search = json.load(open(dc_path))["results"]
+    else:
+        dc_search = {}
 
     groups = {}
 

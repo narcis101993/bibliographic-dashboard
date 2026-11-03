@@ -37,6 +37,15 @@ jobs:
           echo "next=$NEXT" >> $GITHUB_OUTPUT
           echo "Latest version: $LATEST → Next: $NEXT"
 
+      - name: Prepare next version raw folder
+        run: |
+          LATEST=${{ steps.versions.outputs.latest }}
+          NEXT=${{ steps.versions.outputs.next }}
+          mkdir -p "citari/$NEXT/raw/datacite_search"
+          if [ -f "citari/$LATEST/raw/datacite_search/no_doi_publications.json" ]; then
+            cp "citari/$LATEST/raw/datacite_search/no_doi_publications.json" "citari/$NEXT/raw/datacite_search/"
+          fi
+
       - name: Fetch fresh citation data from sources
         run: |
           cd scripts
