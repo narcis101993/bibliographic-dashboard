@@ -1905,7 +1905,9 @@
     $("exportCitCsv").addEventListener("click", exportCitations);
     $("redetect").addEventListener("click", redetect);
     $("refreshData").addEventListener("click", function () {
-      location.reload();
+      var url = new URL(window.location.href);
+      url.searchParams.set("_t", Date.now());
+      window.location.href = url.toString();
     });
 
     document.querySelectorAll(".lang-btn").forEach(function (button) {
