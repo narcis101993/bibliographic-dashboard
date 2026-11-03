@@ -1,0 +1,1302 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "18",
+ "payload": {
+  "id": "https://openalex.org/W4412182417",
+  "doi": "https://doi.org/10.20944/preprints202507.0934.v1",
+  "title": "Nutritional, Sensory and Functional Characteristics of Hemp Flour – Enriched Muffins",
+  "display_name": "Nutritional, Sensory and Functional Characteristics of Hemp Flour – Enriched Muffins",
+  "publication_year": 2025,
+  "publication_date": "2025-07-11",
+  "ids": {
+   "openalex": "https://openalex.org/W4412182417",
+   "doi": "https://doi.org/10.20944/preprints202507.0934.v1"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.20944/preprints202507.0934.v1",
+   "doi": "https://doi.org/10.20944/preprints202507.0934.v1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.20944/preprints202507.0934.v1",
+   "pdf_url": "https://www.preprints.org/frontend/manuscript/bc6b0d1086840a023e66b1413454bb49/download_pub",
+   "source": {
+    "id": "https://openalex.org/S6309402219",
+    "display_name": "Preprints.org",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "posted-content"
+  },
+  "volume": null,
+  "type": "preprint",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://www.preprints.org/frontend/manuscript/bc6b0d1086840a023e66b1413454bb49/download_pub",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": null,
+     "display_name": "Andreea – Lavinia Mocanu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Andreea – Lavinia Mocanu",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+     "National University of Science and Technology Politehnica Bucharest , 313 Splaiul Independenței , District 6 , 060042 , Bucharest , Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National University of Science and Technology Politehnica Bucharest , 313 Splaiul Independenței , District 6 , 060042 , Bucharest , Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5047154022",
+     "display_name": "Raluca Stan",
+     "orcid": "https://orcid.org/0000-0002-4490-5173",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4490-5173"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Raluca Stan",
+    "raw_affiliation_strings": [
+     "National University of Science and Technology Politehnica Bucharest , 313 Splaiul Independenței , District 6 , 060042 , Bucharest , Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National University of Science and Technology Politehnica Bucharest , 313 Splaiul Independenței , District 6 , 060042 , Bucharest , Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5030979767",
+     "display_name": "Alina Alexandra Dobre",
+     "orcid": "https://orcid.org/0000-0002-2579-5538",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-2579-5538"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Alina Alexandra Dobre",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5024154612",
+     "display_name": "Corina A. Stroe",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Corina A. Stroe",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5114900867",
+     "display_name": "Cătălina-Beatrice Poteraș",
+     "orcid": "https://orcid.org/0009-0009-4692-3429",
+     "observed_orcids": [
+      "https://orcid.org/0009-0009-4692-3429"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Cătălina Beatrice Poteraș",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5060634967",
+     "display_name": "Elena Loredana Ungureanu",
+     "orcid": "https://orcid.org/0000-0002-7246-4678",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-7246-4678"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Elena L. Ungureanu",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5016545015",
+     "display_name": "Gabriel Mustăţea",
+     "orcid": "https://orcid.org/0000-0002-8082-0951",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8082-0951"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriel Mustatea",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-8082-0951",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5027892761",
+     "display_name": "Șerban Eugen Cucu",
+     "orcid": "https://orcid.org/0009-0005-4422-0659",
+     "observed_orcids": [
+      "https://orcid.org/0009-0005-4422-0659"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Șerban Eugen Cucu",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5064050829",
+     "display_name": "Sabina Andreea Bobea",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801529014",
+      "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "ror": "https://ror.org/04rssyw40",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2801529014"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sabina Andreea Bobea",
+    "raw_affiliation_strings": [
+     "Faculty of Biotechnology , University of Agronomic Sciences and Veterinary Medicine of Bucharest , 011464 Bucharest , Romania",
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Faculty of Biotechnology , University of Agronomic Sciences and Veterinary Medicine of Bucharest , 011464 Bucharest , Romania",
+      "institution_ids": [
+       "https://openalex.org/I2801529014"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Bogdan Cristian Florea",
+     "orcid": "https://orcid.org/0000-0002-1113-6400",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1113-6400"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Bogdan Cristian Florea",
+    "raw_affiliation_strings": [],
+    "raw_orcid": "https://orcid.org/0000-0002-1113-6400",
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5047338035",
+     "display_name": "Mihai Bogdan Nicolcioiu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Bogdan Mihai Nicolcioiu",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources , 5 Ancuța Băneasa Street , District 2 , 020323 , Bucharest , Romaniaa",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5047154022"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I61641377"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10140",
+   "display_name": "Food composition and properties",
+   "score": 0.5214999914169312,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2916",
+    "display_name": "Nutrition and Dietetics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/29",
+    "display_name": "Nursing"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.5214999914169312,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12403",
+    "display_name": "Seed and Plant Biochemistry",
+    "score": 0.35839998722076416,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T14127",
+    "display_name": "Food and Agricultural Sciences",
+    "score": 0.09619999676942825,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/hemp-flour",
+    "display_name": "hemp flour",
+    "score": 0.9990000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/cannabis-sativa",
+    "display_name": "Cannabis sativa",
+    "score": 0.8830000162124634
+   },
+   {
+    "id": "https://openalex.org/keywords/muffins",
+    "display_name": "muffins",
+    "score": 0.9810000061988831
+   },
+   {
+    "id": "https://openalex.org/keywords/wheat-flour-substitution",
+    "display_name": "wheat flour substitution",
+    "score": 0.7900000214576721
+   },
+   {
+    "id": "https://openalex.org/keywords/whole-wheat-flour",
+    "display_name": "whole wheat flour",
+    "score": 0.9369999766349792
+   },
+   {
+    "id": "https://openalex.org/keywords/proximate-composition",
+    "display_name": "proximate composition",
+    "score": 0.8820000290870667
+   },
+   {
+    "id": "https://openalex.org/keywords/texture-profile-analysis",
+    "display_name": "texture profile analysis",
+    "score": 0.8790000081062317
+   },
+   {
+    "id": "https://openalex.org/keywords/color",
+    "display_name": "color",
+    "score": 0.7070000171661377
+   },
+   {
+    "id": "https://openalex.org/keywords/microbiological-safety",
+    "display_name": "microbiological safety",
+    "score": 0.8009999990463257
+   },
+   {
+    "id": "https://openalex.org/keywords/sensory-evaluation",
+    "display_name": "sensory evaluation",
+    "score": 0.828000009059906
+   },
+   {
+    "id": "https://openalex.org/keywords/fiber-content",
+    "display_name": "fiber content",
+    "score": 0.6690000295639038
+   },
+   {
+    "id": "https://openalex.org/keywords/protein-content",
+    "display_name": "protein content",
+    "score": 0.6269999742507935
+   },
+   {
+    "id": "https://openalex.org/keywords/bakery-products",
+    "display_name": "bakery products",
+    "score": 0.44999998807907104
+   },
+   {
+    "id": "https://openalex.org/keywords/functional-foods",
+    "display_name": "functional foods",
+    "score": 0.3779999911785126
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.7404029965400696
+   },
+   {
+    "id": "https://openalex.org/C94487597",
+    "wikidata": "https://www.wikidata.org/wiki/Q11101",
+    "display_name": "Sensory system",
+    "level": 2,
+    "score": 0.47583937644958496
+   },
+   {
+    "id": "https://openalex.org/C144133560",
+    "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+    "display_name": "Business",
+    "level": 0,
+    "score": 0.3488171100616455
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.34369683265686035
+   },
+   {
+    "id": "https://openalex.org/C15744967",
+    "wikidata": "https://www.wikidata.org/wiki/Q9418",
+    "display_name": "Psychology",
+    "level": 0,
+    "score": 0.22361376881599426
+   },
+   {
+    "id": "https://openalex.org/C180747234",
+    "wikidata": "https://www.wikidata.org/wiki/Q23373",
+    "display_name": "Cognitive psychology",
+    "level": 1,
+    "score": 0.056587040424346924
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.20944/preprints202507.0934.v1",
+    "doi": "https://doi.org/10.20944/preprints202507.0934.v1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.20944/preprints202507.0934.v1",
+    "pdf_url": "https://www.preprints.org/frontend/manuscript/bc6b0d1086840a023e66b1413454bb49/download_pub",
+    "source": {
+     "id": "https://openalex.org/S6309402219",
+     "display_name": "Preprints.org",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.20944/preprints202507.0934.v1",
+   "doi": "https://doi.org/10.20944/preprints202507.0934.v1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.20944/preprints202507.0934.v1",
+   "pdf_url": "https://www.preprints.org/frontend/manuscript/bc6b0d1086840a023e66b1413454bb49/download_pub",
+   "source": {
+    "id": "https://openalex.org/S6309402219",
+    "display_name": "Preprints.org",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "posted-content"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Zero hunger",
+    "id": "https://metadata.un.org/sdg/2",
+    "score": 0.991100013256073
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4412182417.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4412182417.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+   "https://openalex.org/W4415401895",
+   "https://openalex.org/W7213647599",
+   "https://openalex.org/W4413904924",
+   "https://openalex.org/W4317213673",
+   "https://openalex.org/W3197896511",
+   "https://openalex.org/W3188070460",
+   "https://openalex.org/W7119505844",
+   "https://openalex.org/W4398202549",
+   "https://openalex.org/W2281183913",
+   "https://openalex.org/W2905377146"
+  ],
+  "abstract_inverted_index": {
+   "The": [
+    0,
+    72,
+    145
+   ],
+   "objective": [
+    1
+   ],
+   "of": [
+    2,
+    10,
+    46,
+    105
+   ],
+   "this": [
+    3
+   ],
+   "study": [
+    4,
+    146
+   ],
+   "was": [
+    5
+   ],
+   "to": [
+    6,
+    130,
+    169
+   ],
+   "assess": [
+    7
+   ],
+   "the": [
+    8,
+    106
+   ],
+   "impact": [
+    9
+   ],
+   "incorporating": [
+    11
+   ],
+   "hemp": [
+    12
+   ],
+   "(Cannabis": [
+    13
+   ],
+   "sativa": [
+    14
+   ],
+   "L.)": [
+    15
+   ],
+   "flour": [
+    16,
+    35,
+    40
+   ],
+   "(HF)": [
+    17
+   ],
+   "into": [
+    18
+   ],
+   "muffins": [
+    19,
+    127
+   ],
+   "on": [
+    20
+   ],
+   "their": [
+    21
+   ],
+   "nutritional,": [
+    22
+   ],
+   "physicochemical,": [
+    23
+   ],
+   "microbiological,": [
+    24
+   ],
+   "and": [
+    25,
+    37,
+    50,
+    66,
+    82,
+    94,
+    98,
+    142,
+    159,
+    173
+   ],
+   "sensory": [
+    26,
+    67
+   ],
+   "characteristics.": [
+    27
+   ],
+   "Muffins": [
+    28
+   ],
+   "were": [
+    29,
+    96,
+    118,
+    133
+   ],
+   "prepared": [
+    30
+   ],
+   "by": [
+    31
+   ],
+   "partially": [
+    32
+   ],
+   "replacing": [
+    33
+   ],
+   "wheat": [
+    34,
+    39
+   ],
+   "(WF)": [
+    36
+   ],
+   "whole": [
+    38
+   ],
+   "(WWF)": [
+    41
+   ],
+   "with": [
+    42,
+    108
+   ],
+   "HF": [
+    43,
+    77,
+    110,
+    132,
+    149
+   ],
+   "at": [
+    44
+   ],
+   "levels": [
+    45,
+    78,
+    139
+   ],
+   "5%,": [
+    47
+   ],
+   "10%,": [
+    48
+   ],
+   "15%,": [
+    49
+   ],
+   "20%.": [
+    51
+   ],
+   "Analytical": [
+    52
+   ],
+   "evaluations": [
+    53
+   ],
+   "included": [
+    54
+   ],
+   "proximate": [
+    55
+   ],
+   "composition,": [
+    56
+   ],
+   "texture": [
+    57,
+    141
+   ],
+   "profile": [
+    58
+   ],
+   "analysis": [
+    59,
+    100,
+    113
+   ],
+   "(TPA),": [
+    60
+   ],
+   "color": [
+    61,
+    99
+   ],
+   "measurements,": [
+    62
+   ],
+   "microbial": [
+    63
+   ],
+   "safety": [
+    64,
+    121
+   ],
+   "tests,": [
+    65
+   ],
+   "evaluation": [
+    68,
+    124
+   ],
+   "using": [
+    69
+   ],
+   "trained": [
+    70
+   ],
+   "panelists.": [
+    71
+   ],
+   "results": [
+    73
+   ],
+   "showed": [
+    74
+   ],
+   "that": [
+    75,
+    115,
+    126,
+    148,
+    164
+   ],
+   "increasing": [
+    76
+   ],
+   "improved": [
+    79
+   ],
+   "fiber,": [
+    80
+   ],
+   "protein,": [
+    81
+   ],
+   "ash": [
+    83
+   ],
+   "content,": [
+    84
+   ],
+   "while": [
+    85,
+    137
+   ],
+   "moisture": [
+    86
+   ],
+   "content": [
+    87
+   ],
+   "decreased.": [
+    88
+   ],
+   "Texture": [
+    89
+   ],
+   "parameters": [
+    90
+   ],
+   "such": [
+    91
+   ],
+   "as": [
+    92
+   ],
+   "firmness": [
+    93
+   ],
+   "cohesiveness": [
+    95
+   ],
+   "affected,": [
+    97
+   ],
+   "revealed": [
+    101
+   ],
+   "a": [
+    102,
+    152
+   ],
+   "progressive": [
+    103
+   ],
+   "darkening": [
+    104
+   ],
+   "product": [
+    107,
+    171
+   ],
+   "higher": [
+    109,
+    138
+   ],
+   "content.": [
+    111
+   ],
+   "Microbiological": [
+    112
+   ],
+   "confirmed": [
+    114
+   ],
+   "all": [
+    116
+   ],
+   "samples": [
+    117
+   ],
+   "within": [
+    119
+   ],
+   "acceptable": [
+    120
+   ],
+   "limits.": [
+    122
+   ],
+   "Sensory": [
+    123
+   ],
+   "indicated": [
+    125
+   ],
+   "containing": [
+    128
+   ],
+   "up": [
+    129
+   ],
+   "15%": [
+    131
+   ],
+   "generally": [
+    134
+   ],
+   "well": [
+    135
+   ],
+   "accepted,": [
+    136
+   ],
+   "influenced": [
+    140
+   ],
+   "flavor": [
+    143
+   ],
+   "negatively.": [
+    144
+   ],
+   "concludes": [
+    147
+   ],
+   "can": [
+    150
+   ],
+   "be": [
+    151
+   ],
+   "valuable": [
+    153
+   ],
+   "ingredient": [
+    154
+   ],
+   "for": [
+    155
+   ],
+   "developing": [
+    156
+   ],
+   "nutritionally": [
+    157
+   ],
+   "enriched": [
+    158
+   ],
+   "sustainable": [
+    160
+   ],
+   "baked": [
+    161
+   ],
+   "goods,": [
+    162
+   ],
+   "provided": [
+    163
+   ],
+   "formulation": [
+    165
+   ],
+   "is": [
+    166
+   ],
+   "carefully": [
+    167
+   ],
+   "optimized": [
+    168
+   ],
+   "ensure": [
+    170
+   ],
+   "quality": [
+    172
+   ],
+   "consumer": [
+    174
+   ],
+   "acceptability.": [
+    175
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-13T10:08:12.033832",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "retrievedOn": "2026-11-01",
+ "sources": [
+  "OpenAlex",
+  "Semantic Scholar",
+  "DataCite"
+ ],
+ "publications": [
+  {
+   "publicationId": "1",
+   "doi": "",
+   "openalexCiting": 3,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)",
+    "fără DOI: Crossref Cited-by și DataCite nu pot fi interogate după DOI"
+   ]
+  },
+  {
+   "publicationId": "2",
+   "doi": "10.17930/agl2021124",
+   "openalexCiting": 6,
+   "s2Citing": 4,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "3",
+   "doi": "10.15835/buasvmcn-fst:2020.0047",
+   "openalexCiting": 2,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "4",
+   "doi": "10.3390/app11010436",
+   "openalexCiting": 40,
+   "s2Citing": 32,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "5",
+   "doi": "",
+   "openalexCiting": null,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "OpenAlex: fără înregistrare / fără potrivire exactă după titlu",
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)",
+    "fără DOI: Crossref Cited-by și DataCite nu pot fi interogate după DOI"
+   ]
+  },
+  {
+   "publicationId": "6",
+   "doi": "",
+   "openalexCiting": null,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "OpenAlex: fără înregistrare / fără potrivire exactă după titlu",
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)",
+    "fără DOI: Crossref Cited-by și DataCite nu pot fi interogate după DOI"
+   ]
+  },
+  {
+   "publicationId": "7",
+   "doi": "10.3390/foods11223667",
+   "openalexCiting": 11,
+   "s2Citing": 9,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "8",
+   "doi": "",
+   "openalexCiting": null,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "OpenAlex: fără înregistrare / fără potrivire exactă după titlu",
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)",
+    "fără DOI: Crossref Cited-by și DataCite nu pot fi interogate după DOI"
+   ]
+  },
+  {
+   "publicationId": "9",
+   "doi": "10.1002/lemi.202359174",
+   "openalexCiting": 0,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "10",
+   "doi": "10.3390/separations11050141",
+   "openalexCiting": 9,
+   "s2Citing": 9,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "11",
+   "doi": "10.3389/fnut.2025.1509833",
+   "openalexCiting": 24,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "12",
+   "doi": "10.1038/s41538-025-00536-2",
+   "openalexCiting": 3,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "13",
+   "doi": "10.3390/foods14203578",
+   "openalexCiting": 2,
+   "s2Citing": 4,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "14",
+   "doi": "",
+   "openalexCiting": null,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "OpenAlex: fără înregistrare / fără potrivire exactă după titlu",
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)",
+    "fără DOI: Crossref Cited-by și DataCite nu pot fi interogate după DOI"
+   ]
+  },
+  {
+   "publicationId": "15",
+   "doi": "10.3390/agronomy16181832",
+   "openalexCiting": 0,
+   "s2Citing": 0,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "16",
+   "doi": "10.3390/dietetics5040063",
+   "openalexCiting": 0,
+   "s2Citing": 0,
+   "dataciteCitationCount": null,
+   "notes": []
+  },
+  {
+   "publicationId": "17",
+   "doi": "10.1016/j.clrc.2026.100496",
+   "openalexCiting": 0,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "18",
+   "doi": "10.20944/preprints202507.0934.v1",
+   "openalexCiting": 1,
+   "s2Citing": null,
+   "dataciteCitationCount": null,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  },
+  {
+   "publicationId": "19",
+   "doi": "10.13140/RG.2.2.29075.86568",
+   "openalexCiting": 0,
+   "s2Citing": null,
+   "dataciteCitationCount": 0,
+   "notes": [
+    "Semantic Scholar: neindexat (404) sau căutare după titlu blocată (HTTP 429)"
+   ]
+  }
+ ]
+}

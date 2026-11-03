@@ -1,0 +1,3867 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "1",
+ "payload": [
+  {
+   "id": "https://openalex.org/W4309312878",
+   "doi": "https://doi.org/10.3390/foods11223647",
+   "title": "Texturized Vegetable Protein as a Source of Protein Fortification of Wheat Buns",
+   "display_name": "Texturized Vegetable Protein as a Source of Protein Fortification of Wheat Buns",
+   "publication_year": 2022,
+   "publication_date": "2022-11-15",
+   "ids": {
+    "openalex": "https://openalex.org/W4309312878",
+    "doi": "https://doi.org/10.3390/foods11223647",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/36429239",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689165"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3390/foods11223647",
+    "doi": "https://doi.org/10.3390/foods11223647",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223647",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3647/pdf?version=1668498885",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2304-8158/11/22/3647/pdf?version=1668498885",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5031675628",
+      "display_name": "Susanne Margrete Bølling Laugesen",
+      "orcid": "https://orcid.org/0000-0003-2523-5108",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-2523-5108"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210158696",
+       "display_name": "University College Absalon",
+       "ror": "https://ror.org/05sv58043",
+       "country_code": "DK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ],
+     "countries": [
+      "DK"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Susanne Bølling Laugesen",
+     "raw_affiliation_strings": [
+      "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-2523-5108",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark",
+       "institution_ids": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5019469969",
+      "display_name": "Sandra Lenz Dethlefsen",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210158696",
+       "display_name": "University College Absalon",
+       "ror": "https://ror.org/05sv58043",
+       "country_code": "DK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ],
+     "countries": [
+      "DK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sandra Lenz Dethlefsen",
+     "raw_affiliation_strings": [
+      "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark",
+       "institution_ids": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5082328221",
+      "display_name": "Iben Lykke Petersen",
+      "orcid": "https://orcid.org/0000-0003-3304-0247",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3304-0247"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I124055696",
+       "display_name": "University of Copenhagen",
+       "ror": "https://ror.org/035b05819",
+       "country_code": "DK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I124055696"
+       ]
+      }
+     ],
+     "countries": [
+      "DK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Iben Lykke Petersen",
+     "raw_affiliation_strings": [
+      "Department of Food Science, University of Copenhagen, Rolighedsvej 26, DK-1958 Frederiksberg, Denmark"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-3304-0247",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Food Science, University of Copenhagen, Rolighedsvej 26, DK-1958 Frederiksberg, Denmark",
+       "institution_ids": [
+        "https://openalex.org/I124055696"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5031016210",
+      "display_name": "Margit Dall Aaslyng",
+      "orcid": "https://orcid.org/0000-0002-9281-9915",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9281-9915"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210158696",
+       "display_name": "University College Absalon",
+       "ror": "https://ror.org/05sv58043",
+       "country_code": "DK",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ],
+     "countries": [
+      "DK"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Margit Dall Aaslyng",
+     "raw_affiliation_strings": [
+      "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Nutrition and Health, Centre for Nutrition, Rehabilitation and Midwifery, University College Absalon, Sdr. Stationsvej 30, DK-4200 Slagelse, Denmark",
+       "institution_ids": [
+        "https://openalex.org/I4210158696"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5031675628"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210158696"
+   ],
+   "apc_list": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "apc_paid": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "fwci": 0.4642,
+   "has_fulltext": true,
+   "cited_by_count": 10,
+   "citation_normalized_percentile": {
+    "value": 0.5933471,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+   },
+   "biblio": {
+    "volume": "11",
+    "issue": "22",
+    "first_page": "3647",
+    "last_page": "3647"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9390000104904175,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.9390000104904175,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.03020000085234642,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10411",
+     "display_name": "Proteins in Food Systems",
+     "score": 0.013299999758601189,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/texturized-vegetable-protein",
+     "display_name": "texturized vegetable protein",
+     "score": 0.9729999899864197
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-fortification",
+     "display_name": "bread fortification",
+     "score": 0.9290000200271606
+    },
+    {
+     "id": "https://openalex.org/keywords/plant-proteins",
+     "display_name": "plant proteins",
+     "score": 0.6710000038146973
+    },
+    {
+     "id": "https://openalex.org/keywords/protein-content",
+     "display_name": "protein content",
+     "score": 0.5550000071525574
+    },
+    {
+     "id": "https://openalex.org/keywords/flour-substitution",
+     "display_name": "flour substitution",
+     "score": 0.7400000095367432
+    },
+    {
+     "id": "https://openalex.org/keywords/pea-protein",
+     "display_name": "pea protein",
+     "score": 0.8130000233650208
+    },
+    {
+     "id": "https://openalex.org/keywords/faba-bean-protein",
+     "display_name": "faba bean protein",
+     "score": 0.9490000009536743
+    },
+    {
+     "id": "https://openalex.org/keywords/quinoa-protein",
+     "display_name": "quinoa protein",
+     "score": 0.9070000052452087
+    },
+    {
+     "id": "https://openalex.org/keywords/hemp-protein",
+     "display_name": "hemp protein",
+     "score": 0.9909999966621399
+    },
+    {
+     "id": "https://openalex.org/keywords/sensory-evaluation",
+     "display_name": "sensory evaluation",
+     "score": 0.6880000233650208
+    },
+    {
+     "id": "https://openalex.org/keywords/baking-quality",
+     "display_name": "baking quality",
+     "score": 0.8289999961853027
+    },
+    {
+     "id": "https://openalex.org/keywords/baking-loss",
+     "display_name": "baking loss",
+     "score": 0.8669999837875366
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-color",
+     "display_name": "bread color",
+     "score": 0.7160000205039978
+    },
+    {
+     "id": "https://openalex.org/keywords/older-adults",
+     "display_name": "older adults",
+     "score": 0.6790000200271606
+    },
+    {
+     "id": "https://openalex.org/keywords/food-service",
+     "display_name": "food service",
+     "score": 0.6650000214576721
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C198211336",
+     "wikidata": "https://www.wikidata.org/wiki/Q57821",
+     "display_name": "Fortification",
+     "level": 2,
+     "score": 0.8455504179000854
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.6490895748138428
+    },
+    {
+     "id": "https://openalex.org/C150903083",
+     "wikidata": "https://www.wikidata.org/wiki/Q7108",
+     "display_name": "Biotechnology",
+     "level": 1,
+     "score": 0.42727911472320557
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.38217681646347046
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.32019510865211487
+    }
+   ],
+   "mesh": [],
+   "locations_count": 5,
+   "locations": [
+    {
+     "id": "doi:10.3390/foods11223647",
+     "doi": "https://doi.org/10.3390/foods11223647",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/foods11223647",
+     "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3647/pdf?version=1668498885",
+     "source": {
+      "id": "https://openalex.org/S2737939966",
+      "display_name": "Foods",
+      "issn_l": "2304-8158",
+      "issn": [
+       "2304-8158"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:pubmedcentral.nih.gov:9689165",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689165",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "Text"
+    },
+    {
+     "id": "pmid:36429239",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36429239",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods (Basel, Switzerland)",
+     "raw_type": "Journal Article"
+    },
+    {
+     "id": "pmh:oai:pure.atira.dk:openaire/c16fb186-bef2-4162-8cac-2e3e627bd218",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://researchprofiles.ku.dk/da/publications/c16fb186-bef2-4162-8cac-2e3e627bd218",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401983",
+      "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I124055696",
+      "host_organization_name": "University of Copenhagen",
+      "host_organization_lineage": [
+       "https://openalex.org/I124055696"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Laugesen, S B, Dethlefsen, S L, Petersen, I L & Aaslyng, M D 2022, 'Texturized Vegetable Protein as a Source of Protein Fortification of Wheat Buns', Foods, vol. 11, no. 22, 3647. https://doi.org/10.3390/foods11223647",
+     "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:f3f9a507d98e4b7797660027f6f91da3",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://doaj.org/article/f3f9a507d98e4b7797660027f6f91da3",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Foods, Vol 11, Iss 22, p 3647 (2022)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.3390/foods11223647",
+    "doi": "https://doi.org/10.3390/foods11223647",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223647",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3647/pdf?version=1668498885",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "id": "https://metadata.un.org/sdg/2",
+     "score": 1.0
+    },
+    {
+     "display_name": "Good health and well-being",
+     "id": "https://metadata.un.org/sdg/3",
+     "score": 0.5683000087738037
+    }
+   ],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G6506462445",
+     "display_name": null,
+     "funder_award_id": "34009-20-1662",
+     "funder_id": "https://openalex.org/F4320310488",
+     "funder_display_name": "Ministeriet for Fø devarer, Landbrug og Fiskeri"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320310488",
+     "display_name": "Ministeriet for Fø devarer, Landbrug og Fiskeri",
+     "ror": "https://ror.org/05j3hgd02"
+    },
+    {
+     "id": "https://openalex.org/F4320331737",
+     "display_name": "Grønt Udviklings- og Demonstrations Program",
+     "ror": null
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4309312878.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4309312878.grobid-xml"
+   },
+   "referenced_works_count": 28,
+   "referenced_works": [
+    "https://openalex.org/W1671063336",
+    "https://openalex.org/W1974713239",
+    "https://openalex.org/W1978146861",
+    "https://openalex.org/W1979023473",
+    "https://openalex.org/W1989906925",
+    "https://openalex.org/W2004748070",
+    "https://openalex.org/W2005065460",
+    "https://openalex.org/W2017897939",
+    "https://openalex.org/W2087132334",
+    "https://openalex.org/W2169616525",
+    "https://openalex.org/W2601912904",
+    "https://openalex.org/W2910170693",
+    "https://openalex.org/W2916225995",
+    "https://openalex.org/W2922041500",
+    "https://openalex.org/W2937890074",
+    "https://openalex.org/W2944041944",
+    "https://openalex.org/W2964651830",
+    "https://openalex.org/W2990390256",
+    "https://openalex.org/W2994082048",
+    "https://openalex.org/W2999473461",
+    "https://openalex.org/W3024105954",
+    "https://openalex.org/W3119452466",
+    "https://openalex.org/W3163439528",
+    "https://openalex.org/W3184917391",
+    "https://openalex.org/W3200176682",
+    "https://openalex.org/W4200171790",
+    "https://openalex.org/W4200336125",
+    "https://openalex.org/W4224944552"
+   ],
+   "related_works": [
+    "https://openalex.org/W4394002117",
+    "https://openalex.org/W2064826804",
+    "https://openalex.org/W7154570737",
+    "https://openalex.org/W2912132405",
+    "https://openalex.org/W2965607236",
+    "https://openalex.org/W7127249967",
+    "https://openalex.org/W4205108179",
+    "https://openalex.org/W4285308603",
+    "https://openalex.org/W2060054108",
+    "https://openalex.org/W2095668023"
+   ],
+   "abstract_inverted_index": {
+    "Increasing": [
+     0
+    ],
+    "interest": [
+     1
+    ],
+    "in": [
+     2,
+     8,
+     54,
+     112,
+     169,
+     195
+    ],
+    "plant-based": [
+     3
+    ],
+    "proteins": [
+     4,
+     72
+    ],
+    "is": [
+     5
+    ],
+    "particularly": [
+     6
+    ],
+    "relevant": [
+     7
+    ],
+    "the": [
+     9,
+     25,
+     40,
+     62,
+     113,
+     121,
+     132,
+     136,
+     181
+    ],
+    "food": [
+     10,
+     45,
+     114
+    ],
+    "service": [
+     11,
+     115
+    ],
+    "sector.": [
+     12,
+     116
+    ],
+    "For": [
+     13
+    ],
+    "specific": [
+     14
+    ],
+    "groups,": [
+     15
+    ],
+    "e.g.,": [
+     16
+    ],
+    "older": [
+     17
+    ],
+    "adults,": [
+     18
+    ],
+    "it": [
+     19,
+     127
+    ],
+    "may": [
+     20
+    ],
+    "be": [
+     21,
+     38
+    ],
+    "challenging": [
+     22
+    ],
+    "to": [
+     23,
+     108,
+     130,
+     141
+    ],
+    "ensure": [
+     24
+    ],
+    "consumption": [
+     26
+    ],
+    "of": [
+     27,
+     29,
+     34,
+     42,
+     61,
+     74,
+     90,
+     120,
+     135,
+     143
+    ],
+    "protein": [
+     28,
+     77,
+     95,
+     133,
+     193
+    ],
+    "sufficient": [
+     30
+    ],
+    "quality.": [
+     31,
+     150
+    ],
+    "One": [
+     32
+    ],
+    "way": [
+     33
+    ],
+    "doing": [
+     35
+    ],
+    "this": [
+     36
+    ],
+    "could": [
+     37
+    ],
+    "through": [
+     39,
+     85
+    ],
+    "fortification": [
+     41,
+     171
+    ],
+    "a": [
+     43,
+     103,
+     191
+    ],
+    "staple": [
+     44
+    ],
+    "such": [
+     46
+    ],
+    "as": [
+     47
+    ],
+    "bread.": [
+     48
+    ],
+    "This": [
+     49
+    ],
+    "study": [
+     50,
+     179
+    ],
+    "examined": [
+     51
+    ],
+    "wheat": [
+     52,
+     122
+    ],
+    "buns,": [
+     53
+    ],
+    "which": [
+     55
+    ],
+    "0%,": [
+     56
+    ],
+    "20%,": [
+     57
+    ],
+    "35%": [
+     58,
+     119
+    ],
+    "and": [
+     59,
+     80,
+     88,
+     97,
+     102,
+     145,
+     157,
+     164,
+     176
+    ],
+    "50%": [
+     60
+    ],
+    "flour": [
+     63,
+     123
+    ],
+    "was": [
+     64,
+     128
+    ],
+    "replaced": [
+     65
+    ],
+    "with": [
+     66,
+     124
+    ],
+    "three": [
+     67
+    ],
+    "different": [
+     68,
+     75,
+     152
+    ],
+    "milled": [
+     69,
+     125
+    ],
+    "texturized": [
+     70
+    ],
+    "vegetable": [
+     71
+    ],
+    "(TVP)": [
+     73
+    ],
+    "plant": [
+     76
+    ],
+    "combinations.": [
+     78
+    ],
+    "Sensory": [
+     79
+    ],
+    "baking": [
+     81,
+     93
+    ],
+    "qualities": [
+     82
+    ],
+    "were": [
+     83,
+     106,
+     166
+    ],
+    "evaluated": [
+     84
+    ],
+    "sensory": [
+     86
+    ],
+    "profiling": [
+     87
+    ],
+    "measurements": [
+     89
+    ],
+    "rising": [
+     91
+    ],
+    "ability,": [
+     92
+    ],
+    "loss,": [
+     94
+    ],
+    "content": [
+     96,
+     134
+    ],
+    "colour.": [
+     98
+    ],
+    "An": [
+     99
+    ],
+    "expert": [
+     100
+    ],
+    "assessment": [
+     101
+    ],
+    "robustness": [
+     104
+    ],
+    "test": [
+     105
+    ],
+    "conducted": [
+     107
+    ],
+    "evaluate": [
+     109
+    ],
+    "potential": [
+     110,
+     182
+    ],
+    "use": [
+     111
+    ],
+    "By": [
+     117
+    ],
+    "substituting": [
+     118
+    ],
+    "TVP,": [
+     126
+    ],
+    "possible": [
+     129
+    ],
+    "increase": [
+     131
+    ],
+    "buns": [
+     137
+    ],
+    "by": [
+     138
+    ],
+    "83%": [
+     139
+    ],
+    "(up": [
+     140
+    ],
+    "25%": [
+     142
+    ],
+    "DM)": [
+     144
+    ],
+    "still": [
+     146
+    ],
+    "maintain": [
+     147
+    ],
+    "an": [
+     148
+    ],
+    "acceptable": [
+     149
+    ],
+    "The": [
+     151,
+     178
+    ],
+    "TVPs": [
+     153
+    ],
+    "showed": [
+     154
+    ],
+    "that": [
+     155
+    ],
+    "pea": [
+     156
+    ],
+    "faba": [
+     158,
+     162,
+     174
+    ],
+    "bean": [
+     159,
+     163,
+     175
+    ],
+    "or": [
+     160
+    ],
+    "pea,": [
+     161,
+     173
+    ],
+    "quinoa": [
+     165
+    ],
+    "more": [
+     167
+    ],
+    "suitable": [
+     168
+    ],
+    "bread": [
+     170,
+     186
+    ],
+    "than": [
+     172
+    ],
+    "hemp.": [
+     177
+    ],
+    "demonstrates": [
+     180
+    ],
+    "for": [
+     183,
+     187
+    ],
+    "producing": [
+     184
+    ],
+    "quality": [
+     185
+    ],
+    "people": [
+     188
+    ],
+    "who": [
+     189
+    ],
+    "need": [
+     190
+    ],
+    "high": [
+     192
+    ],
+    "intake": [
+     194
+    ],
+    "all": [
+     196
+    ],
+    "their": [
+     197
+    ],
+    "meals.": [
+     198
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 7
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-10-28T10:33:24.094632",
+   "created_date": "2022-11-26T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4309604656",
+   "doi": "https://doi.org/10.3390/foods11223667",
+   "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+   "display_name": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+   "publication_year": 2022,
+   "publication_date": "2022-11-16",
+   "ids": {
+    "openalex": "https://openalex.org/W4309604656",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/36429258",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689233"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3390/foods11223667",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223667",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5116710859",
+      "display_name": "Gabriela Daniela Criveanu-Stamatie",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gabriela Daniela Stamatie",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5012036452",
+      "display_name": "Iulia Elena Susman",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Iulia Elena Susman",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5064050829",
+      "display_name": "Sabina Andreea Bobea",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Sabina Andreea Bobea",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      },
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5018831245",
+      "display_name": "Elena Matei",
+      "orcid": "https://orcid.org/0000-0002-8387-2562",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8387-2562"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210087521",
+       "display_name": "National Institute of Materials Physics",
+       "ror": "https://ror.org/002ghjd91",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210087521"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Elena Matei",
+     "raw_affiliation_strings": [
+      "National Institute of Materials Physics, Atomistilor 405A, 077125 Magurele, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Institute of Materials Physics, Atomistilor 405A, 077125 Magurele, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210087521"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5036772751",
+      "display_name": "Denisa Eglantina Duță",
+      "orcid": "https://orcid.org/0000-0002-8821-7268",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8821-7268"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210109653",
+       "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+       "ror": "https://ror.org/01q2zc414",
+       "country_code": "RO",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Denisa Eglantina Duta",
+     "raw_affiliation_strings": [
+      "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-8821-7268",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Institute of Research & Development for Food Bioresources, IBA Bucharest, 021102 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210109653"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5050801350",
+      "display_name": "Florentina Israel-Roming",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Florentina Israel-Roming",
+     "raw_affiliation_strings": [
+      "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Biotechnology, University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, 011464 Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 3,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5036772751"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210109653"
+   ],
+   "apc_list": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "apc_paid": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2303
+   },
+   "fwci": 1.5473,
+   "has_fulltext": true,
+   "cited_by_count": 11,
+   "citation_normalized_percentile": {
+    "value": 0.80197293,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 93,
+    "max": 98
+   },
+   "biblio": {
+    "volume": "11",
+    "issue": "22",
+    "first_page": "3667",
+    "last_page": "3667"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9014000296592712,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.9014000296592712,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.035999998450279236,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12403",
+     "display_name": "Seed and Plant Biochemistry",
+     "score": 0.03500000014901161,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/bread",
+     "display_name": "bread",
+     "score": 0.44200000166893005
+    },
+    {
+     "id": "https://openalex.org/keywords/pea-protein-concentrate",
+     "display_name": "pea protein concentrate",
+     "score": 0.9110000133514404
+    },
+    {
+     "id": "https://openalex.org/keywords/plant-proteins",
+     "display_name": "plant proteins",
+     "score": 0.36500000953674316
+    },
+    {
+     "id": "https://openalex.org/keywords/whole-wheat-flour",
+     "display_name": "whole wheat flour",
+     "score": 0.800000011920929
+    },
+    {
+     "id": "https://openalex.org/keywords/dough-rheology",
+     "display_name": "dough rheology",
+     "score": 0.7390000224113464
+    },
+    {
+     "id": "https://openalex.org/keywords/sensory-acceptance",
+     "display_name": "sensory acceptability",
+     "score": 0.8320000171661377
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-texture",
+     "display_name": "bread texture",
+     "score": 0.5759999752044678
+    },
+    {
+     "id": "https://openalex.org/keywords/bread-microstructure",
+     "display_name": "bread microstructure",
+     "score": 0.5509999990463257
+    },
+    {
+     "id": "https://openalex.org/keywords/functional-bakery-products",
+     "display_name": "functional bakery products",
+     "score": 0.6309999823570251
+    },
+    {
+     "id": "https://openalex.org/keywords/by-product-utilization",
+     "display_name": "by-product utilization",
+     "score": 0.6809999942779541
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.8142272233963013
+    },
+    {
+     "id": "https://openalex.org/C2781283633",
+     "wikidata": "https://www.wikidata.org/wiki/Q7157196",
+     "display_name": "Pea protein",
+     "level": 2,
+     "score": 0.6891413927078247
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.5466457605361938
+    },
+    {
+     "id": "https://openalex.org/C3020229070",
+     "wikidata": "https://www.wikidata.org/wiki/Q8054",
+     "display_name": "High protein",
+     "level": 2,
+     "score": 0.5264250040054321
+    },
+    {
+     "id": "https://openalex.org/C3019985465",
+     "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+     "display_name": "Wheat flour",
+     "level": 2,
+     "score": 0.46416905522346497
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.45848485827445984
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.21834057569503784
+    },
+    {
+     "id": "https://openalex.org/C151730666",
+     "wikidata": "https://www.wikidata.org/wiki/Q7205",
+     "display_name": "Paleontology",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 4,
+   "locations": [
+    {
+     "id": "doi:10.3390/foods11223667",
+     "doi": "https://doi.org/10.3390/foods11223667",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/foods11223667",
+     "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+     "source": {
+      "id": "https://openalex.org/S2737939966",
+      "display_name": "Foods",
+      "issn_l": "2304-8158",
+      "issn": [
+       "2304-8158"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:pubmedcentral.nih.gov:9689233",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9689233",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods",
+     "raw_type": "Text"
+    },
+    {
+     "id": "pmid:36429258",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36429258",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Foods (Basel, Switzerland)",
+     "raw_type": "Journal Article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:ec0d832c98894fb39e6e4d97ede79eab",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://doaj.org/article/ec0d832c98894fb39e6e4d97ede79eab",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Foods, Vol 11, Iss 22, p 3667 (2022)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.3390/foods11223667",
+    "doi": "https://doi.org/10.3390/foods11223667",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/foods11223667",
+    "pdf_url": "https://www.mdpi.com/2304-8158/11/22/3667/pdf?version=1668599711",
+    "source": {
+     "id": "https://openalex.org/S2737939966",
+     "display_name": "Foods",
+     "issn_l": "2304-8158",
+     "issn": [
+      "2304-8158"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Foods",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "id": "https://metadata.un.org/sdg/2",
+     "score": 0.958299994468689
+    },
+    {
+     "display_name": "Responsible consumption and production",
+     "id": "https://metadata.un.org/sdg/12",
+     "score": 0.833299994468689
+    }
+   ],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G2955856430",
+     "display_name": null,
+     "funder_award_id": "PN19-03",
+     "funder_id": "https://openalex.org/F4320318622",
+     "funder_display_name": "Ministerul Cercetării, Inovării şi Digitalizării"
+    },
+    {
+     "id": "https://openalex.org/G6424961490",
+     "display_name": null,
+     "funder_award_id": "Core Program PN19-03",
+     "funder_id": "https://openalex.org/F4320318622",
+     "funder_display_name": "Ministerul Cercetării, Inovării şi Digitalizării"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320318622",
+     "display_name": "Ministerul Cercetării, Inovării şi Digitalizării",
+     "ror": null
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4309604656.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4309604656.grobid-xml"
+   },
+   "referenced_works_count": 23,
+   "referenced_works": [
+    "https://openalex.org/W1671063336",
+    "https://openalex.org/W1904908546",
+    "https://openalex.org/W1982007196",
+    "https://openalex.org/W2079951377",
+    "https://openalex.org/W2093507745",
+    "https://openalex.org/W2148552406",
+    "https://openalex.org/W2165709871",
+    "https://openalex.org/W2462145088",
+    "https://openalex.org/W2597353754",
+    "https://openalex.org/W2602944230",
+    "https://openalex.org/W2619873112",
+    "https://openalex.org/W2800491965",
+    "https://openalex.org/W2951834508",
+    "https://openalex.org/W2965607236",
+    "https://openalex.org/W3008930228",
+    "https://openalex.org/W3012154420",
+    "https://openalex.org/W3023009505",
+    "https://openalex.org/W3164035158",
+    "https://openalex.org/W3186347790",
+    "https://openalex.org/W3193511336",
+    "https://openalex.org/W3200176682",
+    "https://openalex.org/W4220705259",
+    "https://openalex.org/W4313819645"
+   ],
+   "related_works": [
+    "https://openalex.org/W7167711793",
+    "https://openalex.org/W4416414353",
+    "https://openalex.org/W3118213806",
+    "https://openalex.org/W7219808431",
+    "https://openalex.org/W4387184522",
+    "https://openalex.org/W4293678330",
+    "https://openalex.org/W4417065490",
+    "https://openalex.org/W4285308603",
+    "https://openalex.org/W3118797666",
+    "https://openalex.org/W7154570737"
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0,
+     159,
+     172,
+     193,
+     209,
+     253
+    ],
+    "current": [
+     1
+    ],
+    "consumption": [
+     2
+    ],
+    "trends": [
+     3
+    ],
+    "of": [
+     4,
+     18,
+     26,
+     31,
+     41,
+     79,
+     161,
+     229,
+     244,
+     250
+    ],
+    "plant": [
+     5,
+     166
+    ],
+    "based": [
+     6
+    ],
+    "functional": [
+     7
+    ],
+    "products": [
+     8,
+     22
+    ],
+    "have": [
+     9
+    ],
+    "encouraged": [
+     10
+    ],
+    "researchers": [
+     11
+    ],
+    "and": [
+     12,
+     61,
+     85,
+     102,
+     137,
+     139,
+     165,
+     183,
+     190,
+     202,
+     207,
+     237,
+     273
+    ],
+    "industry": [
+     13
+    ],
+    "to": [
+     14,
+     74,
+     95,
+     216
+    ],
+    "study": [
+     15
+    ],
+    "the": [
+     16,
+     29,
+     32,
+     35,
+     76,
+     148,
+     196,
+     222,
+     242,
+     248,
+     251,
+     257,
+     274
+    ],
+    "production": [
+     17
+    ],
+    "protein": [
+     19,
+     82,
+     106,
+     167,
+     212,
+     261
+    ],
+    "enriched": [
+     20
+    ],
+    "bakery": [
+     21
+    ],
+    "as": [
+     23,
+     46,
+     54
+    ],
+    "a": [
+     24,
+     71,
+     282
+    ],
+    "source": [
+     25,
+     228
+    ],
+    "protein.": [
+     27
+    ],
+    "In": [
+     28
+    ],
+    "context": [
+     30
+    ],
+    "circular": [
+     33
+    ],
+    "economy,": [
+     34
+    ],
+    "press": [
+     36,
+     90
+    ],
+    "cakes": [
+     37,
+     91
+    ],
+    "remaining": [
+     38
+    ],
+    "after": [
+     39
+    ],
+    "extraction": [
+     40
+    ],
+    "juices/oil": [
+     42
+    ],
+    "from": [
+     43,
+     89,
+     211,
+     214
+    ],
+    "plants": [
+     44
+    ],
+    "such": [
+     45
+    ],
+    "sea": [
+     47,
+     86,
+     112,
+     277
+    ],
+    "buckthorn": [
+     48,
+     87,
+     113,
+     278
+    ],
+    "or": [
+     49
+    ],
+    "hemp": [
+     50,
+     84,
+     119,
+     264
+    ],
+    "can": [
+     51,
+     224
+    ],
+    "be": [
+     52,
+     225
+    ],
+    "valorized": [
+     53
+    ],
+    "they": [
+     55
+    ],
+    "are": [
+     56
+    ],
+    "rich": [
+     57
+    ],
+    "in": [
+     58,
+     67,
+     99,
+     195,
+     233,
+     246
+    ],
+    "proteins,": [
+     59
+    ],
+    "fibers": [
+     60
+    ],
+    "many": [
+     62
+    ],
+    "bioactive": [
+     63
+    ],
+    "compounds.": [
+     64
+    ],
+    "Their": [
+     65
+    ],
+    "use": [
+     66
+    ],
+    "bread": [
+     68,
+     173,
+     270,
+     284
+    ],
+    "making": [
+     69,
+     271,
+     285
+    ],
+    "is": [
+     70
+    ],
+    "good": [
+     72
+    ],
+    "solution": [
+     73
+    ],
+    "enrich": [
+     75
+    ],
+    "nutritional": [
+     77
+    ],
+    "value": [
+     78
+    ],
+    "bread.": [
+     80
+    ],
+    "Pea": [
+     81
+    ],
+    "concentrate,": [
+     83,
+     262
+    ],
+    "ingredients": [
+     88,
+     168
+    ],
+    "by-products": [
+     92
+    ],
+    "were": [
+     93,
+     123,
+     169,
+     175,
+     186,
+     205,
+     256
+    ],
+    "added": [
+     94,
+     145
+    ],
+    "whole": [
+     96,
+     155,
+     162
+    ],
+    "wheat": [
+     97,
+     154,
+     163
+    ],
+    "flour": [
+     98,
+     164
+    ],
+    "different": [
+     100
+    ],
+    "percentages": [
+     101
+    ],
+    "combinations": [
+     103
+    ],
+    "(2%": [
+     104
+    ],
+    "pea": [
+     105,
+     109,
+     116,
+     260
+    ],
+    "concentrate;": [
+     107
+    ],
+    "1%": [
+     108,
+     115
+    ],
+    "+": [
+     110,
+     117
+    ],
+    "2%": [
+     111,
+     118
+    ],
+    "ingredients;": [
+     114
+    ],
+    "ingredients).": [
+     120
+    ],
+    "Bread": [
+     121
+    ],
+    "samples": [
+     122,
+     174,
+     223,
+     234,
+     258
+    ],
+    "obtained": [
+     124,
+     266
+    ],
+    "through": [
+     125,
+     267,
+     281
+    ],
+    "three": [
+     126
+    ],
+    "technological": [
+     127
+    ],
+    "methods:": [
+     128
+    ],
+    "one": [
+     129,
+     140
+    ],
+    "phase": [
+     130,
+     141
+    ],
+    "baking": [
+     131
+    ],
+    "process": [
+     132,
+     272,
+     286
+    ],
+    "(dough),": [
+     133
+    ],
+    "two": [
+     134
+    ],
+    "phases": [
+     135
+    ],
+    "(sponge": [
+     136
+    ],
+    "dough)": [
+     138
+    ],
+    "with": [
+     142,
+     235,
+     259,
+     263,
+     276
+    ],
+    "dried": [
+     143,
+     238,
+     288
+    ],
+    "sourdough": [
+     144,
+     239
+    ],
+    "directly": [
+     146
+    ],
+    "into": [
+     147
+    ],
+    "dough.": [
+     149
+    ],
+    "A": [
+     150
+    ],
+    "control": [
+     151
+    ],
+    "sample": [
+     152,
+     275
+    ],
+    "(100%": [
+     153
+    ],
+    "flour)": [
+     156
+    ],
+    "was": [
+     157
+    ],
+    "considered.": [
+     158
+    ],
+    "mixtures": [
+     160
+    ],
+    "rheologically": [
+     170
+    ],
+    "tested.": [
+     171
+    ],
+    "physicochemically": [
+     176
+    ],
+    "analyzed": [
+     177
+    ],
+    "(protein,": [
+     178
+    ],
+    "fat,": [
+     179
+    ],
+    "carbohydrates,": [
+     180
+    ],
+    "energy": [
+     181,
+     210
+    ],
+    "value)": [
+     182
+    ],
+    "sensory": [
+     184,
+     203
+    ],
+    "characteristics": [
+     185
+    ],
+    "evaluated": [
+     187,
+     206
+    ],
+    "(texture,": [
+     188
+    ],
+    "color": [
+     189
+    ],
+    "overall": [
+     191
+    ],
+    "acceptability).": [
+     192
+    ],
+    "changes": [
+     194
+    ],
+    "physicochemical": [
+     197
+    ],
+    "characteristics,": [
+     198
+    ],
+    "rheology": [
+     199
+    ],
+    "behavior,": [
+     200
+    ],
+    "microstructure": [
+     201
+    ],
+    "quality": [
+     204
+    ],
+    "compared.": [
+     208
+    ],
+    "varied": [
+     213
+    ],
+    "17.26": [
+     215
+    ],
+    "19.34%": [
+     217
+    ],
+    "which": [
+     218,
+     240
+    ],
+    "means": [
+     219
+    ],
+    "that": [
+     220
+    ],
+    "all": [
+     221
+    ],
+    "considered": [
+     226
+    ],
+    "\"a": [
+     227
+    ],
+    "protein\".": [
+     230
+    ],
+    "Hardness": [
+     231
+    ],
+    "decreased": [
+     232
+    ],
+    "sponge": [
+     236
+    ],
+    "reflect": [
+     241
+    ],
+    "importance": [
+     243
+    ],
+    "technology": [
+     245
+    ],
+    "keeping": [
+     247
+    ],
+    "freshness": [
+     249
+    ],
+    "product.": [
+     252
+    ],
+    "most": [
+     254
+    ],
+    "appreciated": [
+     255
+    ],
+    "ingredient": [
+     265,
+     279
+    ],
+    "an": [
+     268
+    ],
+    "indirect": [
+     269
+    ],
+    "prepared": [
+     280
+    ],
+    "direct": [
+     283
+    ],
+    "using": [
+     287
+    ],
+    "sourdough.": [
+     289
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 3
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 5
+    }
+   ],
+   "updated_date": "2026-10-28T10:33:24.094632",
+   "created_date": "2022-11-28T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4313799933",
+   "doi": "https://doi.org/10.17930/agl2022218",
+   "title": "PRELIMINARY RESEARCH ON USING ORGANIC SEA BUCKTHORN POWDER IN BREAD MAKING",
+   "display_name": "PRELIMINARY RESEARCH ON USING ORGANIC SEA BUCKTHORN POWDER IN BREAD MAKING",
+   "publication_year": 2022,
+   "publication_date": "2022-12-31",
+   "ids": {
+    "openalex": "https://openalex.org/W4313799933",
+    "doi": "https://doi.org/10.17930/agl2022218"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.17930/agl2022218",
+    "doi": "https://doi.org/10.17930/agl2022218",
+    "is_oa": true,
+    "landing_page_url": "http://dx.doi.org/10.17930/agl2022218",
+    "pdf_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/download/341/340",
+    "source": {
+     "id": "https://openalex.org/S2737085538",
+     "display_name": "AgroLife Scientific Journal",
+     "issn_l": "2285-5718",
+     "issn": [
+      "2285-5718",
+      "2285-5726",
+      "2286-0126"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": false,
+     "listed_in": [
+      "doaj",
+      "dongbi-c",
+      "jufo-1",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": "https://openalex.org/P4310314562",
+     "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310314562"
+     ],
+     "host_organization_lineage_names": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AgroLife Scientific Journal",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/download/341/340",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5110769798",
+      "display_name": "Elisabeta Elena Popa",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Elisabeta Elena POPA",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5080520341",
+      "display_name": "Alexandra Andreea ANGHEL",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Alexandra Andreea ANGHEL",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5048553203",
+      "display_name": "Ioana STANCIU",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ioana STANCIU",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5009747864",
+      "display_name": "Amalia Carmen Miteluț",
+      "orcid": "https://orcid.org/0000-0003-4152-4807",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-4152-4807"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Amalia Carmen MITELUT",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5006689310",
+      "display_name": "Paul Alexandru Popescu",
+      "orcid": "https://orcid.org/0000-0002-9096-2232",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9096-2232"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Paul Alexandru POPESCU",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5061851144",
+      "display_name": "Mihaela Cristina Draghici",
+      "orcid": "https://orcid.org/0000-0003-3864-6096",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3864-6096"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mihaela Cristina DRAGHICI",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5006745336",
+      "display_name": "Mihaela Geıcu-Crıstea",
+      "orcid": "https://orcid.org/0000-0001-8336-6611",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-8336-6611"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mihaela GEICU-CRISTEA",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5032135649",
+      "display_name": "Mona Elena Popa",
+      "orcid": "https://orcid.org/0000-0002-7712-4410",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7712-4410"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I2801529014",
+       "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+       "ror": "https://ror.org/04rssyw40",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mona Elena POPA",
+     "raw_affiliation_strings": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, 59 Marasti Blvd, District 1, Bucharest, Romania",
+       "institution_ids": [
+        "https://openalex.org/I2801529014"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5006689310"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I2801529014"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.7836,
+   "has_fulltext": true,
+   "cited_by_count": 3,
+   "citation_normalized_percentile": {
+    "value": 0.71975754,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+   },
+   "biblio": {
+    "volume": "11",
+    "issue": "2",
+    "first_page": "136",
+    "last_page": "141"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T13776",
+    "display_name": "Phytochemical and Pharmacological Studies",
+    "score": 0.6851000189781189,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2707",
+     "display_name": "Complementary and alternative medicine"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/27",
+     "display_name": "Medicine"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T13776",
+     "display_name": "Phytochemical and Pharmacological Studies",
+     "score": 0.6851000189781189,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2707",
+      "display_name": "Complementary and alternative medicine"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12403",
+     "display_name": "Seed and Plant Biochemistry",
+     "score": 0.16419999301433563,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.06260000169277191,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sea-buckthorn",
+     "display_name": "Hippophae rhamnoides",
+     "score": 0.8980000019073486
+    },
+    {
+     "id": "https://openalex.org/keywords/breadmaking",
+     "display_name": "bread making",
+     "score": 0.6460000276565552
+    },
+    {
+     "id": "https://openalex.org/keywords/functional-bakery-products",
+     "display_name": "functional bakery products",
+     "score": 0.8420000076293945
+    },
+    {
+     "id": "https://openalex.org/keywords/antioxidant-activity",
+     "display_name": "antioxidant activity",
+     "score": 0.9679999947547913
+    },
+    {
+     "id": "https://openalex.org/keywords/total-phenolic-content",
+     "display_name": "total phenolic content",
+     "score": 0.9990000128746033
+    },
+    {
+     "id": "https://openalex.org/keywords/water-activity",
+     "display_name": "water activity",
+     "score": 0.8109999895095825
+    },
+    {
+     "id": "https://openalex.org/keywords/sensory-evaluation",
+     "display_name": "sensory evaluation",
+     "score": 0.847000002861023
+    },
+    {
+     "id": "https://openalex.org/keywords/nutritional-value",
+     "display_name": "nutritional value",
+     "score": 0.4909999966621399
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2780589914",
+     "wikidata": "https://www.wikidata.org/wiki/Q10675206",
+     "display_name": "Ingredient",
+     "level": 2,
+     "score": 0.9253369569778442
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.7874252796173096
+    },
+    {
+     "id": "https://openalex.org/C2780132029",
+     "wikidata": "https://www.wikidata.org/wiki/Q752276",
+     "display_name": "Functional food",
+     "level": 2,
+     "score": 0.6467853784561157
+    },
+    {
+     "id": "https://openalex.org/C139145706",
+     "wikidata": "https://www.wikidata.org/wiki/Q189567",
+     "display_name": "Food additive",
+     "level": 2,
+     "score": 0.4752340614795685
+    },
+    {
+     "id": "https://openalex.org/C2987718291",
+     "wikidata": "https://www.wikidata.org/wiki/Q2095",
+     "display_name": "Food products",
+     "level": 2,
+     "score": 0.4389566481113434
+    },
+    {
+     "id": "https://openalex.org/C2780138947",
+     "wikidata": "https://www.wikidata.org/wiki/Q393855",
+     "display_name": "Dry matter",
+     "level": 2,
+     "score": 0.4364287555217743
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.43332892656326294
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.27972686290740967
+    },
+    {
+     "id": "https://openalex.org/C59822182",
+     "wikidata": "https://www.wikidata.org/wiki/Q441",
+     "display_name": "Botany",
+     "level": 1,
+     "score": 0.18809738755226135
+    }
+   ],
+   "mesh": [],
+   "locations_count": 3,
+   "locations": [
+    {
+     "id": "doi:10.17930/agl2022218",
+     "doi": "https://doi.org/10.17930/agl2022218",
+     "is_oa": true,
+     "landing_page_url": "http://dx.doi.org/10.17930/agl2022218",
+     "pdf_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/download/341/340",
+     "source": {
+      "id": "https://openalex.org/S2737085538",
+      "display_name": "AgroLife Scientific Journal",
+      "issn_l": "2285-5718",
+      "issn": [
+       "2285-5718",
+       "2285-5726",
+       "2286-0126"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "listed_in": [
+       "doaj",
+       "dongbi-c",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-4"
+      ],
+      "host_organization": "https://openalex.org/P4310314562",
+      "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310314562"
+      ],
+      "host_organization_lineage_names": [
+       "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "AgroLife Scientific Journal",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:ojs2.usamv.validapps.ro:article/341",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/view/341",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2737085538",
+      "display_name": "AgroLife Scientific Journal",
+      "issn_l": "2285-5718",
+      "issn": [
+       "2285-5718",
+       "2285-5726",
+       "2286-0126"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "listed_in": [
+       "doaj",
+       "dongbi-c",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-4"
+      ],
+      "host_organization": "https://openalex.org/P4310314562",
+      "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310314562"
+      ],
+      "host_organization_lineage_names": [
+       "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2285-5718",
+     "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+     "id": "pmh:oai:orgprints.org:52199",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://orgprints.org/id/eprint/52199/",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400386",
+      "display_name": "Organic Eprints (International Centre for Research in Organic Food Systems, and Research Institute of Organic Agriculture)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "",
+     "raw_type": "Journal paper"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.17930/agl2022218",
+    "doi": "https://doi.org/10.17930/agl2022218",
+    "is_oa": true,
+    "landing_page_url": "http://dx.doi.org/10.17930/agl2022218",
+    "pdf_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/download/341/340",
+    "source": {
+     "id": "https://openalex.org/S2737085538",
+     "display_name": "AgroLife Scientific Journal",
+     "issn_l": "2285-5718",
+     "issn": [
+      "2285-5718",
+      "2285-5726",
+      "2286-0126"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": false,
+     "listed_in": [
+      "doaj",
+      "dongbi-c",
+      "jufo-1",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": "https://openalex.org/P4310314562",
+     "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310314562"
+     ],
+     "host_organization_lineage_names": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AgroLife Scientific Journal",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "id": "https://metadata.un.org/sdg/2",
+     "score": 0.958299994468689
+    }
+   ],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G723507669",
+     "display_name": null,
+     "funder_award_id": "SUSFOOD2/CORE",
+     "funder_id": "https://openalex.org/F4320327146",
+     "funder_display_name": "Coordination of European Transnational Research in Organic Food and Farming Systems"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320327146",
+     "display_name": "Coordination of European Transnational Research in Organic Food and Farming Systems",
+     "ror": "https://ror.org/00sd0cm11"
+    },
+    {
+     "id": "https://openalex.org/F4320332999",
+     "display_name": "Horizon 2020 Framework Programme",
+     "ror": "https://ror.org/00k4n6c32"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4313799933.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4313799933.grobid-xml"
+   },
+   "referenced_works_count": 17,
+   "referenced_works": [
+    "https://openalex.org/W1967651443",
+    "https://openalex.org/W1967717267",
+    "https://openalex.org/W1972426232",
+    "https://openalex.org/W2075416987",
+    "https://openalex.org/W2755482284",
+    "https://openalex.org/W2803690804",
+    "https://openalex.org/W2905388247",
+    "https://openalex.org/W2913765810",
+    "https://openalex.org/W2981994408",
+    "https://openalex.org/W3012154420",
+    "https://openalex.org/W3133238127",
+    "https://openalex.org/W3200176682",
+    "https://openalex.org/W3217220401",
+    "https://openalex.org/W4200286340",
+    "https://openalex.org/W4220746632",
+    "https://openalex.org/W4220916896",
+    "https://openalex.org/W4224321016"
+   ],
+   "related_works": [
+    "https://openalex.org/W4378575781",
+    "https://openalex.org/W4416414353",
+    "https://openalex.org/W4406382198",
+    "https://openalex.org/W4380863680",
+    "https://openalex.org/W4253162198",
+    "https://openalex.org/W2798060372",
+    "https://openalex.org/W3204680666",
+    "https://openalex.org/W3098694355",
+    "https://openalex.org/W3128672993",
+    "https://openalex.org/W2951366693"
+   ],
+   "abstract_inverted_index": {
+    "Bread": [
+     0
+    ],
+    "is": [
+     1
+    ],
+    "a": [
+     2,
+     14
+    ],
+    "food": [
+     3
+    ],
+    "product": [
+     4
+    ],
+    "that": [
+     5
+    ],
+    "represents": [
+     6
+    ],
+    "an": [
+     7
+    ],
+    "important": [
+     8
+    ],
+    "element": [
+     9
+    ],
+    "in": [
+     10,
+     22,
+     25,
+     34,
+     45,
+     120
+    ],
+    "human": [
+     11
+    ],
+    "nutrition,": [
+     12
+    ],
+    "considered": [
+     13
+    ],
+    "convenient": [
+     15
+    ],
+    "type": [
+     16
+    ],
+    "of": [
+     17,
+     28,
+     42,
+     48,
+     54,
+     60,
+     71,
+     114
+    ],
+    "food,": [
+     18
+    ],
+    "being": [
+     19
+    ],
+    "consumed": [
+     20
+    ],
+    "daily": [
+     21
+    ],
+    "large": [
+     23
+    ],
+    "quantities": [
+     24,
+     70
+    ],
+    "many": [
+     26
+    ],
+    "parts": [
+     27
+    ],
+    "the": [
+     29,
+     46,
+     61,
+     112
+    ],
+    "world.": [
+     30
+    ],
+    "Adding": [
+     31
+    ],
+    "functional": [
+     32,
+     80
+    ],
+    "ingredients": [
+     33
+    ],
+    "bakery": [
+     35
+    ],
+    "products": [
+     36
+    ],
+    "was": [
+     37,
+     64
+    ],
+    "highly": [
+     38
+    ],
+    "researched": [
+     39
+    ],
+    "lately,": [
+     40
+    ],
+    "because": [
+     41
+    ],
+    "their": [
+     43
+    ],
+    "ability": [
+     44
+    ],
+    "reduction": [
+     47
+    ],
+    "some": [
+     49,
+     85
+    ],
+    "chronic": [
+     50
+    ],
+    "diseases": [
+     51
+    ],
+    "besides": [
+     52
+    ],
+    "improving": [
+     53
+    ],
+    "basic": [
+     55
+    ],
+    "nutritional": [
+     56,
+     92
+    ],
+    "functions.": [
+     57
+    ],
+    "The": [
+     58,
+     106
+    ],
+    "aim": [
+     59
+    ],
+    "present": [
+     62
+    ],
+    "paper": [
+     63
+    ],
+    "to": [
+     65
+    ],
+    "obtain": [
+     66
+    ],
+    "bread": [
+     67,
+     121
+    ],
+    "with": [
+     68
+    ],
+    "different": [
+     69
+    ],
+    "organic": [
+     72
+    ],
+    "dried": [
+     73
+    ],
+    "sea": [
+     74,
+     115
+    ],
+    "buckthorn": [
+     75,
+     116
+    ],
+    "powder": [
+     76,
+     117
+    ],
+    "(Sorana": [
+     77
+    ],
+    "variety),": [
+     78
+    ],
+    "as": [
+     79,
+     101,
+     103,
+     118
+    ],
+    "ingredient.": [
+     81
+    ],
+    "For": [
+     82
+    ],
+    "sample": [
+     83
+    ],
+    "characterization,": [
+     84
+    ],
+    "phisico-chemical": [
+     86
+    ],
+    "(dry": [
+     87
+    ],
+    "matter": [
+     88
+    ],
+    "%,": [
+     89
+    ],
+    "aw)": [
+     90
+    ],
+    "and": [
+     91
+    ],
+    "parameters": [
+     93
+    ],
+    "(antioxidant": [
+     94
+    ],
+    "activity,": [
+     95
+    ],
+    "total": [
+     96
+    ],
+    "phenolic": [
+     97
+    ],
+    "content)": [
+     98
+    ],
+    "were": [
+     99
+    ],
+    "determined,": [
+     100
+    ],
+    "well": [
+     102
+    ],
+    "sensorial": [
+     104
+    ],
+    "analysis.": [
+     105
+    ],
+    "study": [
+     107
+    ],
+    "obtained": [
+     108
+    ],
+    "promising": [
+     109
+    ],
+    "results": [
+     110
+    ],
+    "regarding": [
+     111
+    ],
+    "use": [
+     113
+    ],
+    "ingredient": [
+     119
+    ],
+    "making.": [
+     122
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2025,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-10-30T12:39:25.321706",
+   "created_date": "2023-01-09T00:00:00"
+  }
+ ]
+}

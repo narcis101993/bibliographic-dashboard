@@ -3,7 +3,7 @@
   "project": "Gabriela Daniela Stamatie — bibliografie și citări",
   "generatedAt": "2026-11-01T00:00:00+00:00",
   "generatedAtRule": "SOURCE_DATE_EPOCH if set, else newest citation verification date",
-  "inputDigest": "sha256:b284efdf086be78d53b06964aa7b858c2758afe3729e92da89fab5870cc4dedb",
+  "inputDigest": "sha256:e6a7b90b22009e9b491a4c7c315815c4179994d460af4d0d55424fc7eb5b5151",
   "pipeline": {
     "script": "scripts/build_dashboard_data.py",
     "schemaVersion": 2,
@@ -11,9 +11,9 @@
   },
   "dataExtractedAt": "2026-10-31",
   "latest": {
-    "common": "v4",
-    "centralizator": "v4",
-    "citari": "v4"
+    "common": "v5",
+    "centralizator": "v5",
+    "citari": "v5"
   },
   "resolution": {
     "order": [
@@ -129,6 +129,49 @@
         "citations": "data/v4/citations.json",
         "coverage": "data/v4/coverage.json"
       }
+    },
+    {
+      "version": "v5",
+      "centralizator": {
+        "csv": "../centralizator/v5/Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "records": 19
+      },
+      "citari": {
+        "csv": "../citari/v5/Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "records": 107
+      },
+      "stats": {
+        "publications": 19,
+        "citations": 107,
+        "citationLinks": 110,
+        "selfCitations": 2,
+        "externalCitations": 105,
+        "selfCitationLinks": 4,
+        "externalCitationLinks": 106,
+        "publicationsWithDoi": 14,
+        "citingVenues": 56,
+        "publicationYearRange": [
+          2018,
+          2026
+        ]
+      },
+      "coverageStats": {
+        "publications": 19,
+        "covered": 11,
+        "zeroConfirmed": 2,
+        "partiallyVerified": 6,
+        "byStatus": {
+          "acoperit": 11,
+          "parțial - zero în sursele accesibile": 3,
+          "parțial verificat - fără identificator": 3,
+          "zero confirmat": 2
+        }
+      },
+      "data": {
+        "publications": "data/v5/publications.json",
+        "citations": "data/v5/citations.json",
+        "coverage": "data/v5/coverage.json"
+      }
     }
   ],
   "sources": [
@@ -143,7 +186,7 @@
       "id": "semantic-scholar",
       "name": "Semantic Scholar",
       "url": "https://www.semanticscholar.org",
-      "count": 91,
+      "count": 64,
       "countKind": "citationLinks"
     },
     {

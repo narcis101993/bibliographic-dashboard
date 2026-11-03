@@ -1,0 +1,1883 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "13",
+ "payload": [
+  {
+   "id": "https://openalex.org/W7213647599",
+   "doi": "https://doi.org/10.1016/j.afres.2026.102621",
+   "title": "Formulation-dependent Effects of Hemp Seed By-products on Batter Properties, Structure, and Check-All-That-Apply -derived Consumer Response of Gluten-free Muffins",
+   "display_name": "Formulation-dependent Effects of Hemp Seed By-products on Batter Properties, Structure, and Check-All-That-Apply -derived Consumer Response of Gluten-free Muffins",
+   "publication_year": 2026,
+   "publication_date": "2026-09-19",
+   "ids": {
+    "openalex": "https://openalex.org/W7213647599",
+    "doi": "https://doi.org/10.1016/j.afres.2026.102621"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1016/j.afres.2026.102621",
+    "doi": "https://doi.org/10.1016/j.afres.2026.102621",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.afres.2026.102621",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2772502226009571/pdf",
+    "source": {
+     "id": "https://openalex.org/S4210228229",
+     "display_name": "Applied Food Research",
+     "issn_l": "2772-5022",
+     "issn": [
+      "2772-5022"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-d",
+      "jufo-1",
+      "norway-1",
+      "poland-20"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied Food Research",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.sciencedirect.com/science/article/pii/S2772502226009571/pdf",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5082577801",
+      "display_name": "Maria Valeria Merlino",
+      "orcid": "https://orcid.org/0000-0003-3888-1811",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3888-1811"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I112862951",
+       "display_name": "University of Messina",
+       "ror": "https://ror.org/05ctdxz19",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Maria Merlino",
+     "raw_affiliation_strings": [
+      "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy",
+       "institution_ids": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5061508193",
+      "display_name": "Anthea Miller",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I112862951",
+       "display_name": "University of Messina",
+       "ror": "https://ror.org/05ctdxz19",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Anthea Miller",
+     "raw_affiliation_strings": [
+      "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy",
+       "institution_ids": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5152209784",
+      "display_name": "Mattea Maria Antonietta Lauceri",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I112862951",
+       "display_name": "University of Messina",
+       "ror": "https://ror.org/05ctdxz19",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mattea Maria Antonietta Lauceri",
+     "raw_affiliation_strings": [
+      "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy",
+       "institution_ids": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5108162627",
+      "display_name": "Iolanda Cilea",
+      "orcid": "https://orcid.org/0009-0008-6796-947X",
+      "observed_orcids": [
+       "https://orcid.org/0009-0008-6796-947X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I59725666",
+       "display_name": "University of Reggio Calabria",
+       "ror": "https://ror.org/041sz8d87",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I59725666"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Iolanda Cilea",
+     "raw_affiliation_strings": [
+      "Department of AGRARIA, University Mediterranea of Reggio Calabria, via dell’Università 25, 89124 Reggio Calabria, Italy"
+     ],
+     "raw_orcid": "https://orcid.org/0009-0008-6796-947X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of AGRARIA, University Mediterranea of Reggio Calabria, via dell’Università 25, 89124 Reggio Calabria, Italy",
+       "institution_ids": [
+        "https://openalex.org/I59725666"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5010849624",
+      "display_name": "Antonella Verzera",
+      "orcid": "https://orcid.org/0000-0002-6162-9297",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6162-9297"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I112862951",
+       "display_name": "University of Messina",
+       "ror": "https://ror.org/05ctdxz19",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Antonella Verzera",
+     "raw_affiliation_strings": [
+      "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy",
+       "institution_ids": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5074474295",
+      "display_name": "Concetta Condurso",
+      "orcid": "https://orcid.org/0000-0003-2799-7712",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-2799-7712"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I112862951",
+       "display_name": "University of Messina",
+       "ror": "https://ror.org/05ctdxz19",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Concetta Condurso",
+     "raw_affiliation_strings": [
+      "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-2799-7712",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Veterinary Sciences, University of Messina, Polo Universitario dell’Annunziata, Viale G. Palatucci, 98168 Messina, Italy",
+       "institution_ids": [
+        "https://openalex.org/I112862951"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5040784307",
+      "display_name": "Amalia Piscopo",
+      "orcid": "https://orcid.org/0000-0001-7151-5843",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-7151-5843"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I59725666",
+       "display_name": "University of Reggio Calabria",
+       "ror": "https://ror.org/041sz8d87",
+       "country_code": "IT",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I59725666"
+       ]
+      }
+     ],
+     "countries": [
+      "IT"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Amalia Piscopo",
+     "raw_affiliation_strings": [
+      "Department of AGRARIA, University Mediterranea of Reggio Calabria, via dell’Università 25, 89124 Reggio Calabria, Italy"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7151-5843",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of AGRARIA, University Mediterranea of Reggio Calabria, via dell’Università 25, 89124 Reggio Calabria, Italy",
+       "institution_ids": [
+        "https://openalex.org/I59725666"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5074474295"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I112862951"
+   ],
+   "apc_list": {
+    "value": 2050,
+    "currency": "USD",
+    "value_usd": 2050
+   },
+   "apc_paid": {
+    "value": 2050,
+    "currency": "USD",
+    "value_usd": 2050
+   },
+   "fwci": 0.0,
+   "has_fulltext": true,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.69817773,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "6",
+    "issue": "2",
+    "first_page": "102621",
+    "last_page": "102621"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.8047000169754028,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.8047000169754028,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12403",
+     "display_name": "Seed and Plant Biochemistry",
+     "score": 0.1565999984741211,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14127",
+     "display_name": "Food and Agricultural Sciences",
+     "score": 0.010099999606609344,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/gluten-free-muffins",
+     "display_name": "gluten-free muffins",
+     "score": 0.9110000133514404
+    },
+    {
+     "id": "https://openalex.org/keywords/consumer-response",
+     "display_name": "consumer response",
+     "score": 0.609000027179718
+    },
+    {
+     "id": "https://openalex.org/keywords/check-all-that-apply",
+     "display_name": "check-all-that-apply",
+     "score": 0.8069999814033508
+    },
+    {
+     "id": "https://openalex.org/keywords/formulation-effects",
+     "display_name": "formulation effects",
+     "score": 0.6480000019073486
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.5019999742507935
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.32839998602867126
+    },
+    {
+     "id": "https://openalex.org/C2779530757",
+     "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+     "display_name": "Quality (philosophy)",
+     "level": 2,
+     "score": 0.2694000005722046
+    },
+    {
+     "id": "https://openalex.org/C45262634",
+     "wikidata": "https://www.wikidata.org/wiki/Q5159291",
+     "display_name": "Conditioning",
+     "level": 2,
+     "score": 0.21850000321865082
+    },
+    {
+     "id": "https://openalex.org/C112698675",
+     "wikidata": "https://www.wikidata.org/wiki/Q37038",
+     "display_name": "Advertising",
+     "level": 1,
+     "score": 0.20489999651908875
+    },
+    {
+     "id": "https://openalex.org/C2781166053",
+     "wikidata": "https://www.wikidata.org/wiki/Q11702361",
+     "display_name": "Food storage",
+     "level": 2,
+     "score": 0.20340000092983246
+    },
+    {
+     "id": "https://openalex.org/C134121241",
+     "wikidata": "https://www.wikidata.org/wiki/Q899301",
+     "display_name": "Yield (engineering)",
+     "level": 2,
+     "score": 0.2012999951839447
+    },
+    {
+     "id": "https://openalex.org/C197321923",
+     "wikidata": "https://www.wikidata.org/wiki/Q4886",
+     "display_name": "Cultivar",
+     "level": 2,
+     "score": 0.1996999979019165
+    },
+    {
+     "id": "https://openalex.org/C115930662",
+     "wikidata": "https://www.wikidata.org/wiki/Q1689021",
+     "display_name": "Shelf life",
+     "level": 2,
+     "score": 0.1923000067472458
+    },
+    {
+     "id": "https://openalex.org/C16281581",
+     "wikidata": "https://www.wikidata.org/wiki/Q874733",
+     "display_name": "Flavour",
+     "level": 2,
+     "score": 0.19200000166893005
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.1016/j.afres.2026.102621",
+     "doi": "https://doi.org/10.1016/j.afres.2026.102621",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.afres.2026.102621",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2772502226009571/pdf",
+     "source": {
+      "id": "https://openalex.org/S4210228229",
+      "display_name": "Applied Food Research",
+      "issn_l": "2772-5022",
+      "issn": [
+       "2772-5022"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-d",
+       "jufo-1",
+       "norway-1",
+       "poland-20"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Food Research",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:64cd61563f8b450291cf7a691b844d7f",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://doaj.org/article/64cd61563f8b450291cf7a691b844d7f",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Applied Food Research, Vol 6, Iss 2, Pp 102621- (2026)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.1016/j.afres.2026.102621",
+    "doi": "https://doi.org/10.1016/j.afres.2026.102621",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.afres.2026.102621",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2772502226009571/pdf",
+    "source": {
+     "id": "https://openalex.org/S4210228229",
+     "display_name": "Applied Food Research",
+     "issn_l": "2772-5022",
+     "issn": [
+      "2772-5022"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-d",
+      "jufo-1",
+      "norway-1",
+      "poland-20"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied Food Research",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "score": 0.9208999872207642,
+     "id": "https://metadata.un.org/sdg/2",
+     "display_name": "Zero hunger"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320310378",
+     "display_name": "Health Sciences Centre Foundation",
+     "ror": null
+    },
+    {
+     "id": "https://openalex.org/F4320325475",
+     "display_name": "Università degli Studi di Messina",
+     "ror": "https://ror.org/05ctdxz19"
+    }
+   ],
+   "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7213647599.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7213647599.grobid-xml"
+   },
+   "referenced_works_count": 44,
+   "referenced_works": [
+    "https://openalex.org/W1437927155",
+    "https://openalex.org/W1938613636",
+    "https://openalex.org/W1970148795",
+    "https://openalex.org/W1984797191",
+    "https://openalex.org/W1994046449",
+    "https://openalex.org/W2004277802",
+    "https://openalex.org/W2018415188",
+    "https://openalex.org/W2067341683",
+    "https://openalex.org/W2067680207",
+    "https://openalex.org/W2131350439",
+    "https://openalex.org/W2235600729",
+    "https://openalex.org/W2300930975",
+    "https://openalex.org/W2305150807",
+    "https://openalex.org/W2314021716",
+    "https://openalex.org/W2619873112",
+    "https://openalex.org/W2903044181",
+    "https://openalex.org/W2904391626",
+    "https://openalex.org/W2905188898",
+    "https://openalex.org/W2905377146",
+    "https://openalex.org/W3047873033",
+    "https://openalex.org/W3108028896",
+    "https://openalex.org/W3120183819",
+    "https://openalex.org/W3124344058",
+    "https://openalex.org/W3140543951",
+    "https://openalex.org/W3213733847",
+    "https://openalex.org/W3216590803",
+    "https://openalex.org/W4205341957",
+    "https://openalex.org/W4220705259",
+    "https://openalex.org/W4236836788",
+    "https://openalex.org/W4288703989",
+    "https://openalex.org/W4294680809",
+    "https://openalex.org/W4295884618",
+    "https://openalex.org/W4385067570",
+    "https://openalex.org/W4386222105",
+    "https://openalex.org/W4386607822",
+    "https://openalex.org/W4387264666",
+    "https://openalex.org/W4401594652",
+    "https://openalex.org/W4406594990",
+    "https://openalex.org/W4407410039",
+    "https://openalex.org/W4407870670",
+    "https://openalex.org/W4412655262",
+    "https://openalex.org/W4413401382",
+    "https://openalex.org/W4415401895",
+    "https://openalex.org/W7156750047"
+   ],
+   "related_works": [
+    "https://openalex.org/W4415401895",
+    "https://openalex.org/W4412182417",
+    "https://openalex.org/W2619873112",
+    "https://openalex.org/W4413175128",
+    "https://openalex.org/W4405724015",
+    "https://openalex.org/W4415357140",
+    "https://openalex.org/W1838011728",
+    "https://openalex.org/W2131350439",
+    "https://openalex.org/W4398202549",
+    "https://openalex.org/W4295884618"
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0
+    ],
+    "valorisation": [
+     1
+    ],
+    "of": [
+     2,
+     18,
+     27,
+     159,
+     229
+    ],
+    "hemp": [
+     3,
+     28,
+     34,
+     223
+    ],
+    "seed": [
+     4,
+     29,
+     35
+    ],
+    "oil": [
+     5
+    ],
+    "by-products": [
+     6,
+     224
+    ],
+    "offers": [
+     7
+    ],
+    "a": [
+     8,
+     199
+    ],
+    "promising": [
+     9
+    ],
+    "strategy": [
+     10
+    ],
+    "to": [
+     11,
+     121,
+     136,
+     149,
+     176,
+     204
+    ],
+    "enhance": [
+     12
+    ],
+    "the": [
+     13,
+     25,
+     64,
+     108
+    ],
+    "nutritional": [
+     14,
+     127,
+     230
+    ],
+    "and": [
+     15,
+     33,
+     42,
+     59,
+     88,
+     103,
+     113,
+     144,
+     182,
+     215,
+     234
+    ],
+    "technological": [
+     16
+    ],
+    "quality": [
+     17
+    ],
+    "gluten-free": [
+     19,
+     47,
+     242
+    ],
+    "baked": [
+     20
+    ],
+    "goods.": [
+     21
+    ],
+    "This": [
+     22
+    ],
+    "study": [
+     23
+    ],
+    "evaluated": [
+     24
+    ],
+    "incorporation": [
+     26
+    ],
+    "cake": [
+     30
+    ],
+    "flour": [
+     31
+    ],
+    "(HSCF)": [
+     32
+    ],
+    "protein": [
+     36,
+     129
+    ],
+    "concentrate": [
+     37
+    ],
+    "(HSPC)": [
+     38
+    ],
+    "at": [
+     39,
+     73,
+     118,
+     162,
+     193
+    ],
+    "15%,": [
+     40
+    ],
+    "20%,": [
+     41
+    ],
+    "30%": [
+     43,
+     119,
+     141,
+     154,
+     185
+    ],
+    "substitution": [
+     44
+    ],
+    "levels": [
+     45
+    ],
+    "in": [
+     46,
+     99,
+     140,
+     153,
+     178,
+     184
+    ],
+    "muffins,": [
+     48,
+     143
+    ],
+    "assessing": [
+     49
+    ],
+    "effects": [
+     50
+    ],
+    "on": [
+     51
+    ],
+    "batter": [
+     52,
+     69,
+     100
+    ],
+    "properties,": [
+     53
+    ],
+    "muffin": [
+     54
+    ],
+    "structure,": [
+     55
+    ],
+    "composition,": [
+     56
+    ],
+    "colour,": [
+     57,
+     212
+    ],
+    "texture,": [
+     58
+    ],
+    "sensory": [
+     60,
+     235
+    ],
+    "perception.": [
+     61
+    ],
+    "Compared": [
+     62
+    ],
+    "with": [
+     63,
+     173,
+     207,
+     222
+    ],
+    "control,": [
+     65
+    ],
+    "HSCF": [
+     66,
+     155,
+     186
+    ],
+    "slightly": [
+     67
+    ],
+    "increased": [
+     68,
+     146
+    ],
+    "texture": [
+     70,
+     101,
+     189
+    ],
+    "parameters": [
+     71,
+     102
+    ],
+    "and,": [
+     72
+    ],
+    "30%,": [
+     74
+    ],
+    "reduced": [
+     75
+    ],
+    "density": [
+     76,
+     104
+    ],
+    "(0.886": [
+     77
+    ],
+    "vs": [
+     78,
+     85,
+     92
+    ],
+    "0.927": [
+     79
+    ],
+    "g/mL)": [
+     80
+    ],
+    "while": [
+     81
+    ],
+    "increasing": [
+     82
+    ],
+    "volume": [
+     83,
+     90,
+     110,
+     115
+    ],
+    "(90.6": [
+     84
+    ],
+    "80.9": [
+     86
+    ],
+    "mL)": [
+     87,
+     112
+    ],
+    "specific": [
+     89,
+     114
+    ],
+    "(2.3": [
+     91
+    ],
+    "2.0": [
+     93
+    ],
+    "mL/g).": [
+     94
+    ],
+    "HSPC": [
+     95,
+     142,
+     180
+    ],
+    "produced": [
+     96
+    ],
+    "stronger": [
+     97
+    ],
+    "increases": [
+     98
+    ],
+    "(0.962–1.028": [
+     105
+    ],
+    "g/mL),": [
+     106
+    ],
+    "yielding": [
+     107
+    ],
+    "lowest": [
+     109
+    ],
+    "(77.0": [
+     111
+    ],
+    "(1.9": [
+     116
+    ],
+    "mL/g)": [
+     117
+    ],
+    "due": [
+     120
+    ],
+    "matrix": [
+     122
+    ],
+    "strengthening.": [
+     123
+    ],
+    "Fortification": [
+     124
+    ],
+    "progressively": [
+     125
+    ],
+    "improved": [
+     126
+    ],
+    "quality:": [
+     128
+    ],
+    "rose": [
+     130
+    ],
+    "from": [
+     131,
+     147,
+     202
+    ],
+    "5.4": [
+     132
+    ],
+    "g/100": [
+     133,
+     138,
+     151
+    ],
+    "g": [
+     134,
+     139,
+     152
+    ],
+    "(control)": [
+     135
+    ],
+    "9.1": [
+     137
+    ],
+    "fibre": [
+     145
+    ],
+    "0.2": [
+     148
+    ],
+    "5.2": [
+     150
+    ],
+    "samples,": [
+     156
+    ],
+    "enabling": [
+     157
+    ],
+    "“source": [
+     158
+    ],
+    "fibre”": [
+     160
+    ],
+    "labelling": [
+     161
+    ],
+    "20–30%": [
+     163
+    ],
+    "HSCF.": [
+     164
+    ],
+    "Colour": [
+     165
+    ],
+    "shifted": [
+     166
+    ],
+    "towards": [
+     167
+    ],
+    "darker,": [
+     168
+    ],
+    "duller": [
+     169
+    ],
+    "reddish": [
+     170
+    ],
+    "brown": [
+     171
+    ],
+    "hues,": [
+     172
+    ],
+    "ΔE": [
+     174
+    ],
+    "up": [
+     175
+    ],
+    "21.84": [
+     177
+    ],
+    "20%": [
+     179
+    ],
+    "crust": [
+     181
+    ],
+    "32.50": [
+     183
+    ],
+    "crumb.": [
+     187
+    ],
+    "Muffin": [
+     188
+    ],
+    "remained": [
+     190
+    ],
+    "largely": [
+     191
+    ],
+    "unaffected": [
+     192
+    ],
+    "≤20%": [
+     194
+    ],
+    "substitution.": [
+     195
+    ],
+    "Sensory": [
+     196
+    ],
+    "analysis": [
+     197
+    ],
+    "revealed": [
+     198
+    ],
+    "gradual": [
+     200
+    ],
+    "transition": [
+     201
+    ],
+    "cake-like": [
+     203
+    ],
+    "hemp-characteristic": [
+     205
+    ],
+    "profiles,": [
+     206
+    ],
+    "bitterness,": [
+     208
+    ],
+    "herbaceous": [
+     209
+    ],
+    "notes,": [
+     210
+    ],
+    "dark": [
+     211
+    ],
+    "dryness,": [
+     213
+    ],
+    "grittiness,": [
+     214
+    ],
+    "crumbliness": [
+     216
+    ],
+    "driving": [
+     217
+    ],
+    "disliking.": [
+     218
+    ],
+    "Overall,": [
+     219
+    ],
+    "moderate": [
+     220
+    ],
+    "fortification": [
+     221
+    ],
+    "provides": [
+     225
+    ],
+    "an": [
+     226
+    ],
+    "optimal": [
+     227
+    ],
+    "balance": [
+     228
+    ],
+    "enhancement,": [
+     231
+    ],
+    "structural": [
+     232
+    ],
+    "performance,": [
+     233
+    ],
+    "quality,": [
+     236
+    ],
+    "supporting": [
+     237
+    ],
+    "their": [
+     238
+    ],
+    "potential": [
+     239
+    ],
+    "for": [
+     240
+    ],
+    "sustainable": [
+     241
+    ],
+    "product": [
+     243
+    ],
+    "development.": [
+     244
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-10-03T13:16:28.481748",
+   "created_date": "2026-09-20T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7214294121",
+   "doi": "https://doi.org/10.1007/s11694-026-05000-7",
+   "title": "Impact of plant protein incorporation on the rheological and textural properties of gluten and gluten-free snacks",
+   "display_name": "Impact of plant protein incorporation on the rheological and textural properties of gluten and gluten-free snacks",
+   "publication_year": 2026,
+   "publication_date": "2026-09-25",
+   "ids": {
+    "openalex": "https://openalex.org/W7214294121",
+    "doi": "https://doi.org/10.1007/s11694-026-05000-7"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1007/s11694-026-05000-7",
+    "doi": "https://doi.org/10.1007/s11694-026-05000-7",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s11694-026-05000-7",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2764396866",
+     "display_name": "Journal of Food Measurement & Characterization",
+     "issn_l": "2193-4126",
+     "issn": [
+      "2193-4126",
+      "2193-4134"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-d",
+      "jufo-1",
+      "norway-1",
+      "poland-40",
+      "russia-white-list-2"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Food Measurement and Characterization",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5043442712",
+      "display_name": "Anna Marinopoulou",
+      "orcid": "https://orcid.org/0000-0003-1172-607X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1172-607X"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Anna Marinopoulou",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0003-1172-607X",
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5152773779",
+      "display_name": "Alexandra Mavropoulou",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Alexandra Mavropoulou",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5152938398",
+      "display_name": "Athanasia Xatzistefanou",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Athanasia Xatzistefanou",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5010961647",
+      "display_name": "Maria Zoumaki",
+      "orcid": "https://orcid.org/0009-0006-8538-8754",
+      "observed_orcids": [
+       "https://orcid.org/0009-0006-8538-8754"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Maria Zoumaki",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5035767004",
+      "display_name": "Stylianos N. Raphaelides",
+      "orcid": "https://orcid.org/0000-0002-4848-5962",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-4848-5962"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Stylianos Raphaelides",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5037222247",
+      "display_name": "Maria Papageorgiou",
+      "orcid": "https://orcid.org/0000-0001-8940-5351",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-8940-5351"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Maria Papageorgiou",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": {
+    "value": 3490,
+    "currency": "USD",
+    "value_usd": 3490
+   },
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.69910726,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "20",
+    "issue": "11",
+    "first_page": "20450",
+    "last_page": "20468"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.9911999702453613,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.9911999702453613,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10411",
+     "display_name": "Proteins in Food Systems",
+     "score": 0.007199999876320362,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12192",
+     "display_name": "Polysaccharides Composition and Applications",
+     "score": 0.0005000000237487257,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/plant-proteins",
+     "display_name": "plant proteins",
+     "score": 0.9179999828338623
+    },
+    {
+     "id": "https://openalex.org/keywords/gluten",
+     "display_name": "gluten",
+     "score": 0.8629999756813049
+    },
+    {
+     "id": "https://openalex.org/keywords/gluten-free-snacks",
+     "display_name": "gluten-free snacks",
+     "score": 0.8970000147819519
+    },
+    {
+     "id": "https://openalex.org/keywords/rheological-properties",
+     "display_name": "rheological properties",
+     "score": 0.9150000214576721
+    },
+    {
+     "id": "https://openalex.org/keywords/texture",
+     "display_name": "texture",
+     "score": 0.796999990940094
+    },
+    {
+     "id": "https://openalex.org/keywords/protein-incorporation",
+     "display_name": "protein incorporation",
+     "score": 0.47099998593330383
+    },
+    {
+     "id": "https://openalex.org/keywords/gluten-free-products",
+     "display_name": "gluten-free foods",
+     "score": 0.31200000643730164
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.7441999912261963
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.7110999822616577
+    },
+    {
+     "id": "https://openalex.org/C200990466",
+     "wikidata": "https://www.wikidata.org/wiki/Q271707",
+     "display_name": "Rheology",
+     "level": 2,
+     "score": 0.6875
+    },
+    {
+     "id": "https://openalex.org/C2776336767",
+     "wikidata": "https://www.wikidata.org/wiki/Q188251",
+     "display_name": "Gluten",
+     "level": 2,
+     "score": 0.5748999714851379
+    },
+    {
+     "id": "https://openalex.org/C3019009989",
+     "wikidata": "https://www.wikidata.org/wiki/Q8054",
+     "display_name": "Plant protein",
+     "level": 2,
+     "score": 0.5565000176429749
+    },
+    {
+     "id": "https://openalex.org/C3019037309",
+     "wikidata": "https://www.wikidata.org/wiki/Q188251",
+     "display_name": "Wheat gluten",
+     "level": 3,
+     "score": 0.4668000042438507
+    },
+    {
+     "id": "https://openalex.org/C3019985465",
+     "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+     "display_name": "Wheat flour",
+     "level": 2,
+     "score": 0.31279999017715454
+    },
+    {
+     "id": "https://openalex.org/C3019118998",
+     "wikidata": "https://www.wikidata.org/wiki/Q2632776",
+     "display_name": "Gluten free",
+     "level": 3,
+     "score": 0.2703999876976013
+    },
+    {
+     "id": "https://openalex.org/C206139338",
+     "wikidata": "https://www.wikidata.org/wiki/Q192355",
+     "display_name": "Raw material",
+     "level": 2,
+     "score": 0.26089999079704285
+    },
+    {
+     "id": "https://openalex.org/C2777897731",
+     "wikidata": "https://www.wikidata.org/wiki/Q424430",
+     "display_name": "Whey protein",
+     "level": 2,
+     "score": 0.2578999996185303
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1007/s11694-026-05000-7",
+     "doi": "https://doi.org/10.1007/s11694-026-05000-7",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1007/s11694-026-05000-7",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764396866",
+      "display_name": "Journal of Food Measurement & Characterization",
+      "issn_l": "2193-4126",
+      "issn": [
+       "2193-4126",
+       "2193-4134"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "jufo-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Food Measurement and Characterization",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [
+    {
+     "score": 0.6735000014305115,
+     "id": "https://metadata.un.org/sdg/2",
+     "display_name": "Zero hunger"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 73,
+   "referenced_works": [
+    "https://openalex.org/W1570025400",
+    "https://openalex.org/W1597845649",
+    "https://openalex.org/W1825277024",
+    "https://openalex.org/W1938613636",
+    "https://openalex.org/W1957973886",
+    "https://openalex.org/W1980023782",
+    "https://openalex.org/W1984076721",
+    "https://openalex.org/W2004748070",
+    "https://openalex.org/W2008236983",
+    "https://openalex.org/W2040885771",
+    "https://openalex.org/W2042437867",
+    "https://openalex.org/W2051461603",
+    "https://openalex.org/W2060378568",
+    "https://openalex.org/W2087940886",
+    "https://openalex.org/W2111402105",
+    "https://openalex.org/W2115449953",
+    "https://openalex.org/W2125278736",
+    "https://openalex.org/W2139273882",
+    "https://openalex.org/W2144013664",
+    "https://openalex.org/W2182196267",
+    "https://openalex.org/W2587998185",
+    "https://openalex.org/W2806949442",
+    "https://openalex.org/W2882978448",
+    "https://openalex.org/W2889348562",
+    "https://openalex.org/W2919339323",
+    "https://openalex.org/W2922069159",
+    "https://openalex.org/W2954697772",
+    "https://openalex.org/W2998533430",
+    "https://openalex.org/W3043448524",
+    "https://openalex.org/W3044245225",
+    "https://openalex.org/W3044670433",
+    "https://openalex.org/W3092891889",
+    "https://openalex.org/W3094207428",
+    "https://openalex.org/W3161031405",
+    "https://openalex.org/W3194401094",
+    "https://openalex.org/W3197257602",
+    "https://openalex.org/W3201323650",
+    "https://openalex.org/W4212836820",
+    "https://openalex.org/W4213138017",
+    "https://openalex.org/W4224318723",
+    "https://openalex.org/W4283743960",
+    "https://openalex.org/W4283826693",
+    "https://openalex.org/W4286821149",
+    "https://openalex.org/W4292504122",
+    "https://openalex.org/W4292702599",
+    "https://openalex.org/W4297441178",
+    "https://openalex.org/W4309606044",
+    "https://openalex.org/W4313558910",
+    "https://openalex.org/W4315649698",
+    "https://openalex.org/W4318612969",
+    "https://openalex.org/W4375948547",
+    "https://openalex.org/W4382751878",
+    "https://openalex.org/W4385240726",
+    "https://openalex.org/W4385420877",
+    "https://openalex.org/W4386102752",
+    "https://openalex.org/W4387394257",
+    "https://openalex.org/W4388765969",
+    "https://openalex.org/W4388823719",
+    "https://openalex.org/W4389432271",
+    "https://openalex.org/W4398145413",
+    "https://openalex.org/W4403440453",
+    "https://openalex.org/W4405317673",
+    "https://openalex.org/W4405590022",
+    "https://openalex.org/W4407912350",
+    "https://openalex.org/W4408966488",
+    "https://openalex.org/W4409042577",
+    "https://openalex.org/W4413804773",
+    "https://openalex.org/W4415401895",
+    "https://openalex.org/W4415793907",
+    "https://openalex.org/W4416416092",
+    "https://openalex.org/W4416460362",
+    "https://openalex.org/W7123348330",
+    "https://openalex.org/W7160248794"
+   ],
+   "related_works": [
+    "https://openalex.org/W3198342660",
+    "https://openalex.org/W1551459012",
+    "https://openalex.org/W1993837376",
+    "https://openalex.org/W2355861537",
+    "https://openalex.org/W1901701366",
+    "https://openalex.org/W2600386383",
+    "https://openalex.org/W4311584828",
+    "https://openalex.org/W67796137",
+    "https://openalex.org/W2260127440",
+    "https://openalex.org/W3197797140"
+   ],
+   "abstract_inverted_index": null,
+   "counts_by_year": [],
+   "updated_date": "2026-11-03T10:50:19.383937",
+   "created_date": "2026-09-26T00:00:00"
+  }
+ ]
+}

@@ -1,3 +1,6 @@
+<!-- LAST_UPDATED -->
+Ultima actualizare automată: N/A — versiune v5 (? citări, ? publicații)
+
 # Dashboard bibliografic — Gabriela Daniela Stamatie
 
 Proiect de documentare bibliografică pentru **Gabriela Daniela Stamatie (Criveanu-Stamatie)** — ORCID [0000-0002-1850-7278](https://orcid.org/0000-0002-1850-7278), Institutul de Bioresurse Alimentare (IBA), București.

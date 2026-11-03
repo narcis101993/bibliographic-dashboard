@@ -1,0 +1,395 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "19",
+ "payload": {
+  "id": "https://openalex.org/W6885144657",
+  "doi": "https://doi.org/10.13140/rg.2.2.29075.86568",
+  "title": "QUANTITATIVE MEASUREMENT OF CHEESE ADULTERATION WITH NON MILK FAT",
+  "display_name": "QUANTITATIVE MEASUREMENT OF CHEESE ADULTERATION WITH NON MILK FAT",
+  "publication_year": 2018,
+  "publication_date": "2018-01-01",
+  "ids": {
+   "openalex": "https://openalex.org/W6885144657",
+   "doi": "https://doi.org/10.13140/rg.2.2.29075.86568"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.13140/rg.2.2.29075.86568",
+   "doi": "https://doi.org/10.13140/rg.2.2.29075.86568",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.13140/rg.2.2.29075.86568",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article-journal"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "datacite"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5040177685",
+     "display_name": "Enuța Iorga",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Enuța Iorga",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5064575162",
+     "display_name": "Claudiu Utoiu",
+     "orcid": "https://orcid.org/0000-0001-8822-0726",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8822-0726"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Uțoiu, Claudiu",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Criveanu-Stamatie, Gabriela Daniela",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5071041704",
+     "display_name": "Valentin Ionescu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Ionescu, Valentin",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Todașcă Cristina",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Todașcă Cristina",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": null,
+     "display_name": "Manolache, Fulvia Ancuta",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Manolache, Fulvia Ancuta",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+   "value": 0.27520778,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": true,
+  "primary_topic": {
+   "id": "https://openalex.org/T12388",
+   "display_name": "Identification and Quantification in Food",
+   "score": 0.9961000084877014,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1312",
+    "display_name": "Molecular Biology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/13",
+    "display_name": "Biochemistry, Genetics and Molecular Biology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T12388",
+    "display_name": "Identification and Quantification in Food",
+    "score": 0.9961000084877014,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1312",
+     "display_name": "Molecular Biology"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/13",
+     "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T14127",
+    "display_name": "Food and Agricultural Sciences",
+    "score": 0.0010999999940395355,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12349",
+    "display_name": "Food Chemistry and Fat Analysis",
+    "score": 0.0006000000284984708,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/cheese-adulteration",
+    "display_name": "cheese adulteration",
+    "score": 0.996999979019165
+   },
+   {
+    "id": "https://openalex.org/keywords/milk-fat",
+    "display_name": "milk fat",
+    "score": 0.5139999985694885
+   },
+   {
+    "id": "https://openalex.org/keywords/cheese-quality",
+    "display_name": "cheese quality",
+    "score": 0.4429999887943268
+   },
+   {
+    "id": "https://openalex.org/keywords/adulteration-detection",
+    "display_name": "adulteration detection",
+    "score": 0.6669999957084656
+   },
+   {
+    "id": "https://openalex.org/keywords/quantitative-analysis",
+    "display_name": "quantitative analysis",
+    "score": 0.48899999260902405
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.6985999941825867
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.41440001130104065
+   },
+   {
+    "id": "https://openalex.org/C3020774095",
+    "wikidata": "https://www.wikidata.org/wiki/Q185217",
+    "display_name": "Milk products",
+    "level": 2,
+    "score": 0.4124999940395355
+   },
+   {
+    "id": "https://openalex.org/C3020171069",
+    "wikidata": "https://www.wikidata.org/wiki/Q909729",
+    "display_name": "Milk fat",
+    "level": 3,
+    "score": 0.3709000051021576
+   },
+   {
+    "id": "https://openalex.org/C2776477769",
+    "wikidata": "https://www.wikidata.org/wiki/Q1281188",
+    "display_name": "Cheesemaking",
+    "level": 2,
+    "score": 0.36090001463890076
+   },
+   {
+    "id": "https://openalex.org/C2775992197",
+    "wikidata": "https://www.wikidata.org/wiki/Q513631",
+    "display_name": "Raw milk",
+    "level": 2,
+    "score": 0.3393999934196472
+   },
+   {
+    "id": "https://openalex.org/C43679160",
+    "wikidata": "https://www.wikidata.org/wiki/Q17117207",
+    "display_name": "Modified milk ingredients",
+    "level": 3,
+    "score": 0.25870001316070557
+   },
+   {
+    "id": "https://openalex.org/C103050880",
+    "wikidata": "https://www.wikidata.org/wiki/Q5435749",
+    "display_name": "Farmer cheese",
+    "level": 3,
+    "score": 0.2506999969482422
+   },
+   {
+    "id": "https://openalex.org/C2779780233",
+    "wikidata": "https://www.wikidata.org/wiki/Q56696202",
+    "display_name": "Conjugated linoleic acid",
+    "level": 4,
+    "score": 0.24310000240802765
+   },
+   {
+    "id": "https://openalex.org/C34135077",
+    "wikidata": "https://www.wikidata.org/wiki/Q3511075",
+    "display_name": "Food contaminant",
+    "level": 2,
+    "score": 0.23090000450611115
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.13140/rg.2.2.29075.86568",
+    "doi": "https://doi.org/10.13140/rg.2.2.29075.86568",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.13140/rg.2.2.29075.86568",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article-journal"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+   {
+    "id": "https://metadata.un.org/sdg/2",
+    "display_name": "Zero hunger",
+    "score": 0.875
+   },
+   {
+    "id": "https://metadata.un.org/sdg/3",
+    "display_name": "Good health and well-being",
+    "score": 0.7246000170707703
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+   "https://openalex.org/W3038032380",
+   "https://openalex.org/W3169790084",
+   "https://openalex.org/W27507491",
+   "https://openalex.org/W6903882043",
+   "https://openalex.org/W7036905860",
+   "https://openalex.org/W2943602130",
+   "https://openalex.org/W4301754830",
+   "https://openalex.org/W1535352169",
+   "https://openalex.org/W2920630195",
+   "https://openalex.org/W2768562057"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-10-28T10:33:24.094632",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

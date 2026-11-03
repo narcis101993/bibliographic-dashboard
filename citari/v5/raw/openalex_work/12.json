@@ -1,0 +1,1461 @@
+{
+ "retrievedOn": "2026-11-01",
+ "publicationId": "12",
+ "payload": {
+  "id": "https://openalex.org/W4414210547",
+  "doi": "https://doi.org/10.1038/s41538-025-00536-2",
+  "title": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+  "display_name": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+  "publication_year": 2025,
+  "publication_date": "2025-09-16",
+  "ids": {
+   "openalex": "https://openalex.org/W4414210547",
+   "doi": "https://doi.org/10.1038/s41538-025-00536-2",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/40957870",
+   "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12441127"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1038/s41538-025-00536-2",
+   "doi": "https://doi.org/10.1038/s41538-025-00536-2",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1038/s41538-025-00536-2",
+   "pdf_url": "https://www.nature.com/articles/s41538-025-00536-2.pdf",
+   "source": {
+    "id": "https://openalex.org/S4210241007",
+    "display_name": "npj Science of Food",
+    "issn_l": "2396-8370",
+    "issn": [
+     "2396-8370"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-c",
+     "jufo-2",
+     "ki-jl-1",
+     "norway-1",
+     "oarl",
+     "poland-20",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "npj Science of Food",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref",
+   "doaj",
+   "pubmed"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.nature.com/articles/s41538-025-00536-2.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5051842915",
+     "display_name": "Gabriela Olimpia Isopencu",
+     "orcid": "https://orcid.org/0000-0002-0763-540X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-0763-540X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Olimpia Isopencu",
+    "raw_affiliation_strings": [
+     "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Denisa Eglantina Duță",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources, IBA Bucharest, 6 Dinu Vintilă Street, 2nd District, Bucharest, 021102, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources, IBA Bucharest, 6 Dinu Vintilă Street, 2nd District, Bucharest, 021102, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Daniela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources, IBA Bucharest, 6 Dinu Vintilă Street, 2nd District, Bucharest, 021102, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources, IBA Bucharest, 6 Dinu Vintilă Street, 2nd District, Bucharest, 021102, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5034173535",
+     "display_name": "Raul−Augustin Mitran",
+     "orcid": "https://orcid.org/0000-0001-6969-2832",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-6969-2832"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I58077936",
+      "display_name": "Romanian Academy",
+      "ror": "https://ror.org/0561n6946",
+      "country_code": "RO",
+      "type": "archive",
+      "lineage": [
+       "https://openalex.org/I58077936"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Raul Augustin Mitran",
+    "raw_affiliation_strings": [
+     "\"Ilie Murgulescu\" Institute of Physical Chemistry, Romanian Academy, 202 Splaiul Independentei, Bucharest, 060021, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "\"Ilie Murgulescu\" Institute of Physical Chemistry, Romanian Academy, 202 Splaiul Independentei, Bucharest, 060021, Romania",
+      "institution_ids": [
+       "https://openalex.org/I58077936"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5119624406",
+     "display_name": "Alexandru Stefan",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Alexandru Stefan",
+    "raw_affiliation_strings": [
+     "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5035419014",
+     "display_name": "Cosmin Romanițan",
+     "orcid": "https://orcid.org/0000-0002-5615-6624",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5615-6624"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210119058",
+      "display_name": "National Institute for Research and Development in Microtechnologies",
+      "ror": "https://ror.org/01rtq8t93",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210119058"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Cosmin Romanitan",
+    "raw_affiliation_strings": [
+     "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210119058"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036326460",
+     "display_name": "Oana Brîncoveanu",
+     "orcid": "https://orcid.org/0000-0002-4860-2591",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4860-2591"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I141595442",
+      "display_name": "University of Bucharest",
+      "ror": "https://ror.org/02x2v6p15",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I141595442"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210119058",
+      "display_name": "National Institute for Research and Development in Microtechnologies",
+      "ror": "https://ror.org/01rtq8t93",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210119058"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Oana Andreea Brincoveanu",
+    "raw_affiliation_strings": [
+     "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania",
+     "Research Institute of the University of Bucharest (ICUB), University of Bucharest, 90-92 Sos. Panduri, 5th District, Bucharest, 060023, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210119058"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Research Institute of the University of Bucharest (ICUB), University of Bucharest, 90-92 Sos. Panduri, 5th District, Bucharest, 060023, Romania",
+      "institution_ids": [
+       "https://openalex.org/I141595442"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5119624407",
+     "display_name": "Ruxandra Gabriela Soare",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I96673099",
+      "display_name": "Technical University of Denmark",
+      "ror": "https://ror.org/04qtj9h94",
+      "country_code": "DK",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I96673099"
+      ]
+     }
+    ],
+    "countries": [
+     "DK"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Ruxandra Gabriela Soare",
+    "raw_affiliation_strings": [
+     "Technical University of Denmark (DTU), Anker Engelunds Vej 101, 2800, Kongens Lyngby, Denmark. s243001@dtu.dk",
+     "Technical University of Denmark (DTU),  Anker Engelunds Vej 101,  2800, Kongens Lyngby, Denmark"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Technical University of Denmark (DTU), Anker Engelunds Vej 101, 2800, Kongens Lyngby, Denmark. s243001@dtu.dk",
+      "institution_ids": [
+       "https://openalex.org/I96673099"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Technical University of Denmark (DTU),  Anker Engelunds Vej 101,  2800, Kongens Lyngby, Denmark",
+      "institution_ids": [
+       "https://openalex.org/I96673099"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5042743947",
+     "display_name": "Alexandra Mocanu",
+     "orcid": "https://orcid.org/0000-0003-0469-9974",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-0469-9974",
+      "https://orcid.org/0000-0002-2076-955X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210119058",
+      "display_name": "National Institute for Research and Development in Microtechnologies",
+      "ror": "https://ror.org/01rtq8t93",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210119058"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Alexandra Mocanu",
+    "raw_affiliation_strings": [
+     "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania. alexandra.mocanu@imt.ro",
+     "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania. alexandra.mocanu@imt.ro",
+     "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania",
+     "National Institute for Research and Development in Microtechnologies - IMT Bucharest,  126A Iancu Nicolae Street, Voluntari, Ilfov,  077190, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania. alexandra.mocanu@imt.ro",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National Institute for Research and Development in Microtechnologies - IMT Bucharest, 126A Iancu Nicolae Street, Voluntari, Ilfov, 077190, Romania. alexandra.mocanu@imt.ro",
+      "institution_ids": [
+       "https://openalex.org/I4210119058"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Faculty of Chemical Engineering and Biotechnologies, National University of Science and Technology Politehnica Bucharest, 1-7 Gh. Polizu Street, Bucharest, 011061, Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National Institute for Research and Development in Microtechnologies - IMT Bucharest,  126A Iancu Nicolae Street, Voluntari, Ilfov,  077190, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210119058"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5042743947",
+   "https://openalex.org/A5119624407"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I4210119058",
+   "https://openalex.org/I61641377",
+   "https://openalex.org/I96673099"
+  ],
+  "apc_list": {
+   "value": 2790,
+   "currency": "USD",
+   "value_usd": 2790
+  },
+  "apc_paid": {
+   "value": 2790,
+   "currency": "USD",
+   "value_usd": 2790
+  },
+  "fwci": 0.6236,
+  "has_fulltext": true,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+   "value": 0.58663339,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+   "min": 97,
+   "max": 98
+  },
+  "biblio": {
+   "volume": "9",
+   "issue": "1",
+   "first_page": "191",
+   "last_page": "191"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10610",
+   "display_name": "Advanced Cellulose Research Studies",
+   "score": 0.9771000146865845,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2502",
+    "display_name": "Biomaterials"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10610",
+    "display_name": "Advanced Cellulose Research Studies",
+    "score": 0.9771000146865845,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2502",
+     "display_name": "Biomaterials"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/25",
+     "display_name": "Materials Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12192",
+    "display_name": "Polysaccharides Composition and Applications",
+    "score": 0.016899999231100082,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.00279999990016222,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/bacterial-cellulose",
+    "display_name": "bacterial cellulose",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/ice-cream",
+    "display_name": "ice cream",
+    "score": 0.8769999742507935
+   },
+   {
+    "id": "https://openalex.org/keywords/dietary-fiber",
+    "display_name": "dietary fiber",
+    "score": 0.9629999995231628
+   },
+   {
+    "id": "https://openalex.org/keywords/texture",
+    "display_name": "texture",
+    "score": 0.6309999823570251
+   },
+   {
+    "id": "https://openalex.org/keywords/melting-behavior",
+    "display_name": "melting behavior",
+    "score": 0.7789999842643738
+   },
+   {
+    "id": "https://openalex.org/keywords/herschel-bulkley-fluid",
+    "display_name": "Herschel-Bulkley fluid",
+    "score": 0.847000002861023
+   },
+   {
+    "id": "https://openalex.org/keywords/ice-nucleation",
+    "display_name": "ice nucleation",
+    "score": 0.9330000281333923
+   },
+   {
+    "id": "https://openalex.org/keywords/dietary-energy-level",
+    "display_name": "dietary energy level",
+    "score": 0.7689999938011169
+   },
+   {
+    "id": "https://openalex.org/keywords/sensory-acceptance",
+    "display_name": "sensory acceptability",
+    "score": 0.8180000185966492
+   },
+   {
+    "id": "https://openalex.org/keywords/sustainable-food",
+    "display_name": "sustainable food",
+    "score": 0.515999972820282
+   },
+   {
+    "id": "https://openalex.org/keywords/farm-to-fork",
+    "display_name": "farm-to-fork",
+    "score": 0.7590000033378601
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C2992050699",
+    "wikidata": "https://www.wikidata.org/wiki/Q13233",
+    "display_name": "Ice cream",
+    "level": 2,
+    "score": 0.6884999871253967
+   },
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.6187999844551086
+   },
+   {
+    "id": "https://openalex.org/C2779477270",
+    "wikidata": "https://www.wikidata.org/wiki/Q4839982",
+    "display_name": "Bacterial cellulose",
+    "level": 3,
+    "score": 0.5848000049591064
+   },
+   {
+    "id": "https://openalex.org/C2779251873",
+    "wikidata": "https://www.wikidata.org/wiki/Q80294",
+    "display_name": "Cellulose",
+    "level": 2,
+    "score": 0.48919999599456787
+   },
+   {
+    "id": "https://openalex.org/C39432304",
+    "wikidata": "https://www.wikidata.org/wiki/Q188847",
+    "display_name": "Environmental science",
+    "level": 0,
+    "score": 0.40059998631477356
+   },
+   {
+    "id": "https://openalex.org/C200990466",
+    "wikidata": "https://www.wikidata.org/wiki/Q271707",
+    "display_name": "Rheology",
+    "level": 2,
+    "score": 0.398499995470047
+   },
+   {
+    "id": "https://openalex.org/C199289684",
+    "wikidata": "https://www.wikidata.org/wiki/Q83353",
+    "display_name": "Mineralogy",
+    "level": 1,
+    "score": 0.3684999942779541
+   },
+   {
+    "id": "https://openalex.org/C519885992",
+    "wikidata": "https://www.wikidata.org/wiki/Q161",
+    "display_name": "Fiber",
+    "level": 2,
+    "score": 0.34040001034736633
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.32440000772476196
+   },
+   {
+    "id": "https://openalex.org/C2992741425",
+    "wikidata": "https://www.wikidata.org/wiki/Q215210",
+    "display_name": "Dietary fiber",
+    "level": 2,
+    "score": 0.30160000920295715
+   },
+   {
+    "id": "https://openalex.org/C3019431164",
+    "wikidata": "https://www.wikidata.org/wiki/Q7802",
+    "display_name": "Bread making",
+    "level": 2,
+    "score": 0.29089999198913574
+   },
+   {
+    "id": "https://openalex.org/C54965259",
+    "wikidata": "https://www.wikidata.org/wiki/Q189109",
+    "display_name": "Cellulose fiber",
+    "level": 3,
+    "score": 0.27160000801086426
+   },
+   {
+    "id": "https://openalex.org/C2781345722",
+    "wikidata": "https://www.wikidata.org/wiki/Q5308388",
+    "display_name": "Drop (telecommunication)",
+    "level": 2,
+    "score": 0.26980000734329224
+   }
+  ],
+  "mesh": [],
+  "locations_count": 5,
+  "locations": [
+   {
+    "id": "doi:10.1038/s41538-025-00536-2",
+    "doi": "https://doi.org/10.1038/s41538-025-00536-2",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41538-025-00536-2",
+    "pdf_url": "https://www.nature.com/articles/s41538-025-00536-2.pdf",
+    "source": {
+     "id": "https://openalex.org/S4210241007",
+     "display_name": "npj Science of Food",
+     "issn_l": "2396-8370",
+     "issn": [
+      "2396-8370"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "jufo-2",
+      "ki-jl-1",
+      "norway-1",
+      "oarl",
+      "poland-20",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319908",
+     "host_organization_name": "Nature Portfolio",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319908",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Nature Portfolio",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "npj Science of Food",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:europepmc.org:11250998",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12441127",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400806",
+     "display_name": "Europe PMC (PubMed Central)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1303153112",
+     "host_organization_name": "European Bioinformatics Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/I1303153112"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "Text"
+   },
+   {
+    "id": "pmid:40957870",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40957870",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306525036",
+     "display_name": "PubMed",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1299303238",
+     "host_organization_name": "National Institutes of Health",
+     "host_organization_lineage": [
+      "https://openalex.org/I1299303238"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "NPJ science of food",
+    "raw_type": "Journal Article"
+   },
+   {
+    "id": "pmh:oai:pubmedcentral.nih.gov:12441127",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12441127/",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2764455111",
+     "display_name": "PubMed Central",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1299303238",
+     "host_organization_name": "National Institutes of Health",
+     "host_organization_lineage": [
+      "https://openalex.org/I1299303238"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "NPJ Sci Food",
+    "raw_type": "Text"
+   },
+   {
+    "id": "pmh:oai:doaj.org/article:e31243f28c394960940ca8dfec4b2595",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://doaj.org/article/e31243f28c394960940ca8dfec4b2595",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401280",
+     "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-sa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "npj Science of Food, Vol 9, Iss 1, Pp 1-15 (2025)",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.1038/s41538-025-00536-2",
+   "doi": "https://doi.org/10.1038/s41538-025-00536-2",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1038/s41538-025-00536-2",
+   "pdf_url": "https://www.nature.com/articles/s41538-025-00536-2.pdf",
+   "source": {
+    "id": "https://openalex.org/S4210241007",
+    "display_name": "npj Science of Food",
+    "issn_l": "2396-8370",
+    "issn": [
+     "2396-8370"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-c",
+     "jufo-2",
+     "ki-jl-1",
+     "norway-1",
+     "oarl",
+     "poland-20",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "npj Science of Food",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Responsible consumption and production",
+    "id": "https://metadata.un.org/sdg/12",
+    "score": 0.807699978351593
+   },
+   {
+    "display_name": "Zero hunger",
+    "id": "https://metadata.un.org/sdg/2",
+    "score": 0.6735000014305115
+   }
+  ],
+  "study_designs": [],
+  "awards": [
+   {
+    "id": "https://openalex.org/G4960617252",
+    "display_name": null,
+    "funder_award_id": "PN-IV-P7-7.1-PTE-2024-0305",
+    "funder_id": "https://openalex.org/F4320323983",
+    "funder_display_name": "Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii"
+   },
+   {
+    "id": "https://openalex.org/G7773152467",
+    "display_name": null,
+    "funder_award_id": "no. 40PTE/2025",
+    "funder_id": "https://openalex.org/F4320323983",
+    "funder_display_name": "Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii"
+   }
+  ],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320323983",
+    "display_name": "Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii",
+    "ror": "https://ror.org/01q7jq182"
+   },
+   {
+    "id": "https://openalex.org/F4320336189",
+    "display_name": "Colegiul Consultativ pentru Cercetare-Dezvoltare şi Inovare",
+    "ror": "https://ror.org/03mc0m715"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4414210547.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4414210547.grobid-xml"
+  },
+  "referenced_works_count": 70,
+  "referenced_works": [
+   "https://openalex.org/W1515063169",
+   "https://openalex.org/W1748751575",
+   "https://openalex.org/W1813179337",
+   "https://openalex.org/W1990475576",
+   "https://openalex.org/W1994172878",
+   "https://openalex.org/W1996442036",
+   "https://openalex.org/W2009518614",
+   "https://openalex.org/W2017251965",
+   "https://openalex.org/W2027477820",
+   "https://openalex.org/W2051694021",
+   "https://openalex.org/W2066271048",
+   "https://openalex.org/W2067947513",
+   "https://openalex.org/W2107839640",
+   "https://openalex.org/W2139751788",
+   "https://openalex.org/W2182919992",
+   "https://openalex.org/W2323629663",
+   "https://openalex.org/W2519607686",
+   "https://openalex.org/W2563897344",
+   "https://openalex.org/W2605619749",
+   "https://openalex.org/W2791619475",
+   "https://openalex.org/W2800753952",
+   "https://openalex.org/W2802797797",
+   "https://openalex.org/W2809641182",
+   "https://openalex.org/W2906906165",
+   "https://openalex.org/W2954379313",
+   "https://openalex.org/W2972175686",
+   "https://openalex.org/W2972701068",
+   "https://openalex.org/W2991641346",
+   "https://openalex.org/W3011887452",
+   "https://openalex.org/W3012223470",
+   "https://openalex.org/W3022428321",
+   "https://openalex.org/W3027877901",
+   "https://openalex.org/W3033076247",
+   "https://openalex.org/W3036688000",
+   "https://openalex.org/W3114089417",
+   "https://openalex.org/W3121598016",
+   "https://openalex.org/W3130458699",
+   "https://openalex.org/W3149178484",
+   "https://openalex.org/W3149184211",
+   "https://openalex.org/W3154410274",
+   "https://openalex.org/W3181026667",
+   "https://openalex.org/W3199325576",
+   "https://openalex.org/W3207975750",
+   "https://openalex.org/W4200426570",
+   "https://openalex.org/W4206872134",
+   "https://openalex.org/W4220836016",
+   "https://openalex.org/W4224237309",
+   "https://openalex.org/W4293564015",
+   "https://openalex.org/W4293776539",
+   "https://openalex.org/W4311050739",
+   "https://openalex.org/W4313596632",
+   "https://openalex.org/W4315865236",
+   "https://openalex.org/W4319038702",
+   "https://openalex.org/W4321767456",
+   "https://openalex.org/W4321790072",
+   "https://openalex.org/W4366086484",
+   "https://openalex.org/W4376619454",
+   "https://openalex.org/W4384563362",
+   "https://openalex.org/W4385752177",
+   "https://openalex.org/W4386977041",
+   "https://openalex.org/W4387190608",
+   "https://openalex.org/W4387573331",
+   "https://openalex.org/W4389300193",
+   "https://openalex.org/W4389816048",
+   "https://openalex.org/W4394689567",
+   "https://openalex.org/W4394876519",
+   "https://openalex.org/W4400902476",
+   "https://openalex.org/W4401630364",
+   "https://openalex.org/W4402280667",
+   "https://openalex.org/W4403286544"
+  ],
+  "related_works": [
+   "https://openalex.org/W3130458699",
+   "https://openalex.org/W4403286544",
+   "https://openalex.org/W7161237449",
+   "https://openalex.org/W2359026721",
+   "https://openalex.org/W2809641182",
+   "https://openalex.org/W4394876519",
+   "https://openalex.org/W4366086484",
+   "https://openalex.org/W3168440063",
+   "https://openalex.org/W4385153615",
+   "https://openalex.org/W2903188004"
+  ],
+  "abstract_inverted_index": {
+   "This": [
+    0
+   ],
+   "study": [
+    1
+   ],
+   "explored": [
+    2
+   ],
+   "the": [
+    3,
+    62,
+    80,
+    95,
+    108,
+    131
+   ],
+   "use": [
+    4
+   ],
+   "of": [
+    5,
+    111
+   ],
+   "bacterial": [
+    6
+   ],
+   "cellulose": [
+    7
+   ],
+   "(BC)": [
+    8
+   ],
+   "in": [
+    9,
+    22,
+    30,
+    33
+   ],
+   "milk-based": [
+    10
+   ],
+   "cocoa": [
+    11
+   ],
+   "ice": [
+    12,
+    39
+   ],
+   "cream": [
+    13,
+    40
+   ],
+   "as": [
+    14,
+    86
+   ],
+   "possible": [
+    15
+   ],
+   "dietary": [
+    16
+   ],
+   "fibers.": [
+    17
+   ],
+   "BC": [
+    18,
+    65,
+    87,
+    128
+   ],
+   "fibers": [
+    19
+   ],
+   "were": [
+    20,
+    130
+   ],
+   "added": [
+    21
+   ],
+   "1%,": [
+    23
+   ],
+   "3%,": [
+    24
+   ],
+   "and": [
+    25,
+    58,
+    125
+   ],
+   "5%": [
+    26,
+    63,
+    96
+   ],
+   "wt.": [
+    27,
+    64,
+    97,
+    127
+   ],
+   "amounts,": [
+    28
+   ],
+   "resulting": [
+    29
+   ],
+   "notable": [
+    31
+   ],
+   "changes": [
+    32
+   ],
+   "texture,": [
+    34
+   ],
+   "density,": [
+    35
+   ],
+   "melting": [
+    36
+   ],
+   "behavior.": [
+    37
+   ],
+   "The": [
+    38
+   ],
+   "transitioned": [
+    41
+   ],
+   "from": [
+    42
+   ],
+   "a": [
+    43,
+    46,
+    68,
+    115
+   ],
+   "Bingham": [
+    44
+   ],
+   "to": [
+    45,
+    91,
+    104,
+    107,
+    134
+   ],
+   "Herschel-Bulkley": [
+    47
+   ],
+   "fluid,": [
+    48
+   ],
+   "while": [
+    49
+   ],
+   "density": [
+    50
+   ],
+   "rose": [
+    51,
+    89
+   ],
+   "with": [
+    52,
+    79
+   ],
+   "higher": [
+    53
+   ],
+   "fiber": [
+    54
+   ],
+   "content.": [
+    55
+   ],
+   "Although": [
+    56
+   ],
+   "hardness": [
+    57
+   ],
+   "gumminess": [
+    59
+   ],
+   "slightly": [
+    60
+   ],
+   "increased,": [
+    61
+   ],
+   "sample": [
+    66
+   ],
+   "formed": [
+    67
+   ],
+   "more": [
+    69
+   ],
+   "cohesive": [
+    70
+   ],
+   "network": [
+    71
+   ],
+   "structure": [
+    72
+   ],
+   "when": [
+    73
+   ],
+   "melted.": [
+    74
+   ],
+   "Ice": [
+    75
+   ],
+   "nucleation": [
+    76
+   ],
+   "was": [
+    77
+   ],
+   "delayed,": [
+    78
+   ],
+   "first": [
+    81
+   ],
+   "melt": [
+    82
+   ],
+   "drop": [
+    83
+   ],
+   "appearing": [
+    84
+   ],
+   "later": [
+    85
+   ],
+   "content": [
+    88,
+    100
+   ],
+   "up": [
+    90,
+    103
+   ],
+   "22": [
+    92
+   ],
+   "minutes": [
+    93
+   ],
+   "for": [
+    94
+   ],
+   "sample.": [
+    98
+   ],
+   "Caloric": [
+    99
+   ],
+   "dropped": [
+    101
+   ],
+   "by": [
+    102
+   ],
+   "21%": [
+    105
+   ],
+   "corresponding": [
+    106
+   ],
+   "highest": [
+    109
+   ],
+   "amount": [
+    110
+   ],
+   "BC,": [
+    112
+   ],
+   "making": [
+    113
+   ],
+   "it": [
+    114
+   ],
+   "healthier": [
+    116
+   ],
+   "dessert": [
+    117
+   ],
+   "option.": [
+    118
+   ],
+   "However,": [
+    119
+   ],
+   "sensory": [
+    120
+   ],
+   "testing": [
+    121
+   ],
+   "showed": [
+    122
+   ],
+   "that": [
+    123
+   ],
+   "1%": [
+    124
+   ],
+   "3%": [
+    126
+   ],
+   "formulations": [
+    129
+   ],
+   "most": [
+    132
+   ],
+   "appealing": [
+    133
+   ],
+   "consumers.": [
+    135
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 3
+   }
+  ],
+  "updated_date": "2026-10-30T12:39:25.321706",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}
