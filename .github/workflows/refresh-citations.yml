@@ -28,25 +28,66 @@ jobs:
           python -m pip install --upgrade pip
           pip install openpyxl
 
+      - name: Detect versions
+        id: versions
+        run: |
+          LATEST=$(ls centralizator/ | grep -o 'v[0-9]*' | sort -V | tail -1)
+          NEXT="v$((${LATEST#v} + 1))"
+          echo "latest=$LATEST" >> $GITHUB_OUTPUT
+          echo "next=$NEXT" >> $GITHUB_OUTPUT
+          echo "Latest version: $LATEST → Next: $NEXT"
+
       - name: Fetch fresh citation data from sources
         run: |
           cd scripts
-          python3 fetch_citation_sources.py
+          python3 fetch_citation_sources.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
 
       - name: Fetch Crossref counts
         run: |
           cd scripts
-          python3 check_crossref_counts.py
+          python3 check_crossref_counts.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
 
-      - name: Build citation dataset (v4)
+      - name: Build citation dataset
         run: |
           cd scripts
-          python3 build_citations_v4.py
+          python3 build_citations.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
 
       - name: Build dashboard data
         run: |
           cd scripts
           python3 build_dashboard_data.py
+
+      - name: Update README with latest stats
+        run: |
+          cd scripts
+          python3 - <<'PY'
+          import json, os, re
+          root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+          versions = sorted([d for d in os.listdir(os.path.join(root, "centralizator")) if d.startswith("v")], key=lambda x: int(x[1:]))
+          latest = versions[-1]
+          stats_path = os.path.join(root, "citari", latest, f"{latest}-stats.json")
+          if not os.path.exists(stats_path):
+              for f in os.listdir(os.path.join(root, "citari", latest)):
+                  if f.endswith("-stats.json"):
+                      stats_path = os.path.join(root, "citari", latest, f)
+                      break
+          stats = {}
+          if os.path.exists(stats_path):
+              with open(stats_path, encoding="utf-8") as f:
+                  stats = json.load(f)
+          readme_path = os.path.join(root, "README.md")
+          with open(readme_path, encoding="utf-8") as f:
+              content = f.read()
+          marker = "<!-- LAST_UPDATED -->"
+          line = f"{marker}\nUltima actualizare automată: {stats.get('retrievedOn', 'N/A')} — versiune {latest} ({stats.get('totalCitations', '?')} citări, {stats.get('totalPublications', '?')} publicații)\n"
+          if marker in content:
+              content = re.sub(r"<!-- LAST_UPDATED -->\n.*\n", line, content)
+          else:
+              content = line + "\n" + content
+          with open(readme_path, "w", encoding="utf-8") as f:
+              f.write(content)
+          print("README updated")
+          PY
 
       - name: Commit and push updated files
         run: |
@@ -54,5 +95,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "chore: refresh citation data $(date +%Y-%m-%d)"
+          git commit -m "chore: auto-refresh citation data $(date +%Y-%m-%d) — new version ${{ steps.versions.outputs.next }}"
           git push
