@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --bg: #f4f6f9;
   --surface: #ffffff;
   --surface-2: #f8fafc;
@@ -22,6 +23,7 @@
 }
 
 [data-theme="dark"] {
+  color-scheme: dark;
   --bg: #0b1220;
   --surface: #111827;
   --surface-2: #0f172a;
@@ -439,7 +441,7 @@ a.btn:hover { text-decoration: none; }
   }
 }
 
-.charts-arrow { display: inline-block; font-size: 11px; margin-right: 2px; }
+.charts-arrow { display: inline-block; font-size: 18px; line-height: 1; margin-right: 2px; }
 .syn-filter { margin: 0 0 10px; }
 .charts-row {
   display: grid;
@@ -522,6 +524,7 @@ a.btn:hover { text-decoration: none; }
 #pubTable td:nth-child(9), #pubTable th:nth-child(9) { flex: 1.6 1 0; }
 #pubTable td:nth-child(10), #pubTable th:nth-child(10) { flex: 0.6 1 0; }
 #pubTable td:nth-child(11), #pubTable th:nth-child(11) { flex: 1.5 1 0; }
+#pubTable td:nth-child(12), #pubTable th:nth-child(12) { flex: 0.9 1 0; }
 #citTable td:nth-child(1), #citTable th:nth-child(1) { flex: 0.45 1 0; }
 #citTable td:nth-child(2), #citTable th:nth-child(2) { flex: 0.55 1 0; }
 #citTable td:nth-child(3), #citTable th:nth-child(3) { flex: 0.65 1 0; }
@@ -622,7 +625,8 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
 .doi {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 11px;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .muted { color: var(--muted); }
@@ -717,7 +721,7 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
 }
 .detail-panel {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 8px 16px;
   padding: 10px 14px;
   background: var(--surface);
@@ -760,7 +764,7 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
 .pub-expand-icon {
   display: inline-block;
   transition: transform 0.2s;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--muted);
   margin-right: 6px;
   line-height: 1;
@@ -1242,7 +1246,15 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
   .page-size select {
     appearance: none; border: 1px solid var(--border-strong); border-radius: 8px;
     background: var(--surface); color: var(--text);
-    font: inherit; font-size: 12px; padding: 4px 8px; cursor: pointer;
+    font: inherit; font-size: 12px; font-weight: 600; padding: 6px 10px;
+    min-width: 70px; flex: none; cursor: pointer;
+  }
+  .btn-icon { font-size: 15px; line-height: 1; }
+  .app-toast {
+    position: fixed; top: 16px; left: 50%; transform: translateX(-50%);
+    background: #2563eb; color: #fff; padding: 10px 20px; border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .25); font-weight: 600; font-size: 13px;
+    z-index: 10000; max-width: calc(100vw - 32px); text-align: center;
   }
 
   /* Sortable headers: pointer, focus and direction arrows */

@@ -10,8 +10,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/brand.png">
+  <link rel="apple-touch-icon" href="assets/brand.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,7 +33,7 @@
         </div>
         <span class="version-chip" id="versionChip">v3</span>
         <span class="updated" id="updatedLabel">—</span>
-        <button class="btn btn-ghost btn-small" id="refreshData" type="button" data-i18n="refreshData" title="Reîncarcă datele din surse">Reîncarcă</button>
+        <button class="btn btn-ghost btn-small" id="refreshData" type="button" title="Reîncarcă datele din surse" aria-label="Reîncarcă"><span class="btn-icon" aria-hidden="true">⟳</span></button>
       </div>
     </header>
 
@@ -91,15 +91,15 @@
               </label>
               <label class="field">
                 <span data-i18n="year">An</span>
-                <select id="pubYear"></select>
+                <select id="pubYear" multiple></select>
               </label>
               <label class="field">
                 <span data-i18n="type">Tip</span>
-                <select id="pubType"></select>
+                <select id="pubType" multiple></select>
               </label>
               <label class="field">
                 <span data-i18n="venue">Revistă</span>
-                <select id="pubVenue"></select>
+                <select id="pubVenue" multiple></select>
               </label>
               <label class="check">
                 <input type="checkbox" id="pubDoiOnly">
@@ -132,10 +132,10 @@
                         <th data-i18n="colVolume">Volum/Issue</th>
                         <th class="sortable" data-sort="type" data-i18n="colType">Tip</th>
                         <th data-i18n="colDoi">DOI</th>
-                        <th data-i18n="colLink">Link</th>
                         <th data-i18n="colAuthors">Autori</th>
                         <th class="num sortable" data-sort="citations" data-i18n="colCitations">Citări</th>
                         <th data-i18n="colNotes">Observații</th>
+                        <th data-i18n="colLink">Link</th>
                       </tr>
                     </thead>
                     <tbody id="pubBody"></tbody>
@@ -213,19 +213,19 @@
               </label>
               <label class="field">
                 <span data-i18n="citYear">An citare</span>
-                <select id="citYear"></select>
+                <select id="citYear" multiple></select>
               </label>
               <label class="field">
                 <span data-i18n="article">Articol citat</span>
-                <select id="citArticle"></select>
+                <select id="citArticle" multiple></select>
               </label>
               <label class="field">
                 <span data-i18n="venue">Revistă</span>
-                <select id="citVenue"></select>
+                <select id="citVenue" multiple></select>
               </label>
               <label class="field">
                 <span data-i18n="type">Tip</span>
-                <select id="citType"></select>
+                <select id="citType" multiple></select>
               </label>
               <label class="check">
                 <input type="checkbox" id="citDoiOnly">
@@ -332,9 +332,9 @@
                   <h3 data-i18n="synMatrix">Matrice articol × an de citare</h3>
                   <span class="pill pill-ghost" data-i18n="pillAllData">toate datele</span>
                 </div>
-                <label class="field field-search syn-filter">
+                <label class="field syn-filter">
                   <span data-i18n="synTitleFilter">Titlu articol</span>
-                  <input type="search" id="synTitleFilter" data-i18n-placeholder="synTitleFilterPh" placeholder="Filtrează după titlu articol…" autocomplete="off">
+                  <select id="synTitleFilter"></select>
                 </label>
                 <div class="table-wrap">
                   <table class="matrix" id="matrixTable">
@@ -381,19 +381,12 @@
       <aside class="meta" aria-label="Metadata and sources">
         <section class="card meta-card">
           <div class="card-head"><h3 data-i18n="dateExtracted">Date extrase</h3><span class="pill pill-ok" id="freshPill">la zi</span></div>
-          <div class="detect-mini" role="status">
-            <span class="status-dot" id="statusDot" aria-hidden="true"></span>
-            <div class="detect-text">
-              <strong id="detectLabel">—</strong>
-              <span id="detectDetail">—</span>
-            </div>
-          </div>
+          <button class="btn btn-ghost btn-small meta-action" id="redetect" type="button"><span class="btn-icon" aria-hidden="true">⟳</span> <span data-i18n="redetect">Re-detectează</span></button>
           <dl class="meta-list">
             <div><dt data-i18n="lastExtract">Ultima extragere</dt><dd id="metaExtracted">—</dd></div>
             <div><dt data-i18n="kpiPublications">Publicații</dt><dd id="metaPubs">—</dd></div>
             <div><dt data-i18n="dateCitations">Citări</dt><dd id="metaWorks">—</dd></div>
           </dl>
-          <button class="btn btn-ghost btn-small meta-action" id="redetect" type="button" data-i18n="redetect">Re-detectează</button>
         </section>
 
         <section class="card meta-card">
@@ -405,7 +398,7 @@
     </div>
 
     <footer class="page-foot">
-      <span>Dashboard bibliografic · Creat de <a href="https://github.com/narcis101993" target="_blank" rel="noopener">Criveanu Narcis</a> · cu ajutorul <a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener">Hermes Agent</a></span>
+      <span><span data-i18n="footDashboard">Dashboard bibliografic</span> · <span data-i18n="footCreated">Creat de</span> <a href="https://github.com/narcis101993" target="_blank" rel="noopener">Criveanu Narcis</a> · <span data-i18n="footWith">cu ajutorul</span> <a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener">Hermes Agent</a></span>
     </footer>
   </div>
 

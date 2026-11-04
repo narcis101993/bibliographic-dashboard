@@ -48,6 +48,11 @@
       chartsToggle: "Grafice",
       pageSize: "Pe pagină",
       removeFilter: "Elimină filtrul",
+      toastFresh: "Datele afișate sunt la zi",
+      toastUpdated: "Date actualizate",
+      footDashboard: "Dashboard bibliografic",
+      footCreated: "Creat de",
+      footWith: "cu ajutorul",
       pubFilterNote: "Filtrele se aplică instantaneu pe datele versiunii detectate.",
       citFilterNote: "Auto-citările sunt evidențiate; totalurile reflectă filtrele active.",
       pubTableTitle: "Centralizator",
@@ -201,6 +206,11 @@
       chartsToggle: "Charts",
       pageSize: "Per page",
       removeFilter: "Remove filter",
+      toastFresh: "Displayed data is up to date",
+      toastUpdated: "Data updated",
+      footDashboard: "Bibliographic dashboard",
+      footCreated: "Created by",
+      footWith: "with the help of",
       pubFilterNote: "Filters apply instantly to the detected version.",
       citFilterNote: "Self-citations are highlighted; totals reflect the active filters.",
       pubTableTitle: "Central index",
@@ -352,8 +362,8 @@
     pubs: [],
     cits: [],
     stats: null,
-    pubFilters: { q: "", author: "", year: "", type: "", venue: "", doiOnly: false },
-    citFilters: { q: "", author: "", year: "", article: "", type: "", venue: "", doiOnly: false, excludeSelf: false },
+    pubFilters: { q: "", author: "", year: [], type: [], venue: [], doiOnly: false },
+    citFilters: { q: "", author: "", year: [], article: [], type: [], venue: [], doiOnly: false, excludeSelf: false },
     pubSort: { key: "citations", dir: "desc" },
     citSort: { key: "year", dir: "desc" },
     pubPage: 1,
@@ -375,8 +385,8 @@
     return {
       tab: "",
       lang: "",
-      pub: { q: "", author: "", year: "", type: "", venue: "", doiOnly: false },
-      cit: { q: "", author: "", year: "", article: "", type: "", venue: "", doiOnly: false, excludeSelf: false },
+      pub: { q: "", author: "", year: [], type: [], venue: [], doiOnly: false },
+      cit: { q: "", author: "", year: [], article: [], type: [], venue: [], doiOnly: false, excludeSelf: false },
       pubSort: null,
       citSort: null,
       pubPage: null,
@@ -395,6 +405,11 @@
     function value(key) {
       var item = params.get(key);
       return item == null ? "" : item.trim();
+    }
+    function values(key) {
+      var items = [];
+      try { items = params.getAll(key); } catch (error) { items = []; }
+      return items.map(function (item) { return String(item).trim(); }).filter(function (item) { return item !== ""; });
     }
     function flag(key) {
       return /^(1|true|yes)$/i.test(value(key));
@@ -416,9 +431,9 @@
 
     result.pub.q = value("pq");
     result.pub.author = value("pa");
-    result.pub.year = value("py");
-    result.pub.type = value("pt");
-    result.pub.venue = value("pv");
+    result.pub.year = values("py");
+    result.pub.type = values("pt");
+    result.pub.venue = values("pv");
     result.pub.doiOnly = flag("pd");
     result.pubPage = page("pp");
     var pubSortKey = value("psk").toLowerCase();
@@ -428,10 +443,10 @@
 
     result.cit.q = value("cq");
     result.cit.author = value("ca");
-    result.cit.year = value("cy");
-    result.cit.article = value("ci");
-    result.cit.venue = value("cv");
-    result.cit.type = value("ct");
+    result.cit.year = values("cy");
+    result.cit.article = values("ci");
+    result.cit.venue = values("cv");
+    result.cit.type = values("ct");
     result.cit.doiOnly = flag("cd");
     result.cit.excludeSelf = flag("cx");
     result.citPage = page("cp");
@@ -457,18 +472,18 @@
     state.pubFilters = {
       q: source.pub.q || "",
       author: source.pub.author || "",
-      year: "",
-      type: "",
-      venue: "",
+      year: [],
+      type: [],
+      venue: [],
       doiOnly: !!source.pub.doiOnly
     };
     state.citFilters = {
       q: source.cit.q || "",
       author: source.cit.author || "",
-      year: "",
-      article: "",
-      type: "",
-      venue: "",
+      year: [],
+      article: [],
+      type: [],
+      venue: [],
       doiOnly: !!source.cit.doiOnly,
       excludeSelf: !!source.cit.excludeSelf
     };
@@ -485,21 +500,21 @@
     setActiveTab(TAB_IDS[source.tab] ? source.tab : "publicatii");
 
     var pubYears = valueSet(state.pubs.map(function (pub) { return pub.year; }));
-    if (source.pub.year && pubYears[source.pub.year]) state.pubFilters.year = source.pub.year;
+    state.pubFilters.year = (source.pub.year || []).filter(function (v) { return pubYears[v]; });
     var pubTypes = valueSet(state.pubs.map(function (pub) { return pub.typeCode; }));
-    if (source.pub.type && pubTypes[source.pub.type]) state.pubFilters.type = source.pub.type;
+    state.pubFilters.type = (source.pub.type || []).filter(function (v) { return pubTypes[v]; });
     var pubVenues = valueSet(state.pubs.map(function (pub) { return pub.venue; }));
-    if (source.pub.venue && pubVenues[source.pub.venue]) state.pubFilters.venue = source.pub.venue;
+    state.pubFilters.venue = (source.pub.venue || []).filter(function (v) { return pubVenues[v]; });
 
     var citYears = valueSet(state.cits.map(function (citation) { return citation.year; }));
-    if (source.cit.year && citYears[source.cit.year]) state.citFilters.year = source.cit.year;
+    state.citFilters.year = (source.cit.year || []).filter(function (v) { return citYears[v]; });
     var citTypes = valueSet(state.cits.map(function (citation) { return citation.typeCode; }));
-    if (source.cit.type && citTypes[source.cit.type]) state.citFilters.type = source.cit.type;
+    state.citFilters.type = (source.cit.type || []).filter(function (v) { return citTypes[v]; });
     var citVenues = valueSet(state.cits.map(function (citation) { return citation.venue; }));
-    if (source.cit.venue && citVenues[source.cit.venue]) state.citFilters.venue = source.cit.venue;
+    state.citFilters.venue = (source.cit.venue || []).filter(function (v) { return citVenues[v]; });
     var citedIds = valueSet(state.pubs.filter(function (pub) { return pub._citations > 0; })
       .map(function (pub) { return pub.id; }));
-    if (source.cit.article && citedIds[source.cit.article]) state.citFilters.article = source.cit.article;
+    state.citFilters.article = (source.cit.article || []).filter(function (v) { return citedIds[v]; });
   }
 
   function setActiveTab(tab) {
@@ -526,12 +541,13 @@
     if (tab && tab !== "publicatii") params.set("tab", tab);
     if (state.lang === "en") params.set("lang", "en");
 
+    function appendAll(key, arr) { (arr || []).forEach(function (v) { params.append(key, v); }); }
     var pub = state.pubFilters;
     if (pub.q) params.set("pq", pub.q);
     if (pub.author) params.set("pa", pub.author);
-    if (pub.year) params.set("py", pub.year);
-    if (pub.type) params.set("pt", pub.type);
-    if (pub.venue) params.set("pv", pub.venue);
+    appendAll("py", pub.year);
+    appendAll("pt", pub.type);
+    appendAll("pv", pub.venue);
     if (pub.doiOnly) params.set("pd", "1");
     if (state.pubSort.key !== DEFAULT_PUB_SORT.key || state.pubSort.dir !== DEFAULT_PUB_SORT.dir) {
       params.set("psk", state.pubSort.key);
@@ -542,10 +558,10 @@
     var cit = state.citFilters;
     if (cit.q) params.set("cq", cit.q);
     if (cit.author) params.set("ca", cit.author);
-    if (cit.year) params.set("cy", cit.year);
-    if (cit.article) params.set("ci", cit.article);
-    if (cit.venue) params.set("cv", cit.venue);
-    if (cit.type) params.set("ct", cit.type);
+    appendAll("cy", cit.year);
+    appendAll("ci", cit.article);
+    appendAll("cv", cit.venue);
+    appendAll("ct", cit.type);
     if (cit.doiOnly) params.set("cd", "1");
     if (cit.excludeSelf) params.set("cx", "1");
     if (state.citSort.key !== DEFAULT_CIT_SORT.key || state.citSort.dir !== DEFAULT_CIT_SORT.dir) {
@@ -1055,7 +1071,29 @@
     });
     select.innerHTML = "";
     select.appendChild(fragment);
-    select.value = current == null ? "" : String(current);
+    var currentArr = Array.isArray(current)
+      ? current.map(String)
+      : (current == null || current === "" ? [] : [String(current)]);
+    Array.from(select.options).forEach(function (option) {
+      option.selected = currentArr.length
+        ? currentArr.indexOf(option.value) !== -1
+        : option.value === "";
+    });
+  }
+
+  function selectedValues(select) {
+    return Array.from(select.selectedOptions)
+      .map(function (option) { return option.value; })
+      .filter(function (value) { return value !== ""; });
+  }
+
+  function setMultiSelect(select, arr) {
+    var chosen = {};
+    (arr || []).forEach(function (value) { chosen[String(value)] = true; });
+    var any = Object.keys(chosen).length > 0;
+    Array.from(select.options).forEach(function (option) {
+      option.selected = any ? !!chosen[option.value] : option.value === "";
+    });
   }
 
   function uniqueSorted(values) {
@@ -1118,17 +1156,17 @@
     $("citPageSize").value = String(state.citPageSize);
     $("pubSearch").value = state.pubFilters.q;
     $("pubAuthor").value = state.pubFilters.author;
-    $("pubYear").value = state.pubFilters.year;
-    $("pubType").value = state.pubFilters.type;
-    $("pubVenue").value = state.pubFilters.venue;
+    setMultiSelect($("pubYear"), state.pubFilters.year);
+    setMultiSelect($("pubType"), state.pubFilters.type);
+    setMultiSelect($("pubVenue"), state.pubFilters.venue);
     $("pubDoiOnly").checked = !!state.pubFilters.doiOnly;
 
     $("citSearch").value = state.citFilters.q;
     $("citAuthor").value = state.citFilters.author;
-    $("citYear").value = state.citFilters.year;
-    $("citArticle").value = state.citFilters.article;
-    $("citVenue").value = state.citFilters.venue;
-    $("citType").value = state.citFilters.type;
+    setMultiSelect($("citYear"), state.citFilters.year);
+    setMultiSelect($("citArticle"), state.citFilters.article);
+    setMultiSelect($("citVenue"), state.citFilters.venue);
+    setMultiSelect($("citType"), state.citFilters.type);
     $("citDoiOnly").checked = !!state.citFilters.doiOnly;
     $("citExcludeSelf").checked = !!state.citFilters.excludeSelf;
   }
@@ -1149,9 +1187,9 @@
   function getFilteredPubs() {
     var filters = state.pubFilters;
     return state.pubs.filter(function (pub) {
-      if (filters.year && String(pub.year) !== String(filters.year)) return false;
-      if (filters.type && pub.typeCode !== filters.type) return false;
-      if (filters.venue && pub.venue !== filters.venue) return false;
+      if (filters.year.length && filters.year.indexOf(String(pub.year)) === -1) return false;
+      if (filters.type.length && filters.type.indexOf(pub.typeCode) === -1) return false;
+      if (filters.venue.length && filters.venue.indexOf(pub.venue) === -1) return false;
       if (filters.doiOnly && !pub.doi) return false;
       if (!matchAuthor(pub.authors, filters.author)) return false;
       return matchQuery(filters.q, [pub.title, pub.venue, pub.doi, (pub.authors || []).join(" "), pub.notes, pub.source]);
@@ -1161,10 +1199,10 @@
   function getFilteredCits() {
     var filters = state.citFilters;
     return state.cits.filter(function (citation) {
-      if (filters.year && String(citation.year) !== String(filters.year)) return false;
-      if (filters.article && citation._articleIds.indexOf(Number(filters.article)) === -1) return false;
-      if (filters.type && citation.typeCode !== filters.type) return false;
-      if (filters.venue && citation.venue !== filters.venue) return false;
+      if (filters.year.length && filters.year.indexOf(String(citation.year)) === -1) return false;
+      if (filters.article.length && !citation._articleIds.some(function (id) { return filters.article.indexOf(String(id)) !== -1; })) return false;
+      if (filters.type.length && filters.type.indexOf(citation.typeCode) === -1) return false;
+      if (filters.venue.length && filters.venue.indexOf(citation.venue) === -1) return false;
       if (filters.doiOnly && !citation.doi) return false;
       if (filters.excludeSelf && citation.selfCitation) return false;
       if (!matchAuthor(citation.authors, filters.author)) return false;
@@ -1246,7 +1284,8 @@
     var volume = esc(pub.volume || pub.pages || "—");
     var coverageClass = pub.coverageStatus === "zero confirmat" ? "pill-warn" : pub.coverageStatus === "parțial verificat - fără identificator" ? "pill-neutral" : "";
     var coverageLabel = pub.coverageStatus === "zero confirmat" ? t("kpiNoCitations") : pub.coverageStatus === "parțial verificat - fără identificator" ? t("coveragePartialBadge", { n: "?" }) : "";
-    var citationCell = '<td class="num ' + (citations ? "strong" : "muted") + '">' + fmt(citations) + (coverageClass ? ' <span class="pill ' + coverageClass + ' coverage-pill">' + esc(coverageLabel) + "</span>" : "") + "</td>";
+    var citationCell = '<td class="num ' + (citations ? "strong" : "muted") + '">' + fmt(citations) + "</td>";
+    var notesText = [pub.notes, coverageLabel].filter(function (part) { return part; }).join(" · ") || "—";
     var detailRows = [
       esc(pub.title || t("untitled")),
       pub.year == null ? "—" : esc(pub.year),
@@ -1275,7 +1314,10 @@
       ];
       var label = labels[idx];
       if (!label && idx === 7) label = "Co-autori";
-      return '<div class="detail-row"><span class="detail-label">' + label + '</span><span class="detail-value">' + text + "</span></div>";
+      var valueHtml = idx === 5 && pub.link
+        ? '<a href="' + esc(pub.link) + '" target="_blank" rel="noopener">' + esc(pub.link) + "</a>"
+        : text;
+      return '<div class="detail-row"><span class="detail-label">' + label + '</span><span class="detail-value">' + valueHtml + "</span></div>";
     }).join("");
     return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\" aria-expanded=\"false\">" +
       '<td class="num"><span class="pub-expand-icon">▸</span>' + esc(pub.id) + "</td>" +
@@ -1285,10 +1327,10 @@
       "<td>" + esc(pub.volume || "—") + "</td>" +
       '<td><span class="pill ' + typePill(pub.typeCode) + '">' + esc(typeLabel(pub.typeCode, pub.typeLabel)) + "</span></td>" +
       "<td>" + doi + "</td>" +
-      "<td>" + link + "</td>" +
       '<td class="cell-authors" title="' + esc((pub.authors || []).join("; ")) + '">' + esc(authorsShort(pub.authors)) + "</td>" +
       citationCell +
-      '<td class="cell-notes">' + esc(pub.notes || "—") + "</td>" +
+      '<td class="cell-notes">' + esc(notesText) + "</td>" +
+      "<td>" + link + "</td>" +
       "</tr>" +
       "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"11\" class=\"detail-cell\">" +
       '<div class="detail-panel">' + detailRows + "</div>" +
@@ -1327,9 +1369,9 @@
       return [
         { key: "q", label: t("search"), value: f.q },
         { key: "author", label: t("author"), value: f.author },
-        { key: "year", label: t("year"), value: f.year },
-        { key: "type", label: t("type"), value: f.type ? typeLabel(f.type) : "" },
-        { key: "venue", label: t("venue"), value: f.venue },
+        { key: "year", label: t("year"), value: f.year.join(", ") },
+        { key: "type", label: t("type"), value: f.type.map(function (code) { return typeLabel(code); }).join(", ") },
+        { key: "venue", label: t("venue"), value: f.venue.join(", ") },
         { key: "doiOnly", label: t("doiOnly"), value: f.doiOnly ? t("yes") : "" }
       ].filter(function (spec) { return spec.value; });
     }
@@ -1337,10 +1379,10 @@
     return [
       { key: "q", label: t("search"), value: c.q },
       { key: "author", label: t("author"), value: c.author },
-      { key: "year", label: t("citYear"), value: c.year },
-      { key: "article", label: t("article"), value: c.article },
-      { key: "type", label: t("type"), value: c.type ? typeLabel(c.type) : "" },
-      { key: "venue", label: t("venue"), value: c.venue },
+      { key: "year", label: t("citYear"), value: c.year.join(", ") },
+      { key: "article", label: t("article"), value: c.article.join(", ") },
+      { key: "type", label: t("type"), value: c.type.map(function (code) { return typeLabel(code); }).join(", ") },
+      { key: "venue", label: t("venue"), value: c.venue.join(", ") },
       { key: "doiOnly", label: t("doiOnly"), value: c.doiOnly ? t("yes") : "" },
       { key: "excludeSelf", label: t("excludeSelf"), value: c.excludeSelf ? t("yes") : "" }
     ].filter(function (spec) { return spec.value; });
@@ -1361,11 +1403,11 @@
     var parts = btn.getAttribute("data-chip").split(":");
     var kind = parts[0], key = parts[1];
     if (kind === "pub") {
-      state.pubFilters[key] = key === "doiOnly" ? false : "";
+      state.pubFilters[key] = key === "doiOnly" ? false : [];
       state.pubPage = 1;
       syncControls(); renderPubTable(); renderPubCharts();
     } else {
-      state.citFilters[key] = (key === "doiOnly" || key === "excludeSelf") ? false : "";
+      state.citFilters[key] = (key === "doiOnly" || key === "excludeSelf") ? false : [];
       state.citPage = 1;
       syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
     }
@@ -1539,9 +1581,16 @@
     }
   }
 
+  function toggleValue(list, value) {
+    var next = list.slice();
+    var index = next.indexOf(value);
+    if (index === -1) next.push(value); else next.splice(index, 1);
+    return next;
+  }
+
   function applyPubYearFilter(year) {
     var value = String(year);
-    state.pubFilters.year = state.pubFilters.year === value ? "" : value;
+    state.pubFilters.year = toggleValue(state.pubFilters.year, value);
     state.pubPage = 1;
     syncControls(); renderPubTable(); renderPubCharts();
     writeUrlState("push");
@@ -1549,7 +1598,7 @@
 
   function applyPubTypeFilter(code) {
     var value = String(code);
-    state.pubFilters.type = state.pubFilters.type === value ? "" : value;
+    state.pubFilters.type = toggleValue(state.pubFilters.type, value);
     state.pubPage = 1;
     syncControls(); renderPubTable(); renderPubCharts();
     writeUrlState("push");
@@ -1557,7 +1606,7 @@
 
   function applyCitYearFilter(year) {
     var value = String(year);
-    state.citFilters.year = state.citFilters.year === value ? "" : value;
+    state.citFilters.year = toggleValue(state.citFilters.year, value);
     state.citPage = 1;
     syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
     writeUrlState("push");
@@ -1565,7 +1614,7 @@
 
   function applyCitArticleFilter(articleId) {
     var value = String(articleId);
-    state.citFilters.article = state.citFilters.article === value ? "" : value;
+    state.citFilters.article = toggleValue(state.citFilters.article, value);
     state.citPage = 1;
     syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
     writeUrlState("push");
@@ -1573,7 +1622,7 @@
 
   function applyCitTypeFilter(code) {
     var value = String(code);
-    state.citFilters.type = state.citFilters.type === value ? "" : value;
+    state.citFilters.type = toggleValue(state.citFilters.type, value);
     var tab = $("tab-citari");
     if (tab) tab.checked = true;
     state.citPage = 1;
@@ -1755,8 +1804,16 @@
       years.map(function (year) { return '<th class="num">' + esc(year) + "</th>"; }).join("") +
       '<th class="num">' + esc(t("matrixTotal")) + "</th></tr>";
 
+    var synSelect = $("synTitleFilter");
+    var synPrev = synSelect.value;
+    synSelect.innerHTML = '<option value="">' + esc(t("allArticles")) + "</option>" +
+      rows.map(function (row) {
+        return '<option value="' + esc(row.id) + '">#' + esc(row.id) + " · " + esc(short(row.title || "", 60)) + "</option>";
+      }).join("");
+    synSelect.value = synPrev || "";
+
     $("matrixBody").innerHTML = rows.map(function (row) {
-      return '<tr data-title="' + esc(fold(row.title || "")) + '"><td class="num" title="' + esc(row.title) + '">' + esc(row.id) + "</td>" +
+      return '<tr data-id="' + esc(row.id) + '" data-title="' + esc(fold(row.title || "")) + '"><td class="num" title="' + esc(row.title) + '">' + esc(row.id) + "</td>" +
         row.cells.map(function (value) { return '<td class="num">' + fmt(value) + "</td>"; }).join("") +
         '<td class="num strong">' + fmt(row.total) + "</td></tr>";
     }).join("") +
@@ -1899,16 +1956,8 @@
   }
 
   function renderDetect() {
-    var hasVersion = !!state.version;
-    $("detectLabel").textContent = hasVersion ? t("detected", { v: state.version }) : t("notDetected");
-    var folders = hasVersion
-      ? "centralizator/" + state.version + " · citari/" + state.version
-      : t("noCommon");
-    var mode = state.sourceMode === "csv"
-      ? t("modeCsv")
-      : (state.sourceMode === "manifest" ? t("modeManifest") : t("modeEmbedded"));
-    $("detectDetail").textContent = folders + " · " + t("rule") + " · " + mode;
-    $("statusDot").className = "status-dot" + (state.runtimeError ? " is-warn" : "");
+    // Detection status used to live in a banner; it was removed.
+    // Kept as a no-op so renderAll() stays unchanged.
   }
 
   function renderPanelSubtitles() {
@@ -1943,9 +1992,9 @@
   function onPubFilterChange() {
     state.pubFilters.q = $("pubSearch").value;
     state.pubFilters.author = $("pubAuthor").value;
-    state.pubFilters.year = $("pubYear").value;
-    state.pubFilters.type = $("pubType").value;
-    state.pubFilters.venue = $("pubVenue").value;
+    state.pubFilters.year = selectedValues($("pubYear"));
+    state.pubFilters.type = selectedValues($("pubType"));
+    state.pubFilters.venue = selectedValues($("pubVenue"));
     state.pubFilters.doiOnly = $("pubDoiOnly").checked;
     state.pubPage = 1;
     renderPubTable();
@@ -1956,10 +2005,10 @@
   function onCitFilterChange() {
     state.citFilters.q = $("citSearch").value;
     state.citFilters.author = $("citAuthor").value;
-    state.citFilters.year = $("citYear").value;
-    state.citFilters.article = $("citArticle").value;
-    state.citFilters.venue = $("citVenue").value;
-    state.citFilters.type = $("citType").value;
+    state.citFilters.year = selectedValues($("citYear"));
+    state.citFilters.article = selectedValues($("citArticle"));
+    state.citFilters.venue = selectedValues($("citVenue"));
+    state.citFilters.type = selectedValues($("citType"));
     state.citFilters.doiOnly = $("citDoiOnly").checked;
     state.citFilters.excludeSelf = $("citExcludeSelf").checked;
     state.citPage = 1;
@@ -1970,7 +2019,7 @@
   }
 
   function resetPubFilters() {
-    state.pubFilters = { q: "", author: "", year: "", type: "", venue: "", doiOnly: false };
+    state.pubFilters = { q: "", author: "", year: [], type: [], venue: [], doiOnly: false };
     state.pubPage = 1;
     syncControls();
     renderPubTable();
@@ -1979,7 +2028,7 @@
   }
 
   function resetCitFilters() {
-    state.citFilters = { q: "", author: "", year: "", article: "", type: "", venue: "", doiOnly: false, excludeSelf: false };
+    state.citFilters = { q: "", author: "", year: [], article: [], type: [], venue: [], doiOnly: false, excludeSelf: false };
     state.citPage = 1;
     syncControls();
     renderCitTable();
@@ -2043,25 +2092,42 @@
     );
   }
 
+  function showToast(message) {
+    var old = document.querySelector(".app-toast");
+    if (old) old.remove();
+    var toast = document.createElement("div");
+    toast.className = "app-toast";
+    toast.setAttribute("role", "status");
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    setTimeout(function () {
+      if (toast.parentNode) toast.remove();
+    }, 15000);
+  }
+
   function redetect() {
     var button = $("redetect");
+    var label = button.querySelector("[data-i18n]");
+    var prevVersion = state.version;
+    var prevExtract = state.manifest && state.manifest.dataExtractedAt;
+    var prevDigest = state.manifest && state.manifest.inputDigest;
     button.disabled = true;
-    button.textContent = t("rescanning");
+    if (label) label.textContent = t("rescanning");
     loadData().then(function () {
       renderAll();
+      var updated = state.version !== prevVersion ||
+        (state.manifest && (state.manifest.dataExtractedAt !== prevExtract || state.manifest.inputDigest !== prevDigest));
+      showToast(t(updated ? "toastUpdated" : "toastFresh"));
     }).catch(function (error) {
       showLoadError(error);
     }).finally(function () {
       button.disabled = false;
-      button.textContent = t("redetect");
+      if (label) label.textContent = t("redetect");
     });
   }
 
   function showLoadError(error) {
     console.error("[dashboard]", error);
-    $("detectLabel").textContent = t("loadError");
-    $("detectDetail").textContent = error && error.message ? error.message : String(error);
-    $("statusDot").className = "status-dot is-error";
     var existing = document.querySelector(".app-status.is-error");
     if (existing) existing.remove();
     var notice = document.createElement("div");
@@ -2087,10 +2153,10 @@
       state.pubPage = 1;
       renderPubTable();
     });
-    $("synTitleFilter").addEventListener("input", function () {
-      var q = fold($("synTitleFilter").value);
-      document.querySelectorAll("#matrixBody tr[data-title]").forEach(function (row) {
-        row.style.display = !q || row.getAttribute("data-title").indexOf(q) !== -1 ? "" : "none";
+    $("synTitleFilter").addEventListener("change", function () {
+      var selected = $("synTitleFilter").value;
+      document.querySelectorAll("#matrixBody tr[data-id]").forEach(function (row) {
+        row.style.display = !selected || row.getAttribute("data-id") === selected ? "" : "none";
       });
     });
     $("pubChartsToggle").addEventListener("click", function () {
