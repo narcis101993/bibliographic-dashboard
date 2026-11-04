@@ -68,6 +68,7 @@
       pageOf: "Pagina {page} / {pages}",
       showingRange: "Afișate {from}–{to} din {total}",
       noResults: "Nicio înregistrare pentru filtrele selectate.",
+      noResultsNote: "Filtrele active au eliminat toate rezultatele. Redu filtrele sau resetează-le.",
       resultsFound: "{total} din {all}",
       copyLink: "Copiază link",
       linkCopied: "Link copiat",
@@ -212,6 +213,7 @@
       pageOf: "Page {page} / {pages}",
       showingRange: "Showing {from}–{to} of {total}",
       noResults: "No records match the selected filters.",
+      noResultsNote: "The active filters removed all results. Loosen the filters or reset them.",
       resultsFound: "{total} of {all}",
       copyLink: "Copy link",
       linkCopied: "Link copied",
@@ -1316,10 +1318,10 @@
     $("pubPage").textContent = t("pageOf", { page: state.pubPage, pages: pages });
     $("pubPrev").disabled = state.pubPage <= 1;
     $("pubNext").disabled = state.pubPage >= pages;
-    $("#pubBody").innerHTML = pageRows.length
+    $("pubBody").innerHTML = pageRows.length
       ? pageRows.map(pubRowHtml).join("")
       : '<tr class="empty-row"><td colspan="10">' + esc(t("noResults")) + "</td></tr>";
-    $("#emptyStatePub").hidden = total > 0;
+    $("emptyStatePub").hidden = total > 0;
     $("pubFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.pubs.length) });
     updateSortIndicators($("pubTable"), state.pubSort);
     Array.from(document.querySelectorAll("tr.pub-main")).forEach(function (row) {
@@ -1354,10 +1356,10 @@
     $("citPage").textContent = t("pageOf", { page: state.citPage, pages: pages });
     $("citPrev").disabled = state.citPage <= 1;
     $("citNext").disabled = state.citPage >= pages;
-    $("#citBody").innerHTML = pageRows.length
+    $("citBody").innerHTML = pageRows.length
       ? pageRows.map(citRowHtml).join("")
       : '<tr class="empty-row"><td colspan="9">' + esc(t("noResults")) + "</td></tr>";
-    $("#emptyStateCit").hidden = total > 0;
+    $("emptyStateCit").hidden = total > 0;
     $("citFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.cits.length) });
     updateSortIndicators($("citTable"), state.citSort);
   }
