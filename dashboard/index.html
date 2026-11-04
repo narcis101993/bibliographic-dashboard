@@ -66,12 +66,13 @@
                 <p id="pubPanelSub">—</p>
               </div>
               <div class="panel-actions">
+                <button class="btn btn-ghost" type="button" id="pubChartsToggle" data-i18n="chartsToggle" aria-expanded="true" aria-controls="pubChartsRow">Grafice</button>
                 <button class="btn btn-ghost" type="button" id="exportPubCsv" data-i18n="exportCsv">Export CSV</button>
                 <a class="btn btn-primary" id="downloadXlsx" href="#" download data-i18n="exportXlsx">Descarcă XLSX</a>
               </div>
             </div>
 
-            <div class="charts-row" aria-label="Publication charts">
+            <div class="charts-row" id="pubChartsRow" aria-label="Publication charts">
               <div class="card chart-card">
                 <div class="card-head">
                   <h3 data-i18n="pubByYear">Publicații pe an</h3>
@@ -121,6 +122,7 @@
               <span class="copy-msg" id="pubCopyMsg" aria-live="polite"></span>
             </div>
             <p class="filter-result" aria-live="polite" id="pubFilterResult"></p>
+            <div class="chips" id="pubChips"></div>
             <p class="mock-note" id="pubFilterNote" data-i18n="pubFilterNote">Filtrele se aplică instantaneu pe datele versiunii detectate.</p>
 
             <div class="grid-main">
@@ -151,6 +153,14 @@
                 <div class="table-foot">
                   <span class="muted" id="pubRange">—</span>
                   <div class="pager">
+                    <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
+                      <select id="pubPageSize">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50" selected>50</option>
+                        <option value="100">100</option>
+                      </select>
+                    </label>
                     <button class="btn btn-ghost btn-small" type="button" id="pubPrev" data-i18n="prev">Anterior</button>
                     <span class="page-num" id="pubPage">1</span>
                     <button class="btn btn-ghost btn-small" type="button" id="pubNext" data-i18n="next">Următor</button>
@@ -177,11 +187,12 @@
                 <p id="citPanelSub">—</p>
               </div>
               <div class="panel-actions">
+                <button class="btn btn-ghost" type="button" id="citChartsToggle" data-i18n="chartsToggle" aria-expanded="true" aria-controls="citChartsRow">Grafice</button>
                 <button class="btn btn-ghost" type="button" id="exportCitCsv" data-i18n="exportCsv">Export CSV</button>
               </div>
             </div>
 
-            <div class="charts-row" aria-label="Citation charts">
+            <div class="charts-row" id="citChartsRow" aria-label="Citation charts">
               <div class="card chart-card">
                 <div class="card-head">
                   <h3 data-i18n="citByYear">Citări pe an</h3>
@@ -239,6 +250,7 @@
               <span class="copy-msg" id="citCopyMsg" aria-live="polite"></span>
             </div>
             <p class="filter-result" aria-live="polite" id="citFilterResult"></p>
+            <div class="chips" id="citChips"></div>
             <p class="mock-note" id="citFilterNote" data-i18n="citFilterNote">Auto-citările sunt evidențiate; totalurile reflectă filtrele active.</p>
 
             <div class="kpi-row">
@@ -275,6 +287,14 @@
                 <div class="table-foot">
                   <span class="muted" id="citRange">—</span>
                   <div class="pager">
+                    <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
+                      <select id="citPageSize">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50" selected>50</option>
+                        <option value="100">100</option>
+                      </select>
+                    </label>
                     <button class="btn btn-ghost btn-small" type="button" id="citPrev" data-i18n="prev">Anterior</button>
                     <span class="page-num" id="citPage">1</span>
                     <button class="btn btn-ghost btn-small" type="button" id="citNext" data-i18n="next">Următor</button>

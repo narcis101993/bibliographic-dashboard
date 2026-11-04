@@ -45,6 +45,9 @@
       doiOnly: "Doar cu DOI",
       excludeSelf: "Exclude auto-citări",
       reset: "Resetează",
+      chartsToggle: "Grafice",
+      pageSize: "Pe pagină",
+      removeFilter: "Elimină filtrul",
       pubFilterNote: "Filtrele se aplică instantaneu pe datele versiunii detectate.",
       citFilterNote: "Auto-citările sunt evidențiate; totalurile reflectă filtrele active.",
       pubTableTitle: "Centralizator",
@@ -190,6 +193,9 @@
       doiOnly: "DOI only",
       excludeSelf: "Exclude self-citations",
       reset: "Reset",
+      chartsToggle: "Charts",
+      pageSize: "Per page",
+      removeFilter: "Remove filter",
       pubFilterNote: "Filters apply instantly to the detected version.",
       citFilterNote: "Self-citations are highlighted; totals reflect the active filters.",
       pubTableTitle: "Central index",
@@ -342,6 +348,8 @@
     citSort: { key: "year", dir: "desc" },
     pubPage: 1,
     citPage: 1,
+    pubPageSize: PUB_PAGE_SIZE,
+    citPageSize: CIT_PAGE_SIZE,
     charts: {}
   };
 
@@ -1096,6 +1104,8 @@
   }
 
   function syncControls() {
+    $("pubPageSize").value = String(state.pubPageSize);
+    $("citPageSize").value = String(state.citPageSize);
     $("pubSearch").value = state.pubFilters.q;
     $("pubAuthor").value = state.pubFilters.author;
     $("pubYear").value = state.pubFilters.year;
@@ -1257,7 +1267,7 @@
       if (!label && idx === 7) label = "Co-autori";
       return '<div class="detail-row"><span class="detail-label">' + label + '</span><span class="detail-value">' + text + "</span></div>";
     }).join("");
-    return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\">" +
+    return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\" aria-expanded=\"false\">" +
       '<td class="num"><span class="pub-expand-icon">▸</span>' + esc(pub.id) + "</td>" +
       '<td class="num">' + esc(pub.year == null ? "—" : pub.year) + "</td>" +
       '<td class="cell-title">' + esc(pub.title || t("untitled")) + "</td>" +
@@ -1299,16 +1309,94 @@
       "</tr>";
   }
 
+  function chipSpec(kind) {
+    if (kind === "pub") {
+      var f = state.pubFilters;
+      return [
+        { key: "q", label: t("search"), value: f.q },
+        { key: "author", label: t("author"), value: f.author },
+        { key: "year", label: t("year"), value: f.year },
+        { key: "type", label: t("type"), value: f.type ? typeLabel(f.type) : "" },
+        { key: "venue", label: t("venue"), value: f.venue },
+        { key: "doiOnly", label: t("doiOnly"), value: f.doiOnly ? t("yes") : "" }
+      ].filter(function (spec) { return spec.value; });
+    }
+    var c = state.citFilters;
+    return [
+      { key: "q", label: t("search"), value: c.q },
+      { key: "author", label: t("author"), value: c.author },
+      { key: "year", label: t("citYear"), value: c.year },
+      { key: "article", label: t("article"), value: c.article },
+      { key: "type", label: t("type"), value: c.type ? typeLabel(c.type) : "" },
+      { key: "venue", label: t("venue"), value: c.venue },
+      { key: "doiOnly", label: t("doiOnly"), value: c.doiOnly ? t("yes") : "" },
+      { key: "excludeSelf", label: t("excludeSelf"), value: c.excludeSelf ? t("yes") : "" }
+    ].filter(function (spec) { return spec.value; });
+  }
+
+  function renderChips(kind) {
+    var box = $(kind === "pub" ? "pubChips" : "citChips");
+    box.innerHTML = chipSpec(kind).map(function (spec) {
+      return '<span class="chip"><span>' + esc(spec.label) + ": " + esc(spec.value) + "</span>" +
+        '<button type="button" data-chip="' + kind + ":" + spec.key + '" aria-label="' +
+        esc(t("removeFilter")) + ": " + esc(spec.label) + '">×</button></span>';
+    }).join("");
+  }
+
+  function onChipClick(event) {
+    var btn = event.target && event.target.closest ? event.target.closest("[data-chip]") : null;
+    if (!btn) return;
+    var parts = btn.getAttribute("data-chip").split(":");
+    var kind = parts[0], key = parts[1];
+    if (kind === "pub") {
+      state.pubFilters[key] = key === "doiOnly" ? false : "";
+      state.pubPage = 1;
+      syncControls(); renderPubTable(); renderPubCharts();
+    } else {
+      state.citFilters[key] = (key === "doiOnly" || key === "excludeSelf") ? false : "";
+      state.citPage = 1;
+      syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
+    }
+    writeUrlState("push");
+  }
+
+  var CHARTS_KEY = "biblio-charts-collapsed";
+  function setChartsCollapsed(kind, collapsed) {
+    var row = $(kind === "pub" ? "pubChartsRow" : "citChartsRow");
+    var btn = $(kind === "pub" ? "pubChartsToggle" : "citChartsToggle");
+    row.hidden = collapsed;
+    btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    try { localStorage.setItem(CHARTS_KEY, collapsed ? "1" : "0"); } catch (error) { /* ignore */ }
+    if (!collapsed) {
+      Object.keys(state.charts).forEach(function (id) {
+        var chart = state.charts[id];
+        if (chart && chart.resize) chart.resize();
+      });
+    }
+  }
+
+  function applyChartsPref() {
+    var collapsed;
+    try {
+      var saved = localStorage.getItem(CHARTS_KEY);
+      collapsed = saved === "1" ? true : saved === "0" ? false : window.matchMedia("(max-width: 860px)").matches;
+    } catch (error) {
+      collapsed = false;
+    }
+    setChartsCollapsed("pub", collapsed);
+    setChartsCollapsed("cit", collapsed);
+  }
+
   function renderPubTable() {
     var rows = getFilteredPubs().sort(pubComparator());
     var total = rows.length;
-    var pages = Math.max(1, Math.ceil(total / PUB_PAGE_SIZE));
+    var pages = Math.max(1, Math.ceil(total / state.pubPageSize));
     state.pubPage = Math.min(Math.max(1, state.pubPage), pages);
-    var start = (state.pubPage - 1) * PUB_PAGE_SIZE;
-    var pageRows = rows.slice(start, start + PUB_PAGE_SIZE);
+    var start = (state.pubPage - 1) * state.pubPageSize;
+    var pageRows = rows.slice(start, start + state.pubPageSize);
     var range = t("showingRange", {
       from: total ? start + 1 : 0,
-      to: Math.min(start + PUB_PAGE_SIZE, total),
+      to: Math.min(start + state.pubPageSize, total),
       total: fmt(total)
     });
 
@@ -1323,6 +1411,7 @@
       : '<tr class="empty-row"><td colspan="10">' + esc(t("noResults")) + "</td></tr>";
     $("emptyStatePub").hidden = total > 0;
     $("pubFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.pubs.length) });
+    renderChips("pub");
     updateSortIndicators($("pubTable"), state.pubSort);
     Array.from(document.querySelectorAll("tr.pub-main")).forEach(function (row) {
       row.addEventListener("click", function () {
@@ -1332,6 +1421,7 @@
           var isHidden = detail.style.display === "none";
           detail.style.display = isHidden ? "" : "none";
           row.classList.toggle("pub-expanded", isHidden);
+          row.setAttribute("aria-expanded", isHidden ? "true" : "false");
         }
       });
     });
@@ -1340,13 +1430,13 @@
   function renderCitTable() {
     var rows = getFilteredCits().sort(citComparator());
     var total = rows.length;
-    var pages = Math.max(1, Math.ceil(total / CIT_PAGE_SIZE));
+    var pages = Math.max(1, Math.ceil(total / state.citPageSize));
     state.citPage = Math.min(Math.max(1, state.citPage), pages);
-    var start = (state.citPage - 1) * CIT_PAGE_SIZE;
-    var pageRows = rows.slice(start, start + CIT_PAGE_SIZE);
+    var start = (state.citPage - 1) * state.citPageSize;
+    var pageRows = rows.slice(start, start + state.citPageSize);
     var range = t("showingRange", {
       from: total ? start + 1 : 0,
-      to: Math.min(start + CIT_PAGE_SIZE, total),
+      to: Math.min(start + state.citPageSize, total),
       total: fmt(total)
     });
 
@@ -1361,6 +1451,7 @@
       : '<tr class="empty-row"><td colspan="9">' + esc(t("noResults")) + "</td></tr>";
     $("emptyStateCit").hidden = total > 0;
     $("citFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.cits.length) });
+    renderChips("cit");
     updateSortIndicators($("citTable"), state.citSort);
   }
 
@@ -1899,6 +1990,15 @@
     $("pubReset").addEventListener("click", resetPubFilters);
     $("emptyResetPub").addEventListener("click", resetPubFilters);
     $("pubCopyLink").addEventListener("click", function () { copyCurrentLink("pubCopyMsg"); });
+    $("pubChips").addEventListener("click", onChipClick);
+    $("pubPageSize").addEventListener("change", function () {
+      state.pubPageSize = parseInt($("pubPageSize").value, 10) || PUB_PAGE_SIZE;
+      state.pubPage = 1;
+      renderPubTable();
+    });
+    $("pubChartsToggle").addEventListener("click", function () {
+      setChartsCollapsed("pub", !$("pubChartsRow").hidden);
+    });
 
     $("citSearch").addEventListener("input", onCitFilterChange);
     $("citAuthor").addEventListener("input", onCitFilterChange);
@@ -1911,8 +2011,24 @@
     $("citReset").addEventListener("click", resetCitFilters);
     $("emptyResetCit").addEventListener("click", resetCitFilters);
     $("citCopyLink").addEventListener("click", function () { copyCurrentLink("citCopyMsg"); });
+    $("citChips").addEventListener("click", onChipClick);
+    $("citPageSize").addEventListener("change", function () {
+      state.citPageSize = parseInt($("citPageSize").value, 10) || CIT_PAGE_SIZE;
+      state.citPage = 1;
+      renderCitTable();
+    });
+    $("citChartsToggle").addEventListener("click", function () {
+      setChartsCollapsed("cit", !$("citChartsRow").hidden);
+    });
 
     document.querySelectorAll("#pubTable th[data-sort]").forEach(function (header) {
+      header.setAttribute("tabindex", "0");
+      header.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          header.click();
+        }
+      });
       header.addEventListener("click", function () {
         toggleSort(state.pubSort, header.getAttribute("data-sort"));
         renderPubTable();
@@ -1920,6 +2036,13 @@
       });
     });
     document.querySelectorAll("#citTable th[data-sort]").forEach(function (header) {
+      header.setAttribute("tabindex", "0");
+      header.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          header.click();
+        }
+      });
       header.addEventListener("click", function () {
         toggleSort(state.citSort, header.getAttribute("data-sort"));
         renderCitTable();
@@ -2019,6 +2142,7 @@
     bindEvents();
     applyI18n();
     applyTheme();
+    applyChartsPref();
     showLoading();
     loadData().then(function () {
       hideLoading();
