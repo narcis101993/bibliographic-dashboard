@@ -53,6 +53,7 @@
       footDashboard: "Dashboard bibliografic",
       footCreated: "Creat de",
       footWith: "cu ajutorul",
+      multiSelected: "{n} selectate",
       pubFilterNote: "Filtrele se aplică instantaneu pe datele versiunii detectate.",
       citFilterNote: "Auto-citările sunt evidențiate; totalurile reflectă filtrele active.",
       pubTableTitle: "Centralizator",
@@ -211,6 +212,7 @@
       footDashboard: "Bibliographic dashboard",
       footCreated: "Created by",
       footWith: "with the help of",
+      multiSelected: "{n} selected",
       pubFilterNote: "Filters apply instantly to the detected version.",
       citFilterNote: "Self-citations are highlighted; totals reflect the active filters.",
       pubTableTitle: "Central index",
@@ -1056,43 +1058,73 @@
     } catch (error) { /* ignore */ }
   }
 
-  function fillSelect(select, allLabel, values, current, labelFn) {
-    if (!select) return;
-    var fragment = document.createDocumentFragment();
-    var all = document.createElement("option");
-    all.value = "";
-    all.textContent = allLabel;
-    fragment.appendChild(all);
-    values.forEach(function (value) {
-      var option = document.createElement("option");
-      option.value = String(value);
-      option.textContent = labelFn ? labelFn(value) : String(value);
-      fragment.appendChild(option);
-    });
-    select.innerHTML = "";
-    select.appendChild(fragment);
+  function fillSelect(multi, allLabel, values, current, labelFn) {
+    if (!multi) return;
+    var panel = multi.querySelector(".multi-panel");
     var currentArr = Array.isArray(current)
       ? current.map(String)
       : (current == null || current === "" ? [] : [String(current)]);
-    Array.from(select.options).forEach(function (option) {
-      option.selected = currentArr.length
-        ? currentArr.indexOf(option.value) !== -1
-        : option.value === "";
+    panel.innerHTML = values.map(function (value) {
+      var v = String(value);
+      return '<label class="multi-item"><input type="checkbox" value="' + esc(v) + '"' +
+        (currentArr.indexOf(v) !== -1 ? " checked" : "") + ">" +
+        esc(labelFn ? labelFn(value) : v) + "</label>";
+    }).join("");
+    multi._allLabel = allLabel;
+    updateMultiLabel(multi);
+  }
+
+  function selectedValues(multi) {
+    if (!multi) return [];
+    return Array.from(multi.querySelectorAll(".multi-panel input:checked"))
+      .map(function (input) { return input.value; });
+  }
+
+  function setMultiSelect(multi, arr) {
+    if (!multi) return;
+    var chosen = {};
+    (arr || []).forEach(function (value) { chosen[String(value)] = true; });
+    multi.querySelectorAll(".multi-panel input").forEach(function (input) {
+      input.checked = !!chosen[input.value];
+    });
+    updateMultiLabel(multi);
+  }
+
+  function updateMultiLabel(multi) {
+    var label = multi.querySelector(".multi-label");
+    if (!label) return;
+    var checked = multi.querySelectorAll(".multi-panel input:checked");
+    if (!checked.length) {
+      label.textContent = multi._allLabel || "";
+    } else if (checked.length === 1) {
+      label.textContent = checked[0].closest(".multi-item").textContent.trim();
+    } else {
+      label.textContent = t("multiSelected", { n: checked.length });
+    }
+  }
+
+  function closeAllMulti() {
+    document.querySelectorAll(".multi-panel").forEach(function (panel) { panel.hidden = true; });
+    document.querySelectorAll(".multi-btn").forEach(function (button) {
+      button.setAttribute("aria-expanded", "false");
     });
   }
 
-  function selectedValues(select) {
-    return Array.from(select.selectedOptions)
-      .map(function (option) { return option.value; })
-      .filter(function (value) { return value !== ""; });
-  }
-
-  function setMultiSelect(select, arr) {
-    var chosen = {};
-    (arr || []).forEach(function (value) { chosen[String(value)] = true; });
-    var any = Object.keys(chosen).length > 0;
-    Array.from(select.options).forEach(function (option) {
-      option.selected = any ? !!chosen[option.value] : option.value === "";
+  function bindMulti(id, onChange) {
+    var multi = $(id);
+    var button = multi.querySelector(".multi-btn");
+    var panel = multi.querySelector(".multi-panel");
+    button.addEventListener("click", function (event) {
+      event.stopPropagation();
+      var wasHidden = panel.hidden;
+      closeAllMulti();
+      panel.hidden = !wasHidden;
+      button.setAttribute("aria-expanded", String(wasHidden));
+    });
+    panel.addEventListener("click", function (event) { event.stopPropagation(); });
+    panel.addEventListener("change", function () {
+      updateMultiLabel(multi);
+      onChange();
     });
   }
 
@@ -1151,9 +1183,15 @@
     }).join("");
   }
 
+  function setPageSizeButtons(id, size) {
+    Array.from($(id).querySelectorAll("button")).forEach(function (button) {
+      button.setAttribute("aria-pressed", String(Number(button.getAttribute("data-size")) === size));
+    });
+  }
+
   function syncControls() {
-    $("pubPageSize").value = String(state.pubPageSize);
-    $("citPageSize").value = String(state.citPageSize);
+    setPageSizeButtons("pubPageSize", state.pubPageSize);
+    setPageSizeButtons("citPageSize", state.citPageSize);
     $("pubSearch").value = state.pubFilters.q;
     $("pubAuthor").value = state.pubFilters.author;
     setMultiSelect($("pubYear"), state.pubFilters.year);
@@ -2140,18 +2178,31 @@
   function bindEvents() {
     $("pubSearch").addEventListener("input", onPubFilterChange);
     $("pubAuthor").addEventListener("input", onPubFilterChange);
-    $("pubYear").addEventListener("change", onPubFilterChange);
-    $("pubType").addEventListener("change", onPubFilterChange);
-    $("pubVenue").addEventListener("change", onPubFilterChange);
+    bindMulti("pubYear", onPubFilterChange);
+    bindMulti("pubType", onPubFilterChange);
+    bindMulti("pubVenue", onPubFilterChange);
+    document.addEventListener("click", closeAllMulti);
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeAllMulti();
+    });
     $("pubDoiOnly").addEventListener("change", onPubFilterChange);
     $("pubReset").addEventListener("click", resetPubFilters);
     $("emptyResetPub").addEventListener("click", resetPubFilters);
     $("pubCopyLink").addEventListener("click", function () { copyCurrentLink("pubCopyMsg"); });
     $("pubChips").addEventListener("click", onChipClick);
-    $("pubPageSize").addEventListener("change", function () {
-      state.pubPageSize = parseInt($("pubPageSize").value, 10) || PUB_PAGE_SIZE;
+    $("pubPageSize").addEventListener("click", function (event) {
+      var button = event.target.closest ? event.target.closest("button[data-size]") : null;
+      if (!button) return;
+      state.pubPageSize = parseInt(button.getAttribute("data-size"), 10) || PUB_PAGE_SIZE;
       state.pubPage = 1;
+      setPageSizeButtons("pubPageSize", state.pubPageSize);
       renderPubTable();
+    });
+    $("synFilterReset").addEventListener("click", function () {
+      $("synTitleFilter").value = "";
+      document.querySelectorAll("#matrixBody tr[data-id]").forEach(function (row) {
+        row.style.display = "";
+      });
     });
     $("synTitleFilter").addEventListener("change", function () {
       var selected = $("synTitleFilter").value;
@@ -2165,19 +2216,22 @@
 
     $("citSearch").addEventListener("input", onCitFilterChange);
     $("citAuthor").addEventListener("input", onCitFilterChange);
-    $("citYear").addEventListener("change", onCitFilterChange);
-    $("citArticle").addEventListener("change", onCitFilterChange);
-    $("citVenue").addEventListener("change", onCitFilterChange);
-    $("citType").addEventListener("change", onCitFilterChange);
+    bindMulti("citYear", onCitFilterChange);
+    bindMulti("citArticle", onCitFilterChange);
+    bindMulti("citVenue", onCitFilterChange);
+    bindMulti("citType", onCitFilterChange);
     $("citDoiOnly").addEventListener("change", onCitFilterChange);
     $("citExcludeSelf").addEventListener("change", onCitFilterChange);
     $("citReset").addEventListener("click", resetCitFilters);
     $("emptyResetCit").addEventListener("click", resetCitFilters);
     $("citCopyLink").addEventListener("click", function () { copyCurrentLink("citCopyMsg"); });
     $("citChips").addEventListener("click", onChipClick);
-    $("citPageSize").addEventListener("change", function () {
-      state.citPageSize = parseInt($("citPageSize").value, 10) || CIT_PAGE_SIZE;
+    $("citPageSize").addEventListener("click", function (event) {
+      var button = event.target.closest ? event.target.closest("button[data-size]") : null;
+      if (!button) return;
+      state.citPageSize = parseInt(button.getAttribute("data-size"), 10) || CIT_PAGE_SIZE;
       state.citPage = 1;
+      setPageSizeButtons("citPageSize", state.citPageSize);
       renderCitTable();
     });
     $("citChartsToggle").addEventListener("click", function () {

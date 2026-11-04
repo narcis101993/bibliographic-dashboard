@@ -91,15 +91,15 @@
               </label>
               <label class="field">
                 <span data-i18n="year">An</span>
-                <select id="pubYear" multiple></select>
+                <div class="multi" id="pubYear"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="field">
                 <span data-i18n="type">Tip</span>
-                <select id="pubType" multiple></select>
+                <div class="multi" id="pubType"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="field">
                 <span data-i18n="venue">Revistă</span>
-                <select id="pubVenue" multiple></select>
+                <div class="multi" id="pubVenue"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="check">
                 <input type="checkbox" id="pubDoiOnly">
@@ -145,13 +145,13 @@
                   <span class="muted" id="pubRange">—</span>
                   <div class="pager">
                     <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
-                      <select id="pubPageSize">
-                        <option value="5" selected>5</option>
-                        <option value="10">10</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                      </select>
+                      <div class="seg" id="pubPageSize" role="group" aria-label="Page size">
+                        <button type="button" data-size="5" aria-pressed="true">5</button>
+                        <button type="button" data-size="10" aria-pressed="false">10</button>
+                        <button type="button" data-size="25" aria-pressed="false">25</button>
+                        <button type="button" data-size="50" aria-pressed="false">50</button>
+                        <button type="button" data-size="100" aria-pressed="false">100</button>
+                      </div>
                     </label>
                     <button class="btn btn-ghost btn-small" type="button" id="pubPrev" data-i18n="prev">Anterior</button>
                     <span class="page-num" id="pubPage">1</span>
@@ -213,19 +213,19 @@
               </label>
               <label class="field">
                 <span data-i18n="citYear">An citare</span>
-                <select id="citYear" multiple></select>
+                <div class="multi" id="citYear"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="field">
                 <span data-i18n="article">Articol citat</span>
-                <select id="citArticle" multiple></select>
+                <div class="multi" id="citArticle"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="field">
                 <span data-i18n="venue">Revistă</span>
-                <select id="citVenue" multiple></select>
+                <div class="multi" id="citVenue"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="field">
                 <span data-i18n="type">Tip</span>
-                <select id="citType" multiple></select>
+                <div class="multi" id="citType"><button type="button" class="multi-btn" aria-haspopup="true" aria-expanded="false"><span class="multi-label">Toate</span><span class="charts-arrow" aria-hidden="true">▾</span></button><div class="multi-panel" hidden></div></div>
               </label>
               <label class="check">
                 <input type="checkbox" id="citDoiOnly">
@@ -280,13 +280,13 @@
                   <span class="muted" id="citRange">—</span>
                   <div class="pager">
                     <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
-                      <select id="citPageSize">
-                        <option value="5" selected>5</option>
-                        <option value="10">10</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                      </select>
+                      <div class="seg" id="citPageSize" role="group" aria-label="Page size">
+                        <button type="button" data-size="5" aria-pressed="true">5</button>
+                        <button type="button" data-size="10" aria-pressed="false">10</button>
+                        <button type="button" data-size="25" aria-pressed="false">25</button>
+                        <button type="button" data-size="50" aria-pressed="false">50</button>
+                        <button type="button" data-size="100" aria-pressed="false">100</button>
+                      </div>
                     </label>
                     <button class="btn btn-ghost btn-small" type="button" id="citPrev" data-i18n="prev">Anterior</button>
                     <span class="page-num" id="citPage">1</span>
@@ -332,10 +332,13 @@
                   <h3 data-i18n="synMatrix">Matrice articol × an de citare</h3>
                   <span class="pill pill-ghost" data-i18n="pillAllData">toate datele</span>
                 </div>
-                <label class="field syn-filter">
-                  <span data-i18n="synTitleFilter">Titlu articol</span>
-                  <select id="synTitleFilter"></select>
-                </label>
+                <div class="syn-filter-row">
+                  <label class="field syn-filter">
+                    <span data-i18n="synTitleFilter">Titlu articol</span>
+                    <select id="synTitleFilter"></select>
+                  </label>
+                  <button class="btn btn-ghost btn-small" type="button" id="synFilterReset" data-i18n="reset">Resetează</button>
+                </div>
                 <div class="table-wrap">
                   <table class="matrix" id="matrixTable">
                     <thead id="matrixHead"></thead>
