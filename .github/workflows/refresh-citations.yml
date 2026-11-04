@@ -28,6 +28,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install openpyxl
 
+      - name: Run unit tests
+        run: |
+          python3 -m unittest discover -s tests -v
+
       - name: Detect versions
         id: versions
         run: |
