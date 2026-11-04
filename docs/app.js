@@ -1990,8 +1990,17 @@
     window.addEventListener("popstate", onUrlPopState);
   }
 
+  function registerServiceWorker() {
+    // Service workers need a secure context (https or localhost) and a
+    // real origin — skip silently on file:// and other unsupported setups.
+    if (!("serviceWorker" in navigator)) return;
+    if (!/^https?:$/.test(window.location.protocol)) return;
+    navigator.serviceWorker.register("sw.js").catch(function () { /* optional */ });
+  }
+
   function init() {
     var urlState = readUrlState();
+    registerServiceWorker();
 
     try {
       var saved = localStorage.getItem(LANG_KEY);
