@@ -1269,9 +1269,12 @@
     $("pubPage").textContent = t("pageOf", { page: state.pubPage, pages: pages });
     $("pubPrev").disabled = state.pubPage <= 1;
     $("pubNext").disabled = state.pubPage >= pages;
-    $("pubBody").innerHTML = pageRows.length
+    $("#pubBody").innerHTML = pageRows.length
       ? pageRows.map(pubRowHtml).join("")
       : '<tr class="empty-row"><td colspan="10">' + esc(t("noResults")) + "</td></tr>";
+    $("#emptyState").hidden = pageRows.length > 0;
+    $("#pubReset").hidden = pageRows.length > 0;
+    $("#emptyReset").hidden = pageRows.length === 0;
     updateSortIndicators($("pubTable"), state.pubSort);
     Array.from(document.querySelectorAll("tr.pub-main")).forEach(function (row) {
       row.addEventListener("click", function () {
@@ -1305,9 +1308,12 @@
     $("citPage").textContent = t("pageOf", { page: state.citPage, pages: pages });
     $("citPrev").disabled = state.citPage <= 1;
     $("citNext").disabled = state.citPage >= pages;
-    $("citBody").innerHTML = pageRows.length
+    $("#citBody").innerHTML = pageRows.length
       ? pageRows.map(citRowHtml).join("")
       : '<tr class="empty-row"><td colspan="9">' + esc(t("noResults")) + "</td></tr>";
+    $("#emptyState").hidden = pageRows.length > 0;
+    $("#citReset").hidden = pageRows.length > 0;
+    $("#emptyReset").hidden = pageRows.length === 0;
     updateSortIndicators($("citTable"), state.citSort);
   }
 
@@ -1955,10 +1961,10 @@
     applyTheme();
     loadData().then(function () {
       applyUrlState(urlState);
+      writeUrlState("replace");
       try { localStorage.setItem(LANG_KEY, state.lang); } catch (error) { /* storage may be blocked on file:// */ }
       try { localStorage.setItem(DARK_KEY, state.dark ? "1" : "0"); } catch (error) { /* ignore */ }
       renderAll();
-      writeUrlState("replace");
     }).catch(showLoadError);
   }
 
