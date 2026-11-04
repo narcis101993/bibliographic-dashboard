@@ -178,42 +178,42 @@
     {
       "id": "openalex",
       "name": "OpenAlex",
-      "url": "https://openalex.org",
+      "url": "https://openalex.org/authors/https://orcid.org/0000-0002-1850-7278",
       "count": 101,
       "countKind": "citationLinks"
     },
     {
       "id": "semantic-scholar",
       "name": "Semantic Scholar",
-      "url": "https://www.semanticscholar.org",
+      "url": "https://www.semanticscholar.org/search?q=Gabriela%20Daniela%20Stamatie&sort=relevance",
       "count": 64,
       "countKind": "citationLinks"
     },
     {
       "id": "crossref",
       "name": "Crossref",
-      "url": "https://www.crossref.org",
+      "url": "https://search.crossref.org/search/works?q=Gabriela%20Daniela%20Stamatie",
       "count": 13,
       "countKind": "publicationsVerified"
     },
     {
       "id": "datacite",
       "name": "DataCite",
-      "url": "https://datacite.org",
+      "url": "https://commons.datacite.org/search?q=Gabriela%20Daniela%20Stamatie",
       "count": 1,
       "countKind": "publicationsVerified"
     },
     {
       "id": "researchgate",
       "name": "ResearchGate",
-      "url": "https://www.researchgate.net",
+      "url": "https://www.researchgate.net/search/publication?q=Gabriela%20Daniela%20Stamatie",
       "count": 1,
       "countKind": "publicationsVerified"
     },
     {
       "id": "orcid",
       "name": "ORCID",
-      "url": "https://orcid.org",
+      "url": "https://orcid.org/0000-0002-1850-7278",
       "count": null,
       "countKind": "publicationsVerified"
     }

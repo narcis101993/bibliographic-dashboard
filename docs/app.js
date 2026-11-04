@@ -4,8 +4,8 @@
   var LANG_KEY = "stamatie-dashboard-lang";
   var DARK_KEY = "stamatie-dashboard-dark";
   var PAGE_SIZE = 10;
-  var PUB_PAGE_SIZE = 50;
-  var CIT_PAGE_SIZE = 50;
+  var PUB_PAGE_SIZE = 5;
+  var CIT_PAGE_SIZE = 5;
   var PALETTE = ["#12324d", "#2a7396", "#4c9fbf", "#8fc3d8", "#b9c6d4", "#e2b84b", "#2f8a5b", "#5b45a3", "#b3403a"];
 
   var I18N = {
@@ -62,7 +62,12 @@
       colAuthors: "Autori",
       colVolume: "Volum/Issue",
       colCitations: "Citări",
-      colSelf: "Auto",
+      colSelf: "Auto-citare",
+      colNotes: "Observații",
+      dateCitations: "Citări",
+      pillStale: "necesită actualizare",
+      synTitleFilter: "Titlu articol",
+      synTitleFilterPh: "Filtrează după titlu articol…",
       colArticle: "Art.",
       colCitYear: "An citare",
       colCiting: "Lucrare citată",
@@ -118,7 +123,7 @@
       coverageCap: "Articolele fără legături de citare sunt marcate separat.",
       coveragePartialBadge: "{n} parțial verificate",
       coveragePartialCap: "Articole fără identificator, în curs de re-verificare.",
-      coveragePartialNote: "Nu sunt incluse în cifrele de „fără citări” conform metodologiei v4.",
+      coveragePartialNote: "Nu sunt incluse în cifrele de „fără citări” conform metodologiei.",
       qa: "QA & recomandări",
       qa1: "{links} legături → {works} lucrări unice; {self} auto-citări ({external} externe).",
       qa2: "Eșantion de 10 DOI-uri de citare verificate Crossref: 10/10.",
@@ -210,7 +215,12 @@
       colAuthors: "Authors",
       colVolume: "Vol/Issue",
       colCitations: "Citations",
-      colSelf: "Self",
+      colSelf: "Self-citation",
+      colNotes: "Notes",
+      dateCitations: "Citations",
+      pillStale: "needs update",
+      synTitleFilter: "Article title",
+      synTitleFilterPh: "Filter by article title…",
       colArticle: "Art.",
       colCitYear: "Citation year",
       colCiting: "Citing work",
@@ -266,7 +276,7 @@
       coverageCap: "Articles without citation links are marked separately.",
       coveragePartialBadge: "{n} partially verified",
       coveragePartialCap: "Articles without identifier, pending re-verification.",
-      coveragePartialNote: "Not counted as \"without citations\" per v4 methodology.",
+      coveragePartialNote: "Not counted as \"without citations\" per the methodology.",
       qa: "QA & recommendations",
       qa1: "{links} links → {works} unique works; {self} self-citations ({external} external).",
       qa2: "Sample of 10 citing DOIs checked in Crossref: 10/10.",
@@ -1278,8 +1288,9 @@
       "<td>" + link + "</td>" +
       '<td class="cell-authors" title="' + esc((pub.authors || []).join("; ")) + '">' + esc(authorsShort(pub.authors)) + "</td>" +
       citationCell +
+      '<td class="cell-notes">' + esc(pub.notes || "—") + "</td>" +
       "</tr>" +
-      "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"10\" class=\"detail-cell\">" +
+      "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"11\" class=\"detail-cell\">" +
       '<div class="detail-panel">' + detailRows + "</div>" +
       "</td></tr>";
   }
@@ -1296,8 +1307,9 @@
     var doi = citation.doi
       ? '<a class="doi" href="' + esc(citation.link || ("https://doi.org/" + citation.doi)) + '" target="_blank" rel="noopener">' + esc(short(citation.doi, 24)) + "</a>"
       : '<span class="muted">' + esc(t("noDoi")) + "</span>";
+    var articleTip = citation.articleTitle ? ' title="' + esc(citation.articleTitle) + '"' : "";
     return '<tr class="' + (citation.selfCitation ? "row-self" : "") + '">' +
-      '<td class="num">' + esc(citation.id) + "</td>" +
+      '<td class="num"' + articleTip + ">" + esc(citation.id) + "</td>" +
       '<td class="num">' + esc(ids) + "</td>" +
       '<td class="num">' + esc(citation.year == null ? "—" : citation.year) + "</td>" +
       '<td class="cell-title">' + esc(citation.title || t("untitled")) + "</td>" +
@@ -1366,6 +1378,8 @@
     var btn = $(kind === "pub" ? "pubChartsToggle" : "citChartsToggle");
     row.hidden = collapsed;
     btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    var arrow = btn.querySelector(".charts-arrow");
+    if (arrow) arrow.textContent = collapsed ? "›" : "▾";
     try { localStorage.setItem(CHARTS_KEY, collapsed ? "1" : "0"); } catch (error) { /* ignore */ }
     if (!collapsed) {
       Object.keys(state.charts).forEach(function (id) {
@@ -1519,6 +1533,54 @@
     state.charts[id] = new Chart(canvas.getContext("2d"), config);
   }
 
+  function hoverCursor(event, elements) {
+    if (event && event.native && event.native.target) {
+      event.native.target.style.cursor = elements && elements.length ? "pointer" : "default";
+    }
+  }
+
+  function applyPubYearFilter(year) {
+    var value = String(year);
+    state.pubFilters.year = state.pubFilters.year === value ? "" : value;
+    state.pubPage = 1;
+    syncControls(); renderPubTable(); renderPubCharts();
+    writeUrlState("push");
+  }
+
+  function applyPubTypeFilter(code) {
+    var value = String(code);
+    state.pubFilters.type = state.pubFilters.type === value ? "" : value;
+    state.pubPage = 1;
+    syncControls(); renderPubTable(); renderPubCharts();
+    writeUrlState("push");
+  }
+
+  function applyCitYearFilter(year) {
+    var value = String(year);
+    state.citFilters.year = state.citFilters.year === value ? "" : value;
+    state.citPage = 1;
+    syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
+    writeUrlState("push");
+  }
+
+  function applyCitArticleFilter(articleId) {
+    var value = String(articleId);
+    state.citFilters.article = state.citFilters.article === value ? "" : value;
+    state.citPage = 1;
+    syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
+    writeUrlState("push");
+  }
+
+  function applyCitTypeFilter(code) {
+    var value = String(code);
+    state.citFilters.type = state.citFilters.type === value ? "" : value;
+    var tab = $("tab-citari");
+    if (tab) tab.checked = true;
+    state.citPage = 1;
+    syncControls(); renderCitTable(); renderCitKpis(); renderCitCharts();
+    writeUrlState("push");
+  }
+
   function renderPubCharts() {
     var rows = getFilteredPubs();
     var byYear = new Map();
@@ -1539,7 +1601,12 @@
           maxBarThickness: 36
         }]
       },
-      options: cartesianOptions(false)
+      options: Object.assign(cartesianOptions(false), {
+        onClick: function (event, elements) {
+          if (elements && elements.length) applyPubYearFilter(years[elements[0].index]);
+        },
+        onHover: hoverCursor
+      })
     });
 
     var byType = new Map();
@@ -1558,7 +1625,12 @@
           borderWidth: 1
         }]
       },
-      options: doughnutOptions()
+      options: Object.assign(doughnutOptions(), {
+        onClick: function (event, elements) {
+          if (elements && elements.length) applyPubTypeFilter(codes[elements[0].index]);
+        },
+        onHover: hoverCursor
+      })
     });
   }
 
@@ -1584,7 +1656,12 @@
           maxBarThickness: 36
         }]
       },
-      options: cartesianOptions(false)
+      options: Object.assign(cartesianOptions(false), {
+        onClick: function (event, elements) {
+          if (elements && elements.length) applyCitYearFilter(years[elements[0].index]);
+        },
+        onHover: hoverCursor
+      })
     });
 
     var byArticle = new Map();
@@ -1612,7 +1689,12 @@
           borderRadius: 3
         }]
       },
-      options: cartesianOptions(true)
+      options: Object.assign(cartesianOptions(true), {
+        onClick: function (event, elements) {
+          if (elements && elements.length) applyCitArticleFilter(top[elements[0].index][0]);
+        },
+        onHover: hoverCursor
+      })
     });
   }
 
@@ -1633,7 +1715,12 @@
           borderWidth: 1
         }]
       },
-      options: doughnutOptions()
+      options: Object.assign(doughnutOptions(), {
+        onClick: function (event, elements) {
+          if (elements && elements.length) applyCitTypeFilter(codes[elements[0].index]);
+        },
+        onHover: hoverCursor
+      })
     });
   }
 
@@ -1669,7 +1756,7 @@
       '<th class="num">' + esc(t("matrixTotal")) + "</th></tr>";
 
     $("matrixBody").innerHTML = rows.map(function (row) {
-      return '<tr><td class="num" title="' + esc(row.title) + '">' + esc(row.id) + "</td>" +
+      return '<tr data-title="' + esc(fold(row.title || "")) + '"><td class="num" title="' + esc(row.title) + '">' + esc(row.id) + "</td>" +
         row.cells.map(function (value) { return '<td class="num">' + fmt(value) + "</td>"; }).join("") +
         '<td class="num strong">' + fmt(row.total) + "</td></tr>";
     }).join("") +
@@ -1746,6 +1833,23 @@
     renderNotes();
   }
 
+  function repoFileUrl(path) {
+    if (!path) return "";
+    var clean = String(path).replace(/^\.\.\//, "").replace(/^\//, "");
+    return "https://raw.githubusercontent.com/narcis101993/bibliographic-dashboard/main/" + clean;
+  }
+
+  function setDownload(id, csvPath) {
+    var el = $(id);
+    if (!el) return;
+    if (csvPath) {
+      el.href = repoFileUrl(String(csvPath).replace(/\.csv$/i, ".xlsx"));
+      el.hidden = false;
+    } else {
+      el.hidden = true;
+    }
+  }
+
   function sourceLabel(info) {
     if (!info || !info.centralizator || !info.centralizator.csv) return "—";
     return info.centralizator.csv.replace(/^\.\.\//, "").replace(/\.csv$/i, ".xlsx");
@@ -1774,35 +1878,22 @@
     })[0];
 
     $("metaExtracted").textContent = formatDate(manifest.dataExtractedAt);
-    $("metaGenerated").textContent = formatDate(manifest.generatedAt, true);
     $("metaPubs").textContent = fmt(state.stats.publications);
     $("metaWorks").textContent = fmt(state.stats.works);
-    $("metaLinks").textContent = fmt(state.stats.links);
-    $("metaSelf").textContent = fmt(state.stats.self);
-    $("metaSelfLinks").textContent = fmt(state.stats.selfLinks);
-    $("metaExternalLinks").textContent = fmt(state.stats.links - state.stats.selfLinks);
-    $("metaSource").textContent = sourceLabel(info);
-    $("versionBig").textContent = state.version || "—";
     $("versionChip").textContent = state.version || "—";
-    $("detectPath").textContent = state.version
-      ? "centralizator/" + state.version + " · citari/" + state.version
-      : t("noCommon");
     $("updatedLabel").textContent = t("updated") + " " + formatDate(manifest.dataExtractedAt);
-    $("footerVersion").textContent = state.version
-      ? "centralizator " + state.version + " + citari " + state.version
-      : "—";
-    $("footRight").textContent = t("footRight", { v: state.version || "—" });
 
-    var xlsx = info && info.centralizator && info.centralizator.csv
-      ? info.centralizator.csv.replace(/\.csv$/i, ".xlsx")
-      : "";
-    var download = $("downloadXlsx");
-    if (xlsx) {
-      download.href = xlsx;
-      download.hidden = false;
-    } else {
-      download.hidden = true;
-    }
+    var extracted = (manifest.dataExtractedAt || "").slice(0, 10);
+    var now = new Date();
+    var today = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+    var isFresh = extracted !== "" && extracted === today;
+    var pill = $("freshPill");
+    pill.className = "pill " + (isFresh ? "pill-ok" : "pill-warn");
+    pill.textContent = t(isFresh ? "pillCurrent" : "pillStale");
+
+    setDownload("downloadXlsx", info && info.centralizator && info.centralizator.csv);
+    setDownload("downloadCitXlsx", info && info.citari && info.citari.csv);
+    setDownload("downloadSynXlsx", state.version ? "citari/" + state.version + "/Acoperire_Publicatii_v4.xlsx" : "");
 
     renderSources();
   }
@@ -1996,6 +2087,12 @@
       state.pubPage = 1;
       renderPubTable();
     });
+    $("synTitleFilter").addEventListener("input", function () {
+      var q = fold($("synTitleFilter").value);
+      document.querySelectorAll("#matrixBody tr[data-title]").forEach(function (row) {
+        row.style.display = !q || row.getAttribute("data-title").indexOf(q) !== -1 ? "" : "none";
+      });
+    });
     $("pubChartsToggle").addEventListener("click", function () {
       setChartsCollapsed("pub", !$("pubChartsRow").hidden);
     });
@@ -2081,8 +2178,6 @@
       });
     });
 
-    $("exportPubCsv").addEventListener("click", exportPublications);
-    $("exportCitCsv").addEventListener("click", exportCitations);
     $("redetect").addEventListener("click", redetect);
     $("refreshData").addEventListener("click", function () {
       var url = new URL(window.location.href);

@@ -17,10 +17,10 @@
 <body>
   <div class="app">
     <header class="topbar">
-      <div class="brand-mark" aria-hidden="true">GS</div>
+      <img class="brand-mark" src="assets/brand.png" alt="" width="44" height="44">
       <div class="title-block">
         <h1 data-i18n="appTitle">Dashboard bibliografic</h1>
-        <p data-i18n="appSubtitle">Gabriela Daniela Stamatie (Criveanu-Stamatie) · IBA București</p>
+        <p>Gabriela Daniela Stamatie (Criveanu-Stamatie) · IBA București · ORCID <a href="https://orcid.org/0000-0002-1850-7278" target="_blank" rel="noopener">0000-0002-1850-7278</a></p>
       </div>
       <div class="topbar-meta">
         <div class="lang-switch" role="group" aria-label="Language / Limbă">
@@ -36,15 +36,6 @@
         <button class="btn btn-ghost btn-small" id="refreshData" type="button" data-i18n="refreshData" title="Reîncarcă datele din surse">Reîncarcă</button>
       </div>
     </header>
-
-    <div class="detect-banner" role="status">
-      <span class="status-dot" id="statusDot" aria-hidden="true"></span>
-      <div class="detect-text">
-        <strong id="detectLabel">—</strong>
-        <span id="detectDetail">—</span>
-      </div>
-      <button class="btn btn-ghost btn-small" id="redetect" type="button" data-i18n="redetect">Re-detectează</button>
-    </div>
 
     <div class="workspace">
       <div class="content">
@@ -66,8 +57,7 @@
                 <p id="pubPanelSub">—</p>
               </div>
               <div class="panel-actions">
-                <button class="btn btn-ghost" type="button" id="pubChartsToggle" data-i18n="chartsToggle" aria-expanded="true" aria-controls="pubChartsRow">Grafice</button>
-                <button class="btn btn-ghost" type="button" id="exportPubCsv" data-i18n="exportCsv">Export CSV</button>
+                <button class="btn btn-ghost" type="button" id="pubChartsToggle" aria-expanded="true" aria-controls="pubChartsRow"><span class="charts-arrow" aria-hidden="true">▾</span> <span data-i18n="chartsToggle">Grafice</span></button>
                 <a class="btn btn-primary" id="downloadXlsx" href="#" download data-i18n="exportXlsx">Descarcă XLSX</a>
               </div>
             </div>
@@ -145,6 +135,7 @@
                         <th data-i18n="colLink">Link</th>
                         <th data-i18n="colAuthors">Autori</th>
                         <th class="num sortable" data-sort="citations" data-i18n="colCitations">Citări</th>
+                        <th data-i18n="colNotes">Observații</th>
                       </tr>
                     </thead>
                     <tbody id="pubBody"></tbody>
@@ -155,9 +146,10 @@
                   <div class="pager">
                     <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
                       <select id="pubPageSize">
+                        <option value="5" selected>5</option>
                         <option value="10">10</option>
                         <option value="25">25</option>
-                        <option value="50" selected>50</option>
+                        <option value="50">50</option>
                         <option value="100">100</option>
                       </select>
                     </label>
@@ -187,8 +179,8 @@
                 <p id="citPanelSub">—</p>
               </div>
               <div class="panel-actions">
-                <button class="btn btn-ghost" type="button" id="citChartsToggle" data-i18n="chartsToggle" aria-expanded="true" aria-controls="citChartsRow">Grafice</button>
-                <button class="btn btn-ghost" type="button" id="exportCitCsv" data-i18n="exportCsv">Export CSV</button>
+                <button class="btn btn-ghost" type="button" id="citChartsToggle" aria-expanded="true" aria-controls="citChartsRow"><span class="charts-arrow" aria-hidden="true">▾</span> <span data-i18n="chartsToggle">Grafice</span></button>
+                <a class="btn btn-primary" id="downloadCitXlsx" href="#" download data-i18n="exportXlsx">Descarcă XLSX</a>
               </div>
             </div>
 
@@ -289,9 +281,10 @@
                   <div class="pager">
                     <label class="page-size"><span data-i18n="pageSize">Pe pagină</span>
                       <select id="citPageSize">
+                        <option value="5" selected>5</option>
                         <option value="10">10</option>
                         <option value="25">25</option>
-                        <option value="50" selected>50</option>
+                        <option value="50">50</option>
                         <option value="100">100</option>
                       </select>
                     </label>
@@ -321,6 +314,9 @@
                 <h2 id="h-sinteza" data-i18n="tabSynthesis">Sinteză</h2>
                 <p data-i18n="synPanelSub">Indicatori, matrice articol × an de citare și acoperirea datelor.</p>
               </div>
+              <div class="panel-actions">
+                <a class="btn btn-primary" id="downloadSynXlsx" href="#" download data-i18n="exportXlsx">Descarcă XLSX</a>
+              </div>
             </div>
 
             <div class="kpi-row kpi-row-4">
@@ -336,6 +332,10 @@
                   <h3 data-i18n="synMatrix">Matrice articol × an de citare</h3>
                   <span class="pill pill-ghost" data-i18n="pillAllData">toate datele</span>
                 </div>
+                <label class="field field-search syn-filter">
+                  <span data-i18n="synTitleFilter">Titlu articol</span>
+                  <input type="search" id="synTitleFilter" data-i18n-placeholder="synTitleFilterPh" placeholder="Filtrează după titlu articol…" autocomplete="off">
+                </label>
                 <div class="table-wrap">
                   <table class="matrix" id="matrixTable">
                     <thead id="matrixHead"></thead>
@@ -380,35 +380,20 @@
 
       <aside class="meta" aria-label="Metadata and sources">
         <section class="card meta-card">
-          <div class="card-head"><h3 data-i18n="dateExtracted">Date extrase</h3><span class="pill pill-ok" data-i18n="pillCurrent">la zi</span></div>
-          <dl class="meta-list">
-            <div><dt data-i18n="lastExtract">Ultima extragere</dt><dd id="metaExtracted">—</dd></div>
-            <div><dt data-i18n="generatedAt">Generat</dt><dd id="metaGenerated">—</dd></div>
-            <div><dt data-i18n="kpiPublications">Publicații</dt><dd id="metaPubs">—</dd></div>
-            <div><dt data-i18n="kpiCiting">Lucrări citante</dt><dd id="metaWorks">—</dd></div>
-            <div><dt data-i18n="kpiLinks">Legături citare</dt><dd id="metaLinks">—</dd></div>
-            <div><dt data-i18n="kpiSelf">Auto-citări</dt><dd id="metaSelf">—</dd></div>
-            <div><dt data-i18n="kpiSelfLinks">Legături auto-citare</dt><dd id="metaSelfLinks">—</dd></div>
-            <div><dt data-i18n="kpiExternalLinks">Legături externe citare</dt><dd id="metaExternalLinks">—</dd></div>
-            <div><dt data-i18n="sourceFile">Fișier sursă</dt><dd class="mono" id="metaSource">—</dd></div>
-          </dl>
-        </section>
-
-        <section class="card meta-card">
-          <div class="card-head"><h3 data-i18n="versionTitle">Versiune &amp; auto-detectare</h3></div>
-          <div class="detect-box">
-            <span class="version-big" id="versionBig">—</span>
-            <div>
-              <p class="detect-title" data-i18n="detectedAuto">Detectată automat</p>
-              <p class="detect-path mono" id="detectPath">—</p>
+          <div class="card-head"><h3 data-i18n="dateExtracted">Date extrase</h3><span class="pill pill-ok" id="freshPill">la zi</span></div>
+          <div class="detect-mini" role="status">
+            <span class="status-dot" id="statusDot" aria-hidden="true"></span>
+            <div class="detect-text">
+              <strong id="detectLabel">—</strong>
+              <span id="detectDetail">—</span>
             </div>
           </div>
-          <ol class="detect-steps">
-            <li data-i18n="step1">Scanează centralizator/v*/ și citari/v*/.</li>
-            <li data-i18n="step2">Alege versiunea numerică maximă comună.</li>
-            <li data-i18n="step3">Citește manifestul dashboard/data/version-manifest.json.</li>
-            <li data-i18n="step4">Încarcă CSV-urile versiunii; revine la datele încorporate pe file://.</li>
-          </ol>
+          <dl class="meta-list">
+            <div><dt data-i18n="lastExtract">Ultima extragere</dt><dd id="metaExtracted">—</dd></div>
+            <div><dt data-i18n="kpiPublications">Publicații</dt><dd id="metaPubs">—</dd></div>
+            <div><dt data-i18n="dateCitations">Citări</dt><dd id="metaWorks">—</dd></div>
+          </dl>
+          <button class="btn btn-ghost btn-small meta-action" id="redetect" type="button" data-i18n="redetect">Re-detectează</button>
         </section>
 
         <section class="card meta-card">
@@ -416,16 +401,11 @@
           <ul class="sources" id="sourcesList"></ul>
         </section>
 
-        <section class="card meta-card meta-foot">
-          <p data-i18n="footerNote">Date din livrabilele versionate ale centralizatorului și raportului de citări.</p>
-          <p class="mono" id="footerVersion">—</p>
-        </section>
       </aside>
     </div>
 
     <footer class="page-foot">
-      <span data-i18n="footLeft">Dashboard bibliografic · v1.0</span>
-      <span id="footRight">—</span>
+      <span>Dashboard bibliografic · Creat de <a href="https://github.com/narcis101993" target="_blank" rel="noopener">Criveanu Narcis</a> · cu ajutorul <a href="https://hermes-agent.nousresearch.com" target="_blank" rel="noopener">Hermes Agent</a></span>
     </footer>
   </div>
 

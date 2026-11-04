@@ -632,46 +632,48 @@ def build_manifest(
         1 for publication in publications if is_researchgate_doi(publication.get("doi", ""))
     )
 
+    author_orcid = "0000-0002-1850-7278"
+    author_name_q = "Gabriela%20Daniela%20Stamatie"
     sources = [
         {
             "id": "openalex",
             "name": "OpenAlex",
-            "url": "https://openalex.org",
+            "url": "https://openalex.org/authors/https://orcid.org/" + author_orcid,
             "count": citation_link_count("openalex"),
             "countKind": "citationLinks",
         },
         {
             "id": "semantic-scholar",
             "name": "Semantic Scholar",
-            "url": "https://www.semanticscholar.org",
+            "url": "https://www.semanticscholar.org/search?q=" + author_name_q + "&sort=relevance",
             "count": citation_link_count("semantic scholar"),
             "countKind": "citationLinks",
         },
         {
             "id": "crossref",
             "name": "Crossref",
-            "url": "https://www.crossref.org",
+            "url": "https://search.crossref.org/search/works?q=" + author_name_q,
             "count": crossref_publications,
             "countKind": "publicationsVerified",
         },
         {
             "id": "datacite",
             "name": "DataCite",
-            "url": "https://datacite.org",
+            "url": "https://commons.datacite.org/search?q=" + author_name_q,
             "count": datacite_publications,
             "countKind": "publicationsVerified",
         },
         {
             "id": "researchgate",
             "name": "ResearchGate",
-            "url": "https://www.researchgate.net",
+            "url": "https://www.researchgate.net/search/publication?q=" + author_name_q,
             "count": researchgate_publications,
             "countKind": "publicationsVerified",
         },
         {
             "id": "orcid",
             "name": "ORCID",
-            "url": "https://orcid.org",
+            "url": "https://orcid.org/" + author_orcid,
             "count": orcid_publications or None,
             "countKind": "publicationsVerified",
         },
