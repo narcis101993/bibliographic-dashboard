@@ -160,3 +160,12 @@ class TestInitPaths(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestResearchGateDoi(unittest.TestCase):
+    def test_is_researchgate_doi(self):
+        self.assertTrue(bc.is_researchgate_doi("10.13140/rg.2.2.29075.86568"))
+        self.assertTrue(bc.is_researchgate_doi("https://doi.org/10.13140/RG.2.2.29075.86568"))
+        self.assertTrue(bc.is_researchgate_doi("http://dx.doi.org/10.13140/rg.2.2.29075.86568"))
+        self.assertFalse(bc.is_researchgate_doi("10.3390/foods11223667"))
+        self.assertFalse(bc.is_researchgate_doi(""))

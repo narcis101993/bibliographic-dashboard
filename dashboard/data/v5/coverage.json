@@ -16,7 +16,8 @@
       "openalex": "verificat (3 lucrări)",
       "crossref": "neinterogabil (fără DOI)",
       "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
-      "datacite": "neinterogabil (fără DOI)"
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": ""
     }
   },
   {
@@ -36,7 +37,8 @@
       "openalex": "verificat (6 lucrări)",
       "crossref": "verificat, 5 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (4 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -56,7 +58,8 @@
       "openalex": "verificat (2 lucrări)",
       "crossref": "verificat, 1 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -76,7 +79,8 @@
       "openalex": "verificat (40 lucrări)",
       "crossref": "verificat, 38 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (32 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -96,7 +100,8 @@
       "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
       "crossref": "neinterogabil (fără DOI)",
       "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
-      "datacite": "căutare fără potrivire exactă (8 rezultate, niciun titlu identic)"
+      "datacite": "căutare fără potrivire exactă (8 rezultate, niciun titlu identic)",
+      "researchgate": ""
     }
   },
   {
@@ -116,7 +121,8 @@
       "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
       "crossref": "neinterogabil (fără DOI)",
       "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
-      "datacite": "neinterogabil (fără DOI)"
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": ""
     }
   },
   {
@@ -136,7 +142,8 @@
       "openalex": "verificat (11 lucrări)",
       "crossref": "verificat, 9 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (9 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -156,7 +163,8 @@
       "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
       "crossref": "neinterogabil (fără DOI)",
       "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
-      "datacite": "verificat prin căutare; 0 rezultate"
+      "datacite": "verificat prin căutare; 0 rezultate",
+      "researchgate": ""
     }
   },
   {
@@ -176,7 +184,8 @@
       "openalex": "verificat (0 lucrări)",
       "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -196,7 +205,8 @@
       "openalex": "verificat (9 lucrări)",
       "crossref": "verificat, 9 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (9 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -216,7 +226,8 @@
       "openalex": "verificat (24 lucrări)",
       "crossref": "verificat, 25 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -236,7 +247,8 @@
       "openalex": "verificat (3 lucrări)",
       "crossref": "verificat, 3 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -256,7 +268,8 @@
       "openalex": "verificat (2 lucrări)",
       "crossref": "verificat, 2 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (4 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -276,7 +289,8 @@
       "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
       "crossref": "neinterogabil (fără DOI)",
       "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
-      "datacite": "verificat prin căutare; 0 rezultate"
+      "datacite": "verificat prin căutare; 0 rezultate",
+      "researchgate": ""
     }
   },
   {
@@ -296,7 +310,8 @@
       "openalex": "verificat (0 lucrări)",
       "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (0 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -316,7 +331,8 @@
       "openalex": "verificat (0 lucrări)",
       "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "verificat (0 lucrări)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -336,7 +352,8 @@
       "openalex": "verificat (0 lucrări)",
       "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -356,7 +373,8 @@
       "openalex": "verificat (1 lucrări)",
       "crossref": "verificat, 2 citări raportate (listă indisponibilă fără acces member)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 404: Not Found)",
-      "datacite": "fără înregistrare DataCite"
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": ""
     }
   },
   {
@@ -376,7 +394,8 @@
       "openalex": "verificat (0 lucrări)",
       "crossref": "blocat (http-404)",
       "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
-      "datacite": "verificat (citationCount=0)"
+      "datacite": "verificat (citationCount=0)",
+      "researchgate": ""
     }
   }
 ]

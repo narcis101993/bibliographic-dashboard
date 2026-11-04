@@ -34,6 +34,16 @@ CENTRALIZATOR = os.path.join(
 RAW = os.path.join(ROOT, "citari", "v4", "raw")
 UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
 RETRIEVAL_DATE = "2026-11-01"
+# ResearchGate has no public API and blocks automated scraping, so RG
+# presence is detected from DOIs minted by ResearchGate itself
+# (10.13140/*, registered via DataCite) — no requests to researchgate.net.
+RG_DOI_PREFIX = "10.13140/"
+
+
+def is_researchgate_doi(doi):
+    d = (doi or "").strip().lower()
+    d = re.sub(r"^https?://(dx\.)?doi\.org/", "", d)
+    return d.startswith(RG_DOI_PREFIX)
 
 
 def parse_version_arg(args, flag, default):
@@ -224,6 +234,7 @@ def main():
                 row["s2Citing"] = 0
         except Exception as e:
             row["s2Error"] = "%s: %s" % (type(e).__name__, e)
+        dc = None
         try:
             dc = datacite_record(pub)
             write_raw("datacite", pid, dc)
@@ -232,6 +243,22 @@ def main():
             )
         except Exception as e:
             row["dataciteError"] = "%s: %s" % (type(e).__name__, e)
+        try:
+            doi = (pub.get("DOI") or "").strip()
+            if is_researchgate_doi(doi):
+                rg_url = (((dc or {}).get("data") or {}).get("attributes") or {}).get("url")
+                write_raw("researchgate", pid, {
+                    "doi": doi,
+                    "platform": "ResearchGate",
+                    "url": rg_url,
+                    "detection": "DataCite-registered DOI prefix 10.13140/",
+                })
+                row["researchgate"] = True
+            else:
+                write_raw("researchgate", pid, None)
+                row["researchgate"] = False
+        except Exception as e:
+            row["researchgateError"] = "%s: %s" % (type(e).__name__, e)
         summary.append(row)
         print(json.dumps(row, ensure_ascii=False), flush=True)
         time.sleep(1.0)
@@ -239,7 +266,7 @@ def main():
     os.makedirs(RAW, exist_ok=True)
     with open(os.path.join(RAW, "retrieval-summary.json"), "w", encoding="utf-8") as f:
         json.dump(
-            {"retrievedOn": RETRIEVAL_DATE, "sources": ["OpenAlex", "Semantic Scholar", "DataCite"], "publications": summary},
+            {"retrievedOn": RETRIEVAL_DATE, "sources": ["OpenAlex", "Semantic Scholar", "DataCite", "ResearchGate"], "publications": summary},
             f,
             ensure_ascii=False,
             indent=1,

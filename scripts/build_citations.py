@@ -127,6 +127,13 @@ def clean(t):
     return (t or "").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").strip()
 
 
+RG_DOI_PREFIX = "10.13140/"
+
+
+def is_researchgate_doi(u):
+    return doi_of(u).startswith(RG_DOI_PREFIX)
+
+
 def doi_of(u):
     d = (u or "").strip()
     if not d:
@@ -400,6 +407,12 @@ def main():
             else:
                 s2_state = "fără rezultat / neindexat"
             dc_state = ("verificat (citationCount=%s)" % dc) if dc is not None else "fără înregistrare DataCite"
+        if is_researchgate_doi(p["DOI"]):
+            rg_state = "verificat (DOI ResearchGate: %s)" % doi_of(p["DOI"])
+        elif p["DOI"].strip():
+            rg_state = "fără DOI ResearchGate (DOI editor)"
+        else:
+            rg_state = "neinterogabil (fără DOI)"
         if n > 0:
             status = "acoperit"
         elif not p["DOI"].strip() and s.get("openalexId") is None:
@@ -420,6 +433,7 @@ def main():
                 "Stare Crossref": cr_state,
                 "Stare Semantic Scholar": s2_state,
                 "Stare DataCite": dc_state,
+                "Stare ResearchGate": rg_state,
                 "Stare acoperire": status,
             }
         )

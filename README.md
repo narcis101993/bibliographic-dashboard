@@ -71,7 +71,7 @@ Bibliographic dashboard/
 
 Datele se actualizează automat lunar prin [GitHub Actions](https://github.com/narcis101993/bibliographic-dashboard/actions):
 
-1. **Fetch** — extragere date noi din surse (OpenAlex, Semantic Scholar, DataCite, Crossref)
+1. **Fetch** — extragere date noi din surse (OpenAlex, Semantic Scholar, DataCite, Crossref, ResearchGate — detectare DOI 10.13140/)
 2. **Build** — procesare și normalizare în `citari/vN/` și `centralizator/vN/` (versiune nouă automată)
 3. **Sync** — regenerare `dashboard/data/` și sincronizare în `docs/` pentru GitHub Pages
 4. **Commit** — commit automat în branch-ul `main`

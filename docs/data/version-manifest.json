@@ -204,6 +204,13 @@
       "countKind": "publicationsVerified"
     },
     {
+      "id": "researchgate",
+      "name": "ResearchGate",
+      "url": "https://www.researchgate.net",
+      "count": 1,
+      "countKind": "publicationsVerified"
+    },
+    {
       "id": "orcid",
       "name": "ORCID",
       "url": "https://orcid.org",

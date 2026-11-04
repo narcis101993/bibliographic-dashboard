@@ -192,3 +192,24 @@ class TestDigestAndTimestamp(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestResearchGate(unittest.TestCase):
+    def test_is_researchgate_doi(self):
+        self.assertTrue(bdd.is_researchgate_doi("10.13140/rg.2.2.29075.86568"))
+        self.assertTrue(bdd.is_researchgate_doi("10.13140/RG.2.2.29075.86568".lower()))
+        self.assertFalse(bdd.is_researchgate_doi("10.3390/foods11223667"))
+        self.assertFalse(bdd.is_researchgate_doi(""))
+        self.assertFalse(bdd.is_researchgate_doi(None))
+
+    def test_normalize_coverage_passes_researchgate_status(self):
+        rows = [{
+            "ID": "19", "Titlu": "Poster", "An": "2018",
+            "DOI": "10.13140/rg.2.2.29075.86568", "Lucrări citante v4": "0",
+            "Surse verificate": "DataCite", "Stare acoperire": "parțial",
+            "Stare OpenAlex": "x", "Stare Crossref": "x",
+            "Stare Semantic Scholar": "x", "Stare DataCite": "x",
+            "Stare ResearchGate": "verificat (DOI ResearchGate)",
+        }]
+        cov = bdd.normalize_coverage(rows)
+        self.assertEqual(cov[0]["sources"]["researchgate"], "verificat (DOI ResearchGate)")

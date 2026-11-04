@@ -93,6 +93,14 @@ def parse_article_ids(value: str) -> List[int]:
     return ids
 
 
+RG_DOI_PREFIX = "10.13140/"
+
+
+def is_researchgate_doi(doi: str) -> bool:
+    """ResearchGate mints DOIs under 10.13140/ (via DataCite)."""
+    return (doi or "").lower().startswith(RG_DOI_PREFIX)
+
+
 def normalize_doi(value: str) -> str:
     match = DOI_RE.search(value or "")
     if not match:
@@ -375,6 +383,7 @@ def normalize_coverage(rows: Iterable[Dict[str, str]]) -> List[Dict[str, Any]]:
                     "crossref": row.get("Stare Crossref", ""),
                     "semanticScholar": row.get("Stare Semantic Scholar", ""),
                     "datacite": row.get("Stare DataCite", ""),
+                    "researchgate": row.get("Stare ResearchGate", ""),
                 },
             }
         )
@@ -619,6 +628,9 @@ def build_manifest(
     orcid_publications = sum(
         1 for publication in publications if "orcid" in fold(publication.get("source", ""))
     )
+    researchgate_publications = sum(
+        1 for publication in publications if is_researchgate_doi(publication.get("doi", ""))
+    )
 
     sources = [
         {
@@ -647,6 +659,13 @@ def build_manifest(
             "name": "DataCite",
             "url": "https://datacite.org",
             "count": datacite_publications,
+            "countKind": "publicationsVerified",
+        },
+        {
+            "id": "researchgate",
+            "name": "ResearchGate",
+            "url": "https://www.researchgate.net",
+            "count": researchgate_publications,
             "countKind": "publicationsVerified",
         },
         {
