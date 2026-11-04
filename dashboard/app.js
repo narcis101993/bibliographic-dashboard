@@ -586,6 +586,18 @@
     });
   }
 
+  function showLoading() {
+    var overlay = document.createElement("div");
+    overlay.className = "loading-overlay";
+    overlay.innerHTML = '<div class="spinner"></div><p>Se încarcă datele…</p>';
+    document.body.appendChild(overlay);
+  }
+
+  function hideLoading() {
+    var overlay = document.querySelector(".loading-overlay");
+    if (overlay) overlay.remove();
+  }
+
   function short(value, length) {
     var text = String(value == null ? "" : value);
     return text.length > length ? text.slice(0, length - 1) + "…" : text;
@@ -1959,13 +1971,18 @@
     bindEvents();
     applyI18n();
     applyTheme();
+    showLoading();
     loadData().then(function () {
+      hideLoading();
       applyUrlState(urlState);
       writeUrlState("replace");
       try { localStorage.setItem(LANG_KEY, state.lang); } catch (error) { /* storage may be blocked on file:// */ }
       try { localStorage.setItem(DARK_KEY, state.dark ? "1" : "0"); } catch (error) { /* ignore */ }
       renderAll();
-    }).catch(showLoadError);
+    }).catch(function(error) {
+      hideLoading();
+      showLoadError(error);
+    });
   }
 
   if (document.readyState === "loading") {
