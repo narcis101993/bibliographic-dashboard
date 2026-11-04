@@ -1169,6 +1169,23 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
     padding: 24px;
   }
 
+  /* Filter result + copy-link bar */
+  .filter-result {
+    font-size: 12px;
+    color: var(--muted);
+    margin: 4px 0 0;
+  }
+  .url-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .copy-msg {
+    font-size: 12px;
+    color: var(--accent, #60a5fa);
+  }
+
   /* URL state indicator */
   .table-foot .url-bar {
     display: none;

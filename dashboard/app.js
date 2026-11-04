@@ -68,6 +68,10 @@
       pageOf: "Pagina {page} / {pages}",
       showingRange: "Afișate {from}–{to} din {total}",
       noResults: "Nicio înregistrare pentru filtrele selectate.",
+      resultsFound: "{total} din {all}",
+      copyLink: "Copiază link",
+      linkCopied: "Link copiat",
+      linkCopyFail: "Copierea a eșuat",
       noDoi: "fără DOI",
       untitled: "Fără titlu",
       yes: "Da",
@@ -208,6 +212,10 @@
       pageOf: "Page {page} / {pages}",
       showingRange: "Showing {from}–{to} of {total}",
       noResults: "No records match the selected filters.",
+      resultsFound: "{total} of {all}",
+      copyLink: "Copy link",
+      linkCopied: "Link copied",
+      linkCopyFail: "Copy failed",
       noDoi: "no DOI",
       untitled: "Untitled",
       yes: "Yes",
@@ -596,6 +604,33 @@
   function hideLoading() {
     var overlay = document.querySelector(".loading-overlay");
     if (overlay) overlay.remove();
+  }
+
+  var copyMsgTimer = null;
+  function copyCurrentLink(msgId) {
+    var msg = document.getElementById(msgId);
+    var done = function (ok) {
+      if (!msg) return;
+      msg.textContent = t(ok ? "linkCopied" : "linkCopyFail");
+      if (copyMsgTimer) clearTimeout(copyMsgTimer);
+      copyMsgTimer = setTimeout(function () { msg.textContent = ""; }, 2500);
+    };
+    var url = window.location.href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () { done(true); }, function () { done(false); });
+      return;
+    }
+    var ta = document.createElement("textarea");
+    ta.value = url;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    ta.remove();
+    done(ok);
   }
 
   function short(value, length) {
@@ -1284,9 +1319,8 @@
     $("#pubBody").innerHTML = pageRows.length
       ? pageRows.map(pubRowHtml).join("")
       : '<tr class="empty-row"><td colspan="10">' + esc(t("noResults")) + "</td></tr>";
-    $("#emptyState").hidden = pageRows.length > 0;
-    $("#pubReset").hidden = pageRows.length > 0;
-    $("#emptyReset").hidden = pageRows.length === 0;
+    $("#emptyStatePub").hidden = total > 0;
+    $("pubFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.pubs.length) });
     updateSortIndicators($("pubTable"), state.pubSort);
     Array.from(document.querySelectorAll("tr.pub-main")).forEach(function (row) {
       row.addEventListener("click", function () {
@@ -1323,9 +1357,8 @@
     $("#citBody").innerHTML = pageRows.length
       ? pageRows.map(citRowHtml).join("")
       : '<tr class="empty-row"><td colspan="9">' + esc(t("noResults")) + "</td></tr>";
-    $("#emptyState").hidden = pageRows.length > 0;
-    $("#citReset").hidden = pageRows.length > 0;
-    $("#emptyReset").hidden = pageRows.length === 0;
+    $("#emptyStateCit").hidden = total > 0;
+    $("citFilterResult").textContent = t("resultsFound", { total: fmt(total), all: fmt(state.cits.length) });
     updateSortIndicators($("citTable"), state.citSort);
   }
 
@@ -1862,6 +1895,8 @@
     $("pubVenue").addEventListener("change", onPubFilterChange);
     $("pubDoiOnly").addEventListener("change", onPubFilterChange);
     $("pubReset").addEventListener("click", resetPubFilters);
+    $("emptyResetPub").addEventListener("click", resetPubFilters);
+    $("pubCopyLink").addEventListener("click", function () { copyCurrentLink("pubCopyMsg"); });
 
     $("citSearch").addEventListener("input", onCitFilterChange);
     $("citAuthor").addEventListener("input", onCitFilterChange);
@@ -1872,6 +1907,8 @@
     $("citDoiOnly").addEventListener("change", onCitFilterChange);
     $("citExcludeSelf").addEventListener("change", onCitFilterChange);
     $("citReset").addEventListener("click", resetCitFilters);
+    $("emptyResetCit").addEventListener("click", resetCitFilters);
+    $("citCopyLink").addEventListener("click", function () { copyCurrentLink("citCopyMsg"); });
 
     document.querySelectorAll("#pubTable th[data-sort]").forEach(function (header) {
       header.addEventListener("click", function () {
