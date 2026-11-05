@@ -416,5 +416,93 @@
       "researchgate": "",
       "googleScholar": ""
     }
+  },
+  {
+    "id": 20,
+    "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
+    "year": 2019,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "",
+      "googleScholar": ""
+    }
+  },
+  {
+    "id": 21,
+    "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
+    "year": 2019,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "",
+      "googleScholar": ""
+    }
+  },
+  {
+    "id": 22,
+    "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
+    "year": 2023,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "",
+      "googleScholar": ""
+    }
+  },
+  {
+    "id": 23,
+    "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
+    "year": 2024,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "",
+      "googleScholar": ""
+    }
   }
 ]

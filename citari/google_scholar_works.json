@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T17:54:14+00:00",
+ "generatedAt": "2026-11-05T18:09:09+00:00",
  "source": "citari/google_scholar_export.bib",
  "centralizatorVersion": "v5",
  "entries": 18,
@@ -35,6 +35,18 @@
    "year": 2020
   },
   {
+   "pubId": "20",
+   "key": "lazuar2019enrichment",
+   "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
+   "year": 2019
+  },
+  {
+   "pubId": "21",
+   "key": "burnete2019research",
+   "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
+   "year": 2019
+  },
+  {
    "pubId": "5",
    "key": "petre2021evolution",
    "title": "The evolution of the quality parameters on the stored wheat.",
@@ -59,6 +71,12 @@
    "year": 2023
   },
   {
+   "pubId": "22",
+   "key": "stamatie2023development",
+   "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
+   "year": 2023
+  },
+  {
    "pubId": "19",
    "key": "manolachequantitative",
    "title": "QUANTITATIVE MEASUREMENT OF CHEESE ADULTERATION WITH NON MILK FAT",
@@ -68,6 +86,12 @@
    "pubId": "10",
    "key": "manolache2024decoding",
    "title": "Decoding the volatile profile of white Romanian Fetească wines",
+   "year": 2024
+  },
+  {
+   "pubId": "23",
+   "key": "catanua2024research",
+   "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
    "year": 2024
   },
   {
@@ -89,64 +113,5 @@
    "year": 2025
   }
  ],
- "newCandidates": [
-  {
-   "key": "lazuar2019enrichment",
-   "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
-   "authors": [
-    "Lazăr, AM",
-    "Burnete, AG",
-    "Catană, L",
-    "Catană, M",
-    "Stamatie, G",
-    "Teodorescu, RI",
-    "Belc, N",
-    "Vlăduț, V"
-   ],
-   "year": 2019,
-   "journal": ""
-  },
-  {
-   "key": "burnete2019research",
-   "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
-   "authors": [
-    "Burnete, AG",
-    "Lazăr, AM",
-    "Catană, M",
-    "Catană, L",
-    "Stamatie, G",
-    "Teodorescu, RI",
-    "Belc, N",
-    "Vlădut, V"
-   ],
-   "year": 2019,
-   "journal": ""
-  },
-  {
-   "key": "stamatie2023development",
-   "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
-   "authors": [
-    "Stamatie, Gabriela Daniela",
-    "Cosma, Ervin",
-    "Bobea, Sabina Andreea",
-    "Duță, Denisa Eglantina"
-   ],
-   "year": 2023,
-   "journal": "Journal of Hygienic Engineering & Design"
-  },
-  {
-   "key": "catanua2024research",
-   "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
-   "authors": [
-    "Catană, Luminița",
-    "Catană, Monica",
-    "Constantinescu, Florica",
-    "Burnete, Anda-Grațiela",
-    "Stamatie, Gabriela",
-    "Asănică, Adrian Constantin"
-   ],
-   "year": 2024,
-   "journal": "Scientific Papers. Series B. Horticulture"
-  }
- ]
+ "newCandidates": []
 }

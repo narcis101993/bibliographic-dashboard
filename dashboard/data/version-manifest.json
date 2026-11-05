@@ -3,7 +3,7 @@
   "project": "Gabriela Daniela Stamatie — bibliografie și citări",
   "generatedAt": "2026-11-01T00:00:00+00:00",
   "generatedAtRule": "SOURCE_DATE_EPOCH if set, else newest citation verification date",
-  "inputDigest": "sha256:e6a7b90b22009e9b491a4c7c315815c4179994d460af4d0d55424fc7eb5b5151",
+  "inputDigest": "sha256:96577613256179e043906b46a013a8f75bdc76a3836d9f90c2e7587f5c03b0d6",
   "pipeline": {
     "script": "scripts/build_dashboard_data.py",
     "schemaVersion": 2,
@@ -134,14 +134,14 @@
       "version": "v5",
       "centralizator": {
         "csv": "../centralizator/v5/Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv",
-        "records": 19
+        "records": 23
       },
       "citari": {
         "csv": "../citari/v5/Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv",
         "records": 107
       },
       "stats": {
-        "publications": 19,
+        "publications": 23,
         "citations": 107,
         "citationLinks": 110,
         "selfCitations": 2,
@@ -156,14 +156,14 @@
         ]
       },
       "coverageStats": {
-        "publications": 19,
+        "publications": 23,
         "covered": 11,
         "zeroConfirmed": 2,
-        "partiallyVerified": 6,
+        "partiallyVerified": 10,
         "byStatus": {
           "acoperit": 11,
           "parțial - zero în sursele accesibile": 3,
-          "parțial verificat - fără identificator": 3,
+          "parțial verificat - fără identificator": 7,
           "zero confirmat": 2
         }
       },
@@ -234,70 +234,11 @@
   ],
   "scholarExport": {
     "entries": 18,
-    "matched": 14,
-    "newCandidates": [
-      {
-        "key": "lazuar2019enrichment",
-        "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
-        "authors": [
-          "Lazăr, AM",
-          "Burnete, AG",
-          "Catană, L",
-          "Catană, M",
-          "Stamatie, G",
-          "Teodorescu, RI",
-          "Belc, N",
-          "Vlăduț, V"
-        ],
-        "year": 2019,
-        "journal": ""
-      },
-      {
-        "key": "burnete2019research",
-        "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
-        "authors": [
-          "Burnete, AG",
-          "Lazăr, AM",
-          "Catană, M",
-          "Catană, L",
-          "Stamatie, G",
-          "Teodorescu, RI",
-          "Belc, N",
-          "Vlădut, V"
-        ],
-        "year": 2019,
-        "journal": ""
-      },
-      {
-        "key": "stamatie2023development",
-        "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
-        "authors": [
-          "Stamatie, Gabriela Daniela",
-          "Cosma, Ervin",
-          "Bobea, Sabina Andreea",
-          "Duță, Denisa Eglantina"
-        ],
-        "year": 2023,
-        "journal": "Journal of Hygienic Engineering & Design"
-      },
-      {
-        "key": "catanua2024research",
-        "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
-        "authors": [
-          "Catană, Luminița",
-          "Catană, Monica",
-          "Constantinescu, Florica",
-          "Burnete, Anda-Grațiela",
-          "Stamatie, Gabriela",
-          "Asănică, Adrian Constantin"
-        ],
-        "year": 2024,
-        "journal": "Scientific Papers. Series B. Horticulture"
-      }
-    ]
+    "matched": 18,
+    "newCandidates": []
   },
   "stats": {
-    "publications": 19,
+    "publications": 23,
     "citations": 107,
     "citationLinks": 110,
     "selfCitations": 2,

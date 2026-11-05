@@ -1954,20 +1954,6 @@
     }).join("");
   }
 
-  function renderScholarExport() {
-    var data = (state.manifest && state.manifest.scholarExport) || {};
-    var card = $("scholarExportCard");
-    var candidates = data.newCandidates || [];
-    card.hidden = !(data.entries && candidates.length);
-    if (card.hidden) return;
-    $("scholarExportCount").textContent = fmt(candidates.length);
-    $("scholarExportList").innerHTML = candidates.map(function (candidate) {
-      return "<li><b>" + esc(candidate.title) + "</b><span>" +
-        esc(candidate.year == null ? "—" : candidate.year) +
-        (candidate.journal ? " · " + esc(candidate.journal) : "") + "</span></li>";
-    }).join("");
-  }
-
   function renderSynthesis() {
     var stats = state.stats;
     var articleCount = state.pubs.filter(function (pub) { return pub.typeCode === "article"; }).length;
@@ -2088,7 +2074,6 @@
     renderCitKpis();
     renderCitCharts();
     renderSynthesis();
-    renderScholarExport();
     renderSynthesisCharts();
   }
 
