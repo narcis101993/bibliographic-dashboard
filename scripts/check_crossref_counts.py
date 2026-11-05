@@ -9,6 +9,7 @@ OpenAlex/Semantic Scholar totals and is stored verbatim.
 """
 
 import csv
+import glob
 import json
 import os
 import time
@@ -26,6 +27,14 @@ UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
 RETRIEVAL_DATE = "2026-11-01"
 
 
+def _find_versioned_csv(folder, prefix, version):
+    exact = os.path.join(folder, "%s_%s.csv" % (prefix, version))
+    if os.path.exists(exact):
+        return exact
+    matches = sorted(glob.glob(os.path.join(folder, prefix + "_*.csv")))
+    return matches[0] if matches else exact
+
+
 def init_paths(source_version=None, target_version=None):
     global CENTRALIZATOR, OUT
     source_version = source_version or "v3"
@@ -34,9 +43,10 @@ def init_paths(source_version=None, target_version=None):
         source_version = "v" + source_version
     if not target_version.startswith("v"):
         target_version = "v" + target_version
-    CENTRALIZATOR = os.path.join(
-        ROOT, "centralizator", source_version,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % source_version
+    CENTRALIZATOR = _find_versioned_csv(
+        os.path.join(ROOT, "centralizator", source_version),
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie",
+        source_version,
     )
     OUT = os.path.join(ROOT, "citari", target_version, "raw", "crossref_counts.json")
 
