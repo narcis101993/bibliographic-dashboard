@@ -519,11 +519,10 @@ a.btn:hover { text-decoration: none; }
 #pubTable td:nth-child(5), #pubTable th:nth-child(5) { flex: 0.8 1 0; }
 #pubTable td:nth-child(6), #pubTable th:nth-child(6) { flex: 0.9 1 0; }
 #pubTable td:nth-child(7), #pubTable th:nth-child(7) { flex: 1.2 1 0; }
-#pubTable td:nth-child(8), #pubTable th:nth-child(8) { flex: 0.7 1 0; }
-#pubTable td:nth-child(9), #pubTable th:nth-child(9) { flex: 1.6 1 0; }
-#pubTable td:nth-child(10), #pubTable th:nth-child(10) { flex: 0.6 1 0; }
-#pubTable td:nth-child(11), #pubTable th:nth-child(11) { flex: 1.5 1 0; }
-#pubTable td:nth-child(12), #pubTable th:nth-child(12) { flex: 0.5 1 0; }
+#pubTable td:nth-child(8), #pubTable th:nth-child(8) { flex: 2.2 1 0; }
+#pubTable td:nth-child(9), #pubTable th:nth-child(9) { flex: 0.6 1 0; text-align: center; }
+#pubTable td:nth-child(10), #pubTable th:nth-child(10) { flex: 2.0 1 0; }
+#pubTable td:nth-child(11), #pubTable th:nth-child(11) { flex: 0.35 1 0; }
 #citTable td:nth-child(1), #citTable th:nth-child(1) { flex: 0.45 1 0; }
 #citTable td:nth-child(2), #citTable th:nth-child(2) { flex: 0.55 1 0; }
 #citTable td:nth-child(3), #citTable th:nth-child(3) { flex: 0.65 1 0; }
