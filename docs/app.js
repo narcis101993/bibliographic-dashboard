@@ -76,7 +76,12 @@
       synTitleFilterPh: "Filtrează după titlu articol…",
       colArticle: "Art.",
       colCitYear: "An citare",
-      colCiting: "Lucrare citată",
+      colCiting: "Lucrare citantă",
+      firstPage: "Prima pagină",
+      lastPage: "Ultima pagină",
+      prevPage: "Pagina anterioară",
+      nextPage: "Pagina următoare",
+      pageLabel: "Pagina",
       prev: "Anterior",
       next: "Următor",
       pageOf: "Pagina {page} / {pages}",
@@ -236,6 +241,11 @@
       colArticle: "Art.",
       colCitYear: "Citation year",
       colCiting: "Citing work",
+      firstPage: "First page",
+      lastPage: "Last page",
+      prevPage: "Previous page",
+      nextPage: "Next page",
+      pageLabel: "Page",
       prev: "Previous",
       next: "Next",
       pageOf: "Page {page} / {pages}",
@@ -1043,6 +1053,12 @@
     document.querySelectorAll("[data-i18n-placeholder]").forEach(function (element) {
       element.setAttribute("placeholder", t(element.getAttribute("data-i18n-placeholder")));
     });
+    document.querySelectorAll("[data-i18n-title]").forEach(function (element) {
+      element.setAttribute("title", t(element.getAttribute("data-i18n-title")));
+    });
+    document.querySelectorAll("[data-i18n-aria]").forEach(function (element) {
+      element.setAttribute("aria-label", t(element.getAttribute("data-i18n-aria")));
+    });
     document.querySelectorAll(".lang-btn").forEach(function (button) {
       button.classList.toggle("is-active", button.getAttribute("data-lang") === state.lang);
     });
@@ -1491,6 +1507,18 @@
     setChartsCollapsed("cit", collapsed);
   }
 
+  function fillPageSelect(id, pages, current) {
+    var select = $(id);
+    select.innerHTML = "";
+    for (var page = 1; page <= pages; page += 1) {
+      var option = document.createElement("option");
+      option.value = String(page);
+      option.textContent = String(page);
+      select.appendChild(option);
+    }
+    select.value = String(current);
+  }
+
   function renderPubTable() {
     var rows = getFilteredPubs().sort(pubComparator());
     var total = rows.length;
@@ -1507,9 +1535,11 @@
     $("pubTabCount").textContent = fmt(state.stats.publications);
     $("pubTableCount").textContent = total ? range : t("noResults");
     $("pubRange").textContent = range;
-    $("pubPage").textContent = t("pageOf", { page: state.pubPage, pages: pages });
+    fillPageSelect("pubPageSelect", pages, state.pubPage);
+    $("pubFirst").disabled = state.pubPage <= 1;
     $("pubPrev").disabled = state.pubPage <= 1;
     $("pubNext").disabled = state.pubPage >= pages;
+    $("pubLast").disabled = state.pubPage >= pages;
     $("pubBody").innerHTML = pageRows.length
       ? pageRows.map(pubRowHtml).join("")
       : '<tr class="empty-row"><td colspan="10">' + esc(t("noResults")) + "</td></tr>";
@@ -1547,9 +1577,11 @@
     $("citTabCount").textContent = fmt(state.stats.works);
     $("citTableCount").textContent = total ? range : t("noResults");
     $("citRange").textContent = range;
-    $("citPage").textContent = t("pageOf", { page: state.citPage, pages: pages });
+    fillPageSelect("citPageSelect", pages, state.citPage);
+    $("citFirst").disabled = state.citPage <= 1;
     $("citPrev").disabled = state.citPage <= 1;
     $("citNext").disabled = state.citPage >= pages;
+    $("citLast").disabled = state.citPage >= pages;
     $("citBody").innerHTML = pageRows.length
       ? pageRows.map(citRowHtml).join("")
       : '<tr class="empty-row"><td colspan="9">' + esc(t("noResults")) + "</td></tr>";
@@ -2282,6 +2314,26 @@
       });
     });
 
+    $("pubFirst").addEventListener("click", function () {
+      if (state.pubPage !== 1) {
+        state.pubPage = 1;
+        renderPubTable();
+        writeUrlState("push");
+      }
+    });
+    $("pubLast").addEventListener("click", function () {
+      var pages = Math.max(1, Math.ceil(getFilteredPubs().length / state.pubPageSize));
+      if (state.pubPage !== pages) {
+        state.pubPage = pages;
+        renderPubTable();
+        writeUrlState("push");
+      }
+    });
+    $("pubPageSelect").addEventListener("change", function () {
+      state.pubPage = parseInt($("pubPageSelect").value, 10) || 1;
+      renderPubTable();
+      writeUrlState("push");
+    });
     $("pubPrev").addEventListener("click", function () {
       if (state.pubPage > 1) {
         state.pubPage -= 1;
@@ -2292,6 +2344,26 @@
     $("pubNext").addEventListener("click", function () {
       state.pubPage += 1;
       renderPubTable();
+      writeUrlState("push");
+    });
+    $("citFirst").addEventListener("click", function () {
+      if (state.citPage !== 1) {
+        state.citPage = 1;
+        renderCitTable();
+        writeUrlState("push");
+      }
+    });
+    $("citLast").addEventListener("click", function () {
+      var pages = Math.max(1, Math.ceil(getFilteredCits().length / state.citPageSize));
+      if (state.citPage !== pages) {
+        state.citPage = pages;
+        renderCitTable();
+        writeUrlState("push");
+      }
+    });
+    $("citPageSelect").addEventListener("change", function () {
+      state.citPage = parseInt($("citPageSelect").value, 10) || 1;
+      renderCitTable();
       writeUrlState("push");
     });
     $("citPrev").addEventListener("click", function () {
