@@ -211,6 +211,13 @@
       "countKind": "publicationsVerified"
     },
     {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Gabriela+Daniela+Stamatie",
+      "count": 0,
+      "countKind": "manualImport"
+    },
+    {
       "id": "orcid",
       "name": "ORCID",
       "url": "https://orcid.org/0000-0002-1850-7278",

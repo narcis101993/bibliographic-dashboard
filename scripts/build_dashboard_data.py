@@ -101,6 +101,31 @@ def is_researchgate_doi(doi: str) -> bool:
     return (doi or "").lower().startswith(RG_DOI_PREFIX)
 
 
+SCHOLAR_COUNTS_FILE = ROOT / "citari" / "google_scholar_counts.csv"
+
+
+def read_scholar_counts(path: Path = SCHOLAR_COUNTS_FILE) -> Dict[int, int]:
+    """Manual Google Scholar citation counts (Scholar has no public API).
+
+    The file is maintained by hand: one row per publication id with the
+    citation total shown on the author's Scholar profile. Missing file,
+    blank or invalid rows are skipped quietly.
+    """
+    counts: Dict[int, int] = {}
+    if not path.exists():
+        return counts
+    try:
+        rows = read_csv(path)
+    except Exception:
+        return counts
+    for row in rows:
+        pub_id = parse_int(row.get("Nr.", ""))
+        total = parse_int(row.get("Citari_Google_Scholar", ""))
+        if pub_id is not None and total is not None:
+            counts[pub_id] = total
+    return counts
+
+
 def normalize_doi(value: str) -> str:
     match = DOI_RE.search(value or "")
     if not match:
@@ -384,6 +409,7 @@ def normalize_coverage(rows: Iterable[Dict[str, str]]) -> List[Dict[str, Any]]:
                     "semanticScholar": row.get("Stare Semantic Scholar", ""),
                     "datacite": row.get("Stare DataCite", ""),
                     "researchgate": row.get("Stare ResearchGate", ""),
+                    "googleScholar": row.get("Stare Google Scholar", ""),
                 },
             }
         )
@@ -631,6 +657,8 @@ def build_manifest(
     researchgate_publications = sum(
         1 for publication in publications if is_researchgate_doi(publication.get("doi", ""))
     )
+    scholar_counts = read_scholar_counts()
+    scholar_total = sum(scholar_counts.get(publication["id"], 0) for publication in publications)
 
     author_orcid = "0000-0002-1850-7278"
     author_name_q = "Gabriela%20Daniela%20Stamatie"
@@ -669,6 +697,13 @@ def build_manifest(
             "url": "https://www.researchgate.net/search/publication?q=" + author_name_q,
             "count": researchgate_publications,
             "countKind": "publicationsVerified",
+        },
+        {
+            "id": "google-scholar",
+            "name": "Google Scholar",
+            "url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Gabriela+Daniela+Stamatie",
+            "count": scholar_total,
+            "countKind": "manualImport",
         },
         {
             "id": "orcid",

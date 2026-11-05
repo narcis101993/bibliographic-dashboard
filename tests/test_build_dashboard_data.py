@@ -213,3 +213,18 @@ class TestResearchGate(unittest.TestCase):
         }]
         cov = bdd.normalize_coverage(rows)
         self.assertEqual(cov[0]["sources"]["researchgate"], "verificat (DOI ResearchGate)")
+
+
+class TestScholarCounts(unittest.TestCase):
+    def write_csv(self, tmp, content):
+        path = pathlib.Path(tmp) / "counts.csv"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_reads_filled_rows_and_skips_blanks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self.write_csv(tmp, "Nr.;Titlu;Citari_Google_Scholar;URL\n1;A;12;\n2;B;;\n3;C;abc;\n4;D; 7 ;\n")
+            self.assertEqual(bdd.read_scholar_counts(path), {1: 12, 4: 7})
+
+    def test_missing_file_returns_empty(self):
+        self.assertEqual(bdd.read_scholar_counts(pathlib.Path("/nonexistent/x.csv")), {})

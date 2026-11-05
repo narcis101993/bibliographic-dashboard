@@ -169,3 +169,11 @@ class TestResearchGateDoi(unittest.TestCase):
         self.assertTrue(bc.is_researchgate_doi("http://dx.doi.org/10.13140/rg.2.2.29075.86568"))
         self.assertFalse(bc.is_researchgate_doi("10.3390/foods11223667"))
         self.assertFalse(bc.is_researchgate_doi(""))
+
+
+class TestScholarCountsLoader(unittest.TestCase):
+    def test_real_template_parses(self):
+        counts = bc.load_scholar_counts()
+        self.assertIsInstance(counts, dict)
+        # template ships empty, so no counts yet
+        self.assertEqual(counts, {})

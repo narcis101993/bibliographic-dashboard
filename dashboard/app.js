@@ -168,6 +168,7 @@
       sourceLinks: "{n} legături de citare",
       sourcePubs: "{n} publicații verificate",
       sourceNoCount: "verificare metadate",
+      sourceManual: "import manual",
       footerNote: "Date din livrabilele versionate ale centralizatorului și raportului de citări.",
       footLeft: "Dashboard bibliografic · v1.0",
       footRight: "Auto-detectare versiune · date: centralizator {v} + citări {v}",
@@ -332,6 +333,7 @@
       sourceLinks: "{n} citation links",
       sourcePubs: "{n} verified publications",
       sourceNoCount: "metadata verification",
+      sourceManual: "manual import",
       footerNote: "Data from the versioned central index and citation report deliverables.",
       footLeft: "Bibliographic dashboard · v1.0",
       footRight: "Version auto-detection · data: centralizator {v} + citari {v}",
@@ -1998,6 +2000,8 @@
       var count;
       if (source.count == null) {
         count = t("sourceNoCount");
+      } else if (source.countKind === "manualImport") {
+        count = t("sourceLinks", { n: fmt(source.count) }) + " · " + t("sourceManual");
       } else if (source.countKind === "citationLinks") {
         count = t("sourceLinks", { n: fmt(source.count) });
       } else {

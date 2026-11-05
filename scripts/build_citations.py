@@ -130,6 +130,22 @@ def clean(t):
 RG_DOI_PREFIX = "10.13140/"
 
 
+def load_scholar_counts():
+    """Manual Google Scholar counts from citari/google_scholar_counts.csv."""
+    path = os.path.join(ROOT, "citari", "google_scholar_counts.csv")
+    counts = {}
+    try:
+        with open(path, encoding="utf-8-sig") as f:
+            for row in csv.DictReader(f, delimiter=";"):
+                pid = (row.get("Nr.") or "").strip()
+                raw = (row.get("Citari_Google_Scholar") or "").strip()
+                if pid and raw.isdigit():
+                    counts[pid] = int(raw)
+    except Exception:
+        pass
+    return counts
+
+
 def is_researchgate_doi(u):
     return doi_of(u).startswith(RG_DOI_PREFIX)
 
@@ -373,6 +389,7 @@ def main():
             per_pub[pid]["links"] += 1
 
     cov_rows = []
+    scholar_counts = load_scholar_counts()
     for p in pubs:
         pid = p["Nr."]
         s = summary.get(pid, {})
@@ -407,6 +424,10 @@ def main():
             else:
                 s2_state = "fără rezultat / neindexat"
             dc_state = ("verificat (citationCount=%s)" % dc) if dc is not None else "fără înregistrare DataCite"
+        if pid in scholar_counts:
+            gs_state = "manual (%s citări)" % scholar_counts[pid]
+        else:
+            gs_state = "necompletat (import manual)"
         if is_researchgate_doi(p["DOI"]):
             rg_state = "verificat (DOI ResearchGate: %s)" % doi_of(p["DOI"])
         elif p["DOI"].strip():
@@ -434,6 +455,7 @@ def main():
                 "Stare Semantic Scholar": s2_state,
                 "Stare DataCite": dc_state,
                 "Stare ResearchGate": rg_state,
+                "Stare Google Scholar": gs_state,
                 "Stare acoperire": status,
             }
         )
