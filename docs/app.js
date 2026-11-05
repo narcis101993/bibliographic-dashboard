@@ -2192,7 +2192,10 @@
     bindMulti("pubType", onPubFilterChange);
     bindMulti("pubVenue", onPubFilterChange);
     document.addEventListener("click", closeAllMulti);
-    document.addEventListener("scroll", closeAllMulti, true);
+    document.addEventListener("scroll", function (event) {
+      if (event.target && event.target.closest && event.target.closest(".multi-panel")) return;
+      closeAllMulti();
+    }, true);
     window.addEventListener("resize", closeAllMulti);
     document.addEventListener("keydown", function (event) {
       if (event.key === "Escape") closeAllMulti();
