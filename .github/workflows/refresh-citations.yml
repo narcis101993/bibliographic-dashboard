@@ -60,10 +60,19 @@ jobs:
           cd scripts
           python3 check_crossref_counts.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
 
+      - name: Fetch Fatcat citations (best-effort)
+        run: |
+          cd scripts
+          python3 fetch_fatcat.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }} || echo "Fatcat fetch skipped (best-effort)"
+
       - name: Build citation dataset
         run: |
           cd scripts
           python3 build_citations.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
+
+      - name: Import Google Scholar BibTeX export
+        run: |
+          python3 scripts/import_scholar_bibtex.py
 
       - name: Build dashboard data
         run: |

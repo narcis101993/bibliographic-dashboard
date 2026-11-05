@@ -212,6 +212,47 @@ def s2_work(item, pub_id):
     }
 
 
+def fatcat_citations(payload):
+    """Extract citing-release list from a Fatcat raw payload (tolerant)."""
+    if isinstance(payload, list):
+        return payload
+    if isinstance(payload, dict):
+        cites = payload.get("citations")
+        if isinstance(cites, list):
+            return cites
+    return []
+
+
+def fatcat_work(item, pub_id):
+    """Map one Fatcat citing release to the common work shape (or None)."""
+    if not isinstance(item, dict):
+        return None
+    rel = item.get("citing_release") or item.get("release") or item
+    if not isinstance(rel, dict) or not rel.get("title"):
+        return None
+    authors = []
+    for author in rel.get("authors") or []:
+        if isinstance(author, dict):
+            name = ((author.get("given_name") or "") + " " + (author.get("surname") or "")).strip()
+            if name:
+                authors.append(name)
+        elif isinstance(author, str) and author.strip():
+            authors.append(author.strip())
+    year = rel.get("year")
+    return {
+        "pub_ids": [pub_id],
+        "title": clean(rel.get("title")),
+        "year": year if isinstance(year, int) else None,
+        "authors": authors,
+        "venue": clean(rel.get("container_name") or ""),
+        "doi": doi_of(rel.get("doi")),
+        "type": TYPE_RO.get(rel.get("type"), "Alt tip"),
+        "openalex": None,
+        "s2": None,
+        "sources": {"Fatcat"},
+    }
+
+
 def v3_work(row):
     ids = [x.strip() for x in row["Articol (ID)"].split(",") if x.strip()]
     authors = [a.strip() for a in (row["Autori citatori"] or "").split(";") if a.strip()]
@@ -296,6 +337,11 @@ def main():
         s2 = load_json(os.path.join(RAW, "s2_citing", pid + ".json"), []) or []
         for item in s2:
             add(s2_work(item, pid))
+        fat = load_json(os.path.join(RAW, "fatcat_citing", pid + ".json"))
+        for item in fatcat_citations(fat):
+            work = fatcat_work(item, pid)
+            if work:
+                add(work)
 
     merged_keys = set(groups)
     retained = 0

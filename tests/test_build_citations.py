@@ -177,3 +177,41 @@ class TestScholarCountsLoader(unittest.TestCase):
         self.assertIsInstance(counts, dict)
         # template ships empty, so no counts yet
         self.assertEqual(counts, {})
+
+
+class TestFatcatAdapter(unittest.TestCase):
+    def payload(self):
+        return {
+            "release": {"id": "rel1", "title": "Citing Work", "year": 2023, "doi": "10.1/abc"},
+            "citations": [
+                {"citing_release": {
+                    "title": "Another Citing Work",
+                    "year": 2024,
+                    "doi": "https://doi.org/10.2/XYZ",
+                    "container_name": "Nature",
+                    "type": "article-journal",
+                    "authors": [{"given_name": "Ana", "surname": "Popescu"}, {"given_name": "Bob", "surname": "Ionescu"}],
+                }},
+                {"garbage": True},
+                "not-a-dict",
+            ],
+        }
+
+    def test_extracts_citations_list(self):
+        self.assertEqual(len(bc.fatcat_citations(self.payload())), 3)
+        self.assertEqual(bc.fatcat_citations(None), [])
+        self.assertEqual(bc.fatcat_citations({"citations": None}), [])
+
+    def test_maps_release_to_work_shape(self):
+        work = bc.fatcat_work(self.payload()["citations"][0], 7)
+        self.assertEqual(work["pub_ids"], [7])
+        self.assertEqual(work["title"], "Another Citing Work")
+        self.assertEqual(work["authors"], ["Ana Popescu", "Bob Ionescu"])
+        self.assertEqual(work["venue"], "Nature")
+        self.assertEqual(work["doi"], "10.2/xyz")
+        self.assertEqual(work["sources"], {"Fatcat"})
+
+    def test_rejects_malformed_items(self):
+        self.assertIsNone(bc.fatcat_work({"garbage": True}, 1))
+        self.assertIsNone(bc.fatcat_work("not-a-dict", 1))
+        self.assertIsNone(bc.fatcat_work(None, 1))

@@ -692,6 +692,13 @@ def build_manifest(
             "countKind": "publicationsVerified",
         },
         {
+            "id": "fatcat",
+            "name": "Fatcat",
+            "url": "https://fatcat.wiki",
+            "count": citation_link_count("fatcat"),
+            "countKind": "citationLinks",
+        },
+        {
             "id": "researchgate",
             "name": "ResearchGate",
             "url": "https://www.researchgate.net/search/publication?q=" + author_name_q,
@@ -713,6 +720,19 @@ def build_manifest(
             "countKind": "publicationsVerified",
         },
     ]
+
+    scholar_export = {}
+    try:
+        with open(ROOT / "citari" / "google_scholar_works.json", encoding="utf-8") as handle:
+            works = json.load(handle)
+        if works.get("entries"):
+            scholar_export = {
+                "entries": works["entries"],
+                "matched": len(works.get("matched", [])),
+                "newCandidates": works.get("newCandidates", []),
+            }
+    except Exception:
+        pass
 
     return {
         "schemaVersion": 2,
@@ -762,6 +782,7 @@ def build_manifest(
             for item in versions
         ],
         "sources": sources,
+        "scholarExport": scholar_export,
         "stats": latest["stats"],
         "changelog": "data/changelog.json",
         "lastVerified": last_verified,

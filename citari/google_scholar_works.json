@@ -1,0 +1,152 @@
+{
+ "generatedAt": "2026-11-05T17:54:14+00:00",
+ "source": "citari/google_scholar_export.bib",
+ "centralizatorVersion": "v5",
+ "entries": 18,
+ "matched": [
+  {
+   "pubId": "4",
+   "key": "belc2021type",
+   "title": "Type and amount of legume protein concentrate influencing the technological, nutritional, and sensorial properties of wheat bread",
+   "year": 2021
+  },
+  {
+   "pubId": "2",
+   "key": "stamatie2021nutritional",
+   "title": "Nutritional and functional properties of some protein sources",
+   "year": 2021
+  },
+  {
+   "pubId": "3",
+   "key": "stamatie2021influence",
+   "title": "The influence of plant proteins (from pleurotus, pea, corn, soy, oat, hemp and sea buckthorn) addition on wheat dough rheology.",
+   "year": 2021
+  },
+  {
+   "pubId": "6",
+   "key": "susman2021sourdough",
+   "title": "Sourdough fermentation in gluten-free bread: a shelf-life improvement.",
+   "year": 2021
+  },
+  {
+   "pubId": "1",
+   "key": "stamatie2020influence",
+   "title": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+   "year": 2020
+  },
+  {
+   "pubId": "5",
+   "key": "petre2021evolution",
+   "title": "The evolution of the quality parameters on the stored wheat.",
+   "year": 2021
+  },
+  {
+   "pubId": "8",
+   "key": "susman2022buckwheat",
+   "title": "Buckwheat vs. sorghum flour in gluten-free rice cookies enhanced with pea protein powder.",
+   "year": 2022
+  },
+  {
+   "pubId": "7",
+   "key": "stamatie2022influence",
+   "title": "The influence of the technological process on improving the acceptability of bread enriched with pea protein, hemp and sea buckthorn press cake",
+   "year": 2022
+  },
+  {
+   "pubId": "9",
+   "key": "scheibenzuber2023consumer",
+   "title": "Consumer acceptance of new food ingredients made from by-products-A focus group approach",
+   "year": 2023
+  },
+  {
+   "pubId": "19",
+   "key": "manolachequantitative",
+   "title": "QUANTITATIVE MEASUREMENT OF CHEESE ADULTERATION WITH NON MILK FAT",
+   "year": null
+  },
+  {
+   "pubId": "10",
+   "key": "manolache2024decoding",
+   "title": "Decoding the volatile profile of white Romanian Fetească wines",
+   "year": 2024
+  },
+  {
+   "pubId": "12",
+   "key": "isopencu2025integrating",
+   "title": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+   "year": 2025
+  },
+  {
+   "pubId": "11",
+   "key": "scheibenzuber2025consumers",
+   "title": "Consumers acceptance of new food ingredients from the food industry’s by-products—A focus group study",
+   "year": 2025
+  },
+  {
+   "pubId": "14",
+   "key": "duțua2025cross",
+   "title": "A CROSS-COUNTRY CONSUMERS'STUDY ON THE ACCEPTANCE OF GRISSINI ENRICHED WITH WHEY.",
+   "year": 2025
+  }
+ ],
+ "newCandidates": [
+  {
+   "key": "lazuar2019enrichment",
+   "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
+   "authors": [
+    "Lazăr, AM",
+    "Burnete, AG",
+    "Catană, L",
+    "Catană, M",
+    "Stamatie, G",
+    "Teodorescu, RI",
+    "Belc, N",
+    "Vlăduț, V"
+   ],
+   "year": 2019,
+   "journal": ""
+  },
+  {
+   "key": "burnete2019research",
+   "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
+   "authors": [
+    "Burnete, AG",
+    "Lazăr, AM",
+    "Catană, M",
+    "Catană, L",
+    "Stamatie, G",
+    "Teodorescu, RI",
+    "Belc, N",
+    "Vlădut, V"
+   ],
+   "year": 2019,
+   "journal": ""
+  },
+  {
+   "key": "stamatie2023development",
+   "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
+   "authors": [
+    "Stamatie, Gabriela Daniela",
+    "Cosma, Ervin",
+    "Bobea, Sabina Andreea",
+    "Duță, Denisa Eglantina"
+   ],
+   "year": 2023,
+   "journal": "Journal of Hygienic Engineering & Design"
+  },
+  {
+   "key": "catanua2024research",
+   "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
+   "authors": [
+    "Catană, Luminița",
+    "Catană, Monica",
+    "Constantinescu, Florica",
+    "Burnete, Anda-Grațiela",
+    "Stamatie, Gabriela",
+    "Asănică, Adrian Constantin"
+   ],
+   "year": 2024,
+   "journal": "Scientific Papers. Series B. Horticulture"
+  }
+ ]
+}

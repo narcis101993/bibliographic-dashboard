@@ -204,6 +204,13 @@
       "countKind": "publicationsVerified"
     },
     {
+      "id": "fatcat",
+      "name": "Fatcat",
+      "url": "https://fatcat.wiki",
+      "count": 0,
+      "countKind": "citationLinks"
+    },
+    {
       "id": "researchgate",
       "name": "ResearchGate",
       "url": "https://www.researchgate.net/search/publication?q=Gabriela%20Daniela%20Stamatie",
@@ -225,6 +232,70 @@
       "countKind": "publicationsVerified"
     }
   ],
+  "scholarExport": {
+    "entries": 18,
+    "matched": 14,
+    "newCandidates": [
+      {
+        "key": "lazuar2019enrichment",
+        "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
+        "authors": [
+          "Lazăr, AM",
+          "Burnete, AG",
+          "Catană, L",
+          "Catană, M",
+          "Stamatie, G",
+          "Teodorescu, RI",
+          "Belc, N",
+          "Vlăduț, V"
+        ],
+        "year": 2019,
+        "journal": ""
+      },
+      {
+        "key": "burnete2019research",
+        "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
+        "authors": [
+          "Burnete, AG",
+          "Lazăr, AM",
+          "Catană, M",
+          "Catană, L",
+          "Stamatie, G",
+          "Teodorescu, RI",
+          "Belc, N",
+          "Vlădut, V"
+        ],
+        "year": 2019,
+        "journal": ""
+      },
+      {
+        "key": "stamatie2023development",
+        "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
+        "authors": [
+          "Stamatie, Gabriela Daniela",
+          "Cosma, Ervin",
+          "Bobea, Sabina Andreea",
+          "Duță, Denisa Eglantina"
+        ],
+        "year": 2023,
+        "journal": "Journal of Hygienic Engineering & Design"
+      },
+      {
+        "key": "catanua2024research",
+        "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
+        "authors": [
+          "Catană, Luminița",
+          "Catană, Monica",
+          "Constantinescu, Florica",
+          "Burnete, Anda-Grațiela",
+          "Stamatie, Gabriela",
+          "Asănică, Adrian Constantin"
+        ],
+        "year": 2024,
+        "journal": "Scientific Papers. Series B. Horticulture"
+      }
+    ]
+  },
   "stats": {
     "publications": 19,
     "citations": 107,
