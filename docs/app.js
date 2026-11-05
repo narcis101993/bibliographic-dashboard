@@ -1110,6 +1110,15 @@
     });
   }
 
+  function positionMultiPanel(multi) {
+    var button = multi.querySelector(".multi-btn");
+    var panel = multi.querySelector(".multi-panel");
+    var rect = button.getBoundingClientRect();
+    panel.style.left = Math.round(rect.left) + "px";
+    panel.style.top = Math.round(rect.bottom + 4) + "px";
+    panel.style.minWidth = Math.round(rect.width) + "px";
+  }
+
   function bindMulti(id, onChange) {
     var multi = $(id);
     var button = multi.querySelector(".multi-btn");
@@ -1118,6 +1127,7 @@
       event.stopPropagation();
       var wasHidden = panel.hidden;
       closeAllMulti();
+      if (wasHidden) positionMultiPanel(multi);
       panel.hidden = !wasHidden;
       button.setAttribute("aria-expanded", String(wasHidden));
     });
@@ -2182,6 +2192,8 @@
     bindMulti("pubType", onPubFilterChange);
     bindMulti("pubVenue", onPubFilterChange);
     document.addEventListener("click", closeAllMulti);
+    document.addEventListener("scroll", closeAllMulti, true);
+    window.addEventListener("resize", closeAllMulti);
     document.addEventListener("keydown", function (event) {
       if (event.key === "Escape") closeAllMulti();
     });
