@@ -23,6 +23,7 @@ centralizator/v4/*.csv|md|xlsx, citari/v4/METODOLOGIE_v4.md
 """
 
 import csv
+import glob
 import json
 import os
 import re
@@ -45,6 +46,14 @@ SOURCE_VERSION = "v3"
 TARGET_VERSION = "v4"
 
 
+def _find_versioned_csv(folder, prefix, version):
+    exact = os.path.join(folder, "%s_%s.csv" % (prefix, version))
+    if os.path.exists(exact):
+        return exact
+    matches = sorted(glob.glob(os.path.join(folder, prefix + "_*.csv")))
+    return matches[0] if matches else exact
+
+
 def init_paths(source_version=None, target_version=None):
     global RAW, V3_CITARI, V3_CENTRALIZATOR, OUT_CIT, OUT_CEN, SOURCE_VERSION, TARGET_VERSION
     SOURCE_VERSION = source_version or SOURCE_VERSION
@@ -54,13 +63,15 @@ def init_paths(source_version=None, target_version=None):
     if not TARGET_VERSION.startswith("v"):
         TARGET_VERSION = "v" + TARGET_VERSION
     RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
-    V3_CITARI = os.path.join(
-        ROOT, "citari", SOURCE_VERSION,
-        "Citari_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
+    V3_CITARI = _find_versioned_csv(
+        os.path.join(ROOT, "citari", SOURCE_VERSION),
+        "Citari_Articole_Gabriela_Daniela_Stamatie",
+        SOURCE_VERSION,
     )
-    V3_CENTRALIZATOR = os.path.join(
-        ROOT, "centralizator", SOURCE_VERSION,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
+    V3_CENTRALIZATOR = _find_versioned_csv(
+        os.path.join(ROOT, "centralizator", SOURCE_VERSION),
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie",
+        SOURCE_VERSION,
     )
     OUT_CIT = os.path.join(ROOT, "citari", TARGET_VERSION)
     OUT_CEN = os.path.join(ROOT, "centralizator", TARGET_VERSION)

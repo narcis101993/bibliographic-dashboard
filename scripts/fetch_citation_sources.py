@@ -56,6 +56,15 @@ SOURCE_VERSION = "v3"
 TARGET_VERSION = "v4"
 
 
+def _find_versioned_csv(folder, prefix, version):
+    exact = os.path.join(folder, "%s_%s.csv" % (prefix, version))
+    if os.path.exists(exact):
+        return exact
+    import glob
+    matches = sorted(glob.glob(os.path.join(folder, prefix + "_*.csv")))
+    return matches[0] if matches else exact
+
+
 def init_paths(source_version=None, target_version=None):
     global SOURCE_VERSION, TARGET_VERSION, CENTRALIZATOR, RAW
     SOURCE_VERSION = source_version or SOURCE_VERSION
@@ -64,9 +73,10 @@ def init_paths(source_version=None, target_version=None):
         SOURCE_VERSION = "v" + SOURCE_VERSION
     if not TARGET_VERSION.startswith("v"):
         TARGET_VERSION = "v" + TARGET_VERSION
-    CENTRALIZATOR = os.path.join(
-        ROOT, "centralizator", SOURCE_VERSION,
-        "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % SOURCE_VERSION
+    CENTRALIZATOR = _find_versioned_csv(
+        os.path.join(ROOT, "centralizator", SOURCE_VERSION),
+        "Centralizator_Articole_Gabriela_Daniela_Stamatie",
+        SOURCE_VERSION,
     )
     RAW = os.path.join(ROOT, "citari", TARGET_VERSION, "raw")
 

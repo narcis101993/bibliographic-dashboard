@@ -215,3 +215,28 @@ class TestFatcatAdapter(unittest.TestCase):
         self.assertIsNone(bc.fatcat_work({"garbage": True}, 1))
         self.assertIsNone(bc.fatcat_work("not-a-dict", 1))
         self.assertIsNone(bc.fatcat_work(None, 1))
+
+
+class TestFindVersionedCsv(unittest.TestCase):
+    def test_prefers_exact_version_name(self):
+        self.assertTrue(bc._find_versioned_csv(
+            str(ROOT / "citari" / "v4"),
+            "Citari_Articole_Gabriela_Daniela_Stamatie",
+            "v4",
+        ).endswith("Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv"))
+
+    def test_falls_back_to_glob_when_suffix_mismatches(self):
+        # centralizator/v5 holds a _v4-named file (build hardcodes the suffix)
+        found = bc._find_versioned_csv(
+            str(ROOT / "centralizator" / "v5"),
+            "Centralizator_Articole_Gabriela_Daniela_Stamatie",
+            "v5",
+        )
+        self.assertTrue(found.endswith("Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv"))
+
+    def test_missing_folder_returns_exact_path(self):
+        self.assertTrue(bc._find_versioned_csv(
+            str(ROOT / "centralizator" / "v99"),
+            "Centralizator_Articole_Gabriela_Daniela_Stamatie",
+            "v99",
+        ).endswith("Centralizator_Articole_Gabriela_Daniela_Stamatie_v99.csv"))
