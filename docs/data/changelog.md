@@ -1,7 +1,7 @@
 # Citation changelog
 
 Generated: 2026-11-01T00:00:00+00:00
-Input digest: `sha256:96577613256179e043906b46a013a8f75bdc76a3836d9f90c2e7587f5c03b0d6`
+Input digest: `sha256:0ab10716aa5a4957146a99576d7512a203885ecef83a63bac86c4d6f480e62b3`
 Work identity: Citation works are matched by DOI, then by folded title and year.
 
 ## Between dataset versions

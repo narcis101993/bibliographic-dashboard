@@ -1,5 +1,9 @@
 name: Refresh citation data
 
+concurrency:
+  group: refresh-citations
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: "0 0 1 * *"  # Monthly on the 1st
@@ -26,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openpyxl
+          pip install -r requirements.txt
 
       - name: Run unit tests
         run: |

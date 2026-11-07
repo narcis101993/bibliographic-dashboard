@@ -2038,7 +2038,7 @@
 
     setDownload("downloadXlsx", info && info.centralizator && info.centralizator.csv);
     setDownload("downloadCitXlsx", info && info.citari && info.citari.csv);
-    setDownload("downloadSynXlsx", state.version ? "citari/" + state.version + "/Acoperire_Publicatii_v4.xlsx" : "");
+    setDownload("downloadSynXlsx", state.version ? "citari/" + state.version + "/Acoperire_Publicatii_" + state.version + ".xlsx" : "");
 
     renderSources();
   }

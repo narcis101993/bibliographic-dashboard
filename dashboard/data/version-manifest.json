@@ -3,7 +3,7 @@
   "project": "Gabriela Daniela Stamatie — bibliografie și citări",
   "generatedAt": "2026-11-01T00:00:00+00:00",
   "generatedAtRule": "SOURCE_DATE_EPOCH if set, else newest citation verification date",
-  "inputDigest": "sha256:96577613256179e043906b46a013a8f75bdc76a3836d9f90c2e7587f5c03b0d6",
+  "inputDigest": "sha256:0ab10716aa5a4957146a99576d7512a203885ecef83a63bac86c4d6f480e62b3",
   "pipeline": {
     "script": "scripts/build_dashboard_data.py",
     "schemaVersion": 2,
@@ -133,11 +133,11 @@
     {
       "version": "v5",
       "centralizator": {
-        "csv": "../centralizator/v5/Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "csv": "../centralizator/v5/Centralizator_Articole_Gabriela_Daniela_Stamatie_v5.csv",
         "records": 23
       },
       "citari": {
-        "csv": "../citari/v5/Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv",
+        "csv": "../citari/v5/Citari_Articole_Gabriela_Daniela_Stamatie_v5.csv",
         "records": 107
       },
       "stats": {

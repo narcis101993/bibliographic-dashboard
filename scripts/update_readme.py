@@ -167,6 +167,8 @@ Dashboard static bilingv (RO/EN) cu:
 
 ## Actualizare automată a datelor
 
+Datele brute (raw) sunt păstrate în git pentru trasabilitate; repo-ul crește cu ~3,5 MB per versiune. Reevaluăm politica de păstrare la v8 (arhivă zip sau Git LFS).
+
 Datele se actualizează automat lunar prin [GitHub Actions](https://github.com/narcis101993/bibliographic-dashboard/actions):
 
 1. **Fetch** — extragere date noi din surse (OpenAlex, Semantic Scholar, DataCite, Crossref, ResearchGate — detectare DOI 10.13140/; Google Scholar: import manual din `citari/google_scholar_counts.csv`, Scholar nu are API public)

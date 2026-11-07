@@ -39,7 +39,7 @@ V3_CENTRALIZATOR = os.path.join(
 )
 OUT_CIT = os.path.join(ROOT, "citari", "v4")
 OUT_CEN = os.path.join(ROOT, "centralizator", "v4")
-RETRIEVAL_DATE = "2026-11-01"
+RETRIEVAL_DATE = __import__("datetime").date.today().isoformat()
 SELF_NAMES = ("stamatie", "criveanu")
 
 SOURCE_VERSION = "v3"
@@ -432,7 +432,7 @@ def main():
     os.makedirs(OUT_CEN, exist_ok=True)
 
     cit_cols = list(out[0].keys())
-    cit_csv = os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv")
+    cit_csv = os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_%s.csv" % TARGET_VERSION)
     with open(cit_csv, "w", encoding="utf-8-sig", newline="") as f:
         wtr = csv.DictWriter(f, fieldnames=cit_cols, delimiter=";")
         wtr.writeheader()
@@ -533,25 +533,28 @@ def main():
             }
         )
     if exc_rows:
-        with open(os.path.join(OUT_CIT, "Excluded_Candidates_v4.csv"), "w", encoding="utf-8-sig", newline="") as f:
+        with open(os.path.join(OUT_CIT, "Excluded_Candidates_%s.csv" % TARGET_VERSION), "w", encoding="utf-8-sig", newline="") as f:
             wtr = csv.DictWriter(f, fieldnames=list(exc_rows[0].keys()), delimiter=";")
             wtr.writeheader()
             wtr.writerows(exc_rows)
 
-    cov_csv = os.path.join(OUT_CIT, "Acoperire_Publicatii_v4.csv")
+    cov_csv = os.path.join(OUT_CIT, "Acoperire_Publicatii_%s.csv" % TARGET_VERSION)
     with open(cov_csv, "w", encoding="utf-8-sig", newline="") as f:
         wtr = csv.DictWriter(f, fieldnames=list(cov_rows[0].keys()), delimiter=";")
         wtr.writeheader()
         wtr.writerows(cov_rows)
 
     # centralizator v4
-    cen_cols = list(pubs[0].keys()) + [
+    COVERAGE_COLS = [
         "Citări găsite (v4)",
         "Surse verificate (citări)",
         "Stare acoperire citări",
         "Încredere agregată",
         "Notă acoperire",
     ]
+    # Source rows may already carry coverage columns from a previous
+    # generation; exclude them so they are emitted exactly once.
+    cen_cols = [c for c in pubs[0].keys() if c not in COVERAGE_COLS] + COVERAGE_COLS
     cen_rows = []
     for p, c in zip(pubs, cov_rows):
         confs = [
@@ -579,7 +582,7 @@ def main():
         r["Notă acoperire"] = note
         cen_rows.append(r)
 
-    cen_csv = os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv")
+    cen_csv = os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.csv" % TARGET_VERSION)
     with open(cen_csv, "w", encoding="utf-8-sig", newline="") as f:
         wtr = csv.DictWriter(f, fieldnames=cen_cols, delimiter=";")
         wtr.writeheader()
@@ -620,12 +623,12 @@ def main():
             lines.append("| " + " | ".join(str(r.get(c, "")).replace("|", "\\|") for c in cols) + " |")
         return "\n".join(lines)
 
-    md_cit = ["# Citări — Gabriela Daniela Stamatie (v4)", "", "Generat: %s. Sursa: OpenAlex + Semantic Scholar + DataCite; contor Crossref pentru control." % RETRIEVAL_DATE, "", md_table(out, cit_cols)]
-    open(os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_v4.md"), "w", encoding="utf-8").write("\n".join(md_cit) + "\n")
-    md_cov = ["# Acoperirea citărilor pe publicație (v4)", "", md_table(cov_rows, list(cov_rows[0].keys()))]
-    open(os.path.join(OUT_CIT, "Acoperire_Publicatii_v4.md"), "w", encoding="utf-8").write("\n".join(md_cov) + "\n")
-    md_cen = ["# Centralizator — Gabriela Daniela Stamatie (v4)", "", md_table(cen_rows, cen_cols)]
-    open(os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.md"), "w", encoding="utf-8").write("\n".join(md_cen) + "\n")
+    md_cit = ["# Citări — Gabriela Daniela Stamatie (%s)" % TARGET_VERSION, "", "Generat: %s. Sursa: OpenAlex + Semantic Scholar + DataCite; contor Crossref pentru control." % RETRIEVAL_DATE, "", md_table(out, cit_cols)]
+    open(os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_%s.md" % TARGET_VERSION), "w", encoding="utf-8").write("\n".join(md_cit) + "\n")
+    md_cov = ["# Acoperirea citărilor pe publicație (%s)" % TARGET_VERSION, "", md_table(cov_rows, list(cov_rows[0].keys()))]
+    open(os.path.join(OUT_CIT, "Acoperire_Publicatii_%s.md" % TARGET_VERSION), "w", encoding="utf-8").write("\n".join(md_cov) + "\n")
+    md_cen = ["# Centralizator — Gabriela Daniela Stamatie (%s)" % TARGET_VERSION, "", md_table(cen_rows, cen_cols)]
+    open(os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.md" % TARGET_VERSION), "w", encoding="utf-8").write("\n".join(md_cen) + "\n")
 
     # xlsx
     try:
@@ -641,7 +644,7 @@ def main():
         for cell in ws[1]:
             cell.font = Font(bold=True)
         ws.freeze_panes = "A2"
-        wb.save(os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_v4.xlsx"))
+        wb.save(os.path.join(OUT_CIT, "Citari_Articole_Gabriela_Daniela_Stamatie_%s.xlsx" % TARGET_VERSION))
 
         wb = Workbook()
         ws = wb.active
@@ -651,7 +654,7 @@ def main():
             ws.append([r[c] for c in cov_rows[0].keys()])
         for cell in ws[1]:
             cell.font = Font(bold=True)
-        wb.save(os.path.join(OUT_CIT, "Acoperire_Publicatii_v4.xlsx"))
+        wb.save(os.path.join(OUT_CIT, "Acoperire_Publicatii_%s.xlsx" % TARGET_VERSION))
 
         wb = Workbook()
         ws = wb.active
@@ -662,7 +665,7 @@ def main():
         for cell in ws[1]:
             cell.font = Font(bold=True)
         ws.freeze_panes = "A2"
-        wb.save(os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.xlsx"))
+        wb.save(os.path.join(OUT_CEN, "Centralizator_Articole_Gabriela_Daniela_Stamatie_%s.xlsx" % TARGET_VERSION))
     except ImportError:
         pass
 

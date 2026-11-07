@@ -32,8 +32,8 @@ CENTRALIZATOR = os.path.join(
     ROOT, "centralizator", "v3", "Centralizator_Articole_Gabriela_Daniela_Stamatie_v3.csv"
 )
 RAW = os.path.join(ROOT, "citari", "v4", "raw")
-UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
-RETRIEVAL_DATE = "2026-11-01"
+UA = "BibliographicDashboard/1.0 (mailto:researcher@example.org)"
+RETRIEVAL_DATE = __import__("datetime").date.today().isoformat()
 # ResearchGate has no public API and blocks automated scraping, so RG
 # presence is detected from DOIs minted by ResearchGate itself
 # (10.13140/*, registered via DataCite) — no requests to researchgate.net.

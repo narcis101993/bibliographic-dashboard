@@ -23,8 +23,8 @@ CENTRALIZATOR = os.path.join(
     ROOT, "centralizator", "v3", "Centralizator_Articole_Gabriela_Daniela_Stamatie_v3.csv"
 )
 OUT = os.path.join(ROOT, "citari", "v4", "raw", "crossref_counts.json")
-UA = "Reasercher-List/1.0 (mailto:researcher@example.org)"
-RETRIEVAL_DATE = "2026-11-01"
+UA = "BibliographicDashboard/1.0 (mailto:researcher@example.org)"
+RETRIEVAL_DATE = __import__("datetime").date.today().isoformat()
 
 
 def _find_versioned_csv(folder, prefix, version):

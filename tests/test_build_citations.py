@@ -226,13 +226,14 @@ class TestFindVersionedCsv(unittest.TestCase):
         ).endswith("Citari_Articole_Gabriela_Daniela_Stamatie_v4.csv"))
 
     def test_falls_back_to_glob_when_suffix_mismatches(self):
-        # centralizator/v5 holds a _v4-named file (build hardcodes the suffix)
+        # centralizator/v5 used to hold a _v4-named file (build hardcoded the
+        # suffix); files are now version-suffixed, glob still finds them.
         found = bc._find_versioned_csv(
             str(ROOT / "centralizator" / "v5"),
             "Centralizator_Articole_Gabriela_Daniela_Stamatie",
             "v5",
         )
-        self.assertTrue(found.endswith("Centralizator_Articole_Gabriela_Daniela_Stamatie_v4.csv"))
+        self.assertTrue(found.endswith("Centralizator_Articole_Gabriela_Daniela_Stamatie_v5.csv"))
 
     def test_missing_folder_returns_exact_path(self):
         self.assertTrue(bc._find_versioned_csv(

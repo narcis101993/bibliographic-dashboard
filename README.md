@@ -3,7 +3,7 @@
 Proiect de documentare bibliografică pentru **Gabriela Daniela Stamatie (Criveanu-Stamatie)** — ORCID [0000-0002-1850-7278](https://orcid.org/0000-0002-1850-7278), Institutul de Bioresurse Alimentare (IBA), București.
 
 Dashboard static bilingv (RO/EN) cu:
-- **Publicații** — centralizator cu 19 înregistrări, filtrare, sortare, paginare, export CSV/XLSX
+- **Publicații** — centralizator cu 23 înregistrări, filtrare, sortare, paginare, export CSV/XLSX
 - **Citări** — 107 lucrări citante, 110 legături, 2 auto-citări, matrice multi-legătură
 - **Sinteză** — statistici, acoperire, surse, manifest de versiune
 
@@ -49,11 +49,11 @@ Bibliographic dashboard/
 
 ## Cifre-cheie (v5)
 
-- 19 publicații (17 articole științifice, 1 preprint, 1 poster)
+- 23 publicații (17 articole științifice, 1 preprint, 1 poster)
 - 107 lucrări citante unice, 110 legături de citare
 - 2 auto-citări (Foods 2022, Agronomy 2026)
 - Top citate: #1 – 42 citări, #2 – 28 citări, #3 – 11 citări
-- 14 publicații cu DOI, 2 fără citări confirmate, 6 parțial verificate
+- 14 publicații cu DOI, 2 fără citări confirmate, 10 parțial verificate
 
 ## Funcționalități
 
@@ -68,6 +68,8 @@ Bibliographic dashboard/
 - Buton **Reîncarcă** în UI pentru reîncărcarea paginii (bypass cache)
 
 ## Actualizare automată a datelor
+
+Datele brute (raw) sunt păstrate în git pentru trasabilitate; repo-ul crește cu ~3,5 MB per versiune. Reevaluăm politica de păstrare la v8 (arhivă zip sau Git LFS).
 
 Datele se actualizează automat lunar prin [GitHub Actions](https://github.com/narcis101993/bibliographic-dashboard/actions):
 
