@@ -36,6 +36,14 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -v
 
+      - name: Smoke test dashboard JS
+        run: |
+          node tests/test_app_js_smoke.js
+
+      - name: Validate dashboard data (no writes)
+        run: |
+          python3 scripts/build_dashboard_data.py --check
+
       - name: Detect versions
         id: versions
         run: |
@@ -63,6 +71,16 @@ jobs:
         run: |
           cd scripts
           python3 check_crossref_counts.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }}
+
+      - name: Fetch ORCID works (best-effort)
+        run: |
+          cd scripts
+          python3 fetch_orcid.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }} || echo "ORCID fetch skipped (best-effort)"
+
+      - name: Fetch Europe PMC counts (best-effort)
+        run: |
+          cd scripts
+          python3 fetch_europepmc.py --source-version ${{ steps.versions.outputs.latest }} --target-version ${{ steps.versions.outputs.next }} || echo "Europe PMC fetch skipped (best-effort)"
 
       - name: Fetch Fatcat citations (best-effort)
         run: |

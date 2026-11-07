@@ -443,6 +443,53 @@ a.btn:hover { text-decoration: none; }
 
 .charts-arrow { display: inline-block; font-size: 18px; line-height: 1; margin-right: 2px; }
 .syn-filter { margin: 0 0 10px; }
+
+/* Mobile card view for tables (<= 640px) */
+@media (max-width: 640px) {
+  #pubTable thead, #citTable thead { display: none; }
+  #pubTable, #citTable { min-width: 0; }
+  #pubTable tr.pub-main, #citTable tr:not(.pub-detail) {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin: 0 0 10px;
+    padding: 6px 10px;
+    background: var(--surface);
+  }
+  #pubTable td, #citTable td {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px dashed var(--border);
+    text-align: right;
+  }
+  #pubTable td:last-child, #citTable td:last-child { border-bottom: none; }
+  #pubTable td::before, #citTable td::before {
+    content: attr(data-label);
+    flex: 0 0 auto;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+  }
+  #pubTable tr.pub-detail { display: block; }
+  #pubTable tr.pub-detail td { display: block; }
+  #pubTable tr.pub-detail td::before { content: none; }
+}
+
+/* Print: show every panel, hide controls */
+@media print {
+  .topbar-meta, .filterbar, .pager, .panel-actions, .tabs, .url-bar, .chips,
+  .multi, .page-size, .empty-state, .loading-overlay, .app-toast, .detect-mini { display: none !important; }
+  .panel { display: block !important; }
+  body { background: #fff; }
+  .table-card, .card { border: 1px solid #ccc; box-shadow: none; }
+  .table-wrap { overflow: visible; }
+  .panel-publicatii table, .panel-citari table { min-width: 0; }
+}
 .charts-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

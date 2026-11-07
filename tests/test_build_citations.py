@@ -241,3 +241,19 @@ class TestFindVersionedCsv(unittest.TestCase):
             "Centralizator_Articole_Gabriela_Daniela_Stamatie",
             "v99",
         ).endswith("Centralizator_Articole_Gabriela_Daniela_Stamatie_v99.csv"))
+
+
+class TestOrcidEuropePmcStates(unittest.TestCase):
+    def test_orcid_state(self):
+        dois = {"10.3390/foods11223667"}
+        self.assertEqual(bc.orcid_state("10.3390/foods11223667", dois), "verificat (lucrare în ORCID)")
+        self.assertEqual(bc.orcid_state("https://doi.org/10.3390/foods11223667", dois), "verificat (lucrare în ORCID)")
+        self.assertEqual(bc.orcid_state("10.1/unknown", dois), "fără înregistrare ORCID")
+        self.assertEqual(bc.orcid_state("", dois), "neinterogabil (fără DOI)")
+
+    def test_europepmc_state(self):
+        self.assertEqual(
+            bc.europepmc_state("10.1/x", {"citedByCount": 5}), "verificat (5 citări)"
+        )
+        self.assertEqual(bc.europepmc_state("10.1/x", None), "fără înregistrare Europe PMC")
+        self.assertEqual(bc.europepmc_state("", {"citedByCount": 3}), "neinterogabil (fără DOI)")

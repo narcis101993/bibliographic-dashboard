@@ -410,6 +410,8 @@ def normalize_coverage(rows: Iterable[Dict[str, str]]) -> List[Dict[str, Any]]:
                     "datacite": row.get("Stare DataCite", ""),
                     "researchgate": row.get("Stare ResearchGate", ""),
                     "googleScholar": row.get("Stare Google Scholar", ""),
+                    "orcid": row.get("Stare ORCID", ""),
+                    "europepmc": row.get("Stare Europe PMC", ""),
                 },
             }
         )
@@ -651,8 +653,16 @@ def build_manifest(
     datacite_publications = sum(
         1 for publication in publications if "datacite" in fold(publication.get("source", ""))
     )
+    coverage_rows = latest.get("coverage") or []
     orcid_publications = sum(
+        1 for row in coverage_rows
+        if str((row.get("sources") or {}).get("orcid", "")).startswith("verificat")
+    ) or sum(
         1 for publication in publications if "orcid" in fold(publication.get("source", ""))
+    )
+    europepmc_publications = sum(
+        1 for row in coverage_rows
+        if str((row.get("sources") or {}).get("europepmc", "")).startswith("verificat")
     )
     researchgate_publications = sum(
         1 for publication in publications if is_researchgate_doi(publication.get("doi", ""))
@@ -703,6 +713,13 @@ def build_manifest(
             "name": "ResearchGate",
             "url": "https://www.researchgate.net/search/publication?q=" + author_name_q,
             "count": researchgate_publications,
+            "countKind": "publicationsVerified",
+        },
+        {
+            "id": "europe-pmc",
+            "name": "Europe PMC",
+            "url": "https://europepmc.org/search?query=" + author_name_q,
+            "count": europepmc_publications,
             "countKind": "publicationsVerified",
         },
         {

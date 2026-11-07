@@ -218,6 +218,13 @@
       "countKind": "publicationsVerified"
     },
     {
+      "id": "europe-pmc",
+      "name": "Europe PMC",
+      "url": "https://europepmc.org/search?query=Gabriela%20Daniela%20Stamatie",
+      "count": 0,
+      "countKind": "publicationsVerified"
+    },
+    {
       "id": "google-scholar",
       "name": "Google Scholar",
       "url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Gabriela+Daniela+Stamatie",

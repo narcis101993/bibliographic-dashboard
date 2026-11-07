@@ -1354,7 +1354,7 @@
     var volume = esc(pub.volume || pub.pages || "—");
     var coverageClass = pub.coverageStatus === "zero confirmat" ? "pill-warn" : pub.coverageStatus === "parțial verificat - fără identificator" ? "pill-neutral" : "";
     var coverageLabel = pub.coverageStatus === "zero confirmat" ? t("kpiNoCitations") : pub.coverageStatus === "parțial verificat - fără identificator" ? t("coveragePartialBadge", { n: "?" }) : "";
-    var citationCell = '<td class="num ' + (citations ? "strong" : "muted") + '">' + fmt(citations) + "</td>";
+    var citationCell = '<td class="num ' + (citations ? "strong" : "muted") + '" data-label="' + esc(t("colCitations")) + '">' + fmt(citations) + "</td>";
     var notesText = [pub.notes, coverageLabel].filter(function (part) { return part; }).join(" · ") || "—";
     var detailRows = [
       esc(pub.title || t("untitled")),
@@ -1390,17 +1390,17 @@
       return '<div class="detail-row"><span class="detail-label">' + label + '</span><span class="detail-value">' + valueHtml + "</span></div>";
     }).join("");
     return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\" aria-expanded=\"false\">" +
-      '<td class="num"><span class="pub-expand-icon">▸</span>' + esc(pub.id) + "</td>" +
-      '<td class="num">' + esc(pub.year == null ? "—" : pub.year) + "</td>" +
-      '<td class="cell-title">' + esc(pub.title || t("untitled")) + "</td>" +
-      "<td>" + esc(pub.venue || "—") + "</td>" +
-      "<td>" + esc(pub.volume || "—") + "</td>" +
-      '<td><span class="pill ' + typePill(pub.typeCode) + '">' + esc(typeLabel(pub.typeCode, pub.typeLabel)) + "</span></td>" +
-      "<td>" + doi + "</td>" +
-      '<td class="cell-authors" title="' + esc((pub.authors || []).join("; ")) + '">' + esc(authorsShort(pub.authors)) + "</td>" +
+      '<td class="num" data-label="' + esc(t("colNr")) + '"><span class="pub-expand-icon">▸</span>' + esc(pub.id) + "</td>" +
+      '<td class="num" data-label="' + esc(t("colYear")) + '">' + esc(pub.year == null ? "—" : pub.year) + "</td>" +
+      '<td class="cell-title" data-label="' + esc(t("colTitle")) + '">' + esc(pub.title || t("untitled")) + "</td>" +
+      '<td data-label="' + esc(t("colVenue")) + '">' + esc(pub.venue || "—") + "</td>" +
+      '<td data-label="' + esc(t("colVolume")) + '">' + esc(pub.volume || "—") + "</td>" +
+      '<td data-label="' + esc(t("colType")) + '"><span class="pill ' + typePill(pub.typeCode) + '">' + esc(typeLabel(pub.typeCode, pub.typeLabel)) + "</span></td>" +
+      '<td data-label="' + esc(t("colDoi")) + '">' + doi + "</td>" +
+      '<td class="cell-authors" data-label="' + esc(t("colAuthors")) + '" title="' + esc((pub.authors || []).join("; ")) + '">' + esc(authorsShort(pub.authors)) + "</td>" +
       citationCell +
-      '<td class="cell-notes">' + esc(notesText) + "</td>" +
-      "<td>" + link + "</td>" +
+      '<td class="cell-notes" data-label="' + esc(t("colNotes")) + '">' + esc(notesText) + "</td>" +
+      '<td data-label="' + esc(t("colLink")) + '">' + link + "</td>" +
       "</tr>" +
       "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"11\" class=\"detail-cell\">" +
       '<div class="detail-panel">' + detailRows + "</div>" +
@@ -1421,15 +1421,15 @@
       : '<span class="muted">' + esc(t("noDoi")) + "</span>";
     var articleTip = citation.articleTitle ? ' title="' + esc(citation.articleTitle) + '"' : "";
     return '<tr class="' + (citation.selfCitation ? "row-self" : "") + '">' +
-      '<td class="num"' + articleTip + ">" + esc(citation.id) + "</td>" +
-      '<td class="num">' + esc(ids) + "</td>" +
-      '<td class="num">' + esc(citation.year == null ? "—" : citation.year) + "</td>" +
-      '<td class="cell-title">' + esc(citation.title || t("untitled")) + "</td>" +
-      '<td class="cell-authors" title="' + esc((citation.authors || []).join("; ")) + '">' + authorsShort(citation.authors) + "</td>" +
-      "<td>" + esc(citation.venue || "—") + "</td>" +
-      '<td><span class="pill ' + typePill(citation.typeCode) + '">' + esc(typeLabel(citation.typeCode, citation.typeLabel)) + "</span></td>" +
-      "<td>" + doi + "</td>" +
-      '<td><span class="pill ' + (citation.selfCitation ? "pill-self" : "pill-neutral") + '">' + esc(citation.selfCitation ? t("yes") : t("no")) + "</span></td>" +
+      '<td class="num" data-label="' + esc(t("colNr")) + '"' + articleTip + ">" + esc(citation.id) + "</td>" +
+      '<td class="num" data-label="' + esc(t("colArticle")) + '">' + esc(ids) + "</td>" +
+      '<td class="num" data-label="' + esc(t("colCitYear")) + '">' + esc(citation.year == null ? "—" : citation.year) + "</td>" +
+      '<td class="cell-title" data-label="' + esc(t("colCiting")) + '">' + esc(citation.title || t("untitled")) + "</td>" +
+      '<td class="cell-authors" data-label="' + esc(t("colAuthors")) + '" title="' + esc((citation.authors || []).join("; ")) + '">' + authorsShort(citation.authors) + "</td>" +
+      '<td data-label="' + esc(t("colVenue")) + '">' + esc(citation.venue || "—") + "</td>" +
+      '<td data-label="' + esc(t("colType")) + '"><span class="pill ' + typePill(citation.typeCode) + '">' + esc(typeLabel(citation.typeCode, citation.typeLabel)) + "</span></td>" +
+      '<td data-label="' + esc(t("colDoi")) + '">' + doi + "</td>" +
+      '<td data-label="' + esc(t("colSelf")) + '"><span class="pill ' + (citation.selfCitation ? "pill-self" : "pill-neutral") + '">' + esc(citation.selfCitation ? t("yes") : t("no")) + "</span></td>" +
       "</tr>";
   }
 
@@ -1620,7 +1620,14 @@
     $("citKpiMaxYearSub").textContent = t("kpiMaxYearSub", { n: fmt(maxYearLinks) });
   }
 
+  function chartColors() {
+    return state.dark
+      ? { tick: "#9ca3af", grid: "#1f2937", border: "#111827" }
+      : { tick: "#64748b", grid: "#edf1f6", border: "#ffffff" };
+  }
+
   function cartesianOptions(horizontal) {
+    var colors = chartColors();
     return {
       responsive: true,
       maintainAspectRatio: false,
@@ -1631,11 +1638,11 @@
         tooltip: { intersect: false, mode: "index" }
       },
       scales: horizontal ? {
-        x: { beginAtZero: true, ticks: { precision: 0, font: { size: 10 }, color: "#64748b" }, grid: { color: "#edf1f6" } },
-        y: { grid: { display: false }, ticks: { font: { size: 10 }, color: "#64748b" } }
+        x: { beginAtZero: true, ticks: { precision: 0, font: { size: 10 }, color: colors.tick }, grid: { color: colors.grid } },
+        y: { grid: { display: false }, ticks: { font: { size: 10 }, color: colors.tick } }
       } : {
-        x: { grid: { display: false }, ticks: { font: { size: 10 }, color: "#64748b" } },
-        y: { beginAtZero: true, ticks: { precision: 0, font: { size: 10 }, color: "#64748b" }, grid: { color: "#edf1f6" } }
+        x: { grid: { display: false }, ticks: { font: { size: 10 }, color: colors.tick } },
+        y: { beginAtZero: true, ticks: { precision: 0, font: { size: 10 }, color: colors.tick }, grid: { color: colors.grid } }
       }
     };
   }
@@ -1646,7 +1653,7 @@
       maintainAspectRatio: false,
       animation: { duration: 250 },
       plugins: {
-        legend: { position: "bottom", labels: { boxWidth: 10, font: { size: 10 }, color: "#64748b" } }
+        legend: { position: "bottom", labels: { boxWidth: 10, font: { size: 10 }, color: chartColors().tick } }
       }
     };
   }
@@ -1756,7 +1763,7 @@
         datasets: [{
           data: codes.map(function (code) { return byType.get(code); }),
           backgroundColor: codes.map(function (code, index) { return PALETTE[index % PALETTE.length]; }),
-          borderColor: "#ffffff",
+          borderColor: chartColors().border,
           borderWidth: 1
         }]
       },
@@ -1846,7 +1853,7 @@
         datasets: [{
           data: codes.map(function (code) { return byType.get(code); }),
           backgroundColor: codes.map(function (code, index) { return PALETTE[index % PALETTE.length]; }),
-          borderColor: "#ffffff",
+          borderColor: chartColors().border,
           borderWidth: 1
         }]
       },
@@ -2222,7 +2229,7 @@
     notice.className = "app-status is-error";
     notice.textContent = t("loadError") + " " + (error && error.message ? error.message : "");
     var workspace = document.querySelector(".workspace");
-    if (workspace) workspace.parentNode.insertBefore(notice, workspace);
+    if (workspace && workspace.parentNode) workspace.parentNode.insertBefore(notice, workspace);
   }
 
   function bindEvents() {
@@ -2385,6 +2392,25 @@
       state.citPage += 1;
       renderCitTable();
       writeUrlState("push");
+    });
+
+    document.addEventListener("keydown", function (event) {
+      var tag = (event.target && event.target.tagName) || "";
+      if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
+      if (event.key === "/") {
+        event.preventDefault();
+        var tab = currentTab();
+        var target = tab === "citari" ? "citSearch" : tab === "sinteza" ? "synTitleFilter" : "pubSearch";
+        var element = $(target);
+        if (element) element.focus();
+      } else if (event.key === "1" || event.key === "2" || event.key === "3") {
+        var tabs = ["tab-publicatii", "tab-citari", "tab-sinteza"];
+        var input = $(tabs[Number(event.key) - 1]);
+        if (input) {
+          input.checked = true;
+          writeUrlState("push");
+        }
+      }
     });
 
     document.querySelectorAll(".tab-input").forEach(function (input) {

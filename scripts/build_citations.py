@@ -141,6 +141,37 @@ def clean(t):
 RG_DOI_PREFIX = "10.13140/"
 
 
+def orcid_dois():
+    """Normalised DOI set from the ORCID works raw payload (empty if absent)."""
+    payload = load_json(os.path.join(RAW, "orcid", "author.json"))
+    dois = set()
+    if not isinstance(payload, dict):
+        return dois
+    for group in payload.get("group") or []:
+        for summary in group.get("work-summary") or []:
+            external = (summary.get("external-ids") or {}).get("external-id") or []
+            for item in external:
+                if str(item.get("external-id-type", "")).lower() == "doi":
+                    value = doi_of(item.get("external-id-value"))
+                    if value:
+                        dois.add(value)
+    return dois
+
+
+def orcid_state(doi, dois):
+    if not (doi or "").strip():
+        return "neinterogabil (fără DOI)"
+    return "verificat (lucrare în ORCID)" if doi_of(doi) in dois else "fără înregistrare ORCID"
+
+
+def europepmc_state(doi, record):
+    if not (doi or "").strip():
+        return "neinterogabil (fără DOI)"
+    if isinstance(record, dict) and record.get("citedByCount") is not None:
+        return "verificat (%s citări)" % record["citedByCount"]
+    return "fără înregistrare Europe PMC"
+
+
 def load_scholar_counts():
     """Manual Google Scholar counts from citari/google_scholar_counts.csv."""
     path = os.path.join(ROOT, "citari", "google_scholar_counts.csv")
@@ -447,6 +478,7 @@ def main():
 
     cov_rows = []
     scholar_counts = load_scholar_counts()
+    orcid_doi_set = orcid_dois()
     for p in pubs:
         pid = p["Nr."]
         s = summary.get(pid, {})
@@ -485,6 +517,8 @@ def main():
             gs_state = "manual (%s citări)" % scholar_counts[pid]
         else:
             gs_state = "necompletat (import manual)"
+        oc_state = orcid_state(p["DOI"], orcid_doi_set)
+        ep_state = europepmc_state(p["DOI"], load_json(os.path.join(RAW, "europepmc", pid + ".json")))
         if is_researchgate_doi(p["DOI"]):
             rg_state = "verificat (DOI ResearchGate: %s)" % doi_of(p["DOI"])
         elif p["DOI"].strip():
@@ -506,13 +540,15 @@ def main():
                 "An": p["An"],
                 "DOI": p["DOI"],
                 "Lucrări citante v4": n,
-                "Surse verificate": "OpenAlex; Crossref (doar contor); Semantic Scholar; DataCite",
+                "Surse verificate": "OpenAlex; Crossref (doar contor); Semantic Scholar; DataCite; Europe PMC",
                 "Stare OpenAlex": oa_state,
                 "Stare Crossref": cr_state,
                 "Stare Semantic Scholar": s2_state,
                 "Stare DataCite": dc_state,
                 "Stare ResearchGate": rg_state,
                 "Stare Google Scholar": gs_state,
+                "Stare ORCID": oc_state,
+                "Stare Europe PMC": ep_state,
                 "Stare acoperire": status,
             }
         )
