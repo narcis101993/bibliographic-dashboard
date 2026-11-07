@@ -1,0 +1,1498 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "17",
+ "payload": {
+  "id": "https://openalex.org/W7211937262",
+  "doi": "https://doi.org/10.1016/j.clrc.2026.100496",
+  "title": "How consumers perceive the use of bioprocessing and non-thermal technologies to develop minimally processed plant-based foods: Insights from a qualitative study",
+  "display_name": "How consumers perceive the use of bioprocessing and non-thermal technologies to develop minimally processed plant-based foods: Insights from a qualitative study",
+  "publication_year": 2026,
+  "publication_date": "2026-09-08",
+  "ids": {
+   "openalex": "https://openalex.org/W7211937262",
+   "doi": "https://doi.org/10.1016/j.clrc.2026.100496"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1016/j.clrc.2026.100496",
+   "doi": "https://doi.org/10.1016/j.clrc.2026.100496",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.clrc.2026.100496",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666784326001105/pdf",
+   "source": {
+    "id": "https://openalex.org/S4210227184",
+    "display_name": "Cleaner and Responsible Consumption",
+    "issn_l": "2666-7843",
+    "issn": [
+     "2666-7843"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-d",
+     "jufo-1",
+     "norway-1",
+     "poland-20",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Cleaner and Responsible Consumption",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "is_traditional": true,
+  "indexed_in": [
+   "crossref",
+   "doaj"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2666784326001105/pdf",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5030255069",
+     "display_name": "Bárbara Franco Lucas",
+     "orcid": "https://orcid.org/0000-0002-1569-2201",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1569-2201"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I130692619",
+      "display_name": "Bern University of Applied Sciences",
+      "ror": "https://ror.org/02bnkt322",
+      "country_code": "CH",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I130692619"
+      ]
+     }
+    ],
+    "countries": [
+     "CH"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Bárbara Franco Lucas",
+    "raw_affiliation_strings": [
+     "Food Science and Management, School of Agricultural, Forest and Food Sciences (HAFL), Bern University of Applied Sciences (BFH), Switzerland"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-1569-2201",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Food Science and Management, School of Agricultural, Forest and Food Sciences (HAFL), Bern University of Applied Sciences (BFH), Switzerland",
+      "institution_ids": [
+       "https://openalex.org/I130692619"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5103177103",
+     "display_name": "Anne Arvola",
+     "orcid": "https://orcid.org/0000-0002-2638-858X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-2638-858X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I79765343",
+      "display_name": "University of Vaasa",
+      "ror": "https://ror.org/03769b225",
+      "country_code": "FI",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I79765343"
+      ]
+     }
+    ],
+    "countries": [
+     "FI"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Anne-Kristiina Arvola",
+    "raw_affiliation_strings": [
+     "University of Vaasa, School of Marketing and Communication, Finland"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Vaasa, School of Marketing and Communication, Finland",
+      "institution_ids": [
+       "https://openalex.org/I79765343"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036702461",
+     "display_name": "Sofia Sousa",
+     "orcid": "https://orcid.org/0000-0001-8389-1758",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8389-1758"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182534213",
+      "display_name": "Universidade do Porto",
+      "ror": "https://ror.org/043pwc612",
+      "country_code": "PT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182534213"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4405255646",
+      "display_name": "Centro de Investigação em Produção Agroalimentar Sustentável",
+      "ror": "https://ror.org/038e1m489",
+      "country_code": "PT",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ],
+    "countries": [
+     "PT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sofia A. Sousa",
+    "raw_affiliation_strings": [
+     "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8389-1758",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal",
+      "institution_ids": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5050242967",
+     "display_name": "José Carlos Ribeiro",
+     "orcid": "https://orcid.org/0000-0003-2106-7979",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2106-7979"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182534213",
+      "display_name": "Universidade do Porto",
+      "ror": "https://ror.org/043pwc612",
+      "country_code": "PT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182534213"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4405255646",
+      "display_name": "Centro de Investigação em Produção Agroalimentar Sustentável",
+      "ror": "https://ror.org/038e1m489",
+      "country_code": "PT",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ],
+    "countries": [
+     "PT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "José Carlos Ribeiro",
+    "raw_affiliation_strings": [
+     "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-2106-7979",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal",
+      "institution_ids": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Daniela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "The National Institute of Research and Development for Food Bioresources IBA Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "The National Institute of Research and Development for Food Bioresources IBA Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Denisa Eglantina Duta",
+    "raw_affiliation_strings": [
+     "The National Institute of Research and Development for Food Bioresources IBA Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-8821-7268",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "The National Institute of Research and Development for Food Bioresources IBA Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5046761694",
+     "display_name": "Luís Miguel Cunha",
+     "orcid": "https://orcid.org/0000-0002-4590-7533",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4590-7533"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182534213",
+      "display_name": "Universidade do Porto",
+      "ror": "https://ror.org/043pwc612",
+      "country_code": "PT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182534213"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4405255646",
+      "display_name": "Centro de Investigação em Produção Agroalimentar Sustentável",
+      "ror": "https://ror.org/038e1m489",
+      "country_code": "PT",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ],
+    "countries": [
+     "PT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Luís Miguel Cunha",
+    "raw_affiliation_strings": [
+     "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-4590-7533",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "GreenUPorto - Sustainable Agrifood Production Research Centre/Inov4Agro, DGAOT, Faculty of Sciences, University of Porto, Portugal",
+      "institution_ids": [
+       "https://openalex.org/I182534213",
+       "https://openalex.org/I4405255646"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5026159368",
+     "display_name": "Kyösti Pennanen",
+     "orcid": "https://orcid.org/0000-0001-9742-8940",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9742-8940"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I79765343",
+      "display_name": "University of Vaasa",
+      "ror": "https://ror.org/03769b225",
+      "country_code": "FI",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I79765343"
+      ]
+     }
+    ],
+    "countries": [
+     "FI"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kyösti Pennanen",
+    "raw_affiliation_strings": [
+     "University of Vaasa, School of Marketing and Communication, Finland"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Vaasa, School of Marketing and Communication, Finland",
+      "institution_ids": [
+       "https://openalex.org/I79765343"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5055612326",
+     "display_name": "Thomas A. Brunner",
+     "orcid": "https://orcid.org/0000-0002-6770-6548",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-6770-6548"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I130692619",
+      "display_name": "Bern University of Applied Sciences",
+      "ror": "https://ror.org/02bnkt322",
+      "country_code": "CH",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I130692619"
+      ]
+     }
+    ],
+    "countries": [
+     "CH"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Thomas A. Brunner",
+    "raw_affiliation_strings": [
+     "Food Science and Management, School of Agricultural, Forest and Food Sciences (HAFL), Bern University of Applied Sciences (BFH), Switzerland"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-6770-6548",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Food Science and Management, School of Agricultural, Forest and Food Sciences (HAFL), Bern University of Applied Sciences (BFH), Switzerland",
+      "institution_ids": [
+       "https://openalex.org/I130692619"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5030255069"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I130692619"
+  ],
+  "apc_list": {
+   "value": 1630,
+   "currency": "USD",
+   "value_usd": 1630
+  },
+  "apc_paid": {
+   "value": 1630,
+   "currency": "USD",
+   "value_usd": 1630
+  },
+  "fwci": 0.0,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+   "value": 0.63280589,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": "23",
+   "issue": null,
+   "first_page": "100496",
+   "last_page": "100496"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T12057",
+   "display_name": "Consumer Attitudes and Food Labeling",
+   "score": 0.9448000192642212,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2739",
+    "display_name": "Public Health, Environmental and Occupational Health"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/27",
+    "display_name": "Medicine"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T12057",
+    "display_name": "Consumer Attitudes and Food Labeling",
+    "score": 0.9448000192642212,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2739",
+     "display_name": "Public Health, Environmental and Occupational Health"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/27",
+     "display_name": "Medicine"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11259",
+    "display_name": "Agriculture Sustainability and Environmental Impact",
+    "score": 0.01940000057220459,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2303",
+     "display_name": "Ecology"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/23",
+     "display_name": "Environmental Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12114",
+    "display_name": "Sensory Analysis and Statistical Methods",
+    "score": 0.015200000256299973,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/plant-based-foods",
+    "display_name": "plant-based foods",
+    "score": 0.9390000104904175
+   },
+   {
+    "id": "https://openalex.org/keywords/minimally-processed-foods",
+    "display_name": "minimally processed foods",
+    "score": 0.9610000252723694
+   },
+   {
+    "id": "https://openalex.org/keywords/consumer-perception",
+    "display_name": "consumer perception",
+    "score": 0.6470000147819519
+   },
+   {
+    "id": "https://openalex.org/keywords/consumer-acceptance",
+    "display_name": "consumer acceptance",
+    "score": 0.7760000228881836
+   },
+   {
+    "id": "https://openalex.org/keywords/high-pressure-processing",
+    "display_name": "high pressure processing",
+    "score": 0.8730000257492065
+   },
+   {
+    "id": "https://openalex.org/keywords/pulsed-electric-field",
+    "display_name": "pulsed electric field",
+    "score": 0.9879999756813049
+   },
+   {
+    "id": "https://openalex.org/keywords/ultrasonic-signal-processing",
+    "display_name": "ultrasonic signal processing",
+    "score": 0.8220000267028809
+   },
+   {
+    "id": "https://openalex.org/keywords/fermentation",
+    "display_name": "fermentation",
+    "score": 0.9330000281333923
+   },
+   {
+    "id": "https://openalex.org/keywords/germination",
+    "display_name": "germination",
+    "score": 0.9319999814033508
+   },
+   {
+    "id": "https://openalex.org/keywords/food-safety-concerns",
+    "display_name": "food safety concerns",
+    "score": 0.8349999785423279
+   },
+   {
+    "id": "https://openalex.org/keywords/flexitarians",
+    "display_name": "flexitarians",
+    "score": 0.8080000281333923
+   },
+   {
+    "id": "https://openalex.org/keywords/omnivores",
+    "display_name": "omnivores",
+    "score": 0.8109999895095825
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C190248442",
+    "wikidata": "https://www.wikidata.org/wiki/Q839486",
+    "display_name": "Qualitative research",
+    "level": 2,
+    "score": 0.5741999745368958
+   },
+   {
+    "id": "https://openalex.org/C4916135",
+    "wikidata": "https://www.wikidata.org/wiki/Q4119055",
+    "display_name": "Bioprocess",
+    "level": 2,
+    "score": 0.498199999332428
+   },
+   {
+    "id": "https://openalex.org/C195094911",
+    "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+    "display_name": "Process management",
+    "level": 1,
+    "score": 0.3952000141143799
+   },
+   {
+    "id": "https://openalex.org/C3018587665",
+    "wikidata": "https://www.wikidata.org/wiki/Q7268696",
+    "display_name": "Qualitative analysis",
+    "level": 3,
+    "score": 0.36910000443458557
+   },
+   {
+    "id": "https://openalex.org/C144133560",
+    "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+    "display_name": "Business",
+    "level": 0,
+    "score": 0.3659000098705292
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.3549000024795532
+   },
+   {
+    "id": "https://openalex.org/C127413603",
+    "wikidata": "https://www.wikidata.org/wiki/Q11023",
+    "display_name": "Engineering",
+    "level": 0,
+    "score": 0.35010001063346863
+   },
+   {
+    "id": "https://openalex.org/C56739046",
+    "wikidata": "https://www.wikidata.org/wiki/Q192060",
+    "display_name": "Knowledge management",
+    "level": 1,
+    "score": 0.33970001339912415
+   },
+   {
+    "id": "https://openalex.org/C98045186",
+    "wikidata": "https://www.wikidata.org/wiki/Q205663",
+    "display_name": "Process (computing)",
+    "level": 2,
+    "score": 0.3328999876976013
+   },
+   {
+    "id": "https://openalex.org/C112930515",
+    "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+    "display_name": "Risk analysis (engineering)",
+    "level": 1,
+    "score": 0.29269999265670776
+   },
+   {
+    "id": "https://openalex.org/C115901376",
+    "wikidata": "https://www.wikidata.org/wiki/Q184199",
+    "display_name": "Automation",
+    "level": 2,
+    "score": 0.27950000762939453
+   },
+   {
+    "id": "https://openalex.org/C117671659",
+    "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+    "display_name": "Manufacturing engineering",
+    "level": 1,
+    "score": 0.27379998564720154
+   },
+   {
+    "id": "https://openalex.org/C162853370",
+    "wikidata": "https://www.wikidata.org/wiki/Q39809",
+    "display_name": "Marketing",
+    "level": 1,
+    "score": 0.2700999975204468
+   },
+   {
+    "id": "https://openalex.org/C207267971",
+    "wikidata": "https://www.wikidata.org/wiki/Q120208",
+    "display_name": "Emerging technologies",
+    "level": 2,
+    "score": 0.25920000672340393
+   },
+   {
+    "id": "https://openalex.org/C539667460",
+    "wikidata": "https://www.wikidata.org/wiki/Q2414942",
+    "display_name": "Management science",
+    "level": 1,
+    "score": 0.25769999623298645
+   },
+   {
+    "id": "https://openalex.org/C87156501",
+    "wikidata": "https://www.wikidata.org/wiki/Q7268708",
+    "display_name": "Qualitative property",
+    "level": 2,
+    "score": 0.25049999356269836
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.1016/j.clrc.2026.100496",
+    "doi": "https://doi.org/10.1016/j.clrc.2026.100496",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.clrc.2026.100496",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666784326001105/pdf",
+    "source": {
+     "id": "https://openalex.org/S4210227184",
+     "display_name": "Cleaner and Responsible Consumption",
+     "issn_l": "2666-7843",
+     "issn": [
+      "2666-7843"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-d",
+      "jufo-1",
+      "norway-1",
+      "poland-20",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Cleaner and Responsible Consumption",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:osuva.uwasa.fi:11111/21292",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://osuva.uwasa.fi/handle/11111/21292",
+    "pdf_url": "https://osuva.uwasa.fi/bitstreams/7efa6502-f7a8-4522-8f9a-e8038adf4a2a/download",
+    "source": {
+     "id": "https://openalex.org/S4306400974",
+     "display_name": "Osuva (University of Vaasa)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I79765343",
+     "host_organization_name": "University of Vaasa",
+     "host_organization_lineage": [
+      "https://openalex.org/I79765343"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "SoleCRIS",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.1016/j.clrc.2026.100496",
+   "doi": "https://doi.org/10.1016/j.clrc.2026.100496",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.clrc.2026.100496",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666784326001105/pdf",
+   "source": {
+    "id": "https://openalex.org/S4210227184",
+    "display_name": "Cleaner and Responsible Consumption",
+    "issn_l": "2666-7843",
+    "issn": [
+     "2666-7843"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "dongbi-d",
+     "jufo-1",
+     "norway-1",
+     "poland-20",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Cleaner and Responsible Consumption",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Responsible consumption and production",
+    "score": 0.833299994468689,
+    "id": "https://metadata.un.org/sdg/12"
+   },
+   {
+    "display_name": "Zero hunger",
+    "score": 0.7628999948501587,
+    "id": "https://metadata.un.org/sdg/2"
+   }
+  ],
+  "study_designs": [],
+  "awards": [
+   {
+    "id": "https://openalex.org/G2178676917",
+    "display_name": null,
+    "funder_award_id": "101180399",
+    "funder_id": "https://openalex.org/F4320335238",
+    "funder_display_name": "Staatssekretariat für Bildung, Forschung und Innovation"
+   },
+   {
+    "id": "https://openalex.org/G3305771904",
+    "display_name": "PROPELLING HEALTH AND SUSTAINABILITY THROUGH INNOVATIVE FOOD PRODUCTS AND PROCESSES",
+    "funder_award_id": "101180399",
+    "funder_id": "https://openalex.org/F4320320300",
+    "funder_display_name": "European Commission"
+   }
+  ],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320320300",
+    "display_name": "European Commission",
+    "ror": "https://ror.org/00k4n6c32"
+   },
+   {
+    "id": "https://openalex.org/F4320335238",
+    "display_name": "Staatssekretariat für Bildung, Forschung und Innovation",
+    "ror": "https://ror.org/01kw63t33"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W7211937262.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W7211937262.grobid-xml"
+  },
+  "referenced_works_count": 29,
+  "referenced_works": [
+   "https://openalex.org/W1979290264",
+   "https://openalex.org/W1994994084",
+   "https://openalex.org/W2037540536",
+   "https://openalex.org/W2040474770",
+   "https://openalex.org/W2069413831",
+   "https://openalex.org/W2085554968",
+   "https://openalex.org/W2088321536",
+   "https://openalex.org/W2791559002",
+   "https://openalex.org/W2956927341",
+   "https://openalex.org/W4210454733",
+   "https://openalex.org/W4224935294",
+   "https://openalex.org/W4282962830",
+   "https://openalex.org/W4306386362",
+   "https://openalex.org/W4384461239",
+   "https://openalex.org/W4389081283",
+   "https://openalex.org/W4389304965",
+   "https://openalex.org/W4390511863",
+   "https://openalex.org/W4390937513",
+   "https://openalex.org/W4396217734",
+   "https://openalex.org/W4396888774",
+   "https://openalex.org/W4399714898",
+   "https://openalex.org/W4401748466",
+   "https://openalex.org/W4401799374",
+   "https://openalex.org/W4408731994",
+   "https://openalex.org/W4411050128",
+   "https://openalex.org/W4411301894",
+   "https://openalex.org/W4412629552",
+   "https://openalex.org/W4413415025",
+   "https://openalex.org/W4413420086"
+  ],
+  "related_works": [
+   "https://openalex.org/W7163900127",
+   "https://openalex.org/W3105044417",
+   "https://openalex.org/W1497984824",
+   "https://openalex.org/W1655056757",
+   "https://openalex.org/W4283659442",
+   "https://openalex.org/W7124178997",
+   "https://openalex.org/W2909101206",
+   "https://openalex.org/W2056294402",
+   "https://openalex.org/W7221035195",
+   "https://openalex.org/W7140277018"
+  ],
+  "abstract_inverted_index": {
+   "Consumers’": [
+    0
+   ],
+   "negative": [
+    1
+   ],
+   "image": [
+    2
+   ],
+   "of": [
+    3,
+    96,
+    112,
+    167,
+    195
+   ],
+   "currently": [
+    4
+   ],
+   "available": [
+    5
+   ],
+   "plant-based": [
+    6,
+    19,
+    157
+   ],
+   "foods": [
+    7,
+    170
+   ],
+   "(PBFs)": [
+    8
+   ],
+   "as": [
+    9
+   ],
+   "ultra-processed": [
+    10
+   ],
+   "and": [
+    11,
+    34,
+    45,
+    60,
+    67,
+    72,
+    85,
+    120,
+    129,
+    136,
+    138,
+    141,
+    160,
+    163,
+    187,
+    199,
+    206
+   ],
+   "unhealthy": [
+    12
+   ],
+   "is": [
+    13
+   ],
+   "hampering": [
+    14
+   ],
+   "the": [
+    15,
+    93,
+    110,
+    150,
+    184,
+    193,
+    207
+   ],
+   "transition": [
+    16
+   ],
+   "towards": [
+    17
+   ],
+   "more": [
+    18
+   ],
+   "diets.": [
+    20
+   ],
+   "A": [
+    21
+   ],
+   "qualitative": [
+    22
+   ],
+   "approach": [
+    23
+   ],
+   "was": [
+    24,
+    64,
+    98
+   ],
+   "applied": [
+    25
+   ],
+   "across": [
+    26
+   ],
+   "four": [
+    27
+   ],
+   "European": [
+    28
+   ],
+   "countries": [
+    29
+   ],
+   "–": [
+    30,
+    36
+   ],
+   "Switzerland,": [
+    31
+   ],
+   "Finland,": [
+    32
+   ],
+   "Portugal": [
+    33
+   ],
+   "Romania": [
+    35
+   ],
+   "to": [
+    37,
+    65,
+    87,
+    148,
+    153,
+    176,
+    192
+   ],
+   "explore": [
+    38
+   ],
+   "consumers’": [
+    39,
+    219
+   ],
+   "views": [
+    40
+   ],
+   "on": [
+    41
+   ],
+   "minimal": [
+    42,
+    75,
+    113,
+    196
+   ],
+   "processing": [
+    43,
+    76,
+    97,
+    114,
+    197
+   ],
+   "methods": [
+    44
+   ],
+   "PBFs": [
+    46,
+    215
+   ],
+   "produced": [
+    47
+   ],
+   "using": [
+    48,
+    149
+   ],
+   "these": [
+    49
+   ],
+   "methods.": [
+    50
+   ],
+   "Semi-structured": [
+    51
+   ],
+   "in-person": [
+    52
+   ],
+   "interviews": [
+    53
+   ],
+   "were": [
+    54,
+    116
+   ],
+   "conducted": [
+    55
+   ],
+   "with": [
+    56,
+    218
+   ],
+   "meat": [
+    57
+   ],
+   "eaters": [
+    58
+   ],
+   "(omnivores": [
+    59
+   ],
+   "flexitarians).": [
+    61
+   ],
+   "The": [
+    62,
+    178,
+    201
+   ],
+   "aim": [
+    63
+   ],
+   "reveal": [
+    66
+   ],
+   "understand": [
+    68
+   ],
+   "their": [
+    69
+   ],
+   "attitudes,": [
+    70
+   ],
+   "perceptions": [
+    71
+   ],
+   "expectations": [
+    73
+   ],
+   "regarding": [
+    74
+   ],
+   "technologies": [
+    77,
+    115,
+    152,
+    198
+   ],
+   "(fermentation,": [
+    78
+   ],
+   "germination,": [
+    79
+   ],
+   "high-pressure": [
+    80
+   ],
+   "processing,": [
+    81
+   ],
+   "pulsed": [
+    82
+   ],
+   "electric": [
+    83
+   ],
+   "field": [
+    84
+   ],
+   "ultrasound)": [
+    86
+   ],
+   "produce": [
+    88,
+    154
+   ],
+   "PBFs.": [
+    89,
+    200
+   ],
+   "For": [
+    90
+   ],
+   "many": [
+    91
+   ],
+   "interviewees,": [
+    92
+   ],
+   "perceived": [
+    94,
+    126
+   ],
+   "level": [
+    95
+   ],
+   "an": [
+    99
+   ],
+   "important": [
+    100
+   ],
+   "consideration": [
+    101
+   ],
+   "in": [
+    102,
+    210
+   ],
+   "food": [
+    103,
+    132,
+    208
+   ],
+   "choice.": [
+    104
+   ],
+   "Four": [
+    105
+   ],
+   "main": [
+    106
+   ],
+   "themes": [
+    107
+   ],
+   "relevant": [
+    108
+   ],
+   "for": [
+    109
+   ],
+   "acceptance": [
+    111,
+    194
+   ],
+   "identified:": [
+    117
+   ],
+   "i)": [
+    118
+   ],
+   "familiarity": [
+    119
+   ],
+   "knowledge;": [
+    121
+   ],
+   "ii)": [
+    122
+   ],
+   "benefits": [
+    123
+   ],
+   "perception;": [
+    124
+   ],
+   "iii)": [
+    125
+   ],
+   "risks,": [
+    127
+   ],
+   "concerns": [
+    128
+   ],
+   "doubts": [
+    130
+   ],
+   "about": [
+    131
+   ],
+   "safety,": [
+    133
+   ],
+   "resource": [
+    134
+   ],
+   "efficiency": [
+    135
+   ],
+   "performance;": [
+    137
+   ],
+   "iv)": [
+    139
+   ],
+   "interest": [
+    140
+   ],
+   "general": [
+    142
+   ],
+   "attitude.": [
+    143
+   ],
+   "Most": [
+    144
+   ],
+   "interviewees": [
+    145
+   ],
+   "appeared": [
+    146
+   ],
+   "open": [
+    147
+   ],
+   "addressed": [
+    151
+   ],
+   "minimally": [
+    155,
+    168,
+    213
+   ],
+   "processed": [
+    156,
+    169,
+    214
+   ],
+   "options.": [
+    158
+   ],
+   "Meat": [
+    159
+   ],
+   "dairy": [
+    161
+   ],
+   "alternatives": [
+    162
+   ],
+   "snacks": [
+    164
+   ],
+   "are": [
+    165
+   ],
+   "examples": [
+    166
+   ],
+   "that": [
+    171,
+    190,
+    216
+   ],
+   "they": [
+    172
+   ],
+   "would": [
+    173
+   ],
+   "be": [
+    174
+   ],
+   "willing": [
+    175
+   ],
+   "consume.": [
+    177
+   ],
+   "study": [
+    179
+   ],
+   "provides": [
+    180
+   ],
+   "in-depth": [
+    181
+   ],
+   "insights": [
+    182
+   ],
+   "into": [
+    183
+   ],
+   "psychological,": [
+    185
+   ],
+   "social": [
+    186
+   ],
+   "environmental": [
+    188
+   ],
+   "factors": [
+    189
+   ],
+   "contribute": [
+    191
+   ],
+   "results": [
+    202
+   ],
+   "can": [
+    203
+   ],
+   "support": [
+    204
+   ],
+   "researchers": [
+    205
+   ],
+   "industry": [
+    209
+   ],
+   "designing": [
+    211
+   ],
+   "suitable": [
+    212
+   ],
+   "align": [
+    217
+   ],
+   "expectations.": [
+    220
+   ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-10-30T12:39:25.321706",
+  "created_date": "2026-09-09T00:00:00"
+ }
+}

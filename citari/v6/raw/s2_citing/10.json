@@ -1,0 +1,407 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "10",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "594085d5fc91984ea1ffee7bf59b6d9bd802c3e6",
+    "externalIds": {
+     "DOI": "10.3390/beverages12110127",
+     "CorpusId": 294667903
+    },
+    "title": "Sensory Characterization of Fermented Beverages Produced from White Grape Must Enriched with Crushed Aronia Fruit",
+    "venue": "Beverages",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-10-26",
+    "journal": {
+     "name": "Beverages"
+    },
+    "authors": [
+     {
+      "authorId": "12365840",
+      "name": "O. Antoce"
+     },
+     {
+      "authorId": "153020182",
+      "name": "G. Cojocaru"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "d54dc65d58a4c91a2638e1686bc3b5534b4fd313",
+    "externalIds": {
+     "DOI": "10.3390/su182010633",
+     "CorpusId": 293880628
+    },
+    "title": "Varietal Typicity and Sustainability Potential of Indigenous Wines from Historical Moldavia: An Integrated Physicochemical and Sensory Characterization",
+    "venue": "Sustainability",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-10-20",
+    "journal": {
+     "name": "Sustainability"
+    },
+    "authors": [
+     {
+      "authorId": "2393318193",
+      "name": "Daniela Siminel"
+     },
+     {
+      "authorId": "113108835",
+      "name": "E. Scutarașu"
+     },
+     {
+      "authorId": "88020468",
+      "name": "L. Colibaba"
+     },
+     {
+      "authorId": "25595820",
+      "name": "C. Luchian"
+     },
+     {
+      "authorId": "2352332763",
+      "name": "Andrei Scutarașu"
+     },
+     {
+      "authorId": "2337614390",
+      "name": "I. Buțerchi"
+     },
+     {
+      "authorId": "2334371314",
+      "name": "B. Buican"
+     },
+     {
+      "authorId": "11426198",
+      "name": "V. Cotea"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "59f9b0d7ff4461e2df0a0c6e8d1294a68e430432",
+    "externalIds": {
+     "DOI": "10.1016/j.trac.2026.118917",
+     "CorpusId": 288341354
+    },
+    "title": "Revisiting Wine Authentication in a Changing Landscape: Trends, Challenges, and Future Directions",
+    "venue": "Trends in Analytical Chemistry (TrAC)",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-05-01",
+    "journal": {
+     "name": "TrAC Trends in Analytical Chemistry"
+    },
+    "authors": [
+     {
+      "authorId": "2284499907",
+      "name": "L. V. Morales"
+     },
+     {
+      "authorId": "41075784",
+      "name": "D. Ahumada"
+     },
+     {
+      "authorId": "2435829577",
+      "name": "Anna Deben"
+     },
+     {
+      "authorId": "5022842",
+      "name": "S. Sentellas"
+     },
+     {
+      "authorId": "2358715334",
+      "name": "Javier Saurina"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "337a15ff00a9208520de7a1d751add37ae594d71",
+    "externalIds": {
+     "PubMedCentral": "12840275",
+     "DOI": "10.3390/foods15020321",
+     "CorpusId": 284851913,
+     "PubMed": "41596920"
+    },
+    "title": "Characterization of Low-Alcohol Wines Obtained by Post-Fermentative Reverse Osmosis and Vacuum Concentration",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-01-01",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "50234331",
+      "name": "R. Filimon"
+     },
+     {
+      "authorId": "2393685108",
+      "name": "Florin-Dumitru Bora"
+     },
+     {
+      "authorId": "88591432",
+      "name": "C. Nechita"
+     },
+     {
+      "authorId": "13839956",
+      "name": "M. Niculaua"
+     },
+     {
+      "authorId": "40508309",
+      "name": "C. Zamfir"
+     },
+     {
+      "authorId": "2131122518",
+      "name": "R. Filimon"
+     },
+     {
+      "authorId": "88484962",
+      "name": "A. Nechita"
+     },
+     {
+      "authorId": "11426198",
+      "name": "V. Cotea"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "a902be885cbacb9049c8207363eac5e98bfe3661",
+    "externalIds": {
+     "DOI": "10.59463/nfk06x26",
+     "CorpusId": 284026112
+    },
+    "title": "The quality of grape must and wine in the Buzias area, under the conditions of climate change",
+    "venue": "Journal of Horticulture, Forestry and Biotechnology",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-12-18",
+    "journal": {
+     "name": "JOURNAL OF HORTICULTURE, FORESTRY AND BIOTECHNOLOGY"
+    },
+    "authors": [
+     {
+      "authorId": "87359062",
+      "name": "A. Dobrei"
+     },
+     {
+      "authorId": "2258234285",
+      "name": "E. Nistor"
+     },
+     {
+      "authorId": "86964638",
+      "name": "M. Mălăescu"
+     },
+     {
+      "authorId": "3847187",
+      "name": "A. Borozan"
+     },
+     {
+      "authorId": "2301678022",
+      "name": "Dragos Constantinescu"
+     },
+     {
+      "authorId": "2399660039",
+      "name": "Vukohir Vinkits"
+     },
+     {
+      "authorId": "2081730149",
+      "name": "D. Dobromir"
+     },
+     {
+      "authorId": "2526581210",
+      "name": "A. Dobrei"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "341c2654061f06fe5a77280b2f1e2c2351ca62ca",
+    "externalIds": {
+     "DOI": "10.3390/beverages11030067",
+     "CorpusId": 278416941
+    },
+    "title": "Volatile Compounds as Markers of Terroir and Winemaking Practices in Fetească Albă Wines of Romania",
+    "venue": "Beverages",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-05-07",
+    "journal": {
+     "name": "Beverages"
+    },
+    "authors": [
+     {
+      "authorId": null,
+      "name": "Ioana-Cristina Bredeag (Rebigan)"
+     },
+     {
+      "authorId": "116071679",
+      "name": "I. Cioroiu"
+     },
+     {
+      "authorId": "13839956",
+      "name": "M. Niculaua"
+     },
+     {
+      "authorId": "88591432",
+      "name": "C. Nechita"
+     },
+     {
+      "authorId": "11426198",
+      "name": "V. Cotea"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "8a91121fabfd1609839fca345d06cc5ea297c11f",
+    "externalIds": {
+     "DOI": "10.1016/j.tifs.2024.104862",
+     "CorpusId": 275192147
+    },
+    "title": "A Comprehensive Overview of the Principles and Advances in Electronic Noses for the Detection of Alcoholic Beverages",
+    "venue": "Trends in Food Science &amp; Technology",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2024-12-01",
+    "journal": {
+     "name": "Trends in Food Science &amp; Technology"
+    },
+    "authors": [
+     {
+      "authorId": "9197345",
+      "name": "Zi-Chen Zheng"
+     },
+     {
+      "authorId": "152217126",
+      "name": "Ke-Wei Liu"
+     },
+     {
+      "authorId": "2268040637",
+      "name": "Yi-Wen Zhou"
+     },
+     {
+      "authorId": "7012370",
+      "name": "M. Debliquy"
+     },
+     {
+      "authorId": "2338155545",
+      "name": "Carla Bittencourt"
+     },
+     {
+      "authorId": "2152737854",
+      "name": "Chao Zhang"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6c72d88f6c9d820f5163e846ef35185ddfd3b306",
+    "externalIds": {
+     "DOI": "10.3390/su16229998",
+     "CorpusId": 274268451
+    },
+    "title": "Olfactory Profile and Stochastic Analysis: An Innovative Approach for Predicting the Physicochemical Characteristics of Recycled Waste Cooking Oils for Sustainable Biodiesel Production",
+    "venue": "Sustainability",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-11-16",
+    "journal": {
+     "name": "Sustainability"
+    },
+    "authors": [
+     {
+      "authorId": "2497384155",
+      "name": "S. C. de Carvalho"
+     },
+     {
+      "authorId": "2314317364",
+      "name": "Maryana Mathias Costa Silva"
+     },
+     {
+      "authorId": "50196763",
+      "name": "A. Siqueira"
+     },
+     {
+      "authorId": "2498340466",
+      "name": "M. P. de Melo"
+     },
+     {
+      "authorId": "40395366",
+      "name": "D. S. Giordani"
+     },
+     {
+      "authorId": "2510215903",
+      "name": "Tatiane de Oliveira Souza Senra"
+     },
+     {
+      "authorId": "2140173847",
+      "name": "A. L. G. Ferreira"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "71ef7ba037f73f12d05480c8ec1c6890219b6ac2",
+    "externalIds": {
+     "DOI": "10.1016/j.jfca.2024.106751",
+     "CorpusId": 272729489
+    },
+    "title": "IDENTIFICATION OF WHITE WINE ADULTERATION WITH APPLE JUICE AND APPLE CIDER USING CYCLIC VOLTAMMETRY ON A SCREEN-PRINTED ELECTRODE AIDED BY CHEMOMETRIC ANALYSIS",
+    "venue": "Journal of Food Composition and Analysis",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-09-01",
+    "journal": {
+     "name": "Journal of Food Composition and Analysis"
+    },
+    "authors": [
+     {
+      "authorId": "2321755042",
+      "name": "Maria Liveri"
+     },
+     {
+      "authorId": "41225153",
+      "name": "A. Kakoulidou"
+     },
+     {
+      "authorId": "12917863",
+      "name": "Fotios Tsopelas"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1730 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "11",
+ "payload": {
+  "id": "https://openalex.org/W4408642820",
+  "doi": "https://doi.org/10.3389/fnut.2025.1509833",
+  "title": "Consumers acceptance of new food ingredients from the food industry’s by-products—a focus group study",
+  "display_name": "Consumers acceptance of new food ingredients from the food industry’s by-products—a focus group study",
+  "publication_year": 2025,
+  "publication_date": "2025-03-19",
+  "ids": {
+   "openalex": "https://openalex.org/W4408642820",
+   "doi": "https://doi.org/10.3389/fnut.2025.1509833",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/40177179",
+   "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/11961439"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.3389/fnut.2025.1509833",
+   "doi": "https://doi.org/10.3389/fnut.2025.1509833",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3389/fnut.2025.1509833",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2596909297",
+    "display_name": "Frontiers in Nutrition",
+    "issn_l": "2296-861X",
+    "issn": [
+     "2296-861X"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1",
+     "poland-70",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320527",
+    "host_organization_name": "Frontiers Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320527"
+    ],
+    "host_organization_lineage_names": [
+     "Frontiers Media"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Frontiers in Nutrition",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "is_traditional": true,
+  "indexed_in": [
+   "crossref",
+   "doaj",
+   "pubmed"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.3389/fnut.2025.1509833",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5039664122",
+     "display_name": "Sophie Scheibenzuber",
+     "orcid": "https://orcid.org/0000-0003-2924-0617",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2924-0617"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I62916508",
+      "display_name": "Technical University of Munich",
+      "ror": "https://ror.org/02kkvpp62",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I62916508"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sophie Scheibenzuber",
+    "raw_affiliation_strings": [
+     "Department of Life Science Engineering, School of Life Sciences, Technical University of Munich, Freising, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Life Science Engineering, School of Life Sciences, Technical University of Munich, Freising, Germany",
+      "institution_ids": [
+       "https://openalex.org/I62916508"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5033792890",
+     "display_name": "Emilia Pucci",
+     "orcid": "https://orcid.org/0000-0003-2800-4305",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2800-4305"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Emilia Pucci",
+    "raw_affiliation_strings": [
+     "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5091910058",
+     "display_name": "Ombretta Presenti",
+     "orcid": "https://orcid.org/0000-0001-6404-1598",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-6404-1598"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Ombretta Presenti",
+    "raw_affiliation_strings": [
+     "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "Giacomo Serafini",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Giacomo Serafini",
+    "raw_affiliation_strings": [
+     "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5023679910",
+     "display_name": "Chiara Nobili",
+     "orcid": "https://orcid.org/0000-0003-4784-8351",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4784-8351"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Chiara Nobili",
+    "raw_affiliation_strings": [
+     "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5074499984",
+     "display_name": "Claudia Zoani",
+     "orcid": "https://orcid.org/0000-0002-8328-5894",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8328-5894"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Claudia Zoani",
+    "raw_affiliation_strings": [
+     "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department for Sustainability, Sustainable AgriFood Systems Division, Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Rome, Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Denisa Eglantina Duta",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources, Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources, Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5077326983",
+     "display_name": "Adriana Laura Mihai",
+     "orcid": "https://orcid.org/0000-0001-5925-0707",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5925-0707"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Adriana Laura Mihai",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources, Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources, Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Daniela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources, Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources, Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5024489548",
+     "display_name": "Nastasia Belc",
+     "orcid": "https://orcid.org/0000-0002-8732-4539",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8732-4539"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nastasia Belc",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources, Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources, Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5033357679",
+     "display_name": "Eva Falch",
+     "orcid": "https://orcid.org/0000-0001-5434-8617",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5434-8617"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I204778367",
+      "display_name": "Norwegian University of Science and Technology",
+      "ror": "https://ror.org/05xg72x27",
+      "country_code": "NO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I204778367"
+      ]
+     }
+    ],
+    "countries": [
+     "NO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Eva Falch",
+    "raw_affiliation_strings": [
+     "Department of Biotechnology and Food Science, Norwegian University of Science and Technology, Trondheim, Norway"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Biotechnology and Food Science, Norwegian University of Science and Technology, Trondheim, Norway",
+      "institution_ids": [
+       "https://openalex.org/I204778367"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5033066083",
+     "display_name": "Turid Rustad",
+     "orcid": "https://orcid.org/0000-0002-8972-6347",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8972-6347"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I204778367",
+      "display_name": "Norwegian University of Science and Technology",
+      "ror": "https://ror.org/05xg72x27",
+      "country_code": "NO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I204778367"
+      ]
+     }
+    ],
+    "countries": [
+     "NO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Turid Rustad",
+    "raw_affiliation_strings": [
+     "Department of Biotechnology and Food Science, Norwegian University of Science and Technology, Trondheim, Norway"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Biotechnology and Food Science, Norwegian University of Science and Technology, Trondheim, Norway",
+      "institution_ids": [
+       "https://openalex.org/I204778367"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5043368288",
+     "display_name": "Michael Rychlik",
+     "orcid": "https://orcid.org/0000-0002-5826-6288",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5826-6288"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I62916508",
+      "display_name": "Technical University of Munich",
+      "ror": "https://ror.org/02kkvpp62",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I62916508"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Michael Rychlik",
+    "raw_affiliation_strings": [
+     "Department of Life Science Engineering, School of Life Sciences, Technical University of Munich, Freising, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Life Science Engineering, School of Life Sciences, Technical University of Munich, Freising, Germany",
+      "institution_ids": [
+       "https://openalex.org/I62916508"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5036772751",
+   "https://openalex.org/A5043368288"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I4210109653",
+   "https://openalex.org/I62916508"
+  ],
+  "apc_list": {
+   "value": 3150,
+   "currency": "CHF",
+   "value_usd": 3801
+  },
+  "apc_paid": {
+   "value": 3150,
+   "currency": "CHF",
+   "value_usd": 3801
+  },
+  "fwci": 21.9699,
+  "has_fulltext": false,
+  "cited_by_count": 27,
+  "citation_normalized_percentile": {
+   "value": 0.99764234,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 99,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "12",
+   "issue": null,
+   "first_page": "1509833",
+   "last_page": "1509833"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T12057",
+   "display_name": "Consumer Attitudes and Food Labeling",
+   "score": 0.9243000149726868,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2739",
+    "display_name": "Public Health, Environmental and Occupational Health"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/27",
+    "display_name": "Medicine"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T12057",
+    "display_name": "Consumer Attitudes and Food Labeling",
+    "score": 0.9243000149726868,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2739",
+     "display_name": "Public Health, Environmental and Occupational Health"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/27",
+     "display_name": "Medicine"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12114",
+    "display_name": "Sensory Analysis and Statistical Methods",
+    "score": 0.05220000073313713,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11066",
+    "display_name": "Organic Food and Agriculture",
+    "score": 0.002899999963119626,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1110",
+     "display_name": "Plant Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/food-industry-by-products",
+    "display_name": "food by-products",
+    "score": 0.9240000247955322
+   },
+   {
+    "id": "https://openalex.org/keywords/consumer-acceptance",
+    "display_name": "consumer acceptance",
+    "score": 0.8939999938011169
+   },
+   {
+    "id": "https://openalex.org/keywords/food-valorization",
+    "display_name": "food valorization",
+    "score": 0.621999979019165
+   },
+   {
+    "id": "https://openalex.org/keywords/new-food-ingredients",
+    "display_name": "new food ingredients",
+    "score": 0.6259999871253967
+   },
+   {
+    "id": "https://openalex.org/keywords/food-waste-reduction",
+    "display_name": "food waste reduction",
+    "score": 0.5989999771118164
+   },
+   {
+    "id": "https://openalex.org/keywords/purchasing-behavior",
+    "display_name": "purchasing behavior",
+    "score": 0.49399998784065247
+   },
+   {
+    "id": "https://openalex.org/keywords/food-safety-concerns",
+    "display_name": "food safety concerns",
+    "score": 0.46799999475479126
+   },
+   {
+    "id": "https://openalex.org/keywords/health-benefits",
+    "display_name": "health benefits",
+    "score": 0.5329999923706055
+   },
+   {
+    "id": "https://openalex.org/keywords/meat-and-dairy-products",
+    "display_name": "meat and dairy products",
+    "score": 0.7820000052452087
+   },
+   {
+    "id": "https://openalex.org/keywords/cross-cultural-consumer-perception",
+    "display_name": "cross-cultural consumer perception",
+    "score": 0.5410000085830688
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C144133560",
+    "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+    "display_name": "Business",
+    "level": 0,
+    "score": 0.72602379322052
+   },
+   {
+    "id": "https://openalex.org/C56995899",
+    "wikidata": "https://www.wikidata.org/wiki/Q1126687",
+    "display_name": "Focus group",
+    "level": 2,
+    "score": 0.5643273591995239
+   },
+   {
+    "id": "https://openalex.org/C162853370",
+    "wikidata": "https://www.wikidata.org/wiki/Q39809",
+    "display_name": "Marketing",
+    "level": 1,
+    "score": 0.5326240658760071
+   },
+   {
+    "id": "https://openalex.org/C2987718291",
+    "wikidata": "https://www.wikidata.org/wiki/Q2095",
+    "display_name": "Food products",
+    "level": 2,
+    "score": 0.5285400748252869
+   },
+   {
+    "id": "https://openalex.org/C66204764",
+    "wikidata": "https://www.wikidata.org/wiki/Q219416",
+    "display_name": "Sustainability",
+    "level": 2,
+    "score": 0.5204237103462219
+   },
+   {
+    "id": "https://openalex.org/C2908647359",
+    "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+    "display_name": "Population",
+    "level": 2,
+    "score": 0.5104578733444214
+   },
+   {
+    "id": "https://openalex.org/C2778813691",
+    "wikidata": "https://www.wikidata.org/wiki/Q1369832",
+    "display_name": "Purchasing",
+    "level": 2,
+    "score": 0.5082309246063232
+   },
+   {
+    "id": "https://openalex.org/C513059894",
+    "wikidata": "https://www.wikidata.org/wiki/Q540912",
+    "display_name": "Food industry",
+    "level": 2,
+    "score": 0.4991798400878906
+   },
+   {
+    "id": "https://openalex.org/C88199923",
+    "wikidata": "https://www.wikidata.org/wiki/Q627371",
+    "display_name": "Food processing",
+    "level": 2,
+    "score": 0.45052438974380493
+   },
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.33776819705963135
+   },
+   {
+    "id": "https://openalex.org/C37621935",
+    "wikidata": "https://www.wikidata.org/wiki/Q3606845",
+    "display_name": "Agricultural science",
+    "level": 1,
+    "score": 0.3290387690067291
+   },
+   {
+    "id": "https://openalex.org/C99454951",
+    "wikidata": "https://www.wikidata.org/wiki/Q932068",
+    "display_name": "Environmental health",
+    "level": 1,
+    "score": 0.26670610904693604
+   },
+   {
+    "id": "https://openalex.org/C71924100",
+    "wikidata": "https://www.wikidata.org/wiki/Q11190",
+    "display_name": "Medicine",
+    "level": 0,
+    "score": 0.16622906923294067
+   },
+   {
+    "id": "https://openalex.org/C39432304",
+    "wikidata": "https://www.wikidata.org/wiki/Q188847",
+    "display_name": "Environmental science",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C18903297",
+    "wikidata": "https://www.wikidata.org/wiki/Q7150",
+    "display_name": "Ecology",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C86803240",
+    "wikidata": "https://www.wikidata.org/wiki/Q420",
+    "display_name": "Biology",
+    "level": 0,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 5,
+  "locations": [
+   {
+    "id": "doi:10.3389/fnut.2025.1509833",
+    "doi": "https://doi.org/10.3389/fnut.2025.1509833",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fnut.2025.1509833",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2596909297",
+     "display_name": "Frontiers in Nutrition",
+     "issn_l": "2296-861X",
+     "issn": [
+      "2296-861X"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "norway-1",
+      "poland-70",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320527",
+     "host_organization_name": "Frontiers Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320527"
+     ],
+     "host_organization_lineage_names": [
+      "Frontiers Media"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Frontiers in Nutrition",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:europepmc.org:10774998",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11961439",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400806",
+     "display_name": "Europe PMC (PubMed Central)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1303153112",
+     "host_organization_name": "European Bioinformatics Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/I1303153112"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "Text"
+   },
+   {
+    "id": "pmh:oai:pubmedcentral.nih.gov:11961439",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11961439",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2764455111",
+     "display_name": "PubMed Central",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1299303238",
+     "host_organization_name": "National Institutes of Health",
+     "host_organization_lineage": [
+      "https://openalex.org/I1299303238"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Front Nutr",
+    "raw_type": "Text"
+   },
+   {
+    "id": "pmid:40177179",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40177179",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306525036",
+     "display_name": "PubMed",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1299303238",
+     "host_organization_name": "National Institutes of Health",
+     "host_organization_lineage": [
+      "https://openalex.org/I1299303238"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Frontiers in nutrition",
+    "raw_type": "Journal Article"
+   },
+   {
+    "id": "pmh:oai:doaj.org/article:980e9338f0a744f0b50a5f3f77d6abfd",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://doaj.org/article/980e9338f0a744f0b50a5f3f77d6abfd",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401280",
+     "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-sa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Frontiers in Nutrition, Vol 12 (2025)",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.3389/fnut.2025.1509833",
+   "doi": "https://doi.org/10.3389/fnut.2025.1509833",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3389/fnut.2025.1509833",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2596909297",
+    "display_name": "Frontiers in Nutrition",
+    "issn_l": "2296-861X",
+    "issn": [
+     "2296-861X"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "norway-1",
+     "poland-70",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320527",
+    "host_organization_name": "Frontiers Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320527"
+    ],
+    "host_organization_lineage_names": [
+     "Frontiers Media"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Frontiers in Nutrition",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "id": "https://metadata.un.org/sdg/2",
+    "display_name": "Zero hunger",
+    "score": 0.9208999872207642
+   },
+   {
+    "id": "https://metadata.un.org/sdg/12",
+    "display_name": "Responsible consumption and production",
+    "score": 0.8799999952316284
+   },
+   {
+    "id": "https://metadata.un.org/sdg/3",
+    "display_name": "Good health and well-being",
+    "score": 0.5683000087738037
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 47,
+  "referenced_works": [
+   "https://openalex.org/W173678180",
+   "https://openalex.org/W2006003012",
+   "https://openalex.org/W2202350251",
+   "https://openalex.org/W2261803441",
+   "https://openalex.org/W2284341555",
+   "https://openalex.org/W2757602820",
+   "https://openalex.org/W2767644974",
+   "https://openalex.org/W2772939889",
+   "https://openalex.org/W2775245237",
+   "https://openalex.org/W2791559002",
+   "https://openalex.org/W2809718181",
+   "https://openalex.org/W2896296611",
+   "https://openalex.org/W2944151556",
+   "https://openalex.org/W2972281494",
+   "https://openalex.org/W2980016556",
+   "https://openalex.org/W2983231372",
+   "https://openalex.org/W2983928950",
+   "https://openalex.org/W2997116451",
+   "https://openalex.org/W2999897215",
+   "https://openalex.org/W3004769327",
+   "https://openalex.org/W3015320113",
+   "https://openalex.org/W3043223518",
+   "https://openalex.org/W3087057631",
+   "https://openalex.org/W3088857725",
+   "https://openalex.org/W3106922870",
+   "https://openalex.org/W3111610879",
+   "https://openalex.org/W3127000459",
+   "https://openalex.org/W3135604291",
+   "https://openalex.org/W3139410824",
+   "https://openalex.org/W3144615403",
+   "https://openalex.org/W3195136736",
+   "https://openalex.org/W3197252931",
+   "https://openalex.org/W3203357264",
+   "https://openalex.org/W3208320564",
+   "https://openalex.org/W3210833007",
+   "https://openalex.org/W3216622723",
+   "https://openalex.org/W4200121527",
+   "https://openalex.org/W4200357366",
+   "https://openalex.org/W4212952815",
+   "https://openalex.org/W4220988180",
+   "https://openalex.org/W4224935294",
+   "https://openalex.org/W4284888191",
+   "https://openalex.org/W4294009724",
+   "https://openalex.org/W4327748185",
+   "https://openalex.org/W4390646385",
+   "https://openalex.org/W4392246740",
+   "https://openalex.org/W4398778509"
+  ],
+  "related_works": [
+   "https://openalex.org/W4387007084",
+   "https://openalex.org/W4387163183",
+   "https://openalex.org/W4401586347",
+   "https://openalex.org/W4200121527",
+   "https://openalex.org/W4396925029",
+   "https://openalex.org/W4319317391",
+   "https://openalex.org/W7165893347",
+   "https://openalex.org/W2902734857",
+   "https://openalex.org/W2558686688",
+   "https://openalex.org/W2978635349"
+  ],
+  "abstract_inverted_index": {
+   "Food": [
+    0
+   ],
+   "industry": [
+    1
+   ],
+   "by-products": [
+    2,
+    156
+   ],
+   "can": [
+    3
+   ],
+   "be": [
+    4,
+    88
+   ],
+   "valorized": [
+    5
+   ],
+   "by": [
+    6
+   ],
+   "extracting": [
+    7
+   ],
+   "various": [
+    8
+   ],
+   "nutritional": [
+    9,
+    46
+   ],
+   "components,": [
+    10
+   ],
+   "like": [
+    11,
+    220
+   ],
+   "proteins,": [
+    12
+   ],
+   "dietary": [
+    13
+   ],
+   "fiber": [
+    14
+   ],
+   "or": [
+    15,
+    30,
+    173,
+    222
+   ],
+   "other": [
+    16
+   ],
+   "bioactive": [
+    17
+   ],
+   "compounds,": [
+    18
+   ],
+   "depending": [
+    19
+   ],
+   "on": [
+    20
+   ],
+   "the": [
+    21,
+    35,
+    50,
+    54,
+    57,
+    72,
+    81,
+    108,
+    114,
+    141,
+    149,
+    180
+   ],
+   "type": [
+    22
+   ],
+   "of": [
+    23,
+    56,
+    66,
+    80,
+    113,
+    151,
+    206,
+    217
+   ],
+   "by-products.": [
+    24
+   ],
+   "By": [
+    25
+   ],
+   "adding": [
+    26
+   ],
+   "these": [
+    27,
+    121,
+    183
+   ],
+   "to": [
+    28,
+    43,
+    87,
+    106,
+    119,
+    135,
+    190,
+    196,
+    198,
+    231
+   ],
+   "new": [
+    29,
+    122,
+    152,
+    184,
+    207,
+    235
+   ],
+   "already": [
+    31
+   ],
+   "existing": [
+    32
+   ],
+   "food": [
+    33,
+    58,
+    153,
+    200,
+    208,
+    218,
+    226
+   ],
+   "products,": [
+    34
+   ],
+   "consumers'": [
+    36
+   ],
+   "health": [
+    37,
+    187
+   ],
+   "and": [
+    38,
+    75,
+    104,
+    111,
+    128,
+    164,
+    195,
+    210
+   ],
+   "wellbeing": [
+    39
+   ],
+   "may": [
+    40
+   ],
+   "increase": [
+    41
+   ],
+   "due": [
+    42,
+    189
+   ],
+   "a": [
+    44,
+    62,
+    137
+   ],
+   "more": [
+    45
+   ],
+   "diet": [
+    47
+   ],
+   "while": [
+    48
+   ],
+   "at": [
+    49
+   ],
+   "same": [
+    51
+   ],
+   "time": [
+    52
+   ],
+   "increasing": [
+    53
+   ],
+   "sustainability": [
+    55
+   ],
+   "chain.": [
+    59
+   ],
+   "However,": [
+    60,
+    202
+   ],
+   "for": [
+    61,
+    179
+   ],
+   "successful": [
+    63
+   ],
+   "market": [
+    64
+   ],
+   "implementation": [
+    65
+   ],
+   "products": [
+    67,
+    185
+   ],
+   "containing": [
+    68
+   ],
+   "ingredients": [
+    69,
+    154
+   ],
+   "from": [
+    70,
+    155
+   ],
+   "by-products,": [
+    71
+   ],
+   "consumer": [
+    73,
+    76
+   ],
+   "perception": [
+    74
+   ],
+   "acceptance": [
+    77,
+    110,
+    150
+   ],
+   "are": [
+    78
+   ],
+   "one": [
+    79
+   ],
+   "most": [
+    82,
+    165
+   ],
+   "important": [
+    83,
+    229
+   ],
+   "aspects": [
+    84
+   ],
+   "that": [
+    85
+   ],
+   "need": [
+    86
+   ],
+   "considered.": [
+    89
+   ],
+   "Therefore,": [
+    90
+   ],
+   "focus": [
+    91
+   ],
+   "group": [
+    92
+   ],
+   "studies": [
+    93
+   ],
+   "were": [
+    94,
+    131,
+    167,
+    186,
+    204
+   ],
+   "organized": [
+    95
+   ],
+   "in": [
+    96,
+    159,
+    169,
+    182
+   ],
+   "four": [
+    97,
+    161
+   ],
+   "European": [
+    98
+   ],
+   "countries,": [
+    99,
+    163
+   ],
+   "namely": [
+    100
+   ],
+   "Italy,": [
+    101
+   ],
+   "Germany,": [
+    102
+   ],
+   "Romania": [
+    103
+   ],
+   "Norway,": [
+    105
+   ],
+   "investigate": [
+    107
+   ],
+   "perception,": [
+    109
+   ],
+   "willingness": [
+    112
+   ],
+   "general": [
+    115
+   ],
+   "population": [
+    116
+   ],
+   "(ages": [
+    117
+   ],
+   "18-60)": [
+    118
+   ],
+   "buy": [
+    120
+   ],
+   "products.": [
+    123,
+    175,
+    236
+   ],
+   "When": [
+    124
+   ],
+   "possible,": [
+    125
+   ],
+   "individual": [
+    126
+   ],
+   "purchasing": [
+    127
+   ],
+   "consumption": [
+    129
+   ],
+   "trends": [
+    130
+   ],
+   "analyzed": [
+    132
+   ],
+   "as": [
+    133,
+    212,
+    214
+   ],
+   "well": [
+    134,
+    213
+   ],
+   "get": [
+    136
+   ],
+   "deeper": [
+    138
+   ],
+   "insight": [
+    139
+   ],
+   "into": [
+    140
+   ],
+   "decision-making": [
+    142
+   ],
+   "processes": [
+    143
+   ],
+   "during": [
+    144
+   ],
+   "grocery": [
+    145
+   ],
+   "shopping.": [
+    146
+   ],
+   "In": [
+    147
+   ],
+   "summary,": [
+    148
+   ],
+   "was": [
+    157
+   ],
+   "high": [
+    158
+   ],
+   "all": [
+    160
+   ],
+   "studied": [
+    162
+   ],
+   "participants": [
+    166,
+    203
+   ],
+   "interested": [
+    168
+   ],
+   "enriched": [
+    170
+   ],
+   "bakery,": [
+    171
+   ],
+   "meat": [
+    172
+   ],
+   "dairy": [
+    174
+   ],
+   "The": [
+    176
+   ],
+   "main": [
+    177
+   ],
+   "reason": [
+    178
+   ],
+   "interest": [
+    181
+   ],
+   "benefits": [
+    188
+   ],
+   "an": [
+    191,
+    228
+   ],
+   "increased": [
+    192,
+    215
+   ],
+   "nutrient": [
+    193
+   ],
+   "uptake,": [
+    194
+   ],
+   "contribute": [
+    197
+   ],
+   "reducing": [
+    199
+   ],
+   "waste.": [
+    201
+   ],
+   "afraid": [
+    205
+   ],
+   "allergies": [
+    209
+   ],
+   "intolerances": [
+    211
+   ],
+   "concentrations": [
+    216
+   ],
+   "contaminants": [
+    219
+   ],
+   "pesticides": [
+    221
+   ],
+   "mycotoxins,": [
+    223
+   ],
+   "which": [
+    224
+   ],
+   "makes": [
+    225
+   ],
+   "safety": [
+    227
+   ],
+   "point": [
+    230
+   ],
+   "consider": [
+    232
+   ],
+   "before": [
+    233
+   ],
+   "developing": [
+    234
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 19
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 8
+   }
+  ],
+  "updated_date": "2026-11-04T10:54:05.112534",
+  "created_date": "2025-03-20T00:00:00"
+ }
+}

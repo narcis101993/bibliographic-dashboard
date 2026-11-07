@@ -1,0 +1,508 @@
+[
+  {
+    "id": 1,
+    "title": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+    "year": 2020,
+    "doi": "",
+    "citations": 4,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (3 lucrări)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Nutritional and functional properties of some protein sources",
+    "year": 2021,
+    "doi": "10.17930/agl2021124",
+    "citations": 6,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (6 lucrări)",
+      "crossref": "verificat, 5 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (4 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Influence of Plant Proteins (from Pleurotus, pea, corn, soy, oat, hemp and sea buckthorn) Addition on Wheat Dough Rheology",
+    "year": 2021,
+    "doi": "10.15835/buasvmcn-fst:2020.0047",
+    "citations": 2,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (2 lucrări)",
+      "crossref": "verificat, 1 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (2 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "year": 2021,
+    "doi": "10.3390/app11010436",
+    "citations": 44,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (42 lucrări)",
+      "crossref": "verificat, 38 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (32 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 5,
+    "title": "The evolution of the quality parameters on the stored wheat",
+    "year": 2021,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "căutare fără potrivire exactă (8 rezultate, niciun titlu identic)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Sourdough fermentation in gluten-free bread: a shelf-life improvement",
+    "year": 2021,
+    "doi": "",
+    "citations": 1,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 7,
+    "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "year": 2022,
+    "doi": "10.3390/foods11223667",
+    "citations": 11,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (11 lucrări)",
+      "crossref": "verificat, 9 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Buckwheat vs. sorghum flour in gluten-free rice cookies enhanced with pea protein powder",
+    "year": 2022,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "verificat prin căutare; 0 rezultate",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Consumer acceptance of new food ingredients made from by-products – A focus group approach",
+    "year": 2023,
+    "doi": "10.1002/lemi.202359174",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial - zero în sursele accesibile",
+    "sources": {
+      "openalex": "verificat (0 lucrări)",
+      "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "year": 2024,
+    "doi": "10.3390/separations11050141",
+    "citations": 9,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (9 lucrări)",
+      "crossref": "verificat, 9 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (9 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "year": 2025,
+    "doi": "10.3389/fnut.2025.1509833",
+    "citations": 29,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (27 lucrări)",
+      "crossref": "verificat, 25 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (27 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+    "year": 2025,
+    "doi": "10.1038/s41538-025-00536-2",
+    "citations": 4,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (4 lucrări)",
+      "crossref": "verificat, 3 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (3 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Impact of Hemp Flour on the Nutritional, Sensory and Functional Characteristics of Wheat and Whole Wheat Muffins",
+    "year": 2025,
+    "doi": "10.3390/foods14203578",
+    "citations": 4,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (4 lucrări)",
+      "crossref": "verificat, 2 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (4 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 14,
+    "title": "A cross-country consumers' study on the acceptance of grissini enriched with whey",
+    "year": 2025,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "verificat prin căutare; 0 rezultate",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Soil Water Deficit During Wheat Grain Filling Drives Wholemeal Bread Texture in an Extreme Climatic Year",
+    "year": 2026,
+    "doi": "10.3390/agronomy16181832",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial - zero în sursele accesibile",
+    "sources": {
+      "openalex": "verificat (0 lucrări)",
+      "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Consumer Preferences and Nutritional Expectations Toward Reformulated Bakery and Fruit-Based Products: An Exploratory Cross-Sectional Survey in Romania",
+    "year": 2026,
+    "doi": "10.3390/dietetics5040063",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial - zero în sursele accesibile",
+    "sources": {
+      "openalex": "verificat (0 lucrări)",
+      "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 429: )",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 17,
+    "title": "How consumers perceive the use of bioprocessing and non-thermal technologies to develop minimally processed plant-based foods: Insights from a qualitative study",
+    "year": 2026,
+    "doi": "10.1016/j.clrc.2026.100496",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "zero confirmat",
+    "sources": {
+      "openalex": "verificat (0 lucrări)",
+      "crossref": "verificat, 0 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "verificat (0 lucrări)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Nutritional, Sensory and Functional Characteristics of Hemp Flour – Enriched Muffins",
+    "year": 2025,
+    "doi": "10.20944/preprints202507.0934.v1",
+    "citations": 1,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "acoperit",
+    "sources": {
+      "openalex": "verificat (1 lucrări)",
+      "crossref": "verificat, 2 citări raportate (listă indisponibilă fără acces member)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 404: Not Found)",
+      "datacite": "fără înregistrare DataCite",
+      "researchgate": "fără DOI ResearchGate (DOI editor)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 19,
+    "title": "Quantitative measurement of cheese adulteration with non milk fat",
+    "year": 2018,
+    "doi": "10.13140/rg.2.2.29075.86568",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial - zero în sursele accesibile",
+    "sources": {
+      "openalex": "verificat (0 lucrări)",
+      "crossref": "blocat (http-404)",
+      "semanticScholar": "blocat (HTTPError: HTTP Error 404: Not Found)",
+      "datacite": "verificat (citationCount=0)",
+      "researchgate": "verificat (DOI ResearchGate: 10.13140/rg.2.2.29075.86568)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Enrichment of pasta with functional ingredients obtained from vegetable waste and by-products, in order to increase the nutritional and antioxidant potential.",
+    "year": 2019,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Research regarding the achievement of sourdough enriched in phenolic compounds and inulin, using flour from Jerusalem artichoke tubers (Helianthus tuberosus).",
+    "year": 2019,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Development and quality evaluation of cereal based protein enriched food prototypes.",
+    "year": 2023,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Research on the realization and testing of the fermentation capacity of natural sourdough fortified with Spirulina powder.",
+    "year": 2024,
+    "doi": "",
+    "citations": 0,
+    "verifiedSources": [
+      "OpenAlex",
+      "Crossref (doar contor)",
+      "Semantic Scholar",
+      "DataCite"
+    ],
+    "status": "parțial verificat - fără identificator",
+    "sources": {
+      "openalex": "fără înregistrare OpenAlex (căutare după titlu, fără potrivire exactă)",
+      "crossref": "neinterogabil (fără DOI)",
+      "semanticScholar": "indisponibil: căutare Semantic Scholar blocată HTTP 429",
+      "datacite": "neinterogabil (fără DOI)",
+      "researchgate": "neinterogabil (fără DOI)",
+      "googleScholar": "necompletat (import manual)"
+    }
+  }
+]

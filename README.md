@@ -4,7 +4,7 @@ Proiect de documentare bibliografică pentru **Gabriela Daniela Stamatie (Crivea
 
 Dashboard static bilingv (RO/EN) cu:
 - **Publicații** — centralizator cu 23 înregistrări, filtrare, sortare, paginare, export CSV/XLSX
-- **Citări** — 107 lucrări citante, 110 legături, 2 auto-citări, matrice multi-legătură
+- **Citări** — 112 lucrări citante, 115 legături, 2 auto-citări, matrice multi-legătură
 - **Sinteză** — statistici, acoperire, surse, manifest de versiune
 
 ## Structura folderului
@@ -24,16 +24,19 @@ Bibliographic dashboard/
 │       ├── v3/                    Date normalizate v3
 │       ├── v4/                    Date normalizate v4
 │       ├── v5/                    Date normalizate v5
+│       ├── v6/                    Date normalizate v6
 ├── centralizator/          Sursa XLSX/CSV/MD (local)
 │   ├── v1/
 │   ├── v3/
 │   ├── v4/
 │   ├── v5/
+│   ├── v6/
 ├── citari/                 Sursa XLSX/CSV/MD + raw data (local)
 │   ├── v1/
 │   ├── v3/
 │   ├── v4/
 │   ├── v5/
+│   ├── v6/
 ├── scripts/                Scripturi Python de build
 └── README.md               Acest fișier
 ```
@@ -45,15 +48,16 @@ Bibliographic dashboard/
 | **v1** | 3 fișiere (fără sufix) | 3 fișiere (fără sufix) | Versiunea inițială: 19 înregistrări, 99 lucrări citante. |
 | **v3** | 3 fișiere | 3 fișe + acoperire + metodologie | Consolidare: centralizatorul integrează datele de citare. 19 înregistrări, 99 lucrări citante. |
 | **v4** | 3 fișiere | 3 fișe + acoperire + metodologie | 19 înregistrări, 107 lucrări citante. |
-| **v5** | 3 fișiere | 3 fișe + acoperire + metodologie | Refresh automat (GitHub Actions): date actualizate din surse. 107 lucrări citante. |
+| **v5** | 3 fișiere | 3 fișe + acoperire + metodologie | 23 înregistrări, 107 lucrări citante. |
+| **v6** | 3 fișiere | 3 fișe + acoperire + metodologie | Refresh automat (GitHub Actions): date actualizate din surse. 112 lucrări citante. |
 
-## Cifre-cheie (v5)
+## Cifre-cheie (v6)
 
 - 23 publicații (17 articole științifice, 1 preprint, 1 poster)
-- 107 lucrări citante unice, 110 legături de citare
+- 112 lucrări citante unice, 115 legături de citare
 - 2 auto-citări (Foods 2022, Agronomy 2026)
-- Top citate: #1 – 42 citări, #2 – 28 citări, #3 – 11 citări
-- 14 publicații cu DOI, 2 fără citări confirmate, 10 parțial verificate
+- Top citate: #1 – 44 citări, #2 – 29 citări, #3 – 11 citări
+- 14 publicații cu DOI, 1 fără citări confirmate, 11 parțial verificate
 
 ## Funcționalități
 

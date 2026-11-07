@@ -1,19 +1,19 @@
 {
   "schemaVersion": 2,
   "project": "Gabriela Daniela Stamatie — bibliografie și citări",
-  "generatedAt": "2026-11-01T00:00:00+00:00",
+  "generatedAt": "2026-11-07T00:00:00+00:00",
   "generatedAtRule": "SOURCE_DATE_EPOCH if set, else newest citation verification date",
-  "inputDigest": "sha256:0ab10716aa5a4957146a99576d7512a203885ecef83a63bac86c4d6f480e62b3",
+  "inputDigest": "sha256:59d1a3cc07d7b2f9c8502edc3f25f358594457179e72c65214f89aa383d4cfc0",
   "pipeline": {
     "script": "scripts/build_dashboard_data.py",
     "schemaVersion": 2,
     "command": "python3 scripts/build_dashboard_data.py"
   },
-  "dataExtractedAt": "2026-11-01",
+  "dataExtractedAt": "2026-11-07",
   "latest": {
-    "common": "v5",
-    "centralizator": "v5",
-    "citari": "v5"
+    "common": "v6",
+    "centralizator": "v6",
+    "citari": "v6"
   },
   "resolution": {
     "order": [
@@ -172,6 +172,49 @@
         "citations": "data/v5/citations.json",
         "coverage": "data/v5/coverage.json"
       }
+    },
+    {
+      "version": "v6",
+      "centralizator": {
+        "csv": "../centralizator/v6/Centralizator_Articole_Gabriela_Daniela_Stamatie_v6.csv",
+        "records": 23
+      },
+      "citari": {
+        "csv": "../citari/v6/Citari_Articole_Gabriela_Daniela_Stamatie_v6.csv",
+        "records": 112
+      },
+      "stats": {
+        "publications": 23,
+        "citations": 112,
+        "citationLinks": 115,
+        "selfCitations": 2,
+        "externalCitations": 110,
+        "selfCitationLinks": 4,
+        "externalCitationLinks": 111,
+        "publicationsWithDoi": 14,
+        "citingVenues": 60,
+        "publicationYearRange": [
+          2018,
+          2026
+        ]
+      },
+      "coverageStats": {
+        "publications": 23,
+        "covered": 11,
+        "zeroConfirmed": 1,
+        "partiallyVerified": 11,
+        "byStatus": {
+          "acoperit": 11,
+          "parțial - zero în sursele accesibile": 4,
+          "parțial verificat - fără identificator": 7,
+          "zero confirmat": 1
+        }
+      },
+      "data": {
+        "publications": "data/v6/publications.json",
+        "citations": "data/v6/citations.json",
+        "coverage": "data/v6/coverage.json"
+      }
     }
   ],
   "sources": [
@@ -179,14 +222,14 @@
       "id": "openalex",
       "name": "OpenAlex",
       "url": "https://openalex.org/authors/https://orcid.org/0000-0002-1850-7278",
-      "count": 101,
+      "count": 109,
       "countKind": "citationLinks"
     },
     {
       "id": "semantic-scholar",
       "name": "Semantic Scholar",
       "url": "https://www.semanticscholar.org/search?q=Gabriela%20Daniela%20Stamatie&sort=relevance",
-      "count": 64,
+      "count": 86,
       "countKind": "citationLinks"
     },
     {
@@ -239,24 +282,24 @@
   },
   "stats": {
     "publications": 23,
-    "citations": 107,
-    "citationLinks": 110,
+    "citations": 112,
+    "citationLinks": 115,
     "selfCitations": 2,
-    "externalCitations": 105,
+    "externalCitations": 110,
     "selfCitationLinks": 4,
-    "externalCitationLinks": 106,
+    "externalCitationLinks": 111,
     "publicationsWithDoi": 14,
-    "citingVenues": 56,
+    "citingVenues": 60,
     "publicationYearRange": [
       2018,
       2026
     ]
   },
   "changelog": "data/changelog.json",
-  "lastVerified": "2026-11-01",
-  "sourceRetrievedAt": "2026-11-01",
+  "lastVerified": "2026-11-07",
+  "sourceRetrievedAt": "2026-11-07",
   "freshness": {
-    "value": "2026-11-01",
+    "value": "2026-11-07",
     "label": "newest citation verification date",
     "rule": "newest 'Data verificării' across citation rows; generatedAt otherwise"
   }

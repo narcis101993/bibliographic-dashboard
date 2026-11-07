@@ -1,0 +1,157 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "19",
+ "payload": {
+  "data": {
+   "id": "10.13140/rg.2.2.29075.86568",
+   "type": "dois",
+   "attributes": {
+    "doi": "10.13140/rg.2.2.29075.86568",
+    "prefix": "10.13140",
+    "suffix": "rg.2.2.29075.86568",
+    "identifiers": [],
+    "alternateIdentifiers": [],
+    "creators": [
+     {
+      "name": "Enuța Iorga",
+      "affiliation": [],
+      "nameIdentifiers": []
+     },
+     {
+      "name": "Uțoiu, Claudiu",
+      "nameType": "Personal",
+      "givenName": "Claudiu",
+      "familyName": "Uțoiu",
+      "affiliation": [],
+      "nameIdentifiers": []
+     },
+     {
+      "name": "Criveanu-Stamatie, Gabriela Daniela",
+      "nameType": "Personal",
+      "givenName": "Gabriela Daniela",
+      "familyName": "Criveanu-Stamatie",
+      "affiliation": [],
+      "nameIdentifiers": []
+     },
+     {
+      "name": "Ionescu, Valentin",
+      "nameType": "Personal",
+      "givenName": "Valentin",
+      "familyName": "Ionescu",
+      "affiliation": [],
+      "nameIdentifiers": []
+     },
+     {
+      "name": "Todașcă Cristina",
+      "affiliation": [],
+      "nameIdentifiers": []
+     },
+     {
+      "name": "Manolache, Fulvia Ancuta",
+      "nameType": "Personal",
+      "givenName": "Fulvia Ancuta",
+      "familyName": "Manolache",
+      "affiliation": [],
+      "nameIdentifiers": []
+     }
+    ],
+    "titles": [
+     {
+      "title": "QUANTITATIVE MEASUREMENT OF CHEESE ADULTERATION WITH NON MILK FAT"
+     }
+    ],
+    "publisher": "Unpublished",
+    "container": {},
+    "publicationYear": 2018,
+    "subjects": [],
+    "contributors": [],
+    "dates": [
+     {
+      "date": "2018",
+      "dateType": "Issued"
+     }
+    ],
+    "language": "en",
+    "types": {
+     "ris": "RPRT",
+     "bibtex": "article",
+     "citeproc": "article-journal",
+     "schemaOrg": "ScholarlyArticle",
+     "resourceType": "Poster",
+     "resourceTypeGeneral": "Text"
+    },
+    "relatedIdentifiers": [],
+    "relatedItems": [],
+    "sizes": [],
+    "formats": [],
+    "version": null,
+    "rightsList": [],
+    "descriptions": [],
+    "geoLocations": [],
+    "fundingReferences": [],
+    "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8cmVzb3VyY2UgeG1sbnM9Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IGh0dHA6Ly9zY2hlbWEuZGF0YWNpdGUub3JnL21ldGEva2VybmVsLTQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC4xMzE0MC9SRy4yLjIuMjkwNzUuODY1Njg8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5FbnXIm2EgSW9yZ2E8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5DbGF1ZGl1IFXIm29pdTwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkdhYnJpZWxhIERhbmllbGEgQ3JpdmVhbnUtU3RhbWF0aWU8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5WYWxlbnRpbiBJb25lc2N1PC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+VG9kYciZY8SDIENyaXN0aW5hPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RnVsdmlhIEFuY3V0YSBNYW5vbGFjaGU8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5RVUFOVElUQVRJVkUgTUVBU1VSRU1FTlQgT0YgQ0hFRVNFIEFEVUxURVJBVElPTiBXSVRIIE5PTiBNSUxLIEZBVDwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5VbnB1Ymxpc2hlZDwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAxODwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iVGV4dCI+UG9zdGVyPC9yZXNvdXJjZVR5cGU+CiAgPGxhbmd1YWdlPmVuPC9sYW5ndWFnZT4KPC9yZXNvdXJjZT4=",
+    "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.29075.86568",
+    "contentUrl": null,
+    "metadataVersion": 0,
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "source": "mds",
+    "isActive": true,
+    "state": "findable",
+    "reason": null,
+    "viewCount": 0,
+    "viewsOverTime": [],
+    "downloadCount": 0,
+    "downloadsOverTime": [],
+    "referenceCount": 0,
+    "citationCount": 0,
+    "citationsOverTime": [],
+    "partCount": 0,
+    "partOfCount": 0,
+    "versionCount": 0,
+    "versionOfCount": 0,
+    "created": "2024-02-14T13:34:28.000Z",
+    "registered": "2024-02-14T13:34:29.000Z",
+    "published": "2018",
+    "updated": "2025-10-21T17:09:40.000Z"
+   },
+   "relationships": {
+    "client": {
+     "data": {
+      "id": "rg.rg",
+      "type": "clients"
+     }
+    },
+    "provider": {
+     "data": {
+      "id": "rg",
+      "type": "providers"
+     }
+    },
+    "media": {
+     "data": {
+      "id": "10.13140/rg.2.2.29075.86568",
+      "type": "media"
+     }
+    },
+    "references": {
+     "data": []
+    },
+    "citations": {
+     "data": []
+    },
+    "parts": {
+     "data": []
+    },
+    "partOf": {
+     "data": []
+    },
+    "versions": {
+     "data": []
+    },
+    "versionOf": {
+     "data": []
+    }
+   }
+  }
+ }
+}

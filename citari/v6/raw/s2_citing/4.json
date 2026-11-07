@@ -1,0 +1,1317 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "4",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "bd67e0d718525d33b31086ff88b7a5ac8cf370a2",
+    "externalIds": {
+     "PubMedCentral": "13714165",
+     "DOI": "10.1111/1541-4337.70687",
+     "CorpusId": 295162976,
+     "PubMed": "42947309"
+    },
+    "title": "Conventional and Emerging Protein Ingredients in Farinaceous Products: Amino Acid Quality, Digestibility, Biological Value, and Functional Performance",
+    "venue": "Comprehensive Reviews in Food Science and Food Safety",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-10-27",
+    "journal": {
+     "volume": "25",
+     "name": "Comprehensive Reviews in Food Science and Food Safety"
+    },
+    "authors": [
+     {
+      "authorId": "2523674637",
+      "name": "P. Álvarez-Arteaga"
+     },
+     {
+      "authorId": "1423350282",
+      "name": "M. A. Lazo-Vélez"
+     },
+     {
+      "authorId": "2120452418",
+      "name": "L. M. Cordero-Clavijo"
+     },
+     {
+      "authorId": "2092966598",
+      "name": "S. Paterson"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "18a95e6df116d5acc30cede075cfa19dfe6826da",
+    "externalIds": {
+     "DOI": "10.1002/leg3.70130",
+     "CorpusId": 289142048
+    },
+    "title": "Comparative Physicochemical and Techno‐Functional Characterisation of Legume Protein Concentrates for Gluten‐Free Bread Applications",
+    "venue": "Legume Science",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "volume": "8",
+     "name": "Legume Science"
+    },
+    "authors": [
+     {
+      "authorId": "2174913082",
+      "name": "Mary Nkongho Tanyitiku"
+     },
+     {
+      "authorId": "2420653727",
+      "name": "Srivathsa Kumbaji"
+     },
+     {
+      "authorId": "2273619071",
+      "name": "Rakshya Pandit"
+     },
+     {
+      "authorId": "2420647250",
+      "name": "Saritha Kagula"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2d2c548ef4c50f791f6fec450d4f3801ae6d8cb8",
+    "externalIds": {
+     "DOI": "10.3390/app16083860",
+     "CorpusId": 287554342
+    },
+    "title": "Use of Texturised Pea Protein By-Product in High-Protein Bread",
+    "venue": "Applied Sciences",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-04-16",
+    "journal": {
+     "name": "Applied Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "2372063295",
+      "name": "P. Franco"
+     },
+     {
+      "authorId": "2393513598",
+      "name": "Diogo Salvati"
+     },
+     {
+      "authorId": "2241017348",
+      "name": "M. Gómez"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "b0d3b04c3cae3202663d1f7fa16ff20e1ba2dc04",
+    "externalIds": {
+     "PubMedCentral": "13073774",
+     "DOI": "10.3390/foods15071173",
+     "CorpusId": 287034682,
+     "PubMed": "41976467"
+    },
+    "title": "Effect of Regulating Corn Glutelin Peptides via the Plastein Reaction on Its Physicochemical Characteristics and the Quality of Baked Bread",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-03-31",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2384056948",
+      "name": "Yang Sun"
+     },
+     {
+      "authorId": "2383731896",
+      "name": "Wan-Ying Zhang"
+     },
+     {
+      "authorId": "2155710934",
+      "name": "Yue Lu"
+     },
+     {
+      "authorId": "113285426",
+      "name": "Hai-Xing Lu"
+     },
+     {
+      "authorId": "13024057",
+      "name": "Guo-Jun Du"
+     },
+     {
+      "authorId": "88823189",
+      "name": "Yue Zhao"
+     },
+     {
+      "authorId": "2193114208",
+      "name": "Yong-Hui Sun"
+     },
+     {
+      "authorId": "2346246103",
+      "name": "Li-Ying Bo"
+     },
+     {
+      "authorId": "2383566012",
+      "name": "Jian Ren"
+     },
+     {
+      "authorId": "2335189725",
+      "name": "Jing-Jing An"
+     },
+     {
+      "authorId": "2383537292",
+      "name": "Meng Wang"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "3ebe7df4c89a5edfb024bbc90ebb8bc422bdb67d",
+    "externalIds": {
+     "DOI": "10.15237/gida.gd25141",
+     "CorpusId": 287536874
+    },
+    "title": "IN VITRO MINERAL BIOACCESSIBILITY AND CONTRIBUTION TO DIETARY MINERAL INTAKE OF COMMERCIALLY AVAILABLE BREAD TYPES IN TÜRKİYE",
+    "venue": "Gıda",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-03-31",
+    "journal": {
+     "name": "GIDA / THE JOURNAL OF FOOD"
+    },
+    "authors": [
+     {
+      "authorId": "46190081",
+      "name": "Hakan Apaydın"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6980e5355d3391c06388ee79c3b7e7eb0112e408",
+    "externalIds": {
+     "PubMedCentral": "12984096",
+     "DOI": "10.3390/foods15050796",
+     "CorpusId": 286037135,
+     "PubMed": "41829069"
+    },
+    "title": "Time-Dependent Effects of Ultrasonic Modification of Soy Protein Concentrate on the Mixolab Rheology of Enriched Dough",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-02-24",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "6558009",
+      "name": "N. Šekuljica"
+     },
+     {
+      "authorId": null,
+      "name": "Sonja Jakovetić Tanasković"
+     },
+     {
+      "authorId": "2129409244",
+      "name": "Jelena Mijalković"
+     },
+     {
+      "authorId": "2137452846",
+      "name": "Neda Pavlović"
+     },
+     {
+      "authorId": "37414364",
+      "name": "S. Lević"
+     },
+     {
+      "authorId": "14472786",
+      "name": "A. Culețu"
+     },
+     {
+      "authorId": "1446564407",
+      "name": "Z. Knežević-Jugović"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "e7040a3acc5708916c9f9e8ce0f1d12fbb6c8429",
+    "externalIds": {
+     "DOI": "10.1111/1750-3841.70743",
+     "CorpusId": 283565576,
+     "PubMed": "41346313"
+    },
+    "title": "Sacha Inchi (Plukenetia volubilis) Protein-Enriched Bread: Protein Quality, Breadmaking Properties, Textural Profile, and Bioactivity.",
+    "venue": "Journal of Food Science",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-12-01",
+    "journal": {
+     "volume": "90 12",
+     "pages": "\n          e70743\n        ",
+     "name": "Journal of food science"
+    },
+    "authors": [
+     {
+      "authorId": "2120452418",
+      "name": "L. M. Cordero-Clavijo"
+     },
+     {
+      "authorId": "1412850318",
+      "name": "J. Espinosa-Ramírez"
+     },
+     {
+      "authorId": "2396469160",
+      "name": "Marilena Antunes-Ricado"
+     },
+     {
+      "authorId": "1399097564",
+      "name": "C. Chuck-Hernández"
+     },
+     {
+      "authorId": "2265192455",
+      "name": "S. Serna-Saldívar"
+     },
+     {
+      "authorId": "1423350282",
+      "name": "M. A. Lazo-Vélez"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "ff6627f3a00847a27b21f39c327539270d00d39e",
+    "externalIds": {
+     "DOI": "10.1080/09637486.2025.2579728",
+     "CorpusId": 282733635,
+     "PubMed": "41178731"
+    },
+    "title": "Tailor-made protein-rich bread for the elderly: integrating sensory preferences with nutritional and technological goals",
+    "venue": "International Journal of Food Science and Nutrition",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-11-03",
+    "journal": {
+     "volume": "76",
+     "pages": "888 - 898",
+     "name": "International Journal of Food Sciences and Nutrition"
+    },
+    "authors": [
+     {
+      "authorId": "2114496719",
+      "name": "Martina Moretton"
+     },
+     {
+      "authorId": "51226169",
+      "name": "Camilla Cattaneo"
+     },
+     {
+      "authorId": "3691415",
+      "name": "N. Pellegrini"
+     },
+     {
+      "authorId": "2247829328",
+      "name": "Ella Pagliarini"
+     },
+     {
+      "authorId": "2266072372",
+      "name": "Monica Anese"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "a4aebd210b5dbe8788bad4275d2ec2596b338fce",
+    "externalIds": {
+     "DOI": "10.1016/j.afres.2025.101303",
+     "CorpusId": 280961238
+    },
+    "title": "Quality and Nutritional Evaluation of Bakery Products Enriched with Cricket Meal",
+    "venue": "Applied Food Research",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-08-01",
+    "journal": {
+     "name": "Applied Food Research"
+    },
+    "authors": [
+     {
+      "authorId": "41022614",
+      "name": "Sarvenaz Khalili Tilami"
+     },
+     {
+      "authorId": "2090232895",
+      "name": "L. Jurkaninová"
+     },
+     {
+      "authorId": "10701880",
+      "name": "Z. Kotíková"
+     },
+     {
+      "authorId": "2088535090",
+      "name": "P. Škvorová"
+     },
+     {
+      "authorId": "2377867005",
+      "name": "Žaneta Ferusová"
+     },
+     {
+      "authorId": "152395562",
+      "name": "L. Kouřimská"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "3079c52b4fd5e6b74d905560ff55a2e98153fe23",
+    "externalIds": {
+     "DOI": "10.1016/j.foodhyd.2025.111399",
+     "CorpusId": 277558094
+    },
+    "title": "Polyphenols as enhancers of emulsifying and antioxidant properties of egg and yeast protein emulsions: understanding the molecular interactions behind their technological and functional potential",
+    "venue": "Food Hydrocolloids",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-04-01",
+    "journal": {
+     "name": "Food Hydrocolloids"
+    },
+    "authors": [
+     {
+      "authorId": "2200315952",
+      "name": "A. Ribeiro"
+     },
+     {
+      "authorId": "2331606415",
+      "name": "Carlo Bravo"
+     },
+     {
+      "authorId": "2271464988",
+      "name": "R. Ramos"
+     },
+     {
+      "authorId": "2326015154",
+      "name": "Ricardo Dias"
+     },
+     {
+      "authorId": "2235796",
+      "name": "N. Mateus"
+     },
+     {
+      "authorId": "48349783",
+      "name": "V. D. de Freitas"
+     },
+     {
+      "authorId": "1412626837",
+      "name": "Rosa Pérez-Gregorio"
+     },
+     {
+      "authorId": "144241742",
+      "name": "Susana Soares"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "60e413ecafd0ed28ef1de13fa18243ed04139dda",
+    "externalIds": {
+     "DOI": "10.1016/j.fufo.2025.100612",
+     "CorpusId": 277339172
+    },
+    "title": "Unveiling the Protein Profile and Techno-Functional Potential of Edible Cricket Protein Concentrates: A Comparative Study of Different Body Parts",
+    "venue": "Future Foods",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-03-01",
+    "journal": {
+     "name": "Future Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2282321442",
+      "name": "Alejandro Brena-Melendez"
+     },
+     {
+      "authorId": "2486616120",
+      "name": "Johanan del Pino Espinosa Ramírez"
+     },
+     {
+      "authorId": "1404046401",
+      "name": "L. Garcia-Amezquita"
+     },
+     {
+      "authorId": "151102644",
+      "name": "M. Aguirre"
+     },
+     {
+      "authorId": "2282324048",
+      "name": "Andrea Liceaga"
+     },
+     {
+      "authorId": "1404046396",
+      "name": "V. Tejada-Ortigoza"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "eb942d6aea41e04b46014d4353d3969c5cbe61eb",
+    "externalIds": {
+     "DOI": "10.31883/pjfns/199852",
+     "CorpusId": 275980538
+    },
+    "title": "Impact of Lupin Inclusion on the Rheological and Qualitative Characteristics, and Sensory Acceptability of Baked Rolls",
+    "venue": "Polish Journal of Food and Nutrition Sciences",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-01-28",
+    "journal": {
+     "name": "Polish Journal of Food and Nutrition Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "2216873198",
+      "name": "Tatiana Holkovičová"
+     },
+     {
+      "authorId": "13414424",
+      "name": "Z. Kohajdová"
+     },
+     {
+      "authorId": "14743846",
+      "name": "M. Lauková"
+     },
+     {
+      "authorId": "12242576",
+      "name": "L. Minarovičová"
+     },
+     {
+      "authorId": "8410113",
+      "name": "L. Staruch"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "4a4aa3e916c9192182614e455615a6b60c2865ea",
+    "externalIds": {
+     "DOI": "10.1080/10408398.2024.2442527",
+     "CorpusId": 274980923,
+     "PubMed": "39714071"
+    },
+    "title": "Impact of conventional and emerging processing methods on alternative breads– a comprehensive review and meta-analysis",
+    "venue": "Critical reviews in food science and nutrition",
+    "year": 2024,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-12-23",
+    "journal": {
+     "volume": "65",
+     "pages": "6503 - 6523",
+     "name": "Critical Reviews in Food Science and Nutrition"
+    },
+    "authors": [
+     {
+      "authorId": "2240853774",
+      "name": "Mariana Maçãs"
+     },
+     {
+      "authorId": "2240863257",
+      "name": "Bárbara Biduski"
+     },
+     {
+      "authorId": "3515215",
+      "name": "A. Ferragina"
+     },
+     {
+      "authorId": null,
+      "name": "Antonia Al Dos Santos"
+     },
+     {
+      "authorId": "2319745386",
+      "name": "M. Huet"
+     },
+     {
+      "authorId": "2237260247",
+      "name": "E. Arendt"
+     },
+     {
+      "authorId": "2240842106",
+      "name": "Eimear Gallagher"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "d38a99f8d40b994413efbb1e725a4991d08d3adc",
+    "externalIds": {
+     "DOI": "10.1007/s11694-024-03014-7",
+     "CorpusId": 274725667
+    },
+    "title": "Production, characterization and spray-drying encapsulation of date (Phoenix dactylifera L.) seed protein hydrolysates for bread fortification",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-12-12",
+    "journal": {
+     "volume": "19",
+     "pages": "938 - 951",
+     "name": "Journal of Food Measurement and Characterization"
+    },
+    "authors": [
+     {
+      "authorId": "88739611",
+      "name": "Zahra Akbarbaglu"
+     },
+     {
+      "authorId": "13576778",
+      "name": "Fardin Tamjidi"
+     },
+     {
+      "authorId": "34277180",
+      "name": "K. Sarabandi"
+     },
+     {
+      "authorId": "152529167",
+      "name": "A. Ayaseh"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "b021281275bf6717358e855b19f0adf730edafd8",
+    "externalIds": {
+     "DOI": "10.1016/j.fbio.2024.105580",
+     "CorpusId": 274414035
+    },
+    "title": "Plant protein innovations in snacks and bakery: Synergy of market trends and scientific advances",
+    "venue": "Food Bioscience",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-12-01",
+    "journal": {
+     "name": "Food Bioscience"
+    },
+    "authors": [
+     {
+      "authorId": "3670073",
+      "name": "F. Boukid"
+     },
+     {
+      "authorId": "81604165",
+      "name": "Marina Mefleh"
+     },
+     {
+      "authorId": "2333161735",
+      "name": "Hamza Mameri"
+     },
+     {
+      "authorId": "2282011809",
+      "name": "Cristina M. Rosell"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "5061ff99a90913fb6656de5806a08881d7c63d08",
+    "externalIds": {
+     "DOI": "10.1007/s13197-024-06072-3",
+     "CorpusId": 273540252,
+     "PubMed": "40182681"
+    },
+    "title": "Effect of incorporating plant and animal-derived protein sources into whole wheat flour on its physical, rheological, nutritional, and chapati-making attributes",
+    "venue": "Journal of food science and technology",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-10-22",
+    "journal": {
+     "volume": "62",
+     "pages": "841 - 852",
+     "name": "Journal of Food Science and Technology"
+    },
+    "authors": [
+     {
+      "authorId": "94649694",
+      "name": "Kaneez Haleema"
+     },
+     {
+      "authorId": "13060102",
+      "name": "Suresh D. Sakhare"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "234809dadd1198e4b03585a18c38d7d6a5710dc3",
+    "externalIds": {
+     "DOI": "10.1016/j.ijgfs.2024.101044",
+     "CorpusId": 273574926
+    },
+    "title": "Chickpea flour fermentation with kefir improves bread properties",
+    "venue": "International Journal of Gastronomy and Food Science",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-10-01",
+    "journal": {
+     "name": "International Journal of Gastronomy and Food Science"
+    },
+    "authors": [
+     {
+      "authorId": "2327464547",
+      "name": "Micaela Parmigiani"
+     },
+     {
+      "authorId": "2327460410",
+      "name": "Manuel M. Vidal Brambilla"
+     },
+     {
+      "authorId": "2296663231",
+      "name": "Débora N. López"
+     },
+     {
+      "authorId": "2327462041",
+      "name": "Valeria Boeris"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "54f8d3cb1bf5b160ff33bde5945847f3e9ebf5ad",
+    "externalIds": {
+     "DOI": "10.1016/j.appet.2024.107687",
+     "CorpusId": 272757961,
+     "PubMed": "39307463"
+    },
+    "title": "Athletes Preferences and Willingness to Pay for Innovative High-Protein Functional Foods.",
+    "venue": "Appetite",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-09-20",
+    "journal": {
+     "pages": "\n          107687\n        ",
+     "name": "Appetite"
+    },
+    "authors": [
+     {
+      "authorId": "2296729416",
+      "name": "M. Reitano"
+     },
+     {
+      "authorId": "1836550",
+      "name": "R. Selvaggi"
+     },
+     {
+      "authorId": "52018449",
+      "name": "Gaetano Chinnici"
+     },
+     {
+      "authorId": "143643956",
+      "name": "G. Pappalardo"
+     },
+     {
+      "authorId": "2321945986",
+      "name": "Kohei Yagi"
+     },
+     {
+      "authorId": "39947818",
+      "name": "Biagio Pecorino"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "7001c241814f501836652dd55304430fb67cbe0a",
+    "externalIds": {
+     "PubMedCentral": "11740750",
+     "DOI": "10.17113/ftb.62.04.24.8588",
+     "CorpusId": 275138334,
+     "PubMed": "39830876"
+    },
+    "title": "Compatibility of Whole Wheat-Based Composite Flour in the Development of Functional Foods",
+    "venue": "Food Technology and Biotechnology",
+    "year": 2024,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-09-01",
+    "journal": {
+     "volume": "62",
+     "pages": "425 - 448",
+     "name": "Food Technology and Biotechnology"
+    },
+    "authors": [
+     {
+      "authorId": "2337826166",
+      "name": "A. Weerarathna"
+     },
+     {
+      "authorId": "2337826746",
+      "name": "Matara Arahchige Jagath Wansapala"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "99fbeb1c86acb4613784b03eccdfc302c332b2d8",
+    "externalIds": {
+     "PubMedCentral": "11241233",
+     "DOI": "10.3390/foods13132062",
+     "CorpusId": 270830434,
+     "PubMed": "38998567"
+    },
+    "title": "Technological and Nutritional Aspects of Bread Production: An Overview of Current Status and Future Challenges",
+    "venue": "Foods",
+    "year": 2024,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-06-28",
+    "journal": {
+     "volume": "13",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2308905396",
+      "name": "Mariana Mesta-Corral"
+     },
+     {
+      "authorId": "2244511688",
+      "name": "Ricardo Gómez-García"
+     },
+     {
+      "authorId": "4979783",
+      "name": "N. Balagurusamy"
+     },
+     {
+      "authorId": "1405428302",
+      "name": "Cristian Torres-León"
+     },
+     {
+      "authorId": "1412942870",
+      "name": "A. Hernández-Almanza"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "0ae896023044a048633ff9d6c80828806808fc09",
+    "externalIds": {
+     "DOI": "10.3390/app14083479",
+     "CorpusId": 269312632
+    },
+    "title": "Assessment of the Performance of Oat Flakes and Pumpkin Seed Powders in Gluten-Free Dough and Bread Based on Rice Flour",
+    "venue": "Applied Sciences",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-04-20",
+    "journal": {
+     "name": "Applied Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "144461707",
+      "name": "I. Banu"
+     },
+     {
+      "authorId": "5413530",
+      "name": "I. Aprodu"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "e2aab88bc5d3aa0e3d05a33d613030e5017d2748",
+    "externalIds": {
+     "PubMedCentral": "11315971",
+     "DOI": "10.1155/2024/2662967",
+     "CorpusId": 271680567,
+     "PubMed": "39132548"
+    },
+    "title": "Enriching Wheat Bread With Banana Peel Powder: Impact on Nutritional Attributes, Bioactive Compounds, and Antioxidant Activity",
+    "venue": "International journal of food Science",
+    "year": 2024,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2024-01-01",
+    "journal": {
+     "volume": "2024",
+     "name": "International Journal of Food Science"
+    },
+    "authors": [
+     {
+      "authorId": "2274564426",
+      "name": "M. Akhter"
+     },
+     {
+      "authorId": "2314622863",
+      "name": "Md. Al-Amin"
+     },
+     {
+      "authorId": "2268302423",
+      "name": "Md Akram Hossain"
+     },
+     {
+      "authorId": "2143951535",
+      "name": "M. M. Kamal"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "72838ef52deef73a4a6df048fb75df2bdb76cc2e",
+    "externalIds": {
+     "DOI": "10.1016/j.lwt.2023.115602",
+     "CorpusId": 265583987
+    },
+    "title": "Effect of full fat and defatted insect meals in breadmaking quality",
+    "venue": "LWT",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-12-01",
+    "journal": {
+     "name": "LWT"
+    },
+    "authors": [
+     {
+      "authorId": "2269336395",
+      "name": "Edgar Bottle"
+     },
+     {
+      "authorId": "1412850318",
+      "name": "J. Espinosa-Ramírez"
+     },
+     {
+      "authorId": "1398856380",
+      "name": "S. Serna-Saldívar"
+     },
+     {
+      "authorId": "1404046396",
+      "name": "V. Tejada-Ortigoza"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "0cbf189e1a18a912afc503054c7e083eb6843d3e",
+    "externalIds": {
+     "DOI": "10.1016/j.lwt.2023.115653",
+     "CorpusId": 266275353
+    },
+    "title": "Biological stabilization of Arthrospira bioactive-peptides within biopolymers: Functional food formulation; bitterness-masking and nutritional aspects",
+    "venue": "LWT",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-12-01",
+    "journal": {
+     "name": "LWT"
+    },
+    "authors": [
+     {
+      "authorId": "88739611",
+      "name": "Zahra Akbarbaglu"
+     },
+     {
+      "authorId": "152529167",
+      "name": "A. Ayaseh"
+     },
+     {
+      "authorId": "5346307",
+      "name": "B. Ghanbarzadeh"
+     },
+     {
+      "authorId": "34277180",
+      "name": "K. Sarabandi"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "4b3f0851c660dfcefce01b0f2cd65ffd394dcd2e",
+    "externalIds": {
+     "DOI": "10.1016/j.jafr.2023.100921",
+     "CorpusId": 266406978
+    },
+    "title": "Nutritional significance of velvet bean (Mucuna pruriens) and opportunities for its processing into value-added products",
+    "venue": "Journal of Agriculture and Food Research",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-12-01",
+    "journal": {
+     "name": "Journal of Agriculture and Food Research"
+    },
+    "authors": [
+     {
+      "authorId": "2198993560",
+      "name": "D. Sowdhanya"
+     },
+     {
+      "authorId": "143761427",
+      "name": "Jyoti Singh"
+     },
+     {
+      "authorId": "49303094",
+      "name": "Prasad Rasane"
+     },
+     {
+      "authorId": "3649880",
+      "name": "Sawinder Kaur"
+     },
+     {
+      "authorId": "2272073494",
+      "name": "Jaspreet Kaur"
+     },
+     {
+      "authorId": "5677716",
+      "name": "S. Ercişli"
+     },
+     {
+      "authorId": "2275236424",
+      "name": "Hitesh Verma"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "465d3ce823bd36479d6fd7dbf80e6fe5c722fb86",
+    "externalIds": {
+     "DOI": "10.1016/j.foodres.2023.113630",
+     "CorpusId": 264505636,
+     "PubMed": "37986480"
+    },
+    "title": "In vitro digestion properties and use of automatic image analysis to assess the quality of wheat bread enriched with whole faba bean (Vicia faba L.) flour and its protein-rich fraction.",
+    "venue": "Food Research International",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2023-10-01",
+    "journal": {
+     "volume": "174 Pt 1",
+     "pages": "\n          113630\n        ",
+     "name": "Food research international"
+    },
+    "authors": [
+     {
+      "authorId": "2261843480",
+      "name": "Courtney Johnston"
+     },
+     {
+      "authorId": null,
+      "name": "Sze Ying Leong"
+     },
+     {
+      "authorId": "2261837514",
+      "name": "Callum Teape"
+     },
+     {
+      "authorId": "2261840041",
+      "name": "Veronica Liesaputra"
+     },
+     {
+      "authorId": "4522422",
+      "name": "I. Oey"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "18858ff4eb8513eea2ea48d1cd87827f15ddb42b",
+    "externalIds": {
+     "DOI": "10.1080/10408398.2022.2139223",
+     "CorpusId": 253306714,
+     "PubMed": "38708867"
+    },
+    "title": "A comprehensive review on pulse protein fractionation and extraction: processes, functionality, and food applications",
+    "venue": "Critical reviews in food science and nutrition",
+    "year": 2022,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-11-03",
+    "journal": {
+     "volume": "64",
+     "pages": "4179 - 4201",
+     "name": "Critical Reviews in Food Science and Nutrition"
+    },
+    "authors": [
+     {
+      "authorId": "2035824219",
+      "name": "J. Rivera"
+     },
+     {
+      "authorId": "11504904",
+      "name": "K. Siliveru"
+     },
+     {
+      "authorId": "2110524589",
+      "name": "Yong-Hui Li"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6eb354f00bb1611a39d0db89d000fb782e279197",
+    "externalIds": {
+     "PubMedCentral": "9407068",
+     "DOI": "10.3390/foods11162399",
+     "CorpusId": 251504625,
+     "PubMed": "36010405"
+    },
+    "title": "Protein Ingredients in Bread: Technological, Textural and Health Implications",
+    "venue": "Foods",
+    "year": 2022,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-08-01",
+    "journal": {
+     "volume": "11",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": null,
+      "name": "Pavel Prieto-Vázquez Del Mercado"
+     },
+     {
+      "authorId": "143785619",
+      "name": "L. Mojica"
+     },
+     {
+      "authorId": "1446644518",
+      "name": "N. Morales-Hernández"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "ed6a128e76aca4501ca3f3eaadbc57ace1732a9d",
+    "externalIds": {
+     "DOI": "10.1111/1750-3841.16263",
+     "CorpusId": 251158684,
+     "PubMed": "35904200"
+    },
+    "title": "Effects of the substitution of wheat flour with raw or germinated ayocote bean (Phaseolus coccineus) flour on the nutritional properties and quality of bread.",
+    "venue": "Journal of Food Science",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-07-29",
+    "journal": {
+     "name": "Journal of food science"
+    },
+    "authors": [
+     {
+      "authorId": "1412850318",
+      "name": "J. Espinosa-Ramírez"
+     },
+     {
+      "authorId": "1414099315",
+      "name": "R. M. Mariscal-Moreno"
+     },
+     {
+      "authorId": "1399097564",
+      "name": "C. Chuck-Hernández"
+     },
+     {
+      "authorId": "1398856380",
+      "name": "S. Serna-Saldívar"
+     },
+     {
+      "authorId": "2120523179",
+      "name": "R. S. Espiricueta-Candelaria"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "5f4e34889eb5fc092dfe4b603cdad71d937abe03",
+    "externalIds": {
+     "DOI": "10.1021/acs.jafc.1c07576",
+     "CorpusId": 246239152,
+     "PubMed": "35067056"
+    },
+    "title": "Current Progress in the Extraction, Functional Properties, Interaction with Polyphenols, and Application of Legume Protein.",
+    "venue": "Journal of Agricultural and Food Chemistry",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2022-01-23",
+    "journal": {
+     "name": "Journal of agricultural and food chemistry"
+    },
+    "authors": [
+     {
+      "authorId": "51101596",
+      "name": "Chao-Ting Wen"
+     },
+     {
+      "authorId": "2158130382",
+      "name": "Guo-Yan Liu"
+     },
+     {
+      "authorId": "6471056",
+      "name": "Jiaoyan Ren"
+     },
+     {
+      "authorId": "4234133",
+      "name": "Qian-Chun Deng"
+     },
+     {
+      "authorId": "2152775354",
+      "name": "Xin Xu"
+     },
+     {
+      "authorId": "47539777",
+      "name": "Ji-Xian Zhang"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "626e76f82bba5b38d8387c17a75727da6661762e",
+    "externalIds": {
+     "DOI": "10.3390/app12031035",
+     "CorpusId": 246186036
+    },
+    "title": "Recent Advances in Cereals, Legumes and Oilseeds Grain Products Rheology and Quality",
+    "venue": "Applied Sciences",
+    "year": 2022,
+    "publicationTypes": null,
+    "publicationDate": "2022-01-20",
+    "journal": {
+     "name": "Applied Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "35151533",
+      "name": "G. Codină"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "d24bfa602c5a76b597a613b66a258d37bd2ee577",
+    "externalIds": {
+     "CorpusId": 249567225
+    },
+    "title": "Rheological Approaches of Wheat Flour Dough Enriched with Germinated Soybean and Lentil",
+    "venue": "",
+    "year": 2021,
+    "publicationTypes": null,
+    "publicationDate": null,
+    "journal": null,
+    "authors": [
+     {
+      "authorId": "2169738716",
+      "name": "lina Ungureanu-Iuga"
+     },
+     {
+      "authorId": "104331608",
+      "name": "Denisa Atudorei"
+     },
+     {
+      "authorId": "88859863",
+      "name": "Georgiana G. Codin"
+     },
+     {
+      "authorId": "12990493",
+      "name": "S. Mironeasa"
+     }
+    ]
+   }
+  }
+ ]
+}

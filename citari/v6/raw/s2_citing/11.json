@@ -1,0 +1,1083 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "11",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "58506ff3d21abd4cea4220ff959cfd6a018cdfc5",
+    "externalIds": {
+     "DOI": "10.1016/j.tifs.2026.106102",
+     "CorpusId": 292392530
+    },
+    "title": "The phytochemicals of durian (Durio zibethinus) pulp and agricultural by-products: A systematic review of their benefits for metabolic health and bio-waste valorisation",
+    "venue": "Trends in Food Science &amp; Technology",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2026-12-01",
+    "journal": {
+     "name": "Trends in Food Science &amp; Technology"
+    },
+    "authors": [
+     {
+      "authorId": "2368378562",
+      "name": "Nur Sahira Noorhashim"
+     },
+     {
+      "authorId": "145231652",
+      "name": "A. Azlan"
+     },
+     {
+      "authorId": "51107156",
+      "name": "N. A. Razali"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "fcc30234f4cb10247cecc15cc043feb58fdc2ca2",
+    "externalIds": {
+     "DOI": "10.1016/j.fbio.2026.110082",
+     "CorpusId": 292401291
+    },
+    "title": "Brewer's spent grain and spent yeast as sustainable functional ingredients for food applications: Technological advances, challenges and future perspectives",
+    "venue": "Food Bioscience",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-11-01",
+    "journal": {
+     "name": "Food Bioscience"
+    },
+    "authors": [
+     {
+      "authorId": "1563146956",
+      "name": "E. Pérez-García"
+     },
+     {
+      "authorId": "2332400053",
+      "name": "Esther Sanjuán"
+     },
+     {
+      "authorId": "143962615",
+      "name": "A. Raposo"
+     },
+     {
+      "authorId": "2504962420",
+      "name": "José Raduan Jaber"
+     },
+     {
+      "authorId": "2233830777",
+      "name": "A. S. Ramírez"
+     },
+     {
+      "authorId": "1828815262",
+      "name": "Ariana Saraiva"
+     },
+     {
+      "authorId": "5394752",
+      "name": "H. Alfheeaid"
+     },
+     {
+      "authorId": "10729135",
+      "name": "C. Carrascosa"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2e5cfddc897bb72679c550d55df0d008eb1f6829",
+    "externalIds": {
+     "DOI": "10.1016/j.foohum.2026.101504",
+     "CorpusId": 292719609
+    },
+    "title": "Bridging Bioprocess and Market: Precision Nutrition, Safety Governance, and Consumer Perceptions of Fruit Waste-Derived Single-Cell Proteins",
+    "venue": "Food and Humanity",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-10-01",
+    "journal": {
+     "name": "Food and Humanity"
+    },
+    "authors": [
+     {
+      "authorId": "2391771406",
+      "name": "Gebeyehu Ayele"
+     },
+     {
+      "authorId": "46621742",
+      "name": "H. Admassu"
+     },
+     {
+      "authorId": "96297101",
+      "name": "Gadissa Mosisa"
+     },
+     {
+      "authorId": "83277573",
+      "name": "Abebe Desalegn"
+     },
+     {
+      "authorId": "2391771375",
+      "name": "Molla Abeje"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6d90d76cc9faccc8de79c7233f28ff7b054df899",
+    "externalIds": {
+     "DOI": "10.1007/s11694-026-04945-z",
+     "CorpusId": 291998886
+    },
+    "title": "Chemical composition of nettle (Urtica dioica L.) seeds and products enriched by nettle seeds and extract: nutritional potential and prospects for utilization as a health food",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-09-11",
+    "journal": {
+     "volume": "20",
+     "pages": "19773 - 19782",
+     "name": "Journal of Food Measurement and Characterization"
+    },
+    "authors": [
+     {
+      "authorId": "2065433140",
+      "name": "J. Mitrović"
+     },
+     {
+      "authorId": "2276930249",
+      "name": "Nada Č. Nikolić"
+     },
+     {
+      "authorId": "39187243",
+      "name": "Ivana T. Karabegović"
+     },
+     {
+      "authorId": "48635260",
+      "name": "Mirjana B. Pešić"
+     },
+     {
+      "authorId": "12056797",
+      "name": "O. Šimurina"
+     },
+     {
+      "authorId": "50404836",
+      "name": "S. Savić"
+     },
+     {
+      "authorId": "15473437",
+      "name": "B. Danilović"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "fc3d559cdf0cbd07546e2fff198887f4c15c183c",
+    "externalIds": {
+     "DOI": "10.1016/j.cogsc.2026.101100",
+     "CorpusId": 291786938
+    },
+    "title": "Fungal valorisation of food-industry side-streams: an integration-first framework",
+    "venue": "Current Opinion in Green and Sustainable Chemistry",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-09-01",
+    "journal": {
+     "name": "Current Opinion in Green and Sustainable Chemistry"
+    },
+    "authors": [
+     {
+      "authorId": "1441328206",
+      "name": "C. P. Carrasco-Cabrera"
+     },
+     {
+      "authorId": "5593976",
+      "name": "A. Karpe"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "8f4f92a655fcafd4c119d3117010ba500dd8cbe5",
+    "externalIds": {
+     "PubMedCentral": "13565372",
+     "DOI": "10.3390/foods15172950",
+     "CorpusId": 291439409,
+     "PubMed": "42737195"
+    },
+    "title": "Development and Validation of a Multidimensional Consumer Assessment Framework for Alternative-Ingredient Bakery and Confectionery Products: Implications for Nutrition Methodology and Sustainable Diet Research",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2026-08-22",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "87528478",
+      "name": "A. Dicu"
+     },
+     {
+      "authorId": "2351537461",
+      "name": "R. Marin"
+     },
+     {
+      "authorId": "49414683",
+      "name": "Calin Muntean"
+     },
+     {
+      "authorId": "8249350",
+      "name": "R. Moleriu"
+     },
+     {
+      "authorId": "2341598415",
+      "name": "Anca Tudor"
+     },
+     {
+      "authorId": "2425090146",
+      "name": "Teodora Piroș"
+     },
+     {
+      "authorId": "98094126",
+      "name": "F. Barbu"
+     },
+     {
+      "authorId": "89156153",
+      "name": "D. Radu"
+     },
+     {
+      "authorId": "2364023790",
+      "name": "L. Bozdog"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "818f1bba200189ebaf6e2219ca012fe5c365cf36",
+    "externalIds": {
+     "DOI": "10.1016/j.cogsc.2026.101091",
+     "CorpusId": 290919235
+    },
+    "title": "Fermentelligence – Can AI-optimised fermentation of agri-food side streams deliver the sustainable protein promise?",
+    "venue": "Current Opinion in Green and Sustainable Chemistry",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-08-01",
+    "journal": {
+     "name": "Current Opinion in Green and Sustainable Chemistry"
+    },
+    "authors": [
+     {
+      "authorId": "2211275110",
+      "name": "Alexander L. Bowler"
+     },
+     {
+      "authorId": "52151460",
+      "name": "Jordan Pennells"
+     },
+     {
+      "authorId": "1865348",
+      "name": "K. Knoerzer"
+     },
+     {
+      "authorId": "2372369975",
+      "name": "Lucas Eastham"
+     },
+     {
+      "authorId": "2456121128",
+      "name": "Andy Jarvis"
+     },
+     {
+      "authorId": "2274875075",
+      "name": "N. Watson"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "68ff0bf5fe69bf7d6a545cf43c820a0214a52513",
+    "externalIds": {
+     "PubMedCentral": "13409244",
+     "DOI": "10.3390/foods15142471",
+     "CorpusId": 290157726,
+     "PubMed": "42511218"
+    },
+    "title": "Psychology of Eating the Future: Consumer Acceptance, Digital Influence and Behavioral Drivers of Novel Foods",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-07-01",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2317959297",
+      "name": "Muhammad Faisal Manzoor"
+     },
+     {
+      "authorId": "121880353",
+      "name": "M. T. Afraz"
+     },
+     {
+      "authorId": "2281986569",
+      "name": "Muhammad Waseem"
+     },
+     {
+      "authorId": "2055456620",
+      "name": "Z. Ahmed"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "ed5fc09f45f9669892178792015434d48505f681",
+    "externalIds": {
+     "PubMedCentral": "13408901",
+     "DOI": "10.3390/foods15142577",
+     "CorpusId": 290521811,
+     "PubMed": "42511323"
+    },
+    "title": "Converting Food Waste into Value-Added Products: A Review on Current Technologies, Challenges, and Future Perspectives",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-07-01",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2577868",
+      "name": "A. Baiano"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "f08ed4ba3f0c8ae83ce3e5ee527557dcc1ea608e",
+    "externalIds": {
+     "DOI": "10.1016/j.fufo.2026.101053",
+     "CorpusId": 288688569
+    },
+    "title": "The effect of innovation-related perceptions on consumer acceptance of upcycled date alternative proteins in selected Mediterranean countries",
+    "venue": "Future Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "name": "Future Foods"
+    },
+    "authors": [
+     {
+      "authorId": "90966966",
+      "name": "Tura Kaso Hamo"
+     },
+     {
+      "authorId": "1405039462",
+      "name": "A. Emberger-Klein"
+     },
+     {
+      "authorId": "12408545",
+      "name": "K. Menrad"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "882d43a55091531095be9dc00c7f53503916c18b",
+    "externalIds": {
+     "PubMedCentral": "13304532",
+     "DOI": "10.3390/nu18121859",
+     "CorpusId": 289198172,
+     "PubMed": "42356247"
+    },
+    "title": "Food Industry By-Products as Natural Preservatives: Supporting Adolescent Food Literacy and Critical Food Choices",
+    "venue": "Nutrients",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "volume": "18",
+     "name": "Nutrients"
+    },
+    "authors": [
+     {
+      "authorId": "123828308",
+      "name": "Paula Silva"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "b1947f0ccc1c704e9c7c388d349b965b999a1d98",
+    "externalIds": {
+     "PubMedCentral": "13298281",
+     "DOI": "10.3390/foods15122193",
+     "CorpusId": 289416385,
+     "PubMed": "42354161"
+    },
+    "title": "From Brewing By-Products to Next-Generation Food Ingredients: Processing, Functionality, Safety, and Industrial Translation",
+    "venue": "Foods",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "volume": "15",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "87847864",
+      "name": "I. Veleșcu"
+     },
+     {
+      "authorId": "89584436",
+      "name": "I. Crivei"
+     },
+     {
+      "authorId": "2338503412",
+      "name": "Andreea Bianca Balint"
+     },
+     {
+      "authorId": "2230014278",
+      "name": "Florina Stoica"
+     },
+     {
+      "authorId": "145601378",
+      "name": "F. Lipșa"
+     },
+     {
+      "authorId": "87944417",
+      "name": "R. Rațu"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "35f0d4d0a26ccd4057ac1dfcd98866c770811142",
+    "externalIds": {
+     "DOI": "10.1016/j.foohum.2026.101054",
+     "CorpusId": 285192250
+    },
+    "title": "From waste to wealth: Innovating with food by-products",
+    "venue": "Food and Humanity",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-05-01",
+    "journal": {
+     "name": "Food and Humanity"
+    },
+    "authors": [
+     {
+      "authorId": "2299556980",
+      "name": "Sakshi Sinha"
+     },
+     {
+      "authorId": "2402382677",
+      "name": "Rishikesh Ratan"
+     },
+     {
+      "authorId": "13478502",
+      "name": "Raktim Halder"
+     },
+     {
+      "authorId": "2316658421",
+      "name": "Naveen Chandrakar"
+     },
+     {
+      "authorId": "2142985774",
+      "name": "Mamoni Banerjee"
+     },
+     {
+      "authorId": "32205623",
+      "name": "G. D. Bhowmick"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "6037829beb610aad815d6d90ae121a17dc8999ec",
+    "externalIds": {
+     "DOI": "10.1016/j.foodw.2026.100046",
+     "CorpusId": 287594925
+    },
+    "title": "Microbial Fermentation Strategies for Enhancing Sensory and Nutritional Quality of Plant-Based Protein Foods",
+    "venue": "Food Wellness",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-04-01",
+    "journal": {
+     "name": "Food Wellness"
+    },
+    "authors": [
+     {
+      "authorId": "2244017253",
+      "name": "N. Kanimozhi"
+     },
+     {
+      "authorId": "145362742",
+      "name": "S. Nagalakshmi"
+     },
+     {
+      "authorId": "2308278384",
+      "name": "M. Sukumar"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "cd22a117a440199831bd46c55e7831e14f1fc19b",
+    "externalIds": {
+     "DOI": "10.1016/j.focha.2026.101299",
+     "CorpusId": 287639442
+    },
+    "title": "Agri-Food By-Product Valorisation and Safety in Sustainable Food Systems: Hidden Hazards, Risk–Benefit Trade-Offs, Challenges and Opportunities",
+    "venue": "Food Chemistry Advances",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-04-01",
+    "journal": {
+     "name": "Food Chemistry Advances"
+    },
+    "authors": [
+     {
+      "authorId": "83165662",
+      "name": "E. Ververis"
+     },
+     {
+      "authorId": "2374109121",
+      "name": "A. Favata"
+     },
+     {
+      "authorId": "2357194685",
+      "name": "Nikolaos Koffas"
+     },
+     {
+      "authorId": "2003477371",
+      "name": "Panagiota Zakidou"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "9d00b4d1d49970b52d46588d534df770ade5f07e",
+    "externalIds": {
+     "DOI": "10.1016/j.tifs.2026.105782",
+     "CorpusId": 287845312
+    },
+    "title": "Nutritional composition, potential applications, and health benefits of doum palm fruit (Hyphaene thebaica): A review",
+    "venue": "Trends in Food Science &amp; Technology",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2026-04-01",
+    "journal": {
+     "name": "Trends in Food Science &amp; Technology"
+    },
+    "authors": [
+     {
+      "authorId": "2423502428",
+      "name": "Abdullah K. Mohamed"
+     },
+     {
+      "authorId": "1704185700",
+      "name": "A. K. Rashwan"
+     },
+     {
+      "authorId": "2298832481",
+      "name": "A. Bassiony"
+     },
+     {
+      "authorId": "2244397882",
+      "name": "A. Osman"
+     },
+     {
+      "authorId": "2375336033",
+      "name": "M. Abouelenein"
+     },
+     {
+      "authorId": "2220412963",
+      "name": "Amged El-Harairy"
+     },
+     {
+      "authorId": "2296080581",
+      "name": "Zineb Ould Yahia"
+     },
+     {
+      "authorId": "2270253110",
+      "name": "Bolai Paul"
+     },
+     {
+      "authorId": "2145651565",
+      "name": "A. Mehanni"
+     },
+     {
+      "authorId": "2204066467",
+      "name": "Wei Chen"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "730502b40d80f586d935b4def14e8243f1bf0ae0",
+    "externalIds": {
+     "DOI": "10.3390/app16062999",
+     "CorpusId": 286749482
+    },
+    "title": "Designing Functional Foods Beyond Bioactivity: Integrating Processing, Safety, and Regulatory Readiness",
+    "venue": "Applied Sciences",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2026-03-20",
+    "journal": {
+     "name": "Applied Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "2495734876",
+      "name": "Gülsün Akdemir Evrendilek"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "f4440b3f5c3daa6d3f9898e8c90157a49a9bf824",
+    "externalIds": {
+     "DOI": "10.25047/tefa.v3i1.6755",
+     "CorpusId": 287038966
+    },
+    "title": "Potential Consumer Profiles and Market Demand Projections of Gluten and Lactose-Free Cookies",
+    "venue": "International Journal of Technology, Food and Agriculture",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-01-17",
+    "journal": {
+     "name": "International Journal of Technology, Food and Agriculture"
+    },
+    "authors": [
+     {
+      "authorId": "2081572190",
+      "name": "D. I. Amareta"
+     },
+     {
+      "authorId": "2084490846",
+      "name": "G. Purnasari"
+     },
+     {
+      "authorId": "101906932",
+      "name": "M. R. Permadi"
+     },
+     {
+      "authorId": "2197768666",
+      "name": "R. Rindiani"
+     },
+     {
+      "authorId": "80064759",
+      "name": "A. Elisanti"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "c7940bf3e28f9bd6f86486dc9eae77a4da4c11a3",
+    "externalIds": {
+     "DOI": "10.1007/s00217-025-04962-0",
+     "CorpusId": 284552221
+    },
+    "title": "Emerging trends and recent innovations in oleogel-based fat substitutes for sustainable foods",
+    "venue": "European Food Research and Technology",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2026-01-05",
+    "journal": {
+     "volume": "252",
+     "name": "European Food Research and Technology"
+    },
+    "authors": [
+     {
+      "authorId": "2401194634",
+      "name": "Melisa Kırnapcı"
+     },
+     {
+      "authorId": "2498611926",
+      "name": "Zeynep Aksoylu Özbek"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2375d06d1857606565a9b08bea240df77006ee73",
+    "externalIds": {
+     "DOI": "10.36887/2415-8453-2025-4-19",
+     "CorpusId": 284526276
+    },
+    "title": "Application of digital tools in promoting an innovative product in the food industry",
+    "venue": "Ukrainian Journal of Applied Economics and Technology",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-11-19",
+    "journal": {
+     "name": "Ukrainian Journal of Applied Economics and Technology"
+    },
+    "authors": [
+     {
+      "authorId": "2290800962",
+      "name": "V. Volikov"
+     },
+     {
+      "authorId": "2395248001",
+      "name": "Yevhenii O. Shevchenko"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "c0b74453589897d75c75ad1478c8266f14d2b9ea",
+    "externalIds": {
+     "DOI": "10.3390/app152011279",
+     "CorpusId": 282276603
+    },
+    "title": "Incorporation of Protein Alternatives in Bakery Products: Biological Value and Techno-Functional Properties",
+    "venue": "Applied Sciences",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2025-10-21",
+    "journal": {
+     "name": "Applied Sciences"
+    },
+    "authors": [
+     {
+      "authorId": "2387029905",
+      "name": "Carlos Daniel Perea-Escobar"
+     },
+     {
+      "authorId": "1422925526",
+      "name": "L. Londoño-Hernández"
+     },
+     {
+      "authorId": "1414526960",
+      "name": "Juan Roberto Benavente-Valdés"
+     },
+     {
+      "authorId": "4979783",
+      "name": "N. Balagurusamy"
+     },
+     {
+      "authorId": "11281877",
+      "name": "J. C. Contreras Esquivel"
+     },
+     {
+      "authorId": "1412942870",
+      "name": "A. Hernández-Almanza"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "285b1bea9b2019cf90a1f1b7457da3c2155f32d5",
+    "externalIds": {
+     "DOI": "10.1016/j.tifs.2025.105314",
+     "CorpusId": 281352275
+    },
+    "title": "Food-derived bioactive compounds targeting mitophagy: emerging nutritional strategies against sarcopenia",
+    "venue": "Trends in Food Science &amp; Technology",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-09-01",
+    "journal": {
+     "name": "Trends in Food Science &amp; Technology"
+    },
+    "authors": [
+     {
+      "authorId": "35466512",
+      "name": "Hao-Zhen Zhang"
+     },
+     {
+      "authorId": "2109006348",
+      "name": "Laiming Zhang"
+     },
+     {
+      "authorId": "2238551540",
+      "name": "Dong-Hong Liu"
+     },
+     {
+      "authorId": "2302909111",
+      "name": "Xing-Qian Ye"
+     },
+     {
+      "authorId": "2259529222",
+      "name": "Shi-Guo Chen"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "82a5db0a14e6c376eb1b7ebed2611ab826c3f94c",
+    "externalIds": {
+     "DOI": "10.3390/su17146611",
+     "CorpusId": 280212409
+    },
+    "title": "A Consumer Perspective on the Valorization of Forest Fruit By-Products in a Dairy Product: Opportunity or Challenge?",
+    "venue": "Sustainability",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2025-07-19",
+    "journal": {
+     "name": "Sustainability"
+    },
+    "authors": [
+     {
+      "authorId": "1753349592",
+      "name": "Mădălina Ungureanu-Iuga"
+     },
+     {
+      "authorId": "2283863969",
+      "name": "Emanuela-Adina Nicula"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "888975c011d01ac1a704cf6ece33218c110603e2",
+    "externalIds": {
+     "DOI": "10.3390/pr13072019",
+     "CorpusId": 279695242
+    },
+    "title": "Polyphenolic Compounds from Indigenous Malus Species: A Novel Approach to Improve Ice Cream’s Thermodynamic Properties",
+    "venue": "Processes",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2025-06-26",
+    "journal": {
+     "name": "Processes"
+    },
+    "authors": [
+     {
+      "authorId": "2059599550",
+      "name": "L. Nehmé"
+     },
+     {
+      "authorId": "13055989",
+      "name": "Y. El Rayess"
+     },
+     {
+      "authorId": "2369131012",
+      "name": "Maribelle Semaan"
+     },
+     {
+      "authorId": "2369135577",
+      "name": "Elsa Nawfal"
+     },
+     {
+      "authorId": "2369130759",
+      "name": "Philip Riachy"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "eefcd775a3486e86f3cd9896d89021188812e87a",
+    "externalIds": {
+     "DOI": "10.1016/j.fbio.2025.106789",
+     "CorpusId": 278440138
+    },
+    "title": "Unraveling the potential of ultrasound processing from the consumer perspective: A review on sensory characteristics and perception",
+    "venue": "Food Bioscience",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle",
+     "Review"
+    ],
+    "publicationDate": "2025-05-01",
+    "journal": {
+     "name": "Food Bioscience"
+    },
+    "authors": [
+     {
+      "authorId": "2308145839",
+      "name": "Gabrielly Ribeiro Carneiro"
+     },
+     {
+      "authorId": "2238615877",
+      "name": "T. C. Pimentel"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "a589b4ade581170f61dcf5cbebe7c9b578121bbb",
+    "externalIds": {
+     "PubMedCentral": "12071868",
+     "DOI": "10.3390/foods14091446",
+     "CorpusId": 278008144,
+     "PubMed": "40361529"
+    },
+    "title": "Exploring Chinese Consumers’ Perception and Potential Acceptance of Cell-Cultured Meat and Plant-Based Meat: A Focus Group Study and Content Analysis",
+    "venue": "Foods",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-04-22",
+    "journal": {
+     "volume": "14",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "104747213",
+      "name": "Muhabaiti Pareti"
+     },
+     {
+      "authorId": "2346249586",
+      "name": "Junsong Guo"
+     },
+     {
+      "authorId": "2294808199",
+      "name": "Junjun Yin"
+     },
+     {
+      "authorId": "2904156",
+      "name": "Qian-Kun Liu"
+     },
+     {
+      "authorId": "2346010928",
+      "name": "Nadire Abudurofu"
+     },
+     {
+      "authorId": "120445963",
+      "name": "Abulizi Bulibuli"
+     },
+     {
+      "authorId": "2062840483",
+      "name": "M. Canavari"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "cd28b705cc7974ed55b4b26d31e0e595a4626c73",
+    "externalIds": {
+     "DOI": "10.1155/jfq/7868250",
+     "CorpusId": 282645318
+    },
+    "title": "Comparative Quality Assessment of Sudanese White Cheese Coagulated With\n Acacia nubica\n Bark Extract and Rennet",
+    "venue": "Journal of Food Quality",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-01-01",
+    "journal": {
+     "name": "Journal of Food Quality"
+    },
+    "authors": [
+     {
+      "authorId": "2396017158",
+      "name": "Khalid A. Gadein"
+     },
+     {
+      "authorId": "2313387798",
+      "name": "Sara Elkheir Mustafa"
+     },
+     {
+      "authorId": "2385623067",
+      "name": "W. Babiker"
+     },
+     {
+      "authorId": "2173973627",
+      "name": "M. Abuagla"
+     }
+    ]
+   }
+  }
+ ]
+}

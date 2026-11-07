@@ -1,0 +1,198 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "2",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "e6f93933465477e03de26ce4ded9fe369702161f",
+    "externalIds": {
+     "DOI": "10.1007/s11694-026-04194-0",
+     "CorpusId": 285990489
+    },
+    "title": "Functional and physicochemical properties of pomegranate seed protein concentrate produced by the precipitation method at the isoelectric pH",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-02-21",
+    "journal": {
+     "volume": "20",
+     "pages": "8372 - 8380",
+     "name": "Journal of Food Measurement and Characterization"
+    },
+    "authors": [
+     {
+      "authorId": "12719955",
+      "name": "S. Bodbodak"
+     },
+     {
+      "authorId": "144017286",
+      "name": "B. Farmani"
+     },
+     {
+      "authorId": "13250107",
+      "name": "O. Yerlikaya"
+     },
+     {
+      "authorId": "1899354",
+      "name": "Hamed Jafarzadeh"
+     },
+     {
+      "authorId": "2340105069",
+      "name": "Somayeh Mohammadkhani"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "c6f756300d58221a5ab4d032997460e338b7a83f",
+    "externalIds": {
+     "PubMedCentral": "12732156",
+     "DOI": "10.3390/foods14244291",
+     "CorpusId": 283977639,
+     "PubMed": "41464997"
+    },
+    "title": "Plant Proteins as Alternative Natural Emulsifiers in Food Emulsions",
+    "venue": "Foods",
+    "year": 2025,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2025-12-01",
+    "journal": {
+     "volume": "14",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2283796457",
+      "name": "Dominika Kaczmarek"
+     },
+     {
+      "authorId": "2353730948",
+      "name": "Marta Pokora-Carzyńska"
+     },
+     {
+      "authorId": "4164134",
+      "name": "L. Juszczak"
+     },
+     {
+      "authorId": "40882142",
+      "name": "E. Jamróz"
+     },
+     {
+      "authorId": "2268569159",
+      "name": "Janusz Kapuśniak"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2c74dec8962b4dc71e7a2ecc110590327c42fcf5",
+    "externalIds": {
+     "PubMedCentral": "9689233",
+     "DOI": "10.3390/foods11223667",
+     "CorpusId": 253649692,
+     "PubMed": "36429258"
+    },
+    "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "venue": "Foods",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-11-01",
+    "journal": {
+     "volume": "11",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2084717723",
+      "name": "G. Stamatie"
+     },
+     {
+      "authorId": "2121621756",
+      "name": "I. Susman"
+     },
+     {
+      "authorId": "2191316436",
+      "name": "Sabina Andreea Bobea"
+     },
+     {
+      "authorId": "1430736072",
+      "name": "Elena Matei"
+     },
+     {
+      "authorId": "12811623",
+      "name": "D. Duță"
+     },
+     {
+      "authorId": "1403672638",
+      "name": "F. Israel-Roming"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "f2a8cc83eaed54b56b6fda0205c9384a4cb4aebd",
+    "externalIds": {
+     "DOI": "10.1016/j.foodhyd.2023.109008",
+     "CorpusId": 259615080
+    },
+    "title": "Plant protein-based emulsifiers: Mechanisms, techniques for emulsification enhancement and applications",
+    "venue": "Food Hydrocolloids",
+    "year": 2023,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": null,
+    "journal": {
+     "name": "Food Hydrocolloids"
+    },
+    "authors": [
+     {
+      "authorId": "2201615580",
+      "name": "Xinyu Zhang"
+     },
+     {
+      "authorId": "2183631258",
+      "name": "Qiang Wang"
+     },
+     {
+      "authorId": "2116746581",
+      "name": "Zhe Liu"
+     },
+     {
+      "authorId": "2163618924",
+      "name": "Lanyi Zhi"
+     },
+     {
+      "authorId": "2065220531",
+      "name": "Bo Jiao"
+     },
+     {
+      "authorId": "119802947",
+      "name": "Hui Hu"
+     },
+     {
+      "authorId": "2211987433",
+      "name": "Xiao-Jie Ma"
+     },
+     {
+      "authorId": "50606064",
+      "name": "D. Agyei"
+     },
+     {
+      "authorId": "32997410",
+      "name": "Ai-Min Shi"
+     }
+    ]
+   }
+  }
+ ]
+}
