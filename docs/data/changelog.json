@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T00:00:00+00:00",
-  "inputDigest": "sha256:0ab10716aa5a4957146a99576d7512a203885ecef83a63bac86c4d6f480e62b3",
+  "generatedAt": "2026-11-07T00:00:00+00:00",
+  "inputDigest": "sha256:59d1a3cc07d7b2f9c8502edc3f25f358594457179e72c65214f89aa383d4cfc0",
   "rule": "Citation works are matched by DOI, then by folded title and year.",
   "versions": [
     {
@@ -170,10 +170,113 @@
       "publications": [],
       "added": [],
       "removed": []
+    },
+    {
+      "from": "v5",
+      "to": "v6",
+      "totals": {
+        "works": {
+          "from": 107,
+          "to": 112
+        },
+        "links": {
+          "from": 110,
+          "to": 115
+        }
+      },
+      "publications": [
+        {
+          "id": 1,
+          "from": 3,
+          "to": 4,
+          "delta": 1
+        },
+        {
+          "id": 4,
+          "from": 42,
+          "to": 44,
+          "delta": 2
+        },
+        {
+          "id": 11,
+          "from": 28,
+          "to": 29,
+          "delta": 1
+        },
+        {
+          "id": 12,
+          "from": 3,
+          "to": 4,
+          "delta": 1
+        }
+      ],
+      "added": [
+        {
+          "key": "doi:10.1163/23524588-bja10426",
+          "title": "Integration of Tenebrio molitor and sour cherries in biscuits: formulation, nutritional value, safety, digestion and shelf-life evaluation",
+          "year": 2026,
+          "doi": "10.1163/23524588-bja10426",
+          "articleIds": [
+            1
+          ],
+          "sources": [
+            "Semantic Scholar"
+          ]
+        },
+        {
+          "key": "doi:10.15414/2025.sqf25-psp",
+          "title": "Food safety and food quality. Proceedings of the scientific papers",
+          "year": 2025,
+          "doi": "10.15414/2025.sqf25-psp",
+          "articleIds": [
+            4
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "doi:10.22437/ifstj.v9i2.47896",
+          "title": "Crackers Made from Nagara Bean (Vigna unguiculata L.) and Three-Spot Gourami (Trichopodus trichopterus) Flours as Complementary Food for Stunting Prevention",
+          "year": 2026,
+          "doi": "10.22437/ifstj.v9i2.47896",
+          "articleIds": [
+            4
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "doi:10.24263/2304-974x-2026-15-2-3",
+          "title": "ermentation-assisted valorisation of hemp-derived ingredients for functional pasta development",
+          "year": 2026,
+          "doi": "10.24263/2304-974x-2026-15-2-3",
+          "articleIds": [
+            11
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "doi:10.54987/jemat.v13i2.1148",
+          "title": "Multifunctional Applications of Bacterial Cellulose: Bridging Food, Cosmetic and Environmental Sectors",
+          "year": 2025,
+          "doi": "10.54987/jemat.v13i2.1148",
+          "articleIds": [
+            12
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        }
+      ],
+      "removed": []
     }
   ],
   "run": {
-    "comparedAgainst": "dashboard/data/v5",
+    "comparedAgainst": null,
     "added": [],
     "removed": [],
     "changed": []

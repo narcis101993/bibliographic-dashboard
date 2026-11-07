@@ -1,7 +1,7 @@
 # Citation changelog
 
-Generated: 2026-11-01T00:00:00+00:00
-Input digest: `sha256:0ab10716aa5a4957146a99576d7512a203885ecef83a63bac86c4d6f480e62b3`
+Generated: 2026-11-07T00:00:00+00:00
+Input digest: `sha256:59d1a3cc07d7b2f9c8502edc3f25f358594457179e72c65214f89aa383d4cfc0`
 Work identity: Citation works are matched by DOI, then by folded title and year.
 
 ## Between dataset versions
@@ -12,7 +12,12 @@ Work identity: Citation works are matched by DOI, then by folded title and year.
   - publication 11: 24 → 28 (+4)
   - publication 13: 2 → 4 (+2)
 - **v4 → v5**: works 107 → 107, links 110 → 110, 0 added, 0 removed
+- **v5 → v6**: works 107 → 112, links 110 → 115, 5 added, 0 removed
+  - publication 1: 3 → 4 (+1)
+  - publication 4: 42 → 44 (+2)
+  - publication 11: 28 → 29 (+1)
+  - publication 12: 3 → 4 (+1)
 
 ## Since the previous build
 
-Compared with `dashboard/data/v5`: 0 added, 0 removed, 0 changed.
+No previous generated data for this version — baseline run.

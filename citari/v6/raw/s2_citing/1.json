@@ -1,0 +1,139 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "1",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "523eb6de5ded8133197255eb7964cd42512d3060",
+    "externalIds": {
+     "DOI": "10.1163/23524588-bja10426",
+     "CorpusId": 289663555
+    },
+    "title": "Integration of Tenebrio molitor and sour cherries in biscuits: formulation, nutritional value, safety, digestion and shelf-life evaluation",
+    "venue": "Journal of Insects as Food and Feed",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-05",
+    "journal": {
+     "name": "Journal of Insects as Food and Feed"
+    },
+    "authors": [
+     {
+      "authorId": "2507338589",
+      "name": "E. L. Faro"
+     },
+     {
+      "authorId": "15155936",
+      "name": "F. Masino"
+     },
+     {
+      "authorId": "13789279",
+      "name": "G. Montevecchi"
+     },
+     {
+      "authorId": "1998024498",
+      "name": "A. Cattivelli"
+     },
+     {
+      "authorId": "88673190",
+      "name": "D. Tagliazucchi"
+     },
+     {
+      "authorId": "2248360473",
+      "name": "P. Fava"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "8a5965fe8d28092ab2b12ac4fd0f08d4c1b4d419",
+    "externalIds": {
+     "PubMedCentral": "9689165",
+     "DOI": "10.3390/foods11223647",
+     "CorpusId": 253621198,
+     "PubMed": "36429239"
+    },
+    "title": "Texturized Vegetable Protein as a Source of Protein Fortification of Wheat Buns",
+    "venue": "Foods",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-11-01",
+    "journal": {
+     "volume": "11",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "1404674171",
+      "name": "Susanne Margrete Bølling Laugesen"
+     },
+     {
+      "authorId": "2191195730",
+      "name": "Sandra Lenz Dethlefsen"
+     },
+     {
+      "authorId": "31909829",
+      "name": "I. L. Petersen"
+     },
+     {
+      "authorId": "9866782",
+      "name": "M. Aaslyng"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2c74dec8962b4dc71e7a2ecc110590327c42fcf5",
+    "externalIds": {
+     "PubMedCentral": "9689233",
+     "DOI": "10.3390/foods11223667",
+     "CorpusId": 253649692,
+     "PubMed": "36429258"
+    },
+    "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "venue": "Foods",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-11-01",
+    "journal": {
+     "volume": "11",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2084717723",
+      "name": "G. Stamatie"
+     },
+     {
+      "authorId": "2121621756",
+      "name": "I. Susman"
+     },
+     {
+      "authorId": "2191316436",
+      "name": "Sabina Andreea Bobea"
+     },
+     {
+      "authorId": "1430736072",
+      "name": "Elena Matei"
+     },
+     {
+      "authorId": "12811623",
+      "name": "D. Duță"
+     },
+     {
+      "authorId": "1403672638",
+      "name": "F. Israel-Roming"
+     }
+    ]
+   }
+  }
+ ]
+}

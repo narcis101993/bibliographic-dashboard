@@ -1,0 +1,119 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "3",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "5f8f444c7cf21bc0933bcceea5dbf3bff820e17c",
+    "externalIds": {
+     "DOI": "10.3390/su18115441",
+     "CorpusId": 288925983
+    },
+    "title": "Sustainable Use of Rapeseed (Brassica napus L.) Meal as a Functional Ingredient in Bread: Impact on Dough Rheology, Nutritional Profile, and Bread Quality",
+    "venue": "Sustainability",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-05-28",
+    "journal": {
+     "name": "Sustainability"
+    },
+    "authors": [
+     {
+      "authorId": "2296727984",
+      "name": "Sylvestre Dossa"
+     },
+     {
+      "authorId": "2440280994",
+      "name": "Cristian Argyelan"
+     },
+     {
+      "authorId": "88416032",
+      "name": "A. Rinovetz"
+     },
+     {
+      "authorId": "2376998070",
+      "name": "Christine Neagu"
+     },
+     {
+      "authorId": "89665277",
+      "name": "D. Stoin"
+     },
+     {
+      "authorId": "88103370",
+      "name": "D. Lalescu"
+     },
+     {
+      "authorId": "3671202",
+      "name": "C. Jianu"
+     },
+     {
+      "authorId": "2063162237",
+      "name": "Izidora Radulov"
+     },
+     {
+      "authorId": "2076383152",
+      "name": "L. Serpe"
+     },
+     {
+      "authorId": "2402783366",
+      "name": "Adina Brinzeu"
+     },
+     {
+      "authorId": "117840495",
+      "name": "E. Alexa"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "2c74dec8962b4dc71e7a2ecc110590327c42fcf5",
+    "externalIds": {
+     "PubMedCentral": "9689233",
+     "DOI": "10.3390/foods11223667",
+     "CorpusId": 253649692,
+     "PubMed": "36429258"
+    },
+    "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "venue": "Foods",
+    "year": 2022,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2022-11-01",
+    "journal": {
+     "volume": "11",
+     "name": "Foods"
+    },
+    "authors": [
+     {
+      "authorId": "2084717723",
+      "name": "G. Stamatie"
+     },
+     {
+      "authorId": "2121621756",
+      "name": "I. Susman"
+     },
+     {
+      "authorId": "2191316436",
+      "name": "Sabina Andreea Bobea"
+     },
+     {
+      "authorId": "1430736072",
+      "name": "Elena Matei"
+     },
+     {
+      "authorId": "12811623",
+      "name": "D. Duță"
+     },
+     {
+      "authorId": "1403672638",
+      "name": "F. Israel-Roming"
+     }
+    ]
+   }
+  }
+ ]
+}

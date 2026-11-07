@@ -1,0 +1,167 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "12",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "12810a0dc5f2e6b10cf480af793ff3017eaf7a33",
+    "externalIds": {
+     "DOI": "10.1038/s41579-026-01370-3",
+     "CorpusId": 292562576,
+     "PubMed": "42823525"
+    },
+    "title": "Microbial synthesis and degradation of bio-based biodegradable plastics.",
+    "venue": "Nature Reviews Microbiology",
+    "year": 2026,
+    "publicationTypes": [
+     "Review",
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-10-01",
+    "journal": {
+     "name": "Nature reviews. Microbiology"
+    },
+    "authors": [
+     {
+      "authorId": "2326578159",
+      "name": "Manuel Bruch"
+     },
+     {
+      "authorId": "4557592",
+      "name": "T. Narančić"
+     },
+     {
+      "authorId": "2130203936",
+      "name": "Rhys Orimaco"
+     },
+     {
+      "authorId": "2045210610",
+      "name": "Jounghyun Um"
+     },
+     {
+      "authorId": "2260653769",
+      "name": "Ciara Lynch"
+     },
+     {
+      "authorId": "2005570534",
+      "name": "Siobhan R. Liu"
+     },
+     {
+      "authorId": "1398162880",
+      "name": "J. Nikodinović-Runić"
+     },
+     {
+      "authorId": "2309136354",
+      "name": "Ren Wei"
+     },
+     {
+      "authorId": "2347930417",
+      "name": "Kevin E. O'Connor"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "b829a72ef7cc66749b5914a54f1905be062aca1d",
+    "externalIds": {
+     "DOI": "10.1016/j.foodhyd.2026.112950",
+     "CorpusId": 288956266
+    },
+    "title": "Cryoprotective mechanism of tamarind seed polysaccharide on milk proteins and its application in yogurt ice cream",
+    "venue": "Food Hydrocolloids",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "name": "Food Hydrocolloids"
+    },
+    "authors": [
+     {
+      "authorId": "2336896495",
+      "name": "Ya-Xin Yan"
+     },
+     {
+      "authorId": "2312671531",
+      "name": "Hongxiao He"
+     },
+     {
+      "authorId": "1963246",
+      "name": "Dong-Chun Zhang"
+     },
+     {
+      "authorId": "2153099888",
+      "name": "Jian-Ming He"
+     },
+     {
+      "authorId": "2267701778",
+      "name": "Hui Zhang"
+     },
+     {
+      "authorId": "2149092009",
+      "name": "Xin Song"
+     },
+     {
+      "authorId": "2084522977",
+      "name": "Fan Xie"
+     },
+     {
+      "authorId": "2240155677",
+      "name": "Lian-Zhong Ai"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "915aaa694ecdefb17fefed7dc8a66a1e6d7e6b4d",
+    "externalIds": {
+     "DOI": "10.1016/j.foodhyd.2026.113121",
+     "CorpusId": 290068784
+    },
+    "title": "Edible biopolymer matrices as active modulators of the gut microbiome: Mechanistic links between structure, enzymatic access and metabolome",
+    "venue": "Food Hydrocolloids",
+    "year": null,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": null,
+    "journal": {
+     "name": "Food Hydrocolloids"
+    },
+    "authors": [
+     {
+      "authorId": "2204926211",
+      "name": "Răzvan Odocheanu"
+     },
+     {
+      "authorId": "2183811111",
+      "name": "M. Medeleanu"
+     },
+     {
+      "authorId": "48685954",
+      "name": "L. Mitrea"
+     },
+     {
+      "authorId": "13533169",
+      "name": "L. Călinoiu"
+     },
+     {
+      "authorId": "1395963351",
+      "name": "G. Martău"
+     },
+     {
+      "authorId": "50584456",
+      "name": "M. Mihai"
+     },
+     {
+      "authorId": "5879939",
+      "name": "D. Vodnar"
+     }
+    ]
+   }
+  }
+ ]
+}
