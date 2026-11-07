@@ -1,0 +1,1269 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "18",
+ "payload": [
+  {
+   "id": "https://openalex.org/W7153342276",
+   "doi": "https://doi.org/10.3390/su18083782",
+   "title": "Sustainable Food and Feed Flours for Formaldehyde Reduction in Resins and Particleboards",
+   "display_name": "Sustainable Food and Feed Flours for Formaldehyde Reduction in Resins and Particleboards",
+   "publication_year": 2026,
+   "publication_date": "2026-04-10",
+   "ids": {
+    "openalex": "https://openalex.org/W7153342276",
+    "doi": "https://doi.org/10.3390/su18083782"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3390/su18083782",
+    "doi": "https://doi.org/10.3390/su18083782",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/su18083782",
+    "pdf_url": "https://www.mdpi.com/2071-1050/18/8/3782/pdf?version=1775820118",
+    "source": {
+     "id": "https://openalex.org/S10134376",
+     "display_name": "Sustainability",
+     "issn_l": "2071-1050",
+     "issn": [
+      "2071-1050"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sustainability",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "is_traditional": true,
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2071-1050/18/8/3782/pdf?version=1775820118",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5081291901",
+      "display_name": "Mirel Glevitzky",
+      "orcid": "https://orcid.org/0000-0002-5059-9336",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-5059-9336"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I3122695212",
+       "display_name": "Politehnica University of Timisoara",
+       "ror": "https://ror.org/02v91gy68",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I3122695212"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210140223",
+       "display_name": "1 Decembrie 1918 University",
+       "ror": "https://ror.org/04577k168",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210140223"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mirel Glevitzky",
+     "raw_affiliation_strings": [
+      "Faculty of Engineering Hunedoara, Politehnica University Timişoara, 5 Revolutiei Street, 331128 Hunedoara, Romania",
+      "Faculty of Informatics and Engineering, “1 Decembrie 1918” University of Alba Iulia, 5 Gabriel Bethlen Street, 510009 Alba Iulia, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-5059-9336",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Engineering Hunedoara, Politehnica University Timişoara, 5 Revolutiei Street, 331128 Hunedoara, Romania",
+       "institution_ids": [
+        "https://openalex.org/I3122695212"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Faculty of Informatics and Engineering, “1 Decembrie 1918” University of Alba Iulia, 5 Gabriel Bethlen Street, 510009 Alba Iulia, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210140223"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5133371680",
+      "display_name": "Ciprian Răzvan Rațiu",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Ciprian Răzvan Rațiu",
+     "raw_affiliation_strings": [
+      "Evaluare Impact SRL, 6 Dr. Ioan Ratiu St., 510032 Alba Iulia, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Evaluare Impact SRL, 6 Dr. Ioan Ratiu St., 510032 Alba Iulia, Romania",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5090625592",
+      "display_name": "Mihai-Teopent Corcheş",
+      "orcid": "https://orcid.org/0000-0002-1157-0426",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-1157-0426"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210140223",
+       "display_name": "1 Decembrie 1918 University",
+       "ror": "https://ror.org/04577k168",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210140223"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Mihai-Teopent Corcheş",
+     "raw_affiliation_strings": [
+      "Faculty of Informatics and Engineering, “1 Decembrie 1918” University of Alba Iulia, 5 Gabriel Bethlen Street, 510009 Alba Iulia, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-1157-0426",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Informatics and Engineering, “1 Decembrie 1918” University of Alba Iulia, 5 Gabriel Bethlen Street, 510009 Alba Iulia, Romania",
+       "institution_ids": [
+        "https://openalex.org/I4210140223"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5090625592"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210140223"
+   ],
+   "apc_list": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+   },
+   "apc_paid": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+   },
+   "fwci": 0.0,
+   "has_fulltext": true,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.1567538,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "18",
+    "issue": "8",
+    "first_page": "3782",
+    "last_page": "3782"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10484",
+    "display_name": "Wood Treatment and Properties",
+    "score": 0.9628999829292297,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2215",
+     "display_name": "Building and Construction"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/22",
+     "display_name": "Engineering"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10484",
+     "display_name": "Wood Treatment and Properties",
+     "score": 0.9628999829292297,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2215",
+      "display_name": "Building and Construction"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10513",
+     "display_name": "Natural Fiber Reinforced Composites",
+     "score": 0.01600000075995922,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2507",
+      "display_name": "Polymers and Plastics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/25",
+      "display_name": "Materials Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11208",
+     "display_name": "Lignin and Wood Chemistry",
+     "score": 0.004600000102072954,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1508",
+      "display_name": "Process Chemistry and Technology"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/15",
+      "display_name": "Chemical Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/formaldehyde-emission-reduction",
+     "display_name": "formaldehyde emission reduction",
+     "score": 0.8299999833106995
+    },
+    {
+     "id": "https://openalex.org/keywords/urea-formaldehyde-resin",
+     "display_name": "urea-formaldehyde resin",
+     "score": 0.9890000224113464
+    },
+    {
+     "id": "https://openalex.org/keywords/particleboard",
+     "display_name": "particleboard",
+     "score": 0.8889999985694885
+    },
+    {
+     "id": "https://openalex.org/keywords/hemp-flour",
+     "display_name": "hemp flour",
+     "score": 0.8379999995231628
+    },
+    {
+     "id": "https://openalex.org/keywords/soy-flour",
+     "display_name": "soybean flour",
+     "score": 0.9990000128746033
+    },
+    {
+     "id": "https://openalex.org/keywords/wheat-flour",
+     "display_name": "wheat flour",
+     "score": 0.5680000185966492
+    },
+    {
+     "id": "https://openalex.org/keywords/feather-meal",
+     "display_name": "feather meal",
+     "score": 0.9990000128746033
+    },
+    {
+     "id": "https://openalex.org/keywords/resin-rheology",
+     "display_name": "resin rheology",
+     "score": 0.8700000047683716
+    },
+    {
+     "id": "https://openalex.org/keywords/wood-composites",
+     "display_name": "wood-based composites",
+     "score": 0.765999972820282
+    },
+    {
+     "id": "https://openalex.org/keywords/sustainable-wood-products",
+     "display_name": "sustainable wood products",
+     "score": 0.42399999499320984
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2775930285",
+     "wikidata": "https://www.wikidata.org/wiki/Q161210",
+     "display_name": "Formaldehyde",
+     "level": 2,
+     "score": 0.730400025844574
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.5849999785423279
+    },
+    {
+     "id": "https://openalex.org/C3020104520",
+     "wikidata": "https://www.wikidata.org/wiki/Q11006",
+     "display_name": "Soy flour",
+     "level": 2,
+     "score": 0.5557000041007996
+    },
+    {
+     "id": "https://openalex.org/C2778223994",
+     "wikidata": "https://www.wikidata.org/wiki/Q905592",
+     "display_name": "Filler (materials)",
+     "level": 2,
+     "score": 0.5418000221252441
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.5214999914169312
+    },
+    {
+     "id": "https://openalex.org/C528095902",
+     "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+     "display_name": "Pulp and paper industry",
+     "level": 1,
+     "score": 0.48739999532699585
+    },
+    {
+     "id": "https://openalex.org/C188198153",
+     "wikidata": "https://www.wikidata.org/wiki/Q1613840",
+     "display_name": "Limiting",
+     "level": 2,
+     "score": 0.43639999628067017
+    },
+    {
+     "id": "https://openalex.org/C206139338",
+     "wikidata": "https://www.wikidata.org/wiki/Q192355",
+     "display_name": "Raw material",
+     "level": 2,
+     "score": 0.43619999289512634
+    },
+    {
+     "id": "https://openalex.org/C127172972",
+     "wikidata": "https://www.wikidata.org/wiki/Q128709",
+     "display_name": "Viscosity",
+     "level": 2,
+     "score": 0.4348999857902527
+    },
+    {
+     "id": "https://openalex.org/C2779225514",
+     "wikidata": "https://www.wikidata.org/wiki/Q1686140",
+     "display_name": "Veneer",
+     "level": 2,
+     "score": 0.33709999918937683
+    },
+    {
+     "id": "https://openalex.org/C200990466",
+     "wikidata": "https://www.wikidata.org/wiki/Q271707",
+     "display_name": "Rheology",
+     "level": 2,
+     "score": 0.3125999867916107
+    },
+    {
+     "id": "https://openalex.org/C2778345441",
+     "wikidata": "https://www.wikidata.org/wiki/Q6460735",
+     "display_name": "Meal",
+     "level": 2,
+     "score": 0.3089999854564667
+    },
+    {
+     "id": "https://openalex.org/C548081761",
+     "wikidata": "https://www.wikidata.org/wiki/Q180388",
+     "display_name": "Waste management",
+     "level": 1,
+     "score": 0.30320000648498535
+    },
+    {
+     "id": "https://openalex.org/C115540264",
+     "wikidata": "https://www.wikidata.org/wiki/Q2945560",
+     "display_name": "Biomass (ecology)",
+     "level": 2,
+     "score": 0.2946000099182129
+    },
+    {
+     "id": "https://openalex.org/C2778790047",
+     "wikidata": "https://www.wikidata.org/wiki/Q145897",
+     "display_name": "Phenol formaldehyde resin",
+     "level": 3,
+     "score": 0.2825999855995178
+    },
+    {
+     "id": "https://openalex.org/C178405089",
+     "wikidata": "https://www.wikidata.org/wiki/Q857201",
+     "display_name": "Flexural strength",
+     "level": 2,
+     "score": 0.27950000762939453
+    },
+    {
+     "id": "https://openalex.org/C526406351",
+     "wikidata": "https://www.wikidata.org/wiki/Q177463",
+     "display_name": "Charcoal",
+     "level": 2,
+     "score": 0.2718999981880188
+    },
+    {
+     "id": "https://openalex.org/C2992245215",
+     "wikidata": "https://www.wikidata.org/wiki/Q5171726",
+     "display_name": "Corn flour",
+     "level": 4,
+     "score": 0.2694999873638153
+    },
+    {
+     "id": "https://openalex.org/C40231798",
+     "wikidata": "https://www.wikidata.org/wiki/Q1333743",
+     "display_name": "Composition (language)",
+     "level": 2,
+     "score": 0.26910001039505005
+    },
+    {
+     "id": "https://openalex.org/C3020382795",
+     "wikidata": "https://www.wikidata.org/wiki/Q81163",
+     "display_name": "Long chain",
+     "level": 2,
+     "score": 0.2587999999523163
+    },
+    {
+     "id": "https://openalex.org/C192562407",
+     "wikidata": "https://www.wikidata.org/wiki/Q228736",
+     "display_name": "Materials science",
+     "level": 0,
+     "score": 0.2515999972820282
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.3390/su18083782",
+     "doi": "https://doi.org/10.3390/su18083782",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/su18083782",
+     "pdf_url": "https://www.mdpi.com/2071-1050/18/8/3782/pdf?version=1775820118",
+     "source": {
+      "id": "https://openalex.org/S10134376",
+      "display_name": "Sustainability",
+      "issn_l": "2071-1050",
+      "issn": [
+       "2071-1050"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Sustainability",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.3390/su18083782",
+    "doi": "https://doi.org/10.3390/su18083782",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/su18083782",
+    "pdf_url": "https://www.mdpi.com/2071-1050/18/8/3782/pdf?version=1775820118",
+    "source": {
+     "id": "https://openalex.org/S10134376",
+     "display_name": "Sustainability",
+     "issn_l": "2071-1050",
+     "issn": [
+      "2071-1050"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Sustainability",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Responsible consumption and production",
+     "score": 1.0,
+     "id": "https://metadata.un.org/sdg/12"
+    },
+    {
+     "display_name": "Zero hunger",
+     "score": 0.40450000762939453,
+     "id": "https://metadata.un.org/sdg/2"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7153342276.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7153342276.grobid-xml"
+   },
+   "referenced_works_count": 50,
+   "referenced_works": [
+    "https://openalex.org/W1507721197",
+    "https://openalex.org/W2013855569",
+    "https://openalex.org/W2041867304",
+    "https://openalex.org/W2058810794",
+    "https://openalex.org/W2083243313",
+    "https://openalex.org/W2108852856",
+    "https://openalex.org/W2154547807",
+    "https://openalex.org/W2613442221",
+    "https://openalex.org/W2616919485",
+    "https://openalex.org/W2645283515",
+    "https://openalex.org/W2807871178",
+    "https://openalex.org/W2898219442",
+    "https://openalex.org/W2945313849",
+    "https://openalex.org/W2984081919",
+    "https://openalex.org/W3009588791",
+    "https://openalex.org/W3021648578",
+    "https://openalex.org/W3033630743",
+    "https://openalex.org/W3089031163",
+    "https://openalex.org/W3167921305",
+    "https://openalex.org/W3189420061",
+    "https://openalex.org/W4200093122",
+    "https://openalex.org/W4200106692",
+    "https://openalex.org/W4226220972",
+    "https://openalex.org/W4283697659",
+    "https://openalex.org/W4304182956",
+    "https://openalex.org/W4306882896",
+    "https://openalex.org/W4377968721",
+    "https://openalex.org/W4379525443",
+    "https://openalex.org/W4379800846",
+    "https://openalex.org/W4385068613",
+    "https://openalex.org/W4386477852",
+    "https://openalex.org/W4390046050",
+    "https://openalex.org/W4391027555",
+    "https://openalex.org/W4393313481",
+    "https://openalex.org/W4399066935",
+    "https://openalex.org/W4399857725",
+    "https://openalex.org/W4401120844",
+    "https://openalex.org/W4404923065",
+    "https://openalex.org/W4405856010",
+    "https://openalex.org/W4407947499",
+    "https://openalex.org/W4409812601",
+    "https://openalex.org/W4409816203",
+    "https://openalex.org/W4410590717",
+    "https://openalex.org/W4411046739",
+    "https://openalex.org/W4411570648",
+    "https://openalex.org/W4412182417",
+    "https://openalex.org/W4417163217",
+    "https://openalex.org/W7119513746",
+    "https://openalex.org/W7125005526",
+    "https://openalex.org/W7128516494"
+   ],
+   "related_works": [
+    "https://openalex.org/W2058660887",
+    "https://openalex.org/W307526953",
+    "https://openalex.org/W2991675282",
+    "https://openalex.org/W3089031163",
+    "https://openalex.org/W2613442221",
+    "https://openalex.org/W2113684199",
+    "https://openalex.org/W4307386964",
+    "https://openalex.org/W2381531604",
+    "https://openalex.org/W787751118",
+    "https://openalex.org/W2348223616"
+   ],
+   "abstract_inverted_index": {
+    "Formaldehyde": [
+     0
+    ],
+    "emissions": [
+     1,
+     219
+    ],
+    "from": [
+     2,
+     79,
+     86,
+     103
+    ],
+    "urea–formaldehyde": [
+     3
+    ],
+    "(UF)-bonded": [
+     4
+    ],
+    "particleboards": [
+     5,
+     122
+    ],
+    "remain": [
+     6
+    ],
+    "a": [
+     7
+    ],
+    "significant": [
+     8,
+     187
+    ],
+    "environmental": [
+     9
+    ],
+    "and": [
+     10,
+     33,
+     59,
+     70,
+     83,
+     97,
+     127,
+     140,
+     164,
+     213,
+     228
+    ],
+    "health": [
+     11
+    ],
+    "concern.": [
+     12
+    ],
+    "This": [
+     13
+    ],
+    "study": [
+     14
+    ],
+    "evaluates": [
+     15
+    ],
+    "the": [
+     16,
+     111,
+     150,
+     224
+    ],
+    "effectiveness": [
+     17
+    ],
+    "of": [
+     18,
+     48,
+     75,
+     137,
+     146,
+     203,
+     226
+    ],
+    "flours": [
+     19,
+     28,
+     35,
+     129,
+     176
+    ],
+    "as": [
+     20,
+     106,
+     108,
+     178
+    ],
+    "bio-based": [
+     21
+    ],
+    "formaldehyde": [
+     22,
+     218
+    ],
+    "scavengers": [
+     23
+    ],
+    "in": [
+     24,
+     220
+    ],
+    "particleboard": [
+     25
+    ],
+    "production.": [
+     26
+    ],
+    "Food-based": [
+     27
+    ],
+    "(soy,": [
+     29
+    ],
+    "wheat,": [
+     30
+    ],
+    "green": [
+     31
+    ],
+    "pea)": [
+     32
+    ],
+    "feed": [
+     34,
+     175
+    ],
+    "(hemp,": [
+     36
+    ],
+    "maize": [
+     37
+    ],
+    "DDGS,": [
+     38
+    ],
+    "feather": [
+     39,
+     179
+    ],
+    "meal)": [
+     40
+    ],
+    "were": [
+     41,
+     169
+    ],
+    "incorporated": [
+     42
+    ],
+    "into": [
+     43
+    ],
+    "UF": [
+     44
+    ],
+    "resin": [
+     45
+    ],
+    "at": [
+     46,
+     67
+    ],
+    "concentrations": [
+     47
+    ],
+    "0.3–2.0%.": [
+     49
+    ],
+    "Resin": [
+     50
+    ],
+    "characterization": [
+     51
+    ],
+    "included": [
+     52
+    ],
+    "pH,": [
+     53
+    ],
+    "viscosity,": [
+     54
+    ],
+    "gelation": [
+     55
+    ],
+    "time,": [
+     56
+    ],
+    "solid": [
+     57
+    ],
+    "content,": [
+     58
+    ],
+    "free": [
+     60,
+     132
+    ],
+    "formaldehyde,": [
+     61,
+     133
+    ],
+    "while": [
+     62
+    ],
+    "rheological": [
+     63
+    ],
+    "behavior": [
+     64
+    ],
+    "was": [
+     65,
+     101
+    ],
+    "monitored": [
+     66
+    ],
+    "70": [
+     68
+    ],
+    "°C": [
+     69
+    ],
+    "90": [
+     71
+    ],
+    "°C.": [
+     72
+    ],
+    "The": [
+     73
+    ],
+    "addition": [
+     74
+    ],
+    "flour": [
+     76,
+     95
+    ],
+    "decreased": [
+     77
+    ],
+    "pH": [
+     78
+    ],
+    "9.1": [
+     80
+    ],
+    "to": [
+     81,
+     88,
+     90,
+     105,
+     144,
+     149,
+     191,
+     216
+    ],
+    "7.9": [
+     82
+    ],
+    "increased": [
+     84
+    ],
+    "viscosity": [
+     85,
+     188
+    ],
+    "414": [
+     87
+    ],
+    "up": [
+     89
+    ],
+    "1600": [
+     91
+    ],
+    "cP,": [
+     92
+    ],
+    "depending": [
+     93
+    ],
+    "on": [
+     94
+    ],
+    "type": [
+     96
+    ],
+    "dosage.": [
+     98
+    ],
+    "Free-formaldehyde": [
+     99
+    ],
+    "content": [
+     100
+    ],
+    "reduced": [
+     102,
+     131
+    ],
+    "0.17%": [
+     104
+    ],
+    "low": [
+     107,
+     201
+    ],
+    "0.08%,": [
+     109
+    ],
+    "with": [
+     110,
+     124,
+     134
+    ],
+    "most": [
+     112
+    ],
+    "effective": [
+     113
+    ],
+    "reduction": [
+     114
+    ],
+    "observed": [
+     115
+    ],
+    "for": [
+     116
+    ],
+    "hemp": [
+     117,
+     128
+    ],
+    "flour.": [
+     118
+    ],
+    "At": [
+     119
+    ],
+    "industrial": [
+     120
+    ],
+    "scale,": [
+     121
+    ],
+    "produced": [
+     123
+    ],
+    "0.5%": [
+     125
+    ],
+    "soy": [
+     126,
+     206
+    ],
+    "significantly": [
+     130
+    ],
+    "emission": [
+     135
+    ],
+    "values": [
+     136
+    ],
+    "3.26": [
+     138
+    ],
+    "mg/m2": [
+     139
+    ],
+    "3.05": [
+     141
+    ],
+    "mg/m2,": [
+     142
+    ],
+    "corresponding": [
+     143
+    ],
+    "reductions": [
+     145
+    ],
+    "66–70%": [
+     147
+    ],
+    "compared": [
+     148
+    ],
+    "reference": [
+     151
+    ],
+    "(3.97": [
+     152
+    ],
+    "mg/m2).": [
+     153
+    ],
+    "Mechanical": [
+     154
+    ],
+    "properties,": [
+     155
+    ],
+    "including": [
+     156
+    ],
+    "density": [
+     157
+    ],
+    "(652–665": [
+     158
+    ],
+    "kg·m−3),": [
+     159
+    ],
+    "bending": [
+     160
+    ],
+    "strength": [
+     161
+    ],
+    "(13.2–14.1": [
+     162
+    ],
+    "N·mm−2),": [
+     163,
+     168
+    ],
+    "internal": [
+     165
+    ],
+    "bond": [
+     166
+    ],
+    "(0.42–0.45": [
+     167
+    ],
+    "maintained": [
+     170
+    ],
+    "within": [
+     171
+    ],
+    "acceptable": [
+     172
+    ],
+    "limits.": [
+     173
+    ],
+    "While": [
+     174
+    ],
+    "such": [
+     177
+    ],
+    "meal": [
+     180
+    ],
+    "showed": [
+     181
+    ],
+    "strong": [
+     182
+    ],
+    "scavenging": [
+     183
+    ],
+    "potential,": [
+     184
+    ],
+    "they": [
+     185
+    ],
+    "caused": [
+     186
+    ],
+    "increases": [
+     189
+    ],
+    "(up": [
+     190
+    ],
+    "1800": [
+     192
+    ],
+    "cP),": [
+     193
+    ],
+    "limiting": [
+     194
+    ],
+    "processability.": [
+     195
+    ],
+    "These": [
+     196
+    ],
+    "findings": [
+     197
+    ],
+    "demonstrate": [
+     198
+    ],
+    "that": [
+     199
+    ],
+    "adding": [
+     200
+    ],
+    "levels": [
+     202
+    ],
+    "flour,": [
+     204
+    ],
+    "particularly": [
+     205
+    ],
+    "or": [
+     207
+    ],
+    "hemp,": [
+     208
+    ],
+    "is": [
+     209
+    ],
+    "an": [
+     210
+    ],
+    "effective,": [
+     211
+    ],
+    "renewable,": [
+     212
+    ],
+    "low-cost": [
+     214
+    ],
+    "strategy": [
+     215
+    ],
+    "reduce": [
+     217
+    ],
+    "UF-bonded": [
+     221
+    ],
+    "particleboards,": [
+     222
+    ],
+    "supporting": [
+     223
+    ],
+    "production": [
+     225
+    ],
+    "safer": [
+     227
+    ],
+    "more": [
+     229
+    ],
+    "sustainable": [
+     230
+    ],
+    "wood-based": [
+     231
+    ],
+    "composites.": [
+     232
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-10-14T16:39:01.820549",
+   "created_date": "2026-04-11T00:00:00"
+  }
+ ]
+}

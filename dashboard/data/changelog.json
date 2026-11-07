@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-11-07T00:00:00+00:00",
-  "inputDigest": "sha256:59d1a3cc07d7b2f9c8502edc3f25f358594457179e72c65214f89aa383d4cfc0",
+  "inputDigest": "sha256:1392c17e2dcb4b87455215d247ac10c5a239f2b32bbced988aea85fb1a957240",
   "rule": "Citation works are matched by DOI, then by folded title and year.",
   "versions": [
     {
@@ -266,6 +266,91 @@
           "doi": "10.54987/jemat.v13i2.1148",
           "articleIds": [
             12
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        }
+      ],
+      "removed": []
+    },
+    {
+      "from": "v6",
+      "to": "v7",
+      "totals": {
+        "works": {
+          "from": 112,
+          "to": 116
+        },
+        "links": {
+          "from": 115,
+          "to": 119
+        }
+      },
+      "publications": [
+        {
+          "id": 2,
+          "from": 6,
+          "to": 7,
+          "delta": 1
+        },
+        {
+          "id": 4,
+          "from": 44,
+          "to": 46,
+          "delta": 2
+        },
+        {
+          "id": 11,
+          "from": 29,
+          "to": 30,
+          "delta": 1
+        }
+      ],
+      "added": [
+        {
+          "key": "title:stage-gate and successful commercializing of novel ingredients in the food and beverage market|2026",
+          "title": "Stage-Gate and successful commercializing of novel ingredients in the food and beverage market",
+          "year": 2026,
+          "doi": "",
+          "articleIds": [
+            11
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "title:structural development of oat-based yoghurt|2026",
+          "title": "Structural development of oat-based yoghurt",
+          "year": 2026,
+          "doi": "",
+          "articleIds": [
+            2
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "title:turkiye'de yaygin olarak tuketilen ekmek cesitlerinin in vitro mineral biyoerisilebilirligi ve diyet mineral alimina katkisi|2025",
+          "title": "TÜRKİYE'DE YAYGIN OLARAK TÜKETİLEN EKMEK ÇEŞİTLERİNİN İN VİTRO MİNERAL BİYOERİŞİLEBİLİRLİĞİ VE DİYET MİNERAL ALIMINA KATKISI",
+          "year": 2025,
+          "doi": "",
+          "articleIds": [
+            4
+          ],
+          "sources": [
+            "OpenAlex"
+          ]
+        },
+        {
+          "key": "title:удосконалення технологіі хлібобулочних виробів з використанням продуктів переробки насіння конопель|2025",
+          "title": "Удосконалення технології хлібобулочних виробів з використанням продуктів переробки насіння конопель",
+          "year": 2025,
+          "doi": "",
+          "articleIds": [
+            4
           ],
           "sources": [
             "OpenAlex"

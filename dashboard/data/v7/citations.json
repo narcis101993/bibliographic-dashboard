@@ -1,0 +1,3973 @@
+[
+  {
+    "id": 1,
+    "articleId": 1,
+    "articleIds": [
+      1
+    ],
+    "articleTitle": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+    "articleYear": 2020,
+    "year": 2022,
+    "title": "PRELIMINARY RESEARCH ON USING ORGANIC SEA BUCKTHORN POWDER IN BREAD MAKING",
+    "authors": [
+      "Elisabeta Elena Popa",
+      "Alexandra Andreea ANGHEL",
+      "Ioana STANCIU",
+      "Amalia Carmen Miteluț",
+      "Paul Alexandru Popescu",
+      "Mihaela Cristina Draghici",
+      "Mihaela Geıcu-Crıstea",
+      "Mona Elena Popa"
+    ],
+    "venue": "AgroLife Scientific Journal",
+    "doi": "10.17930/agl2022218",
+    "link": "https://doi.org/10.17930/agl2022218",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4313799933",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 2,
+    "articleId": 1,
+    "articleIds": [
+      1
+    ],
+    "articleTitle": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+    "articleYear": 2020,
+    "year": 2022,
+    "title": "Texturized Vegetable Protein as a Source of Protein Fortification of Wheat Buns",
+    "authors": [
+      "Susanne Margrete Bølling Laugesen",
+      "Sandra Lenz Dethlefsen",
+      "Iben Lykke Petersen",
+      "Margit Dall Aaslyng"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods11223647",
+    "link": "https://doi.org/10.3390/foods11223647",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4309312878",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 3,
+    "articleId": 1,
+    "articleIds": [
+      1,
+      2,
+      3
+    ],
+    "articleTitle": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+    "articleYear": 2020,
+    "year": 2022,
+    "title": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "authors": [
+      "Gabriela Daniela Criveanu-Stamatie",
+      "Iulia Elena Susman",
+      "Sabina Andreea Bobea",
+      "Elena Matei",
+      "Denisa Eglantina Duță",
+      "Florentina Israel-Roming"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods11223667",
+    "link": "https://doi.org/10.3390/foods11223667",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": true,
+    "context": "Auto-citare: Da · Lucrare citează și articolele nr. 1, 2, 3",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4309604656",
+    "semanticScholarId": "2c74dec8962b4dc71e7a2ecc110590327c42fcf5"
+  },
+  {
+    "id": 4,
+    "articleId": 1,
+    "articleIds": [
+      1
+    ],
+    "articleTitle": "The influence of plant-based protein ingredients on the quality of high-protein bread",
+    "articleYear": 2020,
+    "year": 2026,
+    "title": "Integration of Tenebrio molitor and sour cherries in biscuits: formulation, nutritional value, safety, digestion and shelf-life evaluation",
+    "authors": [
+      "E. L. Faro",
+      "F. Masino",
+      "G. Montevecchi",
+      "A. Cattivelli",
+      "D. Tagliazucchi",
+      "P. Fava"
+    ],
+    "venue": "Journal of Insects as Food and Feed",
+    "doi": "10.1163/23524588-bja10426",
+    "link": "https://doi.org/10.1163/23524588-bja10426",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Înregistrare preluată din v3 (sursă originală: Semantic Scholar)",
+    "source": "Semantic Scholar (reverificare blocată 2026-11-01; înregistrare preluată din v3)",
+    "provenance": [
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "DOI rezolvabil, o singură sursă (Semantic Scholar); verificare manuală recomandată",
+    "openAlexId": "",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 5,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "UREA FERTILIZERS EFFICIENCY UPON QUALITY PARAMETERS OF WINTER CROPS",
+    "authors": [
+      "Alina Laţo",
+      "Isidora Radulov",
+      "Adina A. Berbecea",
+      "Alina-Georgeta Neacsu",
+      "Iaroslav Lațo"
+    ],
+    "venue": "International Multidisciplinary Scientific GeoConference SGEM ...",
+    "doi": "10.5593/sgem2022v/6.2/s25.45",
+    "link": "https://doi.org/10.5593/sgem2022v/6.2/s25.45",
+    "typeCode": "conference",
+    "typeLabel": "Lucrare de conferință",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4362503758",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 6,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "Plant protein-based emulsifiers: Mechanisms, techniques for emulsification enhancement and applications",
+    "authors": [
+      "Xinyu Zhang",
+      "Qiang Wang",
+      "Zhe Liu",
+      "Lanyi Zhi",
+      "Bo Jiao",
+      "Hui Hu",
+      "Xiaojie Ma",
+      "Dominic Agyei",
+      "Aimin Shi"
+    ],
+    "venue": "Food Hydrocolloids",
+    "doi": "10.1016/j.foodhyd.2023.109008",
+    "link": "https://doi.org/10.1016/j.foodhyd.2023.109008",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4381619712",
+    "semanticScholarId": "f2a8cc83eaed54b56b6fda0205c9384a4cb4aebd"
+  },
+  {
+    "id": 7,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Plant Proteins as Alternative Natural Emulsifiers in Food Emulsions",
+    "authors": [
+      "DOMINIKA KACZMAREK",
+      "Marta Pokora-Carzynska",
+      "Leslaw Juszczak",
+      "Ewelina Jamróz",
+      "Janusz Kapuśniak"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods14244291",
+    "link": "https://doi.org/10.3390/foods14244291",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7115194092",
+    "semanticScholarId": "c6f756300d58221a5ab4d032997460e338b7a83f"
+  },
+  {
+    "id": 8,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Comparative analysis (review) of foaming ability of vegetable and animal proteins for use in food systems",
+    "authors": [
+      "Колодина Екатерина Михайловна",
+      "K. E. Syrykh",
+      "Г. О. Магомедов",
+      "Г. О. Магомедов",
+      "Zuret Nurbievna Khatko"
+    ],
+    "venue": "Proceedings of the Voronezh State University of Engineering Technologies",
+    "doi": "10.20914/2310-1202-2026-2-172-186",
+    "link": "https://doi.org/10.20914/2310-1202-2026-2-172-186",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7222879146",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 9,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Functional and physicochemical properties of pomegranate seed protein concentrate produced by the precipitation method at the isoelectric pH",
+    "authors": [
+      "Samad Bodbodak",
+      "Boukaga Farmani",
+      "Oktay Yerlıkaya",
+      "Hamed Jafarzadeh",
+      "Somaye Mohammadkhani"
+    ],
+    "venue": "Journal of Food Measurement & Characterization",
+    "doi": "10.1007/s11694-026-04194-0",
+    "link": "https://doi.org/10.1007/s11694-026-04194-0",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7130860285",
+    "semanticScholarId": "e6f93933465477e03de26ce4ded9fe369702161f"
+  },
+  {
+    "id": 10,
+    "articleId": 2,
+    "articleIds": [
+      2
+    ],
+    "articleTitle": "Nutritional and functional properties of some protein sources",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Structural development of oat-based yoghurt",
+    "authors": [
+      "Ellinor Littorin"
+    ],
+    "venue": "Epsilon Archive for Student Projects (University of Southampton)",
+    "doi": "",
+    "link": "",
+    "typeCode": "thesis",
+    "typeLabel": "Teză",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "Fără DOI; titlu, an, autori și revistă prezente într-o singură sursă; verificare manuală recomandată",
+    "openAlexId": "W7213729009",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 11,
+    "articleId": 3,
+    "articleIds": [
+      3
+    ],
+    "articleTitle": "The Influence of Plant Proteins (from Pleurotus, pea, corn, soy, oat, hemp and sea buckthorn) Addition on Wheat Dough Rheology",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Sustainable Use of Rapeseed (Brassica napus L.) Meal as a Functional Ingredient in Bread: Impact on Dough Rheology, Nutritional Profile, and Bread Quality",
+    "authors": [
+      "Sylvestre Dossa",
+      "Cristian Argyelan",
+      "A. Rinovetz",
+      "Corina Neagu",
+      "Daniela Stoin",
+      "Dacian Virgil Lalescu",
+      "Călin Jianu",
+      "Isidora Radulov",
+      "Lelia Serpe",
+      "Adina Brinzeu",
+      "Ersilia Alexa"
+    ],
+    "venue": "Sustainability",
+    "doi": "10.3390/su18115441",
+    "link": "https://doi.org/10.3390/su18115441",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7163193862",
+    "semanticScholarId": "5f8f444c7cf21bc0933bcceea5dbf3bff820e17c"
+  },
+  {
+    "id": 12,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2021,
+    "title": "Rheological Approaches of Wheat Flour Dough Enriched with Germinated Soybean and Lentil",
+    "authors": [
+      "Mădălina Ungureanu‐Iuga",
+      "Denisa Atudorei",
+      "Georgiana Gabriela Codină",
+      "Silvia Mironeasa"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app112411706",
+    "link": "https://doi.org/10.3390/app112411706",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4200596710",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 13,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2021,
+    "title": "Rheological Approaches of Wheat Flour Dough Enriched with Germinated Soybean and Lentil",
+    "authors": [
+      "lina Ungureanu-Iuga",
+      "Denisa Atudorei",
+      "Georgiana G. Codin",
+      "S. Mironeasa"
+    ],
+    "venue": "",
+    "doi": "",
+    "link": "",
+    "typeCode": "other",
+    "typeLabel": "Alt tip",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Înregistrare preluată din v3 (sursă originală: Semantic Scholar)",
+    "source": "Semantic Scholar (reverificare blocată 2026-11-01; înregistrare preluată din v3)",
+    "provenance": [
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "scăzut",
+    "confidenceBasis": "Fără DOI și metadate incomplete (an/autori/revistă lipsă); verificare manuală necesară",
+    "openAlexId": "",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 14,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "A comprehensive review on pulse protein fractionation and extraction: processes, functionality, and food applications",
+    "authors": [
+      "Jared Lou Rivera",
+      "Kaliramesh Siliveru",
+      "Yonghui Li"
+    ],
+    "venue": "Critical Reviews in Food Science and Nutrition",
+    "doi": "10.1080/10408398.2022.2139223",
+    "link": "https://doi.org/10.1080/10408398.2022.2139223",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4308076401",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 15,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "Current Progress in the Extraction, Functional Properties, Interaction with Polyphenols, and Application of Legume Protein",
+    "authors": [
+      "Chaoting Wen",
+      "Guoyan Liu",
+      "Jiaoyan Ren",
+      "Qianchun Deng",
+      "Xin Xu",
+      "Jixian Zhang"
+    ],
+    "venue": "Journal of Agricultural and Food Chemistry",
+    "doi": "10.1021/acs.jafc.1c07576",
+    "link": "https://doi.org/10.1021/acs.jafc.1c07576",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4207004003",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 16,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "Effects of the substitution of wheat flour with raw or germinated ayocote bean ( Phaseolus coccineus ) flour on the nutritional properties and quality of bread",
+    "authors": [
+      "Johanan Espinosa‐Ramírez",
+      "Rosa María Mariscal‐Moreno",
+      "Cristina Chuck‐Hernández",
+      "Sergio Othón Serna-Saldivar",
+      "R. Selene Espiricueta‐Candelaria"
+    ],
+    "venue": "Journal of Food Science",
+    "doi": "10.1111/1750-3841.16263",
+    "link": "https://doi.org/10.1111/1750-3841.16263",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4288535447",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 17,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "Effects of wheat flour supplemented with soy protein concentrate on the rheology, microstructure and water mobility of protein‐fortified precooked noodles",
+    "authors": [
+      "Seong Eon Yoon",
+      "Geunhyuk Yang",
+      "Hyukjin J. Kwon",
+      "Suyong Lee"
+    ],
+    "venue": "International Journal of Food Science & Technology",
+    "doi": "10.1111/ijfs.15727",
+    "link": "https://doi.org/10.1111/ijfs.15727",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4221076843",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 18,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "Protein Ingredients in Bread: Technological, Textural and Health Implications",
+    "authors": [
+      "Pavel Alejandro Prieto-Vázquez del Mercado",
+      "Luís Mojica",
+      "Norma Morales-Hernández"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods11162399",
+    "link": "https://doi.org/10.3390/foods11162399",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4293678330",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 19,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2022,
+    "title": "Recent Advances in Cereals, Legumes and Oilseeds Grain Products Rheology and Quality",
+    "authors": [
+      "Georgiana Gabriela Codină"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app12031035",
+    "link": "https://doi.org/10.3390/app12031035",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4205651988",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 20,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "Biological stabilization of Arthrospira bioactive-peptides within biopolymers: Functional food formulation; bitterness-masking and nutritional aspects",
+    "authors": [
+      "Zahra Akbarbaglu",
+      "Ali Ayaseh",
+      "Babak Ghanbarzadeh",
+      "Khashayar Sarabandi"
+    ],
+    "venue": "LWT",
+    "doi": "10.1016/j.lwt.2023.115653",
+    "link": "https://doi.org/10.1016/j.lwt.2023.115653",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4389719955",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 21,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "Dough Rheological Properties and Macronutrient Bioavailability of Cereal Products Fortified through Legume Proteins",
+    "authors": [
+      "Chaima Neji",
+      "Jyoti Semwal",
+      "Endre Máthé",
+      "Péter Sípos"
+    ],
+    "venue": "Processes",
+    "doi": "10.3390/pr11020417",
+    "link": "https://doi.org/10.3390/pr11020417",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4318486589",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 22,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "Effect of full fat and defatted insect meals in breadmaking quality",
+    "authors": [
+      "Edgar Bottle",
+      "Johanan Espinosa‐Ramírez",
+      "Sergio Othón Serna-Saldivar",
+      "Viridiana Alejandra Tejada-Ortigoza"
+    ],
+    "venue": "LWT",
+    "doi": "10.1016/j.lwt.2023.115602",
+    "link": "https://doi.org/10.1016/j.lwt.2023.115602",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4389265071",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 23,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "In vitro digestion properties and use of automatic image analysis to assess the quality of wheat bread enriched with whole faba bean (Vicia faba L.) flour and its protein-rich fraction",
+    "authors": [
+      "Courtney Johnston",
+      "Sze Ying Leong",
+      "Callum Teape",
+      "Veronica Liesaputra",
+      "Indrawati Oey"
+    ],
+    "venue": "Food Research International",
+    "doi": "10.1016/j.foodres.2023.113630",
+    "link": "https://doi.org/10.1016/j.foodres.2023.113630",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4388273478",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 24,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "Nutritional significance of velvet bean (Mucuna pruriens) and opportunities for its processing into value-added products",
+    "authors": [
+      "D. Sowdhanya",
+      "Jyoti Singh",
+      "Prasad Rasane",
+      "Sawinder Kaur",
+      "Jaspreet Kaur",
+      "Sezai Erċışlı",
+      "Hitesh Verma"
+    ],
+    "venue": "Journal of Agriculture and Food Research",
+    "doi": "10.1016/j.jafr.2023.100921",
+    "link": "https://doi.org/10.1016/j.jafr.2023.100921",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4389955472",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 25,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2023,
+    "title": "THE INFLUENCE OF SOY PROCESSING PRODUCTS ON THE RHEOLOGICAL PROPERTIES OF BAKERY PRODUCTS: REVIEW",
+    "authors": [
+      "Vyacheslav Lodyanov",
+      "M.N. Shatverova"
+    ],
+    "venue": "",
+    "doi": "10.23947/itse.2023.239-243",
+    "link": "https://doi.org/10.23947/itse.2023.239-243",
+    "typeCode": "conference",
+    "typeLabel": "Lucrare de conferință",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4390175794",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 26,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Assessment of the Performance of Oat Flakes and Pumpkin Seed Powders in Gluten-Free Dough and Bread Based on Rice Flour",
+    "authors": [
+      "Iuliana Banu",
+      "Iuliana Aprodu"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app14083479",
+    "link": "https://doi.org/10.3390/app14083479",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4395011448",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 27,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Athletes preferences and willingness to pay for innovative high-protein functional foods",
+    "authors": [
+      "Matilde Reitano",
+      "Roberta Selvaggi",
+      "Gaetano Chinnici",
+      "Gioacchino Pappalardo",
+      "Kohei Yagi",
+      "Biagio Pecorino"
+    ],
+    "venue": "Appetite",
+    "doi": "10.1016/j.appet.2024.107687",
+    "link": "https://doi.org/10.1016/j.appet.2024.107687",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4402676330",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 28,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Chickpea flour fermentation with kefir improves bread properties",
+    "authors": [
+      "Micaela Parmigiani",
+      "Manuel M. Vidal Brambilla",
+      "Débora N. López",
+      "Valeria Boeris"
+    ],
+    "venue": "International Journal of Gastronomy and Food Science",
+    "doi": "10.1016/j.ijgfs.2024.101044",
+    "link": "https://doi.org/10.1016/j.ijgfs.2024.101044",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4403628180",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 29,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Compatibility of Whole Wheat-Based Composite Flour in the Development of Functional Foods",
+    "authors": [
+      "Amani Weerarathna",
+      "M.A.J. Wansapala"
+    ],
+    "venue": "Food Technology and Biotechnology",
+    "doi": "10.17113/ftb.62.04.24.8588",
+    "link": "https://doi.org/10.17113/ftb.62.04.24.8588",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4405874758",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 30,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Effect of incorporating plant and animal-derived protein sources into whole wheat flour on its physical, rheological, nutritional, and chapati-making attributes",
+    "authors": [
+      "Kaneez Haleema",
+      "Suresh D. Sakhare"
+    ],
+    "venue": "Journal of Food Science and Technology",
+    "doi": "10.1007/s13197-024-06072-3",
+    "link": "https://doi.org/10.1007/s13197-024-06072-3",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Înregistrare preluată din v3 (sursă originală: Semantic Scholar)",
+    "source": "Semantic Scholar (reverificare blocată 2026-11-01; înregistrare preluată din v3)",
+    "provenance": [
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "DOI rezolvabil, o singură sursă (Semantic Scholar); verificare manuală recomandată",
+    "openAlexId": "",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 31,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Enriching Wheat Bread With Banana Peel Powder: Impact on Nutritional Attributes, Bioactive Compounds, and Antioxidant Activity",
+    "authors": [
+      "Most. Jesmin Akhter",
+      "Md. Al-Amin",
+      "Md Akram Hossain",
+      "Md. Murtuza Kamal"
+    ],
+    "venue": "International Journal of Food Science",
+    "doi": "10.1155/2024/2662967",
+    "link": "https://doi.org/10.1155/2024/2662967",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4401248828",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 32,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "High Protein Functional Breads for Sustainable Nutrition: A Futuristic Review",
+    "authors": [
+      "Uththara Wijewardhana",
+      "Madhura Arunoda Jayasinghe",
+      "Isuru Wijesekara",
+      "K. K. D. S. Ranaweera"
+    ],
+    "venue": "Current Functional Foods",
+    "doi": "10.2174/0126668629315995240805053755",
+    "link": "https://doi.org/10.2174/0126668629315995240805053755",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4402856123",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 33,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Impact of conventional and emerging processing methods on alternative breads– a comprehensive review and meta-analysis",
+    "authors": [
+      "Mariana Maçãs",
+      "Bárbara Biduski",
+      "Alessandro Ferragina",
+      "Antonia AL dos Santos",
+      "Melanie Huet",
+      "Elke K. Arendt",
+      "Eimear Gallagher"
+    ],
+    "venue": "Critical Reviews in Food Science and Nutrition",
+    "doi": "10.1080/10408398.2024.2442527",
+    "link": "https://doi.org/10.1080/10408398.2024.2442527",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4405702297",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 34,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Plant protein innovations in snacks and bakery: Synergy of market trends and scientific advances",
+    "authors": [
+      "Fatma Boukid",
+      "Marina Mefleh",
+      "Hamza Mameri",
+      "Cristina M. Rosell"
+    ],
+    "venue": "Food Bioscience",
+    "doi": "10.1016/j.fbio.2024.105580",
+    "link": "https://doi.org/10.1016/j.fbio.2024.105580",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4404800641",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 35,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Production, characterization and spray-drying encapsulation of date (Phoenix dactylifera L.) seed protein hydrolysates for bread fortification",
+    "authors": [
+      "Zahra Akbarbaglu",
+      "Fardin Tamjidi",
+      "Khashayar Sarabandi",
+      "Ali Ayaseh"
+    ],
+    "venue": "Journal of Food Measurement & Characterization",
+    "doi": "10.1007/s11694-024-03014-7",
+    "link": "https://doi.org/10.1007/s11694-024-03014-7",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4405329774",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 36,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Rheological and Nutritional Properties of Wheat Flour Fortified with White Protein from Pumpkin and Spinach Leaves: A Comparative Analysis with Soy Protein as a Plant-Based Reference Protein",
+    "authors": [
+      "Nataša Ž. Šekuljica",
+      "Sonja Jakovetić Tanasković",
+      "Jelena Mijalković",
+      "Ivana V. Gazikalović",
+      "Nevena Luković",
+      "Mirjana G. Antov",
+      "Zorica Knežević Jugović"
+    ],
+    "venue": "SSRN Electronic Journal",
+    "doi": "10.2139/ssrn.5070989",
+    "link": "https://doi.org/10.2139/ssrn.5070989",
+    "typeCode": "preprint",
+    "typeLabel": "Preprint",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4405743056",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 37,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Rheological Properties",
+    "authors": [
+      "Jun Yang",
+      "Prabhakar Kasturi"
+    ],
+    "venue": "Methods and protocols in food science",
+    "doi": "10.1007/978-1-0716-4272-6_29",
+    "link": "https://doi.org/10.1007/978-1-0716-4272-6_29",
+    "typeCode": "chapter",
+    "typeLabel": "Capitol de carte",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4405379960",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 38,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2024,
+    "title": "Technological and Nutritional Aspects of Bread Production: An Overview of Current Status and Future Challenges",
+    "authors": [
+      "Mariana Mesta-Corral",
+      "Ricardo Gómez‐García",
+      "Nagamani Balagurusamy",
+      "Cristián Torres‐León",
+      "Ayerim Hernández‐Almanza"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods13132062",
+    "link": "https://doi.org/10.3390/foods13132062",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4400118444",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 39,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Удосконалення технології хлібобулочних виробів з використанням продуктів переробки насіння конопель",
+    "authors": [
+      "Mariia Blazhenko"
+    ],
+    "venue": "Institutional Repository of National University of Food Technologies",
+    "doi": "",
+    "link": "",
+    "typeCode": "other",
+    "typeLabel": "Alt tip",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "Fără DOI; titlu, an, autori și revistă prezente într-o singură sursă; verificare manuală recomandată",
+    "openAlexId": "W7199584711",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 40,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Alternative proteins from plant-based foods",
+    "authors": [
+      "Gülşah Karabulut",
+      "Deniz Günal‐Köroğlu",
+      "Büşra Yusufoğlu"
+    ],
+    "venue": "Elsevier eBooks",
+    "doi": "10.1016/b978-0-443-31652-4.00015-5",
+    "link": "https://doi.org/10.1016/b978-0-443-31652-4.00015-5",
+    "typeCode": "chapter",
+    "typeLabel": "Capitol de carte",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4414437141",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 41,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Food safety and food quality. Proceedings of the scientific papers",
+    "authors": [
+      "Jozef Golian",
+      "Jozef Čapla"
+    ],
+    "venue": "",
+    "doi": "10.15414/2025.sqf25-psp",
+    "link": "https://doi.org/10.15414/2025.sqf25-psp",
+    "typeCode": "other",
+    "typeLabel": "Carte",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4408548412",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 42,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Impact of Lupin Inclusion on the Rheological and Qualitative Characteristics, and Sensory Acceptability of Baked Rolls",
+    "authors": [
+      "Tatiana Holkovičová",
+      "Zlatica Kohajdová",
+      "Michaela Lauková",
+      "Lucia Minarovičová",
+      "Ladislav Staruch"
+    ],
+    "venue": "Polish Journal of Food and Nutrition Sciences",
+    "doi": "10.31883/pjfns/199852",
+    "link": "https://doi.org/10.31883/pjfns/199852",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4406914324",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 43,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Polyphenols as enhancers of emulsifying and antioxidant properties of egg and yeast protein emulsions: Understanding the molecular interactions behind their technological and functional potential",
+    "authors": [
+      "Ana Catarina Ribeiro",
+      "Carlo Bravo",
+      "Rui Miguel Ramos",
+      "Ricardo Dias",
+      "Nuno Filipe da Cruz Batista Mateus",
+      "Victor Armando Pereira de Freitas",
+      "Rosa Pérez-Gregório",
+      "Susana Soares"
+    ],
+    "venue": "Food Hydrocolloids",
+    "doi": "10.1016/j.foodhyd.2025.111399",
+    "link": "https://doi.org/10.1016/j.foodhyd.2025.111399",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4409141622",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 44,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Quality and nutritional evaluation of bakery products enriched with cricket meal",
+    "authors": [
+      "Sarvenaz Khalili Tilami",
+      "Lucie Jurkaninová",
+      "Zora Kotíková",
+      "Petra Škvorová",
+      "Žaneta Ferusová",
+      "Lenka Kouřimská"
+    ],
+    "venue": "Applied Food Research",
+    "doi": "10.1016/j.afres.2025.101303",
+    "link": "https://doi.org/10.1016/j.afres.2025.101303",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4413758536",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 45,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Sacha Inchi ( Plukenetia volubilis ) Protein‐Enriched Bread: Protein Quality, Breadmaking Properties, Textural Profile, and Bioactivity",
+    "authors": [
+      "L. Mateo Cordero‐Clavijo",
+      "Johanan Espinosa‐Ramírez",
+      "Marilena Antunes‐Ricardo",
+      "Cristina Chuck‐Hernández",
+      "Sergio Othón Serna-Saldivar",
+      "Marco A. Lazo‐Vélez"
+    ],
+    "venue": "Journal of Food Science",
+    "doi": "10.1111/1750-3841.70743",
+    "link": "https://doi.org/10.1111/1750-3841.70743",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4417029505",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 46,
+    "articleId": 4,
+    "articleIds": [
+      4,
+      7
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Tailor-made protein-rich bread for the elderly: integrating sensory preferences with nutritional and technological goals",
+    "authors": [
+      "Martina Moretton",
+      "Camilla Cattaneo",
+      "Nicoletta Pellegrini",
+      "Ella Pagliarini",
+      "Monica Anese"
+    ],
+    "venue": "International Journal of Food Sciences and Nutrition",
+    "doi": "10.1080/09637486.2025.2579728",
+    "link": "https://doi.org/10.1080/09637486.2025.2579728",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Lucrare citează și articolele nr. 4, 7",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4415793907",
+    "semanticScholarId": "ff6627f3a00847a27b21f39c327539270d00d39e"
+  },
+  {
+    "id": 47,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "TÜRKİYE'DE YAYGIN OLARAK TÜKETİLEN EKMEK ÇEŞİTLERİNİN İN VİTRO MİNERAL BİYOERİŞİLEBİLİRLİĞİ VE DİYET MİNERAL ALIMINA KATKISI",
+    "authors": [
+      "Apaydin, Hakan"
+    ],
+    "venue": "DergiPark (Istanbul University)",
+    "doi": "",
+    "link": "",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "Fără DOI; titlu, an, autori și revistă prezente într-o singură sursă; verificare manuală recomandată",
+    "openAlexId": "W7224724513",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 48,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Unlocking the Potential Use of Protein From Pumpkin and Spinach Leaves for Dough Fortification: A Comprehensive Investigation Into Dough Rheology and Nutritional Benefits",
+    "authors": [
+      "Nataša Ž. Šekuljica",
+      "Sonja Jakovetić Tanasković",
+      "Jelena Mijalković",
+      "Nevena Luković",
+      "Ivana V. Gazikalović",
+      "Mirjana G. Antov",
+      "Zorica D. Knežević‐Jugović"
+    ],
+    "venue": "Journal of Food Science",
+    "doi": "10.1111/1750-3841.70455",
+    "link": "https://doi.org/10.1111/1750-3841.70455",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4413101390",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 49,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Unveiling the protein profile and techno-functional potential of edible cricket protein concentrates: A comparative study of different body parts",
+    "authors": [
+      "Alejandro Brena-Melendez",
+      "Johanan del Pino Espinosa Ramírez",
+      "Luis Eduardo García-Amezquita",
+      "Mayra Deyanira Ramírez Aguirre",
+      "Andrea M. Liceaga",
+      "Viridiana Alejandra Tejada-Ortigoza"
+    ],
+    "venue": "Future Foods",
+    "doi": "10.1016/j.fufo.2025.100612",
+    "link": "https://doi.org/10.1016/j.fufo.2025.100612",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4408784366",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 50,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Comparative Physicochemical and Techno‐Functional Characterisation of Legume Protein Concentrates for Gluten‐Free Bread Applications",
+    "authors": [
+      "Mary Nkongho Tanyitiku",
+      "Srivathsa Kumbaji",
+      "Rakshya Pandit",
+      "Saritha Kagula"
+    ],
+    "venue": "Legume Science",
+    "doi": "10.1002/leg3.70130",
+    "link": "https://doi.org/10.1002/leg3.70130",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7164043361",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 51,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Conventional and Emerging Protein Ingredients in Farinaceous Products: Amino Acid Quality, Digestibility, Biological Value, and Functional Performance",
+    "authors": [
+      "P. Álvarez‐Arteaga",
+      "Marco A. Lazo‐Vélez",
+      "L. Mateo Cordero‐Clavijo",
+      "Samuel Paterson"
+    ],
+    "venue": "Comprehensive Reviews in Food Science and Food Safety",
+    "doi": "10.1111/1541-4337.70687",
+    "link": "https://doi.org/10.1111/1541-4337.70687",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7224094760",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 52,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Crackers Made from Nagara Bean (Vigna unguiculata L.) and Three-Spot Gourami (Trichopodus trichopterus) Flours as Complementary Food for Stunting Prevention",
+    "authors": [
+      "Meilla Dwi Andrestian",
+      "Zulfiana Dewi",
+      "Neni Oktiyani",
+      "Noraini Noraini"
+    ],
+    "venue": "Indonesian Food Science and Technology Journal",
+    "doi": "10.22437/ifstj.v9i2.47896",
+    "link": "https://doi.org/10.22437/ifstj.v9i2.47896",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7196967718",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 53,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Effect of Regulating Corn Glutelin Peptides via the Plastein Reaction on Its Physicochemical Characteristics and the Quality of Baked Bread",
+    "authors": [
+      "Yang Sun",
+      "Wan-Ying Zhang",
+      "Yue-Yuan Lu",
+      "Hai-Bo Lu",
+      "Guo-Jun Du",
+      "Yue Zhao",
+      "Yonghui Sun",
+      "Li-Ying Bo",
+      "Jian Ren",
+      "Jie An",
+      "Mengdi Wang"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15071173",
+    "link": "https://doi.org/10.3390/foods15071173",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7147056248",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 54,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "IN VITRO MINERAL BIOACCESSIBILITY AND CONTRIBUTION TO DIETARY MINERAL INTAKE OF COMMERCIALLY AVAILABLE BREAD TYPES IN TÜRKİYE",
+    "authors": [
+      "Hakan Apaydın"
+    ],
+    "venue": "GIDA / THE JOURNAL OF FOOD",
+    "doi": "10.15237/gida.gd25141",
+    "link": "https://doi.org/10.15237/gida.gd25141",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7154481609",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 55,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Plant-Protein Fortification of Cereal Foods: Market Insights and Nutritional Implications for the Dietary Exposome",
+    "authors": [
+      "Florencia Parle",
+      "Mario M. Martínez",
+      "Laura Román"
+    ],
+    "venue": "Annual Review of Food Science and Technology",
+    "doi": "10.1146/annurev-food-052924-062915",
+    "link": "https://doi.org/10.1146/annurev-food-052924-062915",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7127912621",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 56,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Time-Dependent Effects of Ultrasonic Modification of Soy Protein Concentrate on the Mixolab Rheology of Enriched Dough",
+    "authors": [
+      "Nataša Ž. Šekuljica",
+      "Sonja Jakovetić Tanasković",
+      "Jelena R. Jovanović",
+      "Neda Pavlović",
+      "Steva Lević",
+      "Alina Culețu",
+      "Zorica Knežević-Jugović"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15050796",
+    "link": "https://doi.org/10.3390/foods15050796",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7131301762",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 57,
+    "articleId": 4,
+    "articleIds": [
+      4
+    ],
+    "articleTitle": "Type and Amount of Legume Protein Concentrate Influencing the Technological, Nutritional, and Sensorial Properties of Wheat Bread",
+    "articleYear": 2021,
+    "year": 2026,
+    "title": "Use of Texturised Pea Protein By-Product in High-Protein Bread",
+    "authors": [
+      "Paloma Franco",
+      "Diogo Salvati",
+      "Manuel Gómez"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app16083860",
+    "link": "https://doi.org/10.3390/app16083860",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7154570737",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 58,
+    "articleId": 6,
+    "articleIds": [
+      6
+    ],
+    "articleTitle": "Sourdough fermentation in gluten-free bread: a shelf-life improvement",
+    "articleYear": 2021,
+    "year": 2025,
+    "title": "Impacts of Plant-Derived Hydrocolloids on Technological Characteristics of Gluten-Free Bakery Products: A Comprehensive Review",
+    "authors": [
+      "Sima Tahmouzi",
+      "Mojtaba Heydari-Majd",
+      "Hesam Daliri",
+      "Javaneh Karimi",
+      "Leila Zare",
+      "Heidar Meftahizadeh",
+      "N. Meybodi"
+    ],
+    "venue": "Comprehensive Reviews in Food Science and Food Safety",
+    "doi": "10.1111/1541-4337.70339",
+    "link": "https://doi.org/10.1111/1541-4337.70339",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Înregistrare preluată din v3 (sursă originală: Semantic Scholar)",
+    "source": "Semantic Scholar (reverificare blocată 2026-11-01; înregistrare preluată din v3)",
+    "provenance": [
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "DOI rezolvabil, o singură sursă (Semantic Scholar); verificare manuală recomandată",
+    "openAlexId": "",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 59,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2023,
+    "title": "Hemp Seed Cake Flour as a Source of Proteins, Minerals and Polyphenols and Its Impact on the Nutritional, Sensorial and Technological Quality of Bread",
+    "authors": [
+      "Tatiana Capcanari",
+      "Eugenia Covaliov",
+      "Cătălina Negoița",
+      "Rodica Siminiuc",
+      "Aurica Chirsanova",
+      "Vladislav Reşitca",
+      "Dinu Țurcanu"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods12234327",
+    "link": "https://doi.org/10.3390/foods12234327",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4389130138",
+    "semanticScholarId": "ea6a7a2bc32e0d48c5f791239ad8ae1ffa174c00"
+  },
+  {
+    "id": 60,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2023,
+    "title": "Influence of Peruvian Andean grain flours on the nutritional, rheological, physical, and sensory properties of sliced bread",
+    "authors": [
+      "Diego Fernando García-Ramón",
+      "Alejandrina Sotelo-Méndez",
+      "Hermelinda Alvarez Chancasanampa",
+      "Edgar Norabuena Meza",
+      "Liliana Sumarriva Bustinza",
+      "Karina Yachi",
+      "Teresa Jesús Gonzales Huamán",
+      "Marlitt Naupay Vega",
+      "Heber Peleg Cornelio-Santiago"
+    ],
+    "venue": "Frontiers in Sustainable Food Systems",
+    "doi": "10.3389/fsufs.2023.1202322",
+    "link": "https://doi.org/10.3389/fsufs.2023.1202322",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4386142370",
+    "semanticScholarId": "840add3b65b6c2517dd0eae99bcd605c91da8019"
+  },
+  {
+    "id": 61,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2023,
+    "title": "Steering protein and carbohydrate digestibility by food design to address elderly needs: The case of pea protein enriched bread",
+    "authors": [
+      "Martina Moretton",
+      "Marilisa Alongi",
+      "Niccolò Renoldi",
+      "Monica Anese"
+    ],
+    "venue": "LWT",
+    "doi": "10.1016/j.lwt.2023.115530",
+    "link": "https://doi.org/10.1016/j.lwt.2023.115530",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4388735777",
+    "semanticScholarId": "aefd85d02c969ef74103de03db3c1b6885dc69e8"
+  },
+  {
+    "id": 62,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2023,
+    "title": "The Experimental Development of Bread with Enriched Nutritional Properties Using Organic Sea Buckthorn Pomace",
+    "authors": [
+      "Ioana Stanciu",
+      "Elena Loredana Ungureanu",
+      "Elisabeta Elena Popa",
+      "Mihaela Geıcu-Crıstea",
+      "Mihaela Cristina Draghici",
+      "Amalia Carmen Miteluț",
+      "Gabriel Mustăţea",
+      "Mona Elena Popa"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app13116513",
+    "link": "https://doi.org/10.3390/app13116513",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4378575781",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 63,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2023,
+    "title": "The Influence of the Addition of Hemp Press Cake Flour on the Properties of Bovine and Ovine Yoghurts",
+    "authors": [
+      "Gjore Nakov",
+      "Biljana Trajkovska",
+      "Natalija Atanasova-Pančevska",
+      "Davor Daniloski",
+      "Nastia Ivanova",
+      "Mirela Lučan Čolić",
+      "Marko Jukić",
+      "Jasmina Lukinac"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods12050958",
+    "link": "https://doi.org/10.3390/foods12050958",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4321790064",
+    "semanticScholarId": "8822ca516d3914adcba1a1b0cd24ed602e8c3d95"
+  },
+  {
+    "id": 64,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2024,
+    "title": "ИСПОЛЬЗОВАНИЕ ОБЕЗЖИРЕННОГО ОБЛЕПИХОВОГО СОКА В ХЛЕБОПЕЧЕНИИ",
+    "authors": [
+      "О. В. Кольтюгина",
+      "Г.А. Лоскутова",
+      "И.Б. Острецова"
+    ],
+    "venue": "Высшая школа: научные исследования",
+    "doi": "10.25699/tohbipp.2024.29.55.055",
+    "link": "https://doi.org/10.25699/tohbipp.2024.29.55.055",
+    "typeCode": "conference",
+    "typeLabel": "Lucrare de conferință",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4403290233",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 65,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2024,
+    "title": "Assessment of the quality of bread made from ancient wheat flour with the addition of amaranth, flax and hemp seeds",
+    "authors": [
+      "Wacław Jarecki",
+      "Renata E. Tobiasz-Salach",
+      "Anna Augustyńska-Prejsnar"
+    ],
+    "venue": "Emirates Journal of Food and Agriculture",
+    "doi": "10.3897/ejfa.2024.127265",
+    "link": "https://doi.org/10.3897/ejfa.2024.127265",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4401924708",
+    "semanticScholarId": "1ff3499630df2202e83f32e3c67c333064870ac6"
+  },
+  {
+    "id": 66,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2024,
+    "title": "Effect of high pressure homogenization on in vitro digestibility and colon fermentability of pea protein-rich bread designed for elderly consumers",
+    "authors": [
+      "Martina Moretton",
+      "Melania Casertano",
+      "Nicoletta Pellegrini",
+      "Monica Anese",
+      "Vincenzo Fogliano",
+      "Edoardo Capuano"
+    ],
+    "venue": "Food & Function",
+    "doi": "10.1039/d4fo02767a",
+    "link": "https://doi.org/10.1039/d4fo02767a",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4402998869",
+    "semanticScholarId": "6de93551d48a4c13dda58c148457c877d3bd4aae"
+  },
+  {
+    "id": 67,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2025,
+    "title": "The Use of Whey Powder to Improve Bread Quality: A Sustainable Solution for Utilizing Dairy By-Products",
+    "authors": [
+      "Diana Fluerasu",
+      "Corina Neagu",
+      "Sylvestre Dossa",
+      "Monica Negrea",
+      "Călin Jianu",
+      "Adina A. Berbecea",
+      "Daniela Stoin",
+      "Dacian Virgil Lalescu",
+      "Diana Brezovan",
+      "Liliana Cseh",
+      "Mariana Suba",
+      "Cătălin Ianăşi",
+      "Ersilia Alexa"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods14162911",
+    "link": "https://doi.org/10.3390/foods14162911",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4413376454",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 68,
+    "articleId": 7,
+    "articleIds": [
+      7
+    ],
+    "articleTitle": "The Influence of the Technological Process on Improving the Acceptability of Bread Enriched with Pea Protein, Hemp and Sea Buckthorn Press Cake",
+    "articleYear": 2022,
+    "year": 2026,
+    "title": "Soil Water Deficit During Wheat Grain Filling Drives Wholemeal Bread Texture in an Extreme Climatic Year",
+    "authors": [
+      "Valeria Gagiu",
+      "Denisa Eglantina Duță",
+      "Cristian Mihai Pomohaci",
+      "Gabriela Daniela Criveanu-Stamatie",
+      "Elena-Iulia Lazăr Bănuţă",
+      "Cristian Lazar",
+      "Oana Alexandra Oprea",
+      "Elena Mateescu",
+      "Nastasia Belc"
+    ],
+    "venue": "Agronomy",
+    "doi": "10.3390/agronomy16181832",
+    "link": "https://doi.org/10.3390/agronomy16181832",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": true,
+    "context": "Auto-citare: Da",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7213466976",
+    "semanticScholarId": "d87d73cc92080ece2c08d19d30a27d68a2e0ff82"
+  },
+  {
+    "id": 69,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2024,
+    "title": "A comprehensive overview of the principles and advances in electronic noses for the detection of alcoholic beverages",
+    "authors": [
+      "Zichen Zheng",
+      "Kewei Liu",
+      "Yiwen Zhou",
+      "Marc Debliquy",
+      "Carla Bittencourt",
+      "Chao Zhang"
+    ],
+    "venue": "Trends in Food Science & Technology",
+    "doi": "10.1016/j.tifs.2024.104862",
+    "link": "https://doi.org/10.1016/j.tifs.2024.104862",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4405950528",
+    "semanticScholarId": "8a91121fabfd1609839fca345d06cc5ea297c11f"
+  },
+  {
+    "id": 70,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2024,
+    "title": "Identification of white wine adulteration with apple juice and apple cider using cyclic voltammetry on a screen-printed electrode aided by chemometric analysis",
+    "authors": [
+      "Maria Liveri",
+      "Anna Tsantili‐Kakoulidou",
+      "Fotios N. Tsopelas"
+    ],
+    "venue": "Journal of Food Composition and Analysis",
+    "doi": "10.1016/j.jfca.2024.106751",
+    "link": "https://doi.org/10.1016/j.jfca.2024.106751",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4402578264",
+    "semanticScholarId": "71ef7ba037f73f12d05480c8ec1c6890219b6ac2"
+  },
+  {
+    "id": 71,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2024,
+    "title": "Olfactory Profile and Stochastic Analysis: An Innovative Approach for Predicting the Physicochemical Characteristics of Recycled Waste Cooking Oils for Sustainable Biodiesel Production",
+    "authors": [
+      "Suelen Conceição de Carvalho",
+      "Maryana Mathias Costa Silva",
+      "Adriano Francisco Siqueira",
+      "Mariana Pereira de Melo",
+      "Domingos Sávio Giordani",
+      "Tatiane de Oliveira Souza Senra",
+      "Ana Lúcia Gabas Ferreira"
+    ],
+    "venue": "Sustainability",
+    "doi": "10.3390/su16229998",
+    "link": "https://doi.org/10.3390/su16229998",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4404535302",
+    "semanticScholarId": "6c72d88f6c9d820f5163e846ef35185ddfd3b306"
+  },
+  {
+    "id": 72,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2025,
+    "title": "The quality of grape must and wine in the Buzias area, under the conditions of climate change",
+    "authors": [
+      "A. Dobrei",
+      "Eleonora Nistor",
+      "Mihaela Mălăescu",
+      "Aurica Breica Borozan",
+      "Dragos CONSTANTINESCU",
+      "Vukohir VINKITS",
+      "Daniela Dobromir",
+      "Alin Dobrei"
+    ],
+    "venue": "JOURNAL OF HORTICULTURE FORESTRY AND BIOTECHNOLOGY",
+    "doi": "10.59463/nfk06x26",
+    "link": "https://doi.org/10.59463/nfk06x26",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4417459366",
+    "semanticScholarId": "a902be885cbacb9049c8207363eac5e98bfe3661"
+  },
+  {
+    "id": 73,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2025,
+    "title": "Volatile Compounds as Markers of Terroir and Winemaking Practices in Fetească Albă Wines of Romania",
+    "authors": [
+      "Ioana Cristina Bedreag (Rebigan)",
+      "Ionel Bogdan Cioroiu",
+      "Marius Niculaua",
+      "B. Nechita",
+      "Valeriu V. Cotea"
+    ],
+    "venue": "Beverages",
+    "doi": "10.3390/beverages11030067",
+    "link": "https://doi.org/10.3390/beverages11030067",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W4410160346",
+    "semanticScholarId": "341c2654061f06fe5a77280b2f1e2c2351ca62ca"
+  },
+  {
+    "id": 74,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2026,
+    "title": "Characterization of Low-Alcohol Wines Obtained by Post-Fermentative Reverse Osmosis and Vacuum Concentration",
+    "authors": [
+      "V. R. Filimon",
+      "Florin Dumitru Bora",
+      "B. Nechita",
+      "Marius Niculaua",
+      "Cătălin Ioan Zamfir",
+      "Roxana Mihaela Filimon",
+      "Ancuța Nechita",
+      "Valeriu V. Cotea"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15020321",
+    "link": "https://doi.org/10.3390/foods15020321",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7124318593",
+    "semanticScholarId": "337a15ff00a9208520de7a1d751add37ae594d71"
+  },
+  {
+    "id": 75,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2026,
+    "title": "Revisiting wine authentication in a changing landscape: Trends, challenges, and future directions",
+    "authors": [
+      "Laura V. Morales",
+      "Diego Alejandro Ahumada",
+      "Anna Deben",
+      "Sònia Sentellas",
+      "Javier Saurina"
+    ],
+    "venue": "TrAC Trends in Analytical Chemistry",
+    "doi": "10.1016/j.trac.2026.118917",
+    "link": "https://doi.org/10.1016/j.trac.2026.118917",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7161239941",
+    "semanticScholarId": "59f9b0d7ff4461e2df0a0c6e8d1294a68e430432"
+  },
+  {
+    "id": 76,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2026,
+    "title": "Sensory Characterization of Fermented Beverages Produced from White Grape Must Enriched with Crushed Aronia Fruit",
+    "authors": [
+      "Arina Oana Antoce",
+      "George Adrian Cojocaru"
+    ],
+    "venue": "Beverages",
+    "doi": "10.3390/beverages12110127",
+    "link": "https://doi.org/10.3390/beverages12110127",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7223698723",
+    "semanticScholarId": "594085d5fc91984ea1ffee7bf59b6d9bd802c3e6"
+  },
+  {
+    "id": 77,
+    "articleId": 10,
+    "articleIds": [
+      10
+    ],
+    "articleTitle": "Decoding the Volatile Profile of White Romanian Fetească Wines",
+    "articleYear": 2024,
+    "year": 2026,
+    "title": "Varietal Typicity and Sustainability Potential of Indigenous Wines from Historical Moldavia: An Integrated Physicochemical and Sensory Characterization",
+    "authors": [
+      "D. Siminel",
+      "Elena Cristina Scutarașu",
+      "Cintia Colibaba",
+      "Camelia Elena Luchian",
+      "Andrei Scutarașu",
+      "Ioana Buțerchi",
+      "Bettina-Cristina Buican",
+      "Valeriu V. Cotea"
+    ],
+    "venue": "Sustainability",
+    "doi": "10.3390/su182010633",
+    "link": "https://doi.org/10.3390/su182010633",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7223044572",
+    "semanticScholarId": "d54dc65d58a4c91a2638e1686bc3b5534b4fd313"
+  },
+  {
+    "id": 78,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "A Consumer Perspective on the Valorization of Forest Fruit By-Products in a Dairy Product: Opportunity or Challenge?",
+    "authors": [
+      "Mădălina Ungureanu‐Iuga",
+      "Emanuela-Adina Nicula"
+    ],
+    "venue": "Sustainability",
+    "doi": "10.3390/su17146611",
+    "link": "https://doi.org/10.3390/su17146611",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4412540394",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 79,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Application of digital tools in promoting an innovative product in the food industry",
+    "authors": [
+      "Volodymyr V. Volikov",
+      "Yevhenii Shevchenko",
+      "individual entrepreneur"
+    ],
+    "venue": "Ukrainian Journal of Applied Economics and Technology",
+    "doi": "10.36887/2415-8453-2025-4-19",
+    "link": "https://doi.org/10.36887/2415-8453-2025-4-19",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7118173593",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 80,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Comparative Quality Assessment of Sudanese White Cheese Coagulated With Acacia nubica Bark Extract and Rennet",
+    "authors": [
+      "Khalid A. Gadein",
+      "Sara Elkheir Mustafa",
+      "Wisal A. M. Babiker",
+      "Mona Abdelgadir Ahmed Abuagla"
+    ],
+    "venue": "Journal of Food Quality",
+    "doi": "10.1155/jfq/7868250",
+    "link": "https://doi.org/10.1155/jfq/7868250",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4415643012",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 81,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Exploring Chinese Consumers’ Perception and Potential Acceptance of Cell-Cultured Meat and Plant-Based Meat: A Focus Group Study and Content Analysis",
+    "authors": [
+      "Muhabaiti Pareti",
+      "Junsong Guo",
+      "Junjun Yin",
+      "Qiankun Liu",
+      "Nadire Abudurofu",
+      "Abulizi Bulibuli",
+      "Maurizio Canavari"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods14091446",
+    "link": "https://doi.org/10.3390/foods14091446",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4409681744",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 82,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Food-derived bioactive compounds targeting mitophagy: Emerging nutritional strategies against sarcopenia",
+    "authors": [
+      "Haozhen Zhang",
+      "Laiming Zhang",
+      "Donghong Liu",
+      "Xingqian Ye",
+      "Shiguo Chen"
+    ],
+    "venue": "Trends in Food Science & Technology",
+    "doi": "10.1016/j.tifs.2025.105314",
+    "link": "https://doi.org/10.1016/j.tifs.2025.105314",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4414188655",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 83,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Incorporation of Protein Alternatives in Bakery Products: Biological Value and Techno-Functional Properties",
+    "authors": [
+      "Carlos Daniel Perea-Escobar",
+      "Liliana Londoño‐Hernández",
+      "Juan Roberto Benavente‐Valdés",
+      "Nagamani Balagurusamy",
+      "Juan Carlos Contreras‐Esquivel",
+      "Ayerim Hernández‐Almanza"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app152011279",
+    "link": "https://doi.org/10.3390/app152011279",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4415403064",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 84,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Polyphenolic Compounds from Indigenous Malus Species: A Novel Approach to Improve Ice Cream’s Thermodynamic Properties",
+    "authors": [
+      "Léa Nehmé",
+      "Youssef El Rayess",
+      "Maribelle Semaan",
+      "Elsa Nawfal",
+      "Philippe Riachy"
+    ],
+    "venue": "Processes",
+    "doi": "10.3390/pr13072019",
+    "link": "https://doi.org/10.3390/pr13072019",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4411699700",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 85,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Unraveling the potential of ultrasound processing from the consumer perspective: A review on sensory characteristics and perception",
+    "authors": [
+      "Gabrielly Ribeiro Carneiro",
+      "Tatiana Colombo Pimentel"
+    ],
+    "venue": "Food Bioscience",
+    "doi": "10.1016/j.fbio.2025.106789",
+    "link": "https://doi.org/10.1016/j.fbio.2025.106789",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4410193871",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 86,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Agri-food by-product valorisation and safety in sustainable food systems: Hidden hazards, risk–benefit trade-offs, challenges and opportunities",
+    "authors": [
+      "Ermolaos Ververis",
+      "Areti Favata",
+      "Nikolaos Koffas",
+      "Panagiota Zakidou"
+    ],
+    "venue": "Food Chemistry Advances",
+    "doi": "10.1016/j.focha.2026.101299",
+    "link": "https://doi.org/10.1016/j.focha.2026.101299",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7154997184",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 87,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Brewer's spent grain and spent yeast as sustainable functional ingredients for food applications: Technological advances, challenges and future perspectives",
+    "authors": [
+      "Esteban Pérez-García",
+      "Esther Sanjuán",
+      "António Raposo",
+      "José Raduán Jaber",
+      "Ana S. Ramírez",
+      "Ariana Saraiva",
+      "Hani A. Alfheeaid",
+      "Conrado Carrascosa"
+    ],
+    "venue": "Food Bioscience",
+    "doi": "10.1016/j.fbio.2026.110082",
+    "link": "https://doi.org/10.1016/j.fbio.2026.110082",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7214173597",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 88,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Bridging bioprocess and market: Precision nutrition, safety governance, and consumer perceptions of fruit waste-derived single-cell proteins",
+    "authors": [
+      "Gebeyehu Ayele",
+      "Habtamu Admassu",
+      "Gadissa Mosisa",
+      "Abebe Desalegn",
+      "Molla Abeje"
+    ],
+    "venue": "Food and Humanity",
+    "doi": "10.1016/j.foohum.2026.101504",
+    "link": "https://doi.org/10.1016/j.foohum.2026.101504",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7220654768",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 89,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Chemical composition of nettle (Urtica dioica L.) seeds and products enriched by nettle seeds and extract: nutritional potential and prospects for utilization as a health food",
+    "authors": [
+      "Jelena Mitrović",
+      "Nada Nikolić",
+      "Ivana Karabegović",
+      "Mirjana Pešić",
+      "Olivera Šimurina",
+      "Sasa R. Savic",
+      "Bojana Danilović"
+    ],
+    "venue": "Journal of Food Measurement & Characterization",
+    "doi": "10.1007/s11694-026-04945-z",
+    "link": "https://doi.org/10.1007/s11694-026-04945-z",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7212232058",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 90,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Converting Food Waste into Value-Added Products: A Review on Current Technologies, Challenges, and Future Perspectives",
+    "authors": [
+      "Antonietta Baiano"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15142577",
+    "link": "https://doi.org/10.3390/foods15142577",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7170048912",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 91,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Designing Functional Foods Beyond Bioactivity: Integrating Processing, Safety, and Regulatory Readiness",
+    "authors": [
+      "Gülsün Akdemir Evrendilek"
+    ],
+    "venue": "Applied Sciences",
+    "doi": "10.3390/app16062999",
+    "link": "https://doi.org/10.3390/app16062999",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7138947575",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 92,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Development and Validation of a Multidimensional Consumer Assessment Framework for Alternative-Ingredient Bakery and Confectionery Products: Implications for Nutrition Methodology and Sustainable Diet Research",
+    "authors": [
+      "Anca Mihaela Dicu",
+      "Ruxandra Cristina Marin",
+      "Călin Muntean",
+      "Radu Dumitru Moleriu",
+      "Anca Tudor",
+      "Teodora Piroș",
+      "Florentina Simona Barbu",
+      "Dana Radu",
+      "Luminița-Ștefania Bozdog"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15172950",
+    "link": "https://doi.org/10.3390/foods15172950",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7204099668",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 93,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Emerging trends and recent innovations in oleogel-based fat substitutes for sustainable foods",
+    "authors": [
+      "Melisa Kırnapcı",
+      "Zeynep Aksoylu Özbek"
+    ],
+    "venue": "European Food Research and Technology",
+    "doi": "10.1007/s00217-025-04962-0",
+    "link": "https://doi.org/10.1007/s00217-025-04962-0",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7118702499",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 94,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "ermentation-assisted valorisation of hemp-derived ingredients for functional pasta development",
+    "authors": [
+      "Tatiana Capcanari",
+      "Eugenia Covaliov",
+      "Nikoleta Țurea",
+      "Oxana Radu",
+      "Violina Popovici"
+    ],
+    "venue": "Ukrainian Food Journal",
+    "doi": "10.24263/2304-974x-2026-15-2-3",
+    "link": "https://doi.org/10.24263/2304-974x-2026-15-2-3",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7168099042",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 95,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Fermentelligence – Can AI-optimised fermentation of agri-food side streams deliver the sustainable protein promise?",
+    "authors": [
+      "Alexander Lewis Bowler",
+      "Jordan Pennells",
+      "Kai Knoerzer",
+      "Lucas Eastham",
+      "Andy Jarvis",
+      "Nicholas James Watson"
+    ],
+    "venue": "Current Opinion in Green and Sustainable Chemistry",
+    "doi": "10.1016/j.cogsc.2026.101091",
+    "link": "https://doi.org/10.1016/j.cogsc.2026.101091",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7172334027",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 96,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Food Industry By-Products as Natural Preservatives: Supporting Adolescent Food Literacy and Critical Food Choices",
+    "authors": [
+      "Paula Silva"
+    ],
+    "venue": "Nutrients",
+    "doi": "10.3390/nu18121859",
+    "link": "https://doi.org/10.3390/nu18121859",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7164042380",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 97,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "From Brewing By-Products to Next-Generation Food Ingredients: Processing, Functionality, Safety, and Industrial Translation",
+    "authors": [
+      "Ionuţ Dumitru Veleşcu",
+      "Ioana Cristina Crivei",
+      "Andreea Bianca Balint",
+      "Florina Stoica",
+      "Florin Daniel Lipșa",
+      "Roxana Nicoleta Rațu"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15122193",
+    "link": "https://doi.org/10.3390/foods15122193",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7165004241",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 98,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "From waste to wealth: Innovating with food by-products",
+    "authors": [
+      "Sakshi Sinha",
+      "Rishikesh Ratan",
+      "Raktim Halder",
+      "Naveen Chandrakar",
+      "Mamoni Banerjee",
+      "Gourav Dhar Bhowmick"
+    ],
+    "venue": "Food and Humanity",
+    "doi": "10.1016/j.foohum.2026.101054",
+    "link": "https://doi.org/10.1016/j.foohum.2026.101054",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7126261288",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 99,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Fungal valorisation of food-industry side-streams: An integration-first framework",
+    "authors": [
+      "Claudia P. Carrasco-Cabrera",
+      "Avinash V. Karpe"
+    ],
+    "venue": "Current Opinion in Green and Sustainable Chemistry",
+    "doi": "10.1016/j.cogsc.2026.101100",
+    "link": "https://doi.org/10.1016/j.cogsc.2026.101100",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7207686024",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 100,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Microbial fermentation strategies for enhancing sensory and nutritional quality of plant-based protein foods",
+    "authors": [
+      "N.V. Kanimozhi",
+      "S. Nagalakshmi",
+      "M. Sukumar"
+    ],
+    "venue": "Food Wellness",
+    "doi": "10.1016/j.foodw.2026.100046",
+    "link": "https://doi.org/10.1016/j.foodw.2026.100046",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7154683661",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 101,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Nutritional composition, potential applications, and health benefits of doum palm fruit (Hyphaene thebaica): A review",
+    "authors": [
+      "Abdullah K. Mohamed",
+      "Ahmed K. Rashwan",
+      "Abdelkader Bassiony",
+      "Ahmed Ibrahim Osman",
+      "Mohamed F. Abouelenein",
+      "Amged El-Harairy",
+      "Zineb Ould Yahia",
+      "Bolai Paul",
+      "Abul-Hamd El Sayed MEHANNI",
+      "Wei Chen"
+    ],
+    "venue": "Trends in Food Science & Technology",
+    "doi": "10.1016/j.tifs.2026.105782",
+    "link": "https://doi.org/10.1016/j.tifs.2026.105782",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7156057085",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 102,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Physicochemical Characterization and Optimization of Ultrasonic-Assisted Extraction of Bioactive Compounds from Sugarcane Molasses",
+    "authors": [
+      "Hiwet Meresa Gebremeskel",
+      "g anon",
+      "Henock Woldemichael Woldemariam"
+    ],
+    "venue": "SSRN Electronic Journal",
+    "doi": "10.2139/ssrn.6832599",
+    "link": "https://doi.org/10.2139/ssrn.6832599",
+    "typeCode": "preprint",
+    "typeLabel": "Preprint",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7162410431",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 103,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Potential Consumer Profiles and Market Demand Projections of Gluten and Lactose-Free Cookies",
+    "authors": [
+      "Dahlia Indah Amareta",
+      "Galih Purnasari",
+      "M Rizal Permadi",
+      "Rindiani Rindiani",
+      "Alinea Dwi Elisanti"
+    ],
+    "venue": "International Journal of Technology Food and Agriculture",
+    "doi": "10.25047/tefa.v3i1.6755",
+    "link": "https://doi.org/10.25047/tefa.v3i1.6755",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7143870816",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 104,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Psychology of Eating the Future: Consumer Acceptance, Digital Influence and Behavioral Drivers of Novel Foods",
+    "authors": [
+      "Muhammad Faisal Manzoor",
+      "Muhammad Talha Afraz",
+      "Muhammad Waseem",
+      "Zahoor Ahmed"
+    ],
+    "venue": "Foods",
+    "doi": "10.3390/foods15142471",
+    "link": "https://doi.org/10.3390/foods15142471",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7168134785",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 105,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Stage-Gate and successful commercializing of novel ingredients in the food and beverage market",
+    "authors": [
+      "Veronica Borne Lavoie"
+    ],
+    "venue": "K-State Research Exchange (Kansas State University)",
+    "doi": "",
+    "link": "",
+    "typeCode": "thesis",
+    "typeLabel": "Teză",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "Fără DOI; titlu, an, autori și revistă prezente într-o singură sursă; verificare manuală recomandată",
+    "openAlexId": "W7217357090",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 106,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "The effect of innovation-related perceptions on consumer acceptance of upcycled date alternative proteins in selected Mediterranean countries",
+    "authors": [
+      "Tura Kaso Hamo",
+      "Agnes Emberger‐Klein",
+      "Klaus Menrad"
+    ],
+    "venue": "Future Foods",
+    "doi": "10.1016/j.fufo.2026.101053",
+    "link": "https://doi.org/10.1016/j.fufo.2026.101053",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7162293109",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 107,
+    "articleId": 11,
+    "articleIds": [
+      11
+    ],
+    "articleTitle": "Consumers acceptance of new food ingredients from the food industry's by-products—a focus group study",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "The phytochemicals of durian (Durio zibethinus) pulp and agricultural by-products: A systematic review of their benefits for metabolic health and bio-waste valorisation",
+    "authors": [
+      "Nur Sahira Noorhashim",
+      "A. Azlan",
+      "N. A. Razali"
+    ],
+    "venue": "Trends in Food Science & Technology",
+    "doi": "10.1016/j.tifs.2026.106102",
+    "link": "https://doi.org/10.1016/j.tifs.2026.106102",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu · Înregistrare preluată din v3 (sursă originală: Semantic Scholar)",
+    "source": "Semantic Scholar (reverificare blocată 2026-11-01; înregistrare preluată din v3)",
+    "provenance": [
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "mediu",
+    "confidenceBasis": "DOI rezolvabil, o singură sursă (Semantic Scholar); verificare manuală recomandată",
+    "openAlexId": "",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 108,
+    "articleId": 12,
+    "articleIds": [
+      12
+    ],
+    "articleTitle": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+    "articleYear": 2025,
+    "year": 2025,
+    "title": "Multifunctional Applications of Bacterial Cellulose: Bridging Food, Cosmetic and Environmental Sectors",
+    "authors": [
+      "Helmi Wasoh",
+      "Murni Halim",
+      "Nor’Aini Abdul Rahman",
+      "Zulfazli M. Sobri",
+      "Mohd Termizi Yusof",
+      "Mohd Sabri Pak‐Dek",
+      "Yanty Noorzianna Abdul Manaf"
+    ],
+    "venue": "Journal of Environmental Microbiology and Toxicology",
+    "doi": "10.54987/jemat.v13i2.1148",
+    "link": "https://doi.org/10.54987/jemat.v13i2.1148",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W4417424954",
+    "semanticScholarId": ""
+  },
+  {
+    "id": 109,
+    "articleId": 12,
+    "articleIds": [
+      12
+    ],
+    "articleTitle": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Cryoprotective mechanism of tamarind seed polysaccharide on milk proteins and its application in yogurt ice cream",
+    "authors": [
+      "Yaxin Yan",
+      "Hongxiao He",
+      "Dongchun Zhang",
+      "Jian He",
+      "Hui Zhang",
+      "Xin Song",
+      "Fan Xie",
+      "Lianzhong Ai"
+    ],
+    "venue": "Food Hydrocolloids",
+    "doi": "10.1016/j.foodhyd.2026.112950",
+    "link": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7163318512",
+    "semanticScholarId": "b829a72ef7cc66749b5914a54f1905be062aca1d"
+  },
+  {
+    "id": 110,
+    "articleId": 12,
+    "articleIds": [
+      12
+    ],
+    "articleTitle": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Edible biopolymer matrices as active modulators of the gut microbiome: Mechanistic links between structure, enzymatic access and metabolome",
+    "authors": [
+      "Răzvan Odocheanu",
+      "Mădălina Lorena Medeleanu",
+      "Laura Mitrea",
+      "Lavinia Florina Călinoiu",
+      "Gheorghe Adrian Martău",
+      "Mihaela Mihai",
+      "Dan Cristian Vodnar"
+    ],
+    "venue": "Food Hydrocolloids",
+    "doi": "10.1016/j.foodhyd.2026.113121",
+    "link": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7167787251",
+    "semanticScholarId": "915aaa694ecdefb17fefed7dc8a66a1e6d7e6b4d"
+  },
+  {
+    "id": 111,
+    "articleId": 12,
+    "articleIds": [
+      12
+    ],
+    "articleTitle": "Integrating bacterial cellulose in artisanal ice cream: a farm-to-fork sustainable approach",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Microbial synthesis and degradation of bio-based biodegradable plastics",
+    "authors": [
+      "Manuel Bruch",
+      "Tanja Narančić",
+      "Rhys Orimaco",
+      "Jounghyun Um",
+      "Ciara D. Lynch",
+      "Si Liu",
+      "Jasmina Nikodinović‐Runić",
+      "Ren Wei",
+      "Kevin Edward O’Connor"
+    ],
+    "venue": "Nature Reviews Microbiology",
+    "doi": "10.1038/s41579-026-01370-3",
+    "link": "https://doi.org/10.1038/s41579-026-01370-3",
+    "typeCode": "review",
+    "typeLabel": "Review",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7215086588",
+    "semanticScholarId": "12810a0dc5f2e6b10cf480af793ff3017eaf7a33"
+  },
+  {
+    "id": 112,
+    "articleId": 13,
+    "articleIds": [
+      13
+    ],
+    "articleTitle": "Impact of Hemp Flour on the Nutritional, Sensory and Functional Characteristics of Wheat and Whole Wheat Muffins",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Effect of red beet flour substitution on iron content and acceptability of functional muffins: an experimental study for anemia prevention",
+    "authors": [
+      "Yeni Tutu Rohimah",
+      "Dwi Retna Prihati",
+      "Titik Lestari"
+    ],
+    "venue": "International Journal of Public Health Science (IJPHS)",
+    "doi": "10.11591/ijphs.v15i2.27121",
+    "link": "https://doi.org/10.11591/ijphs.v15i2.27121",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7163909682",
+    "semanticScholarId": "d66a632c3def1177c8bb431ad57fac74ee066af6"
+  },
+  {
+    "id": 113,
+    "articleId": 13,
+    "articleIds": [
+      13
+    ],
+    "articleTitle": "Impact of Hemp Flour on the Nutritional, Sensory and Functional Characteristics of Wheat and Whole Wheat Muffins",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Enrichment of Wheat–Chia Bread with Hemp, and Buckwheat Flours and Cistus incanus L. Infusion: Impact on Chemical Composition, Polyphenols, Fatty Acids, Amino Acids, and Consumer Acceptance",
+    "authors": [
+      "Anna T. Mikulec",
+      "Barbara Mickowska",
+      "Joanna Oracz",
+      "Kaja Karwowska",
+      "Magdalena Skotnicka",
+      "Stanisław Kowalski"
+    ],
+    "venue": "Molecules",
+    "doi": "10.3390/molecules31071198",
+    "link": "https://doi.org/10.3390/molecules31071198",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7149947237",
+    "semanticScholarId": "fd981b47f743d3720a4c0f31b0bd1ac5ab6c02ae"
+  },
+  {
+    "id": 114,
+    "articleId": 13,
+    "articleIds": [
+      13
+    ],
+    "articleTitle": "Impact of Hemp Flour on the Nutritional, Sensory and Functional Characteristics of Wheat and Whole Wheat Muffins",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Formulation-dependent Effects of Hemp Seed By-products on Batter Properties, Structure, and Check-All-That-Apply -derived Consumer Response of Gluten-free Muffins",
+    "authors": [
+      "Maria Valeria Merlino",
+      "Anthea Miller",
+      "Mattea Maria Antonietta Lauceri",
+      "Iolanda Cilea",
+      "Antonella Verzera",
+      "Concetta Condurso",
+      "Amalia Piscopo"
+    ],
+    "venue": "Applied Food Research",
+    "doi": "10.1016/j.afres.2026.102621",
+    "link": "https://doi.org/10.1016/j.afres.2026.102621",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7213647599",
+    "semanticScholarId": "86c11b66c33b8828c71bab06916eb9d77046a027"
+  },
+  {
+    "id": 115,
+    "articleId": 13,
+    "articleIds": [
+      13
+    ],
+    "articleTitle": "Impact of Hemp Flour on the Nutritional, Sensory and Functional Characteristics of Wheat and Whole Wheat Muffins",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Impact of plant protein incorporation on the rheological and textural properties of gluten and gluten-free snacks",
+    "authors": [
+      "Anna Marinopoulou",
+      "Alexandra Mavropoulou",
+      "Athanasia Xatzistefanou",
+      "Maria Zoumaki",
+      "Stylianos N. Raphaelides",
+      "Maria Papageorgiou"
+    ],
+    "venue": "Journal of Food Measurement & Characterization",
+    "doi": "10.1007/s11694-026-05000-7",
+    "link": "https://doi.org/10.1007/s11694-026-05000-7",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex + Semantic Scholar",
+    "provenance": [
+      "OpenAlex",
+      "Semantic Scholar"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, confirmat în 2 surse independente (OpenAlex, Semantic Scholar)",
+    "openAlexId": "W7214294121",
+    "semanticScholarId": "c90f2bbc124451ca55e15a5a9307b3381093ec29"
+  },
+  {
+    "id": 116,
+    "articleId": 18,
+    "articleIds": [
+      18
+    ],
+    "articleTitle": "Nutritional, Sensory and Functional Characteristics of Hemp Flour – Enriched Muffins",
+    "articleYear": 2025,
+    "year": 2026,
+    "title": "Sustainable Food and Feed Flours for Formaldehyde Reduction in Resins and Particleboards",
+    "authors": [
+      "Mirel Glevitzky",
+      "Ciprian Răzvan Rațiu",
+      "Mihai-Teopent Corcheş"
+    ],
+    "venue": "Sustainability",
+    "doi": "10.3390/su18083782",
+    "link": "https://doi.org/10.3390/su18083782",
+    "typeCode": "article",
+    "typeLabel": "Articol",
+    "selfCitation": false,
+    "context": "Auto-citare: Nu",
+    "source": "OpenAlex",
+    "provenance": [
+      "OpenAlex"
+    ],
+    "verifiedOn": "2026-11-07",
+    "confidence": "ridicat",
+    "confidenceBasis": "DOI rezolvabil, înregistrare OpenAlex cu metadate de editor",
+    "openAlexId": "W7153342276",
+    "semanticScholarId": ""
+  }
+]

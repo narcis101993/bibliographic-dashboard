@@ -1,0 +1,183 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "13",
+ "payload": [
+  {
+   "citingPaper": {
+    "paperId": "c90f2bbc124451ca55e15a5a9307b3381093ec29",
+    "externalIds": {
+     "DOI": "10.1007/s11694-026-05000-7",
+     "CorpusId": 292384407
+    },
+    "title": "Impact of plant protein incorporation on the rheological and textural properties of gluten and gluten-free snacks",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-09-25",
+    "journal": {
+     "volume": "20",
+     "pages": "20450 - 20468",
+     "name": "Journal of Food Measurement and Characterization"
+    },
+    "authors": [
+     {
+      "authorId": "7662117",
+      "name": "A. Marinopoulou"
+     },
+     {
+      "authorId": "2504871521",
+      "name": "Alexandra Mavropoulou"
+     },
+     {
+      "authorId": "2504863034",
+      "name": "Athanasia Xatzistefanou"
+     },
+     {
+      "authorId": "1489395521",
+      "name": "Maria Zoumaki"
+     },
+     {
+      "authorId": "11746410",
+      "name": "S. Raphaelides"
+     },
+     {
+      "authorId": "2504863511",
+      "name": "Μαρια Παπαγεωργιου"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "86c11b66c33b8828c71bab06916eb9d77046a027",
+    "externalIds": {
+     "DOI": "10.1016/j.afres.2026.102621",
+     "CorpusId": 292215012
+    },
+    "title": "Formulation-dependent Effects of Hemp Seed By-products on Batter Properties, Structure, and Check-All-That-Apply -derived Consumer Response of Gluten-free Muffins",
+    "venue": "Applied Food Research",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-09-01",
+    "journal": {
+     "name": "Applied Food Research"
+    },
+    "authors": [
+     {
+      "authorId": "48774230",
+      "name": "M. Merlino"
+     },
+     {
+      "authorId": "2284662426",
+      "name": "Anthea Miller"
+     },
+     {
+      "authorId": "2502125768",
+      "name": "Mattea Maria Antonietta Lauceri"
+     },
+     {
+      "authorId": "2325062511",
+      "name": "I. Cilea"
+     },
+     {
+      "authorId": "4202476",
+      "name": "A. Verzera"
+     },
+     {
+      "authorId": "4894482",
+      "name": "C. Condurso"
+     },
+     {
+      "authorId": "34715273",
+      "name": "A. Piscopo"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "d66a632c3def1177c8bb431ad57fac74ee066af6",
+    "externalIds": {
+     "DOI": "10.11591/ijphs.v15i2.27121",
+     "CorpusId": 289126380
+    },
+    "title": "Effect of red beet flour substitution on iron content and acceptability of functional muffins: an experimental study for anemia prevention",
+    "venue": "International Journal of Public Health Science (IJPHS)",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-06-01",
+    "journal": {
+     "name": "International Journal of Public Health Science (IJPHS)"
+    },
+    "authors": [
+     {
+      "authorId": "2103641061",
+      "name": "Yeni Tutu Rohimah"
+     },
+     {
+      "authorId": "66072324",
+      "name": "Dwi Retna Prihati"
+     },
+     {
+      "authorId": "108236924",
+      "name": "Titik Lestari"
+     }
+    ]
+   }
+  },
+  {
+   "citingPaper": {
+    "paperId": "fd981b47f743d3720a4c0f31b0bd1ac5ab6c02ae",
+    "externalIds": {
+     "PubMedCentral": "13074323",
+     "DOI": "10.3390/molecules31071198",
+     "CorpusId": 287243221,
+     "PubMed": "41976238"
+    },
+    "title": "Enrichment of Wheat–Chia Bread with Hemp, and Buckwheat Flours and Cistus incanus L. Infusion: Impact on Chemical Composition, Polyphenols, Fatty Acids, Amino Acids, and Consumer Acceptance",
+    "venue": "Molecules",
+    "year": 2026,
+    "publicationTypes": [
+     "JournalArticle"
+    ],
+    "publicationDate": "2026-04-01",
+    "journal": {
+     "volume": "31",
+     "name": "Molecules"
+    },
+    "authors": [
+     {
+      "authorId": "97313872",
+      "name": "A. Mikulec"
+     },
+     {
+      "authorId": "2262024464",
+      "name": "Barbara Mickowska"
+     },
+     {
+      "authorId": "37101766",
+      "name": "Joanna Oracz"
+     },
+     {
+      "authorId": "7492838",
+      "name": "K. Karwowska"
+     },
+     {
+      "authorId": "4039600",
+      "name": "M. Skotnicka"
+     },
+     {
+      "authorId": "2293911657",
+      "name": "Stanisław Kowalski"
+     }
+    ]
+   }
+  }
+ ]
+}

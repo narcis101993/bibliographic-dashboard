@@ -1,0 +1,5140 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "12",
+ "payload": [
+  {
+   "id": "https://openalex.org/W7163318512",
+   "doi": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+   "title": "Cryoprotective mechanism of tamarind seed polysaccharide on milk proteins and its application in yogurt ice cream",
+   "display_name": "Cryoprotective mechanism of tamarind seed polysaccharide on milk proteins and its application in yogurt ice cream",
+   "publication_year": 2026,
+   "publication_date": "2026-06-03",
+   "ids": {
+    "openalex": "https://openalex.org/W7163318512",
+    "doi": "https://doi.org/10.1016/j.foodhyd.2026.112950"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1016/j.foodhyd.2026.112950",
+    "doi": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S168584722",
+     "display_name": "Food Hydrocolloids",
+     "issn_l": "0268-005X",
+     "issn": [
+      "0268-005X",
+      "1873-7137"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-a",
+      "jufo-3",
+      "ki-jl-1",
+      "norway-1",
+      "poland-140",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Food Hydrocolloids",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "is_traditional": true,
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5100581030",
+      "display_name": "Yaxin Yan",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yaxin Yan",
+     "raw_affiliation_strings": [
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5137769314",
+      "display_name": "Hongxiao He",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Hongxiao He",
+     "raw_affiliation_strings": [
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5027294319",
+      "display_name": "Dongchun Zhang",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Dongchun Zhang",
+     "raw_affiliation_strings": [
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5137758934",
+      "display_name": "Jian He",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Jian He",
+     "raw_affiliation_strings": [
+      "National Center of Technology Innovation for Dairy, Hohhot, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Center of Technology Innovation for Dairy, Hohhot, China",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "Hui Zhang",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Hui Zhang",
+     "raw_affiliation_strings": [
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5137719164",
+      "display_name": "Xin Song",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Xin Song",
+     "raw_affiliation_strings": [
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5028414162",
+      "display_name": "Fan Xie",
+      "orcid": "https://orcid.org/0000-0003-1124-8215",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1124-8215"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I183067930",
+       "display_name": "Shanghai Jiao Tong University",
+       "ror": "https://ror.org/0220qvk04",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I183067930"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Fan Xie",
+     "raw_affiliation_strings": [
+      "Department of Food Science & Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Food Science & Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China",
+       "institution_ids": [
+        "https://openalex.org/I183067930"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5051702984",
+      "display_name": "Lianzhong Ai",
+      "orcid": "https://orcid.org/0000-0002-6681-9102",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6681-9102",
+       "https://orcid.org/0000-0002-7397-7950"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148128674",
+       "display_name": "University of Shanghai for Science and Technology",
+       "ror": "https://ror.org/00ay9v204",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I148128674"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I183067930",
+       "display_name": "Shanghai Jiao Tong University",
+       "ror": "https://ror.org/0220qvk04",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I183067930"
+       ]
+      }
+     ],
+     "countries": [
+      "CN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lianzhong Ai",
+     "raw_affiliation_strings": [
+      "Department of Food Science & Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China",
+      "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Food Science & Technology, School of Agriculture and Biology, Shanghai Jiao Tong University, Shanghai, 200240, China",
+       "institution_ids": [
+        "https://openalex.org/I183067930"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Shanghai Engineering Research Center of Food Microbiology, School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, 200093, China",
+       "institution_ids": [
+        "https://openalex.org/I148128674"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5028414162"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I183067930"
+   ],
+   "apc_list": {
+    "value": 4990,
+    "currency": "USD",
+    "value_usd": 4990
+   },
+   "apc_paid": null,
+   "fwci": 2.4648,
+   "has_fulltext": false,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.88654877,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 92,
+    "max": 95
+   },
+   "biblio": {
+    "volume": "181",
+    "issue": null,
+    "first_page": "112950",
+    "last_page": "112950"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T12192",
+    "display_name": "Polysaccharides Composition and Applications",
+    "score": 0.5404999852180481,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T12192",
+     "display_name": "Polysaccharides Composition and Applications",
+     "score": 0.5404999852180481,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10411",
+     "display_name": "Proteins in Food Systems",
+     "score": 0.451200008392334,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T14479",
+     "display_name": "Freezing and Crystallization Processes",
+     "score": 0.0020000000949949026,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1506",
+      "display_name": "Filtration and Separation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/15",
+      "display_name": "Chemical Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/tamarind-seed-polysaccharide",
+     "display_name": "tamarind seed polysaccharide",
+     "score": 1.0
+    },
+    {
+     "id": "https://openalex.org/keywords/milk-protein",
+     "display_name": "milk protein",
+     "score": 0.8059999942779541
+    },
+    {
+     "id": "https://openalex.org/keywords/yogurt-ice-cream",
+     "display_name": "yogurt ice cream",
+     "score": 0.8799999952316284
+    },
+    {
+     "id": "https://openalex.org/keywords/freeze-thaw-stability",
+     "display_name": "freeze-thaw stability",
+     "score": 0.9129999876022339
+    },
+    {
+     "id": "https://openalex.org/keywords/ice-recrystallization-inhibition",
+     "display_name": "ice recrystallization inhibition",
+     "score": 0.7839999794960022
+    },
+    {
+     "id": "https://openalex.org/keywords/protein-denaturation",
+     "display_name": "protein denaturation",
+     "score": 0.5680000185966492
+    },
+    {
+     "id": "https://openalex.org/keywords/water-holding-capacity",
+     "display_name": "water holding capacity",
+     "score": 0.7200000286102295
+    },
+    {
+     "id": "https://openalex.org/keywords/gel-network",
+     "display_name": "gel network",
+     "score": 0.45100000500679016
+    },
+    {
+     "id": "https://openalex.org/keywords/dual-network-architecture",
+     "display_name": "dual-network architecture",
+     "score": 0.5879999995231628
+    },
+    {
+     "id": "https://openalex.org/keywords/noncovalent-interactions",
+     "display_name": "non-covalent interactions",
+     "score": 0.7620000243186951
+    },
+    {
+     "id": "https://openalex.org/keywords/frozen-dairy-products",
+     "display_name": "frozen dairy products",
+     "score": 0.6970000267028809
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2992050699",
+     "wikidata": "https://www.wikidata.org/wiki/Q13233",
+     "display_name": "Ice cream",
+     "level": 2,
+     "score": 0.9031999707221985
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.7932000160217285
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.789900004863739
+    },
+    {
+     "id": "https://openalex.org/C100817775",
+     "wikidata": "https://www.wikidata.org/wiki/Q134219",
+     "display_name": "Polysaccharide",
+     "level": 2,
+     "score": 0.7221999764442444
+    },
+    {
+     "id": "https://openalex.org/C89611455",
+     "wikidata": "https://www.wikidata.org/wiki/Q6804646",
+     "display_name": "Mechanism (biology)",
+     "level": 2,
+     "score": 0.45239999890327454
+    },
+    {
+     "id": "https://openalex.org/C3020774095",
+     "wikidata": "https://www.wikidata.org/wiki/Q185217",
+     "display_name": "Milk products",
+     "level": 2,
+     "score": 0.4361000061035156
+    },
+    {
+     "id": "https://openalex.org/C2993643364",
+     "wikidata": "https://www.wikidata.org/wiki/Q8495",
+     "display_name": "Milk protein",
+     "level": 2,
+     "score": 0.3874000012874603
+    },
+    {
+     "id": "https://openalex.org/C2780586759",
+     "wikidata": "https://www.wikidata.org/wiki/Q16889688",
+     "display_name": "Congelation",
+     "level": 2,
+     "score": 0.3598000109195709
+    },
+    {
+     "id": "https://openalex.org/C2781166053",
+     "wikidata": "https://www.wikidata.org/wiki/Q11702361",
+     "display_name": "Food storage",
+     "level": 2,
+     "score": 0.29190000891685486
+    },
+    {
+     "id": "https://openalex.org/C2779853579",
+     "wikidata": "https://www.wikidata.org/wiki/Q3506176",
+     "display_name": "Fermented milk products",
+     "level": 4,
+     "score": 0.28439998626708984
+    },
+    {
+     "id": "https://openalex.org/C2987718291",
+     "wikidata": "https://www.wikidata.org/wiki/Q2095",
+     "display_name": "Food products",
+     "level": 2,
+     "score": 0.27480000257492065
+    },
+    {
+     "id": "https://openalex.org/C55493867",
+     "wikidata": "https://www.wikidata.org/wiki/Q7094",
+     "display_name": "Biochemistry",
+     "level": 1,
+     "score": 0.25690001249313354
+    },
+    {
+     "id": "https://openalex.org/C3019542406",
+     "wikidata": "https://www.wikidata.org/wiki/Q21296145",
+     "display_name": "Food protein",
+     "level": 2,
+     "score": 0.2540000081062317
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1016/j.foodhyd.2026.112950",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1016/j.foodhyd.2026.112950",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S168584722",
+      "display_name": "Food Hydrocolloids",
+      "issn_l": "0268-005X",
+      "issn": [
+       "0268-005X",
+       "1873-7137"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Food Hydrocolloids",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "score": 0.6875,
+     "id": "https://metadata.un.org/sdg/2"
+    }
+   ],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G8642841842",
+     "display_name": null,
+     "funder_award_id": "32472282",
+     "funder_id": "https://openalex.org/F4320321001",
+     "funder_display_name": "National Natural Science Foundation of China"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320321001",
+     "display_name": "National Natural Science Foundation of China",
+     "ror": "https://ror.org/01h0zpd94"
+    }
+   ],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 35,
+   "referenced_works": [
+    "https://openalex.org/W1977956132",
+    "https://openalex.org/W2056021978",
+    "https://openalex.org/W2474067393",
+    "https://openalex.org/W2531391072",
+    "https://openalex.org/W2790409776",
+    "https://openalex.org/W2804249461",
+    "https://openalex.org/W2908018479",
+    "https://openalex.org/W2925289818",
+    "https://openalex.org/W3035980252",
+    "https://openalex.org/W3046345200",
+    "https://openalex.org/W3209037506",
+    "https://openalex.org/W4205706890",
+    "https://openalex.org/W4297179208",
+    "https://openalex.org/W4304620305",
+    "https://openalex.org/W4309478590",
+    "https://openalex.org/W4366814578",
+    "https://openalex.org/W4367180611",
+    "https://openalex.org/W4385382959",
+    "https://openalex.org/W4385717374",
+    "https://openalex.org/W4385973364",
+    "https://openalex.org/W4386762143",
+    "https://openalex.org/W4387392139",
+    "https://openalex.org/W4388835617",
+    "https://openalex.org/W4390198211",
+    "https://openalex.org/W4398185944",
+    "https://openalex.org/W4399812229",
+    "https://openalex.org/W4400012832",
+    "https://openalex.org/W4402522835",
+    "https://openalex.org/W4404862096",
+    "https://openalex.org/W4406893917",
+    "https://openalex.org/W4407115659",
+    "https://openalex.org/W4407186542",
+    "https://openalex.org/W4414164190",
+    "https://openalex.org/W4414210547",
+    "https://openalex.org/W4416955324"
+   ],
+   "related_works": [
+    "https://openalex.org/W7164640350",
+    "https://openalex.org/W4393132233",
+    "https://openalex.org/W4414722523",
+    "https://openalex.org/W4388835617",
+    "https://openalex.org/W4407186542",
+    "https://openalex.org/W4378515804",
+    "https://openalex.org/W4413300212",
+    "https://openalex.org/W7203948930",
+    "https://openalex.org/W4388796461",
+    "https://openalex.org/W2027372511"
+   ],
+   "abstract_inverted_index": null,
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-11-04T10:54:05.112534",
+   "created_date": "2026-06-04T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7167787251",
+   "doi": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+   "title": "Edible biopolymer matrices as active modulators of the gut microbiome: Mechanistic links between structure, enzymatic access and metabolome",
+   "display_name": "Edible biopolymer matrices as active modulators of the gut microbiome: Mechanistic links between structure, enzymatic access and metabolome",
+   "publication_year": 2026,
+   "publication_date": "2026-07-09",
+   "ids": {
+    "openalex": "https://openalex.org/W7167787251",
+    "doi": "https://doi.org/10.1016/j.foodhyd.2026.113121"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1016/j.foodhyd.2026.113121",
+    "doi": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0268005X26007034/pdf",
+    "source": {
+     "id": "https://openalex.org/S168584722",
+     "display_name": "Food Hydrocolloids",
+     "issn_l": "0268-005X",
+     "issn": [
+      "0268-005X",
+      "1873-7137"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-a",
+      "jufo-3",
+      "ki-jl-1",
+      "norway-1",
+      "poland-140",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Food Hydrocolloids",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "is_traditional": true,
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://www.sciencedirect.com/science/article/pii/S0268005X26007034/pdf",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5025265430",
+      "display_name": "Răzvan Odocheanu",
+      "orcid": "https://orcid.org/0009-0009-5282-9754",
+      "observed_orcids": [
+       "https://orcid.org/0009-0009-5282-9754"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Razvan Odocheanu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5065010482",
+      "display_name": "Mădălina Lorena Medeleanu",
+      "orcid": "https://orcid.org/0000-0002-3621-9632",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3621-9632"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Madalina-Lorena Medeleanu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5091732113",
+      "display_name": "Laura Mitrea",
+      "orcid": "https://orcid.org/0000-0001-5232-7978",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-5232-7978"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Laura Mitrea",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5064387885",
+      "display_name": "Lavinia Florina Călinoiu",
+      "orcid": "https://orcid.org/0000-0002-0198-0472",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0198-0472"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lavinia-Florina Calinoiu",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5061908374",
+      "display_name": "Gheorghe Adrian Martău",
+      "orcid": "https://orcid.org/0000-0001-8220-1030",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-8220-1030"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gheorghe-Adrian Martău",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5041734650",
+      "display_name": "Mihaela Mihai",
+      "orcid": "https://orcid.org/0000-0002-0126-648X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0126-648X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Mihaela Mihai",
+     "raw_affiliation_strings": [
+      "Department of Interdisciplinary Skills, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Interdisciplinary Skills, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5000577102",
+      "display_name": "Dan Cristian Vodnar",
+      "orcid": "https://orcid.org/0000-0001-5407-8071",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-5407-8071",
+       "https://orcid.org/0000-0002-7361-3321"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I208626154",
+       "display_name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+       "ror": "https://ror.org/05hak1h47",
+       "country_code": "RO",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ],
+     "countries": [
+      "RO"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Dan Cristian Vodnar",
+     "raw_affiliation_strings": [
+      "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+      "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-5407-8071",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Food Science and Technology, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Institute of Life Sciences, University of Agricultural Sciences and Veterinary Medicine Cluj-Napoca, Calea Mănăştur 3-5, 400372 Cluj-Napoca, Romania",
+       "institution_ids": [
+        "https://openalex.org/I208626154"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5000577102",
+    "https://openalex.org/A5041734650"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I208626154"
+   ],
+   "apc_list": {
+    "value": 4990,
+    "currency": "USD",
+    "value_usd": 4990
+   },
+   "apc_paid": {
+    "value": 4990,
+    "currency": "USD",
+    "value_usd": 4990
+   },
+   "fwci": 1.5377,
+   "has_fulltext": true,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.85261832,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 92,
+    "max": 95
+   },
+   "biblio": {
+    "volume": "182",
+    "issue": null,
+    "first_page": "113121",
+    "last_page": "113121"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.9702000021934509,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1312",
+     "display_name": "Molecular Biology"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/13",
+     "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10066",
+     "display_name": "Gut microbiota and health",
+     "score": 0.9702000021934509,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12489",
+     "display_name": "Microbial Metabolites in Food Biotechnology",
+     "score": 0.007899999618530273,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10140",
+     "display_name": "Food composition and properties",
+     "score": 0.004800000227987766,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/gut-microbiota",
+     "display_name": "gut microbiota",
+     "score": 0.8790000081062317
+    },
+    {
+     "id": "https://openalex.org/keywords/biopolymer-matrix",
+     "display_name": "biopolymer matrix",
+     "score": 0.6380000114440918
+    },
+    {
+     "id": "https://openalex.org/keywords/edible-coatings",
+     "display_name": "edible coatings",
+     "score": 0.6470000147819519
+    },
+    {
+     "id": "https://openalex.org/keywords/encapsulation-systems",
+     "display_name": "encapsulation systems",
+     "score": 0.8410000205039978
+    },
+    {
+     "id": "https://openalex.org/keywords/enzyme-accessibility",
+     "display_name": "enzyme accessibility",
+     "score": 0.5109999775886536
+    },
+    {
+     "id": "https://openalex.org/keywords/carbohydrate-active-enzymes",
+     "display_name": "carbohydrate-active enzymes",
+     "score": 0.890999972820282
+    },
+    {
+     "id": "https://openalex.org/keywords/microbial-fermentation",
+     "display_name": "microbial fermentation",
+     "score": 0.5410000085830688
+    },
+    {
+     "id": "https://openalex.org/keywords/short-chain-fatty-acids",
+     "display_name": "short-chain fatty acids",
+     "score": 0.9440000057220459
+    },
+    {
+     "id": "https://openalex.org/keywords/branched-chain-fatty-acids",
+     "display_name": "branched-chain fatty acids",
+     "score": 0.9850000143051147
+    },
+    {
+     "id": "https://openalex.org/keywords/indole",
+     "display_name": "indole",
+     "score": 0.871999979019165
+    },
+    {
+     "id": "https://openalex.org/keywords/phenolic-metabolites",
+     "display_name": "phenolic metabolites",
+     "score": 0.9459999799728394
+    },
+    {
+     "id": "https://openalex.org/keywords/metabolomics",
+     "display_name": "metabolomics",
+     "score": 0.5400000214576721
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C135870905",
+     "wikidata": "https://www.wikidata.org/wiki/Q903667",
+     "display_name": "Metabolome",
+     "level": 3,
+     "score": 0.7135000228881836
+    },
+    {
+     "id": "https://openalex.org/C2778636629",
+     "wikidata": "https://www.wikidata.org/wiki/Q422649",
+     "display_name": "Biopolymer",
+     "level": 3,
+     "score": 0.6901000142097473
+    },
+    {
+     "id": "https://openalex.org/C2777477808",
+     "wikidata": "https://www.wikidata.org/wiki/Q407595",
+     "display_name": "Metabolite",
+     "level": 2,
+     "score": 0.6757000088691711
+    },
+    {
+     "id": "https://openalex.org/C21565614",
+     "wikidata": "https://www.wikidata.org/wiki/Q12149006",
+     "display_name": "Metabolomics",
+     "level": 2,
+     "score": 0.6229000091552734
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.614799976348877
+    },
+    {
+     "id": "https://openalex.org/C55493867",
+     "wikidata": "https://www.wikidata.org/wiki/Q7094",
+     "display_name": "Biochemistry",
+     "level": 1,
+     "score": 0.5784000158309937
+    },
+    {
+     "id": "https://openalex.org/C192989942",
+     "wikidata": "https://www.wikidata.org/wiki/Q68685",
+     "display_name": "Metabolic pathway",
+     "level": 3,
+     "score": 0.43070000410079956
+    },
+    {
+     "id": "https://openalex.org/C100544194",
+     "wikidata": "https://www.wikidata.org/wiki/Q41760",
+     "display_name": "Fermentation",
+     "level": 2,
+     "score": 0.4004000127315521
+    },
+    {
+     "id": "https://openalex.org/C181199279",
+     "wikidata": "https://www.wikidata.org/wiki/Q8047",
+     "display_name": "Enzyme",
+     "level": 2,
+     "score": 0.3968000113964081
+    },
+    {
+     "id": "https://openalex.org/C101014631",
+     "wikidata": "https://www.wikidata.org/wiki/Q4889568",
+     "display_name": "Microbial metabolism",
+     "level": 3,
+     "score": 0.3628999888896942
+    },
+    {
+     "id": "https://openalex.org/C539455810",
+     "wikidata": "https://www.wikidata.org/wiki/Q739734",
+     "display_name": "Gut flora",
+     "level": 2,
+     "score": 0.3522000014781952
+    },
+    {
+     "id": "https://openalex.org/C52708203",
+     "wikidata": "https://www.wikidata.org/wiki/Q6950796",
+     "display_name": "Fermentation in food processing",
+     "level": 4,
+     "score": 0.32030001282691956
+    },
+    {
+     "id": "https://openalex.org/C523546767",
+     "wikidata": "https://www.wikidata.org/wiki/Q10876",
+     "display_name": "Bacteria",
+     "level": 2,
+     "score": 0.3165000081062317
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.3160000145435333
+    },
+    {
+     "id": "https://openalex.org/C175605896",
+     "wikidata": "https://www.wikidata.org/wiki/Q39833",
+     "display_name": "Microorganism",
+     "level": 3,
+     "score": 0.2513999938964844
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1016/j.foodhyd.2026.113121",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0268005X26007034/pdf",
+     "source": {
+      "id": "https://openalex.org/S168584722",
+      "display_name": "Food Hydrocolloids",
+      "issn_l": "0268-005X",
+      "issn": [
+       "0268-005X",
+       "1873-7137"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Food Hydrocolloids",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.1016/j.foodhyd.2026.113121",
+    "doi": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.foodhyd.2026.113121",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0268005X26007034/pdf",
+    "source": {
+     "id": "https://openalex.org/S168584722",
+     "display_name": "Food Hydrocolloids",
+     "issn_l": "0268-005X",
+     "issn": [
+      "0268-005X",
+      "1873-7137"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-a",
+      "jufo-3",
+      "ki-jl-1",
+      "norway-1",
+      "poland-140",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Food Hydrocolloids",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Zero hunger",
+     "score": 0.4359000027179718,
+     "id": "https://metadata.un.org/sdg/2"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320318622",
+     "display_name": "Ministerul Cercetării, Inovării şi Digitalizării",
+     "ror": null
+    },
+    {
+     "id": "https://openalex.org/F4320323983",
+     "display_name": "Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii",
+     "ror": "https://ror.org/01q7jq182"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7167787251.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7167787251.grobid-xml"
+   },
+   "referenced_works_count": 210,
+   "referenced_works": [
+    "https://openalex.org/W111298261",
+    "https://openalex.org/W638540969",
+    "https://openalex.org/W1979372724",
+    "https://openalex.org/W1991497480",
+    "https://openalex.org/W2012955255",
+    "https://openalex.org/W2055767862",
+    "https://openalex.org/W2063718354",
+    "https://openalex.org/W2068523992",
+    "https://openalex.org/W2082137730",
+    "https://openalex.org/W2101238009",
+    "https://openalex.org/W2114283030",
+    "https://openalex.org/W2135307176",
+    "https://openalex.org/W2150719928",
+    "https://openalex.org/W2160446463",
+    "https://openalex.org/W2221487249",
+    "https://openalex.org/W2238763589",
+    "https://openalex.org/W2321624725",
+    "https://openalex.org/W2398894736",
+    "https://openalex.org/W2510784967",
+    "https://openalex.org/W2554408808",
+    "https://openalex.org/W2579986502",
+    "https://openalex.org/W2586155766",
+    "https://openalex.org/W2610153985",
+    "https://openalex.org/W2736184562",
+    "https://openalex.org/W2743305185",
+    "https://openalex.org/W2754074629",
+    "https://openalex.org/W2754724391",
+    "https://openalex.org/W2760397974",
+    "https://openalex.org/W2761314651",
+    "https://openalex.org/W2765813722",
+    "https://openalex.org/W2767477196",
+    "https://openalex.org/W2772940414",
+    "https://openalex.org/W2782240664",
+    "https://openalex.org/W2782717206",
+    "https://openalex.org/W2788938319",
+    "https://openalex.org/W2792736753",
+    "https://openalex.org/W2802946611",
+    "https://openalex.org/W2808386728",
+    "https://openalex.org/W2888011444",
+    "https://openalex.org/W2898729889",
+    "https://openalex.org/W2909142402",
+    "https://openalex.org/W2910423505",
+    "https://openalex.org/W2911583413",
+    "https://openalex.org/W2911844475",
+    "https://openalex.org/W2916197956",
+    "https://openalex.org/W2921966151",
+    "https://openalex.org/W2936866119",
+    "https://openalex.org/W2943303250",
+    "https://openalex.org/W2943693794",
+    "https://openalex.org/W2946559558",
+    "https://openalex.org/W2951379216",
+    "https://openalex.org/W2952437732",
+    "https://openalex.org/W2968670915",
+    "https://openalex.org/W2972767185",
+    "https://openalex.org/W2977842302",
+    "https://openalex.org/W2984811870",
+    "https://openalex.org/W2987347522",
+    "https://openalex.org/W2998876391",
+    "https://openalex.org/W3003887366",
+    "https://openalex.org/W3006275311",
+    "https://openalex.org/W3009116562",
+    "https://openalex.org/W3037067196",
+    "https://openalex.org/W3083301834",
+    "https://openalex.org/W3094316032",
+    "https://openalex.org/W3095507743",
+    "https://openalex.org/W3095565643",
+    "https://openalex.org/W3099341852",
+    "https://openalex.org/W3112040437",
+    "https://openalex.org/W3112834987",
+    "https://openalex.org/W3124968867",
+    "https://openalex.org/W3134305880",
+    "https://openalex.org/W3151549666",
+    "https://openalex.org/W3155122674",
+    "https://openalex.org/W3157691197",
+    "https://openalex.org/W3165326400",
+    "https://openalex.org/W3179557623",
+    "https://openalex.org/W3184321677",
+    "https://openalex.org/W3188720514",
+    "https://openalex.org/W3195221833",
+    "https://openalex.org/W3197353788",
+    "https://openalex.org/W3202036443",
+    "https://openalex.org/W3216494747",
+    "https://openalex.org/W4200245927",
+    "https://openalex.org/W4200606792",
+    "https://openalex.org/W4205598291",
+    "https://openalex.org/W4206529918",
+    "https://openalex.org/W4210407964",
+    "https://openalex.org/W4211131616",
+    "https://openalex.org/W4212807266",
+    "https://openalex.org/W4213080899",
+    "https://openalex.org/W4220731902",
+    "https://openalex.org/W4220769436",
+    "https://openalex.org/W4220849248",
+    "https://openalex.org/W4220876366",
+    "https://openalex.org/W4220977821",
+    "https://openalex.org/W4221074414",
+    "https://openalex.org/W4223444795",
+    "https://openalex.org/W4225289295",
+    "https://openalex.org/W4281728350",
+    "https://openalex.org/W4282926661",
+    "https://openalex.org/W4283009856",
+    "https://openalex.org/W4285388539",
+    "https://openalex.org/W4285389507",
+    "https://openalex.org/W4289704997",
+    "https://openalex.org/W4290667491",
+    "https://openalex.org/W4293525782",
+    "https://openalex.org/W4295083672",
+    "https://openalex.org/W4296970201",
+    "https://openalex.org/W4297548871",
+    "https://openalex.org/W4298009051",
+    "https://openalex.org/W4303859054",
+    "https://openalex.org/W4307396298",
+    "https://openalex.org/W4309848129",
+    "https://openalex.org/W4310211633",
+    "https://openalex.org/W4313584067",
+    "https://openalex.org/W4315570839",
+    "https://openalex.org/W4318040979",
+    "https://openalex.org/W4318260286",
+    "https://openalex.org/W4319984230",
+    "https://openalex.org/W4321190501",
+    "https://openalex.org/W4321350850",
+    "https://openalex.org/W4321499747",
+    "https://openalex.org/W4323665217",
+    "https://openalex.org/W4327729051",
+    "https://openalex.org/W4360602028",
+    "https://openalex.org/W4362464952",
+    "https://openalex.org/W4362555960",
+    "https://openalex.org/W4365136893",
+    "https://openalex.org/W4377697222",
+    "https://openalex.org/W4379054462",
+    "https://openalex.org/W4380027688",
+    "https://openalex.org/W4380538188",
+    "https://openalex.org/W4380577427",
+    "https://openalex.org/W4384339270",
+    "https://openalex.org/W4385575627",
+    "https://openalex.org/W4386429260",
+    "https://openalex.org/W4386574060",
+    "https://openalex.org/W4387078349",
+    "https://openalex.org/W4387901966",
+    "https://openalex.org/W4387936783",
+    "https://openalex.org/W4388111512",
+    "https://openalex.org/W4388112856",
+    "https://openalex.org/W4388862511",
+    "https://openalex.org/W4390050519",
+    "https://openalex.org/W4390695190",
+    "https://openalex.org/W4391400755",
+    "https://openalex.org/W4391867511",
+    "https://openalex.org/W4392015513",
+    "https://openalex.org/W4392199808",
+    "https://openalex.org/W4392213467",
+    "https://openalex.org/W4392284940",
+    "https://openalex.org/W4392737630",
+    "https://openalex.org/W4392747226",
+    "https://openalex.org/W4393387715",
+    "https://openalex.org/W4394873407",
+    "https://openalex.org/W4395024786",
+    "https://openalex.org/W4396681250",
+    "https://openalex.org/W4396922838",
+    "https://openalex.org/W4397024249",
+    "https://openalex.org/W4399535612",
+    "https://openalex.org/W4399606164",
+    "https://openalex.org/W4400481527",
+    "https://openalex.org/W4400484394",
+    "https://openalex.org/W4400681485",
+    "https://openalex.org/W4400691003",
+    "https://openalex.org/W4400933957",
+    "https://openalex.org/W4401569351",
+    "https://openalex.org/W4401758806",
+    "https://openalex.org/W4401888239",
+    "https://openalex.org/W4402308350",
+    "https://openalex.org/W4402482141",
+    "https://openalex.org/W4402519686",
+    "https://openalex.org/W4402549889",
+    "https://openalex.org/W4402735405",
+    "https://openalex.org/W4402999620",
+    "https://openalex.org/W4403056108",
+    "https://openalex.org/W4403602870",
+    "https://openalex.org/W4404253445",
+    "https://openalex.org/W4405443572",
+    "https://openalex.org/W4405669182",
+    "https://openalex.org/W4406271807",
+    "https://openalex.org/W4406705045",
+    "https://openalex.org/W4407405871",
+    "https://openalex.org/W4408123009",
+    "https://openalex.org/W4409203043",
+    "https://openalex.org/W4409215891",
+    "https://openalex.org/W4409691734",
+    "https://openalex.org/W4410901536",
+    "https://openalex.org/W4411006010",
+    "https://openalex.org/W4411176475",
+    "https://openalex.org/W4411206961",
+    "https://openalex.org/W4411679949",
+    "https://openalex.org/W4412015345",
+    "https://openalex.org/W4412822144",
+    "https://openalex.org/W4413012276",
+    "https://openalex.org/W4413116253",
+    "https://openalex.org/W4413117997",
+    "https://openalex.org/W4414095340",
+    "https://openalex.org/W4414210547",
+    "https://openalex.org/W4414299144",
+    "https://openalex.org/W4414517874",
+    "https://openalex.org/W4414541382",
+    "https://openalex.org/W4414555579",
+    "https://openalex.org/W4414714618",
+    "https://openalex.org/W4415281507",
+    "https://openalex.org/W4415649411",
+    "https://openalex.org/W4416102860",
+    "https://openalex.org/W4416947846",
+    "https://openalex.org/W4417051200",
+    "https://openalex.org/W7121681901"
+   ],
+   "related_works": [
+    "https://openalex.org/W7016113305",
+    "https://openalex.org/W4416947846",
+    "https://openalex.org/W4291278348",
+    "https://openalex.org/W7125762282",
+    "https://openalex.org/W7114892338",
+    "https://openalex.org/W7149426625",
+    "https://openalex.org/W2492149962",
+    "https://openalex.org/W7203835660",
+    "https://openalex.org/W4416453216",
+    "https://openalex.org/W2597686908"
+   ],
+   "abstract_inverted_index": {
+    ":": [
+     0
+    ],
+    "The": [
+     1,
+     143
+    ],
+    "gut": [
+     2,
+     73,
+     126
+    ],
+    "microbiota": [
+     3
+    ],
+    "plays": [
+     4
+    ],
+    "a": [
+     5
+    ],
+    "central": [
+     6
+    ],
+    "role": [
+     7
+    ],
+    "in": [
+     8,
+     23
+    ],
+    "host": [
+     9
+    ],
+    "physiology.": [
+     10
+    ],
+    "Emerging": [
+     11
+    ],
+    "evidence": [
+     12
+    ],
+    "indicates": [
+     13
+    ],
+    "that": [
+     14,
+     122
+    ],
+    "food-grade": [
+     15
+    ],
+    "biopolymers": [
+     16,
+     70,
+     79,
+     121,
+     182
+    ],
+    "(polysaccharides,": [
+     17
+    ],
+    "proteins,": [
+     18
+    ],
+    "and": [
+     19,
+     27,
+     49,
+     56,
+     71,
+     85,
+     105,
+     117,
+     146,
+     154,
+     161,
+     172,
+     190
+    ],
+    "microbial": [
+     20,
+     54,
+     81,
+     129,
+     170
+    ],
+    "polymers)": [
+     21
+    ],
+    "used": [
+     22
+    ],
+    "edible": [
+     24
+    ],
+    "coatings,": [
+     25
+    ],
+    "matrices,": [
+     26
+    ],
+    "encapsulation": [
+     28
+    ],
+    "systems": [
+     29
+    ],
+    "act": [
+     30
+    ],
+    "not": [
+     31
+    ],
+    "merely": [
+     32
+    ],
+    "as": [
+     33,
+     37,
+     183
+    ],
+    "technological": [
+     34
+    ],
+    "excipients": [
+     35
+    ],
+    "but": [
+     36
+    ],
+    "biologically": [
+     38
+    ],
+    "active": [
+     39,
+     184
+    ],
+    "food": [
+     40,
+     179
+    ],
+    "structures": [
+     41
+    ],
+    "whose": [
+     42
+    ],
+    "monomer": [
+     43
+    ],
+    "composition,": [
+     44
+    ],
+    "linkage": [
+     45
+    ],
+    "patterns,": [
+     46
+    ],
+    "molecular": [
+     47
+    ],
+    "weight,": [
+     48
+    ],
+    "physical": [
+     50,
+     144
+    ],
+    "assembly": [
+     51
+    ],
+    "may": [
+     52
+    ],
+    "govern": [
+     53,
+     80
+    ],
+    "accessibility": [
+     55
+    ],
+    "thereby": [
+     57,
+     157
+    ],
+    "determine": [
+     58
+    ],
+    "metabolite": [
+     59,
+     86,
+     107,
+     141,
+     163
+    ],
+    "outcomes.": [
+     60,
+     192
+    ],
+    "This": [
+     61
+    ],
+    "review": [
+     62
+    ],
+    "synthesizes": [
+     63
+    ],
+    "current": [
+     64
+    ],
+    "knowledge": [
+     65
+    ],
+    "on": [
+     66,
+     76,
+     91
+    ],
+    "interactions": [
+     67,
+     153
+    ],
+    "between": [
+     68
+    ],
+    "food-relevant": [
+     69
+    ],
+    "the": [
+     72,
+     92,
+     124
+    ],
+    "microbiota,": [
+     74
+    ],
+    "focusing": [
+     75
+    ],
+    "how": [
+     77
+    ],
+    "these": [
+     78
+    ],
+    "accessibility,": [
+     82,
+     156
+    ],
+    "fermentation": [
+     83,
+     159
+    ],
+    "pathways,": [
+     84
+    ],
+    "production.": [
+     87
+    ],
+    "Emphasis": [
+     88
+    ],
+    "is": [
+     89
+    ],
+    "placed": [
+     90
+    ],
+    "structure-driven": [
+     93
+    ],
+    "mechanisms": [
+     94
+    ],
+    "through": [
+     95
+    ],
+    "which": [
+     96
+    ],
+    "biopolymer": [
+     97,
+     149
+    ],
+    "structure": [
+     98
+    ],
+    "limits": [
+     99
+    ],
+    "enzyme": [
+     100,
+     133
+    ],
+    "access,": [
+     101
+    ],
+    "organizes": [
+     102
+    ],
+    "trophic": [
+     103
+    ],
+    "interactions,": [
+     104
+    ],
+    "determines": [
+     106
+    ],
+    "profiles,": [
+     108
+    ],
+    "including": [
+     109
+    ],
+    "short-chain": [
+     110
+    ],
+    "fatty": [
+     111,
+     114
+    ],
+    "acids,": [
+     112,
+     115
+    ],
+    "branched-chain": [
+     113
+    ],
+    "indoles,": [
+     116
+    ],
+    "phenolic": [
+     118
+    ],
+    "derivatives.": [
+     119
+    ],
+    "Dietary": [
+     120
+    ],
+    "reach": [
+     123
+    ],
+    "distal": [
+     125
+    ],
+    "selectively": [
+     127
+    ],
+    "enrich": [
+     128
+    ],
+    "taxa": [
+     130
+    ],
+    "possessing": [
+     131
+    ],
+    "characteristic": [
+     132
+    ],
+    "repertoires": [
+     134
+    ],
+    "(e.g.,": [
+     135
+    ],
+    "carbohydrate-active": [
+     136
+    ],
+    "enzymes,": [
+     137
+    ],
+    "CAZymes),": [
+     138
+    ],
+    "producing": [
+     139
+    ],
+    "distinct": [
+     140
+    ],
+    "signatures.": [
+     142
+    ],
+    "form": [
+     145
+    ],
+    "microstructure": [
+     147
+    ],
+    "of": [
+     148,
+     186
+    ],
+    "matrices": [
+     150
+    ],
+    "regulate": [
+     151
+    ],
+    "enzyme-substrate": [
+     152
+    ],
+    "substrate": [
+     155
+    ],
+    "modulating": [
+     158
+    ],
+    "dynamics": [
+     160
+    ],
+    "resultant": [
+     162
+    ],
+    "profiles.": [
+     164
+    ],
+    "Integrating": [
+     165
+    ],
+    "standardized": [
+     166
+    ],
+    "polymer": [
+     167
+    ],
+    "characterization": [
+     168
+    ],
+    "with": [
+     169
+    ],
+    "enzymology": [
+     171
+    ],
+    "targeted": [
+     173
+    ],
+    "metabolomics": [
+     174
+    ],
+    "will": [
+     175
+    ],
+    "enable": [
+     176
+    ],
+    "predictable,": [
+     177
+    ],
+    "microbiome-informed": [
+     178
+    ],
+    "design,": [
+     180
+    ],
+    "reframing": [
+     181
+    ],
+    "modulators": [
+     185
+    ],
+    "host-relevant": [
+     187
+    ],
+    "metabolic": [
+     188
+    ],
+    "pathways": [
+     189
+    ],
+    "measurable": [
+     191
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-10-16T09:59:22.235173",
+   "created_date": "2026-07-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4417424954",
+   "doi": "https://doi.org/10.54987/jemat.v13i2.1148",
+   "title": "Multifunctional Applications of Bacterial Cellulose: Bridging Food, Cosmetic and Environmental Sectors",
+   "display_name": "Multifunctional Applications of Bacterial Cellulose: Bridging Food, Cosmetic and Environmental Sectors",
+   "publication_year": 2025,
+   "publication_date": "2025-12-12",
+   "ids": {
+    "openalex": "https://openalex.org/W4417424954",
+    "doi": "https://doi.org/10.54987/jemat.v13i2.1148"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.54987/jemat.v13i2.1148",
+    "doi": "https://doi.org/10.54987/jemat.v13i2.1148",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.54987/jemat.v13i2.1148",
+    "pdf_url": "https://journal.hibiscuspublisher.com/index.php/JEMAT/article/download/1148/1209",
+    "source": {
+     "id": "https://openalex.org/S4210170032",
+     "display_name": "Journal of Environmental Microbiology and Toxicology",
+     "issn_l": "2289-5906",
+     "issn": [
+      "2289-5906"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Environmental Microbiology and Toxicology",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "is_traditional": true,
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://journal.hibiscuspublisher.com/index.php/JEMAT/article/download/1148/1209",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5073461852",
+      "display_name": "Helmi Wasoh",
+      "orcid": "https://orcid.org/0000-0003-1447-3610",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1447-3610"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Helmi Wasoh",
+     "raw_affiliation_strings": [
+      "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5045437671",
+      "display_name": "Murni Halim",
+      "orcid": "https://orcid.org/0000-0002-5744-2147",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-5744-2147"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Murni Halim",
+     "raw_affiliation_strings": [
+      "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5112878637",
+      "display_name": "Nor’Aini Abdul Rahman",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nor'Aini Abdul Rahman",
+     "raw_affiliation_strings": [
+      "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5080442909",
+      "display_name": "Zulfazli M. Sobri",
+      "orcid": "https://orcid.org/0000-0002-7033-0481",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7033-0481"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Zulfazli M. Sobri",
+     "raw_affiliation_strings": [
+      "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Bioprocess Technology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5021439385",
+      "display_name": "Mohd Termizi Yusof",
+      "orcid": "https://orcid.org/0000-0002-5241-3443",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-5241-3443"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohd Termizi Yusof",
+     "raw_affiliation_strings": [
+      "Department of Microbiology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Microbiology, Faculty of Biotechnology and Biomolecular Sciences, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5081879576",
+      "display_name": "Mohd Sabri Pak‐Dek",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I130343225",
+       "display_name": "Universiti Putra Malaysia",
+       "ror": "https://ror.org/02e91jd64",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mohd Sabri Pak-Dek",
+     "raw_affiliation_strings": [
+      "Department of Food Science, Faculty of Food Science and Technology, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Food Science, Faculty of Food Science and Technology, Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I130343225"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5015494607",
+      "display_name": "Yanty Noorzianna Abdul Manaf",
+      "orcid": "https://orcid.org/0000-0002-3421-5494",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-3421-5494"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I161371597",
+       "display_name": "Universiti of Malaysia Sabah",
+       "ror": "https://ror.org/040v70252",
+       "country_code": "MY",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I161371597"
+       ]
+      }
+     ],
+     "countries": [
+      "MY"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yanty Noorzianna Abdul Manaf",
+     "raw_affiliation_strings": [
+      "Halal Research Group, Faculty of Food Science and Nutrition, Universiti Malaysia Sabah, Jalan UMS, 88400 Kota Kinabalu, Sabah, Malaysia"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Halal Research Group, Faculty of Food Science and Nutrition, Universiti Malaysia Sabah, Jalan UMS, 88400 Kota Kinabalu, Sabah, Malaysia",
+       "institution_ids": [
+        "https://openalex.org/I161371597"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": true,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.14418235,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "13",
+    "issue": "2",
+    "first_page": "16",
+    "last_page": "23"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10610",
+    "display_name": "Advanced Cellulose Research Studies",
+    "score": 0.9994999766349792,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2502",
+     "display_name": "Biomaterials"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/25",
+     "display_name": "Materials Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10610",
+     "display_name": "Advanced Cellulose Research Studies",
+     "score": 0.9994999766349792,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2502",
+      "display_name": "Biomaterials"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/25",
+      "display_name": "Materials Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10488",
+     "display_name": "Nanocomposite Films for Food Packaging",
+     "score": 0.0003000000142492354,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2502",
+      "display_name": "Biomaterials"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/25",
+      "display_name": "Materials Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12192",
+     "display_name": "Polysaccharides Composition and Applications",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/bacterial-cellulose",
+     "display_name": "bacterial cellulose",
+     "score": 1.0
+    },
+    {
+     "id": "https://openalex.org/keywords/edible-films-and-coatings",
+     "display_name": "edible films and coatings",
+     "score": 0.8759999871253967
+    },
+    {
+     "id": "https://openalex.org/keywords/active-packaging",
+     "display_name": "active packaging",
+     "score": 0.9039999842643738
+    },
+    {
+     "id": "https://openalex.org/keywords/intelligent-packaging",
+     "display_name": "smart packaging",
+     "score": 0.699999988079071
+    },
+    {
+     "id": "https://openalex.org/keywords/dietary-fiber",
+     "display_name": "dietary fiber",
+     "score": 0.7570000290870667
+    },
+    {
+     "id": "https://openalex.org/keywords/probiotic-protection",
+     "display_name": "probiotic protection",
+     "score": 0.8700000047683716
+    },
+    {
+     "id": "https://openalex.org/keywords/facial-mask",
+     "display_name": "facial mask",
+     "score": 0.8579999804496765
+    },
+    {
+     "id": "https://openalex.org/keywords/propolis",
+     "display_name": "propolis",
+     "score": 0.9440000057220459
+    },
+    {
+     "id": "https://openalex.org/keywords/heavy-metal-removal",
+     "display_name": "heavy metal removal",
+     "score": 0.9169999957084656
+    },
+    {
+     "id": "https://openalex.org/keywords/dye-removal",
+     "display_name": "dye removal",
+     "score": 0.8180000185966492
+    },
+    {
+     "id": "https://openalex.org/keywords/wastewater-treatment",
+     "display_name": "wastewater treatment",
+     "score": 0.828000009059906
+    },
+    {
+     "id": "https://openalex.org/keywords/paper-reinforcement",
+     "display_name": "paper reinforcement",
+     "score": 0.9129999876022339
+    },
+    {
+     "id": "https://openalex.org/keywords/textile-reinforcement",
+     "display_name": "textile reinforcement",
+     "score": 0.9769999980926514
+    },
+    {
+     "id": "https://openalex.org/keywords/biodegradable-materials",
+     "display_name": "biodegradable materials",
+     "score": 0.7559999823570251
+    },
+    {
+     "id": "https://openalex.org/keywords/agro-industrial-waste-substrates",
+     "display_name": "agro-industrial waste substrates",
+     "score": 0.8889999985694885
+    },
+    {
+     "id": "https://openalex.org/keywords/mass-production",
+     "display_name": "mass production",
+     "score": 0.6449999809265137
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2779477270",
+     "wikidata": "https://www.wikidata.org/wiki/Q4839982",
+     "display_name": "Bacterial cellulose",
+     "level": 3,
+     "score": 0.6902999877929688
+    },
+    {
+     "id": "https://openalex.org/C171534860",
+     "wikidata": "https://www.wikidata.org/wiki/Q655870",
+     "display_name": "Environmentally friendly",
+     "level": 2,
+     "score": 0.583899974822998
+    },
+    {
+     "id": "https://openalex.org/C188884661",
+     "wikidata": "https://www.wikidata.org/wiki/Q4677573",
+     "display_name": "Active packaging",
+     "level": 3,
+     "score": 0.4771000146865845
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.4587000012397766
+    },
+    {
+     "id": "https://openalex.org/C17857428",
+     "wikidata": "https://www.wikidata.org/wiki/Q533025",
+     "display_name": "Nutraceutical",
+     "level": 2,
+     "score": 0.4334999918937683
+    },
+    {
+     "id": "https://openalex.org/C2779251873",
+     "wikidata": "https://www.wikidata.org/wiki/Q80294",
+     "display_name": "Cellulose",
+     "level": 2,
+     "score": 0.423799991607666
+    },
+    {
+     "id": "https://openalex.org/C4937899",
+     "wikidata": "https://www.wikidata.org/wiki/Q68541106",
+     "display_name": "Antimicrobial",
+     "level": 2,
+     "score": 0.41929998993873596
+    },
+    {
+     "id": "https://openalex.org/C54965259",
+     "wikidata": "https://www.wikidata.org/wiki/Q189109",
+     "display_name": "Cellulose fiber",
+     "level": 3,
+     "score": 0.41659998893737793
+    },
+    {
+     "id": "https://openalex.org/C112950240",
+     "wikidata": "https://www.wikidata.org/wiki/Q76005",
+     "display_name": "Ultimate tensile strength",
+     "level": 2,
+     "score": 0.41429999470710754
+    },
+    {
+     "id": "https://openalex.org/C164767435",
+     "wikidata": "https://www.wikidata.org/wiki/Q28823",
+     "display_name": "Textile",
+     "level": 2,
+     "score": 0.4081000089645386
+    },
+    {
+     "id": "https://openalex.org/C74139830",
+     "wikidata": "https://www.wikidata.org/wiki/Q25380418",
+     "display_name": "Food packaging",
+     "level": 2,
+     "score": 0.4000000059604645
+    },
+    {
+     "id": "https://openalex.org/C528095902",
+     "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+     "display_name": "Pulp and paper industry",
+     "level": 1,
+     "score": 0.3650999963283539
+    },
+    {
+     "id": "https://openalex.org/C183696295",
+     "wikidata": "https://www.wikidata.org/wiki/Q2487696",
+     "display_name": "Biochemical engineering",
+     "level": 1,
+     "score": 0.36320000886917114
+    },
+    {
+     "id": "https://openalex.org/C192562407",
+     "wikidata": "https://www.wikidata.org/wiki/Q228736",
+     "display_name": "Materials science",
+     "level": 0,
+     "score": 0.35409998893737793
+    },
+    {
+     "id": "https://openalex.org/C2779717098",
+     "wikidata": "https://www.wikidata.org/wiki/Q131207",
+     "display_name": "Cosmetics",
+     "level": 2,
+     "score": 0.350600004196167
+    },
+    {
+     "id": "https://openalex.org/C171250308",
+     "wikidata": "https://www.wikidata.org/wiki/Q11468",
+     "display_name": "Nanotechnology",
+     "level": 1,
+     "score": 0.3398999869823456
+    },
+    {
+     "id": "https://openalex.org/C115930662",
+     "wikidata": "https://www.wikidata.org/wiki/Q1689021",
+     "display_name": "Shelf life",
+     "level": 2,
+     "score": 0.33889999985694885
+    },
+    {
+     "id": "https://openalex.org/C150394285",
+     "wikidata": "https://www.wikidata.org/wiki/Q180254",
+     "display_name": "Adsorption",
+     "level": 2,
+     "score": 0.33660000562667847
+    },
+    {
+     "id": "https://openalex.org/C2993572104",
+     "wikidata": "https://www.wikidata.org/wiki/Q6980681",
+     "display_name": "Natural food",
+     "level": 2,
+     "score": 0.32030001282691956
+    },
+    {
+     "id": "https://openalex.org/C2993522384",
+     "wikidata": "https://www.wikidata.org/wiki/Q3405827",
+     "display_name": "Natural materials",
+     "level": 2,
+     "score": 0.31929999589920044
+    },
+    {
+     "id": "https://openalex.org/C3019207227",
+     "wikidata": "https://www.wikidata.org/wiki/Q10883614",
+     "display_name": "Human life",
+     "level": 3,
+     "score": 0.3165999948978424
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.31380000710487366
+    },
+    {
+     "id": "https://openalex.org/C206139338",
+     "wikidata": "https://www.wikidata.org/wiki/Q192355",
+     "display_name": "Raw material",
+     "level": 2,
+     "score": 0.30630001425743103
+    },
+    {
+     "id": "https://openalex.org/C513059894",
+     "wikidata": "https://www.wikidata.org/wiki/Q540912",
+     "display_name": "Food industry",
+     "level": 2,
+     "score": 0.3059999942779541
+    },
+    {
+     "id": "https://openalex.org/C2987718291",
+     "wikidata": "https://www.wikidata.org/wiki/Q2095",
+     "display_name": "Food products",
+     "level": 2,
+     "score": 0.3041999936103821
+    },
+    {
+     "id": "https://openalex.org/C2776176653",
+     "wikidata": "https://www.wikidata.org/wiki/Q1192049",
+     "display_name": "Natural fiber",
+     "level": 3,
+     "score": 0.28949999809265137
+    },
+    {
+     "id": "https://openalex.org/C150903083",
+     "wikidata": "https://www.wikidata.org/wiki/Q7108",
+     "display_name": "Biotechnology",
+     "level": 1,
+     "score": 0.2667999863624573
+    },
+    {
+     "id": "https://openalex.org/C88199923",
+     "wikidata": "https://www.wikidata.org/wiki/Q627371",
+     "display_name": "Food processing",
+     "level": 2,
+     "score": 0.26420000195503235
+    },
+    {
+     "id": "https://openalex.org/C2780488879",
+     "wikidata": "https://www.wikidata.org/wiki/Q184398",
+     "display_name": "Propolis",
+     "level": 2,
+     "score": 0.2605000138282776
+    },
+    {
+     "id": "https://openalex.org/C39432304",
+     "wikidata": "https://www.wikidata.org/wiki/Q188847",
+     "display_name": "Environmental science",
+     "level": 0,
+     "score": 0.25040000677108765
+    }
+   ],
+   "mesh": [],
+   "locations_count": 3,
+   "locations": [
+    {
+     "id": "doi:10.54987/jemat.v13i2.1148",
+     "doi": "https://doi.org/10.54987/jemat.v13i2.1148",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.54987/jemat.v13i2.1148",
+     "pdf_url": "https://journal.hibiscuspublisher.com/index.php/JEMAT/article/download/1148/1209",
+     "source": {
+      "id": "https://openalex.org/S4210170032",
+      "display_name": "Journal of Environmental Microbiology and Toxicology",
+      "issn_l": "2289-5906",
+      "issn": [
+       "2289-5906"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Environmental Microbiology and Toxicology",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:eprints.ums.edu.my:47218",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://eprints.ums.edu.my/id/eprint/47218/1/FULLTEXT.pdf",
+     "pdf_url": "https://eprints.ums.edu.my/id/eprint/47218/1/FULLTEXT.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306400331",
+      "display_name": "UMS Institutional Repository (Universiti Malaysia Sabah)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I161371597",
+      "host_organization_name": "Universiti of Malaysia Sabah",
+      "host_organization_lineage": [
+       "https://openalex.org/I161371597"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "acceptedVersion",
+     "is_accepted": true,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "Article"
+    },
+    {
+     "id": "pmh:oai:psasir.upm.edu.my:127365",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://psasir.upm.edu.my/id/eprint/127365/1/127365.pdf",
+     "pdf_url": "http://psasir.upm.edu.my/id/eprint/127365/1/127365.pdf",
+     "source": {
+      "id": "https://openalex.org/S4377196260",
+      "display_name": "Universiti Putra Malaysia Institutional Repository (Universiti Putra Malaysia)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I130343225",
+      "host_organization_name": "Universiti Putra Malaysia",
+      "host_organization_lineage": [
+       "https://openalex.org/I130343225"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "acceptedVersion",
+     "is_accepted": true,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "Article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.54987/jemat.v13i2.1148",
+    "doi": "https://doi.org/10.54987/jemat.v13i2.1148",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.54987/jemat.v13i2.1148",
+    "pdf_url": "https://journal.hibiscuspublisher.com/index.php/JEMAT/article/download/1148/1209",
+    "source": {
+     "id": "https://openalex.org/S4210170032",
+     "display_name": "Journal of Environmental Microbiology and Toxicology",
+     "issn_l": "2289-5906",
+     "issn": [
+      "2289-5906"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Environmental Microbiology and Toxicology",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "display_name": "Responsible consumption and production",
+     "score": 0.8799999952316284,
+     "id": "https://metadata.un.org/sdg/12"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320322714",
+     "display_name": "Universiti Putra Malaysia",
+     "ror": "https://ror.org/02e91jd64"
+    },
+    {
+     "id": "https://openalex.org/F4320338071",
+     "display_name": "Institute of Population and Public Health",
+     "ror": "https://ror.org/04dh0w640"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4417424954.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4417424954.grobid-xml"
+   },
+   "referenced_works_count": 70,
+   "referenced_works": [
+    "https://openalex.org/W2437331074",
+    "https://openalex.org/W2586884633",
+    "https://openalex.org/W2626117991",
+    "https://openalex.org/W2761193753",
+    "https://openalex.org/W2791245553",
+    "https://openalex.org/W2808757552",
+    "https://openalex.org/W2949718534",
+    "https://openalex.org/W2965464064",
+    "https://openalex.org/W2970678503",
+    "https://openalex.org/W3026684859",
+    "https://openalex.org/W3034268601",
+    "https://openalex.org/W3088758259",
+    "https://openalex.org/W3114029585",
+    "https://openalex.org/W3133564384",
+    "https://openalex.org/W3158540306",
+    "https://openalex.org/W3167503675",
+    "https://openalex.org/W4205840522",
+    "https://openalex.org/W4206652821",
+    "https://openalex.org/W4221056116",
+    "https://openalex.org/W4224311602",
+    "https://openalex.org/W4280592394",
+    "https://openalex.org/W4280598565",
+    "https://openalex.org/W4281952341",
+    "https://openalex.org/W4285727071",
+    "https://openalex.org/W4293770210",
+    "https://openalex.org/W4295213604",
+    "https://openalex.org/W4308532021",
+    "https://openalex.org/W4313503902",
+    "https://openalex.org/W4318481028",
+    "https://openalex.org/W4318817813",
+    "https://openalex.org/W4323566345",
+    "https://openalex.org/W4361284048",
+    "https://openalex.org/W4381803317",
+    "https://openalex.org/W4382582681",
+    "https://openalex.org/W4383040536",
+    "https://openalex.org/W4385932016",
+    "https://openalex.org/W4388705786",
+    "https://openalex.org/W4391386979",
+    "https://openalex.org/W4391795788",
+    "https://openalex.org/W4392695559",
+    "https://openalex.org/W4394060383",
+    "https://openalex.org/W4394692985",
+    "https://openalex.org/W4395469254",
+    "https://openalex.org/W4396951513",
+    "https://openalex.org/W4399248918",
+    "https://openalex.org/W4399768972",
+    "https://openalex.org/W4400174237",
+    "https://openalex.org/W4400174327",
+    "https://openalex.org/W4401762588",
+    "https://openalex.org/W4402519686",
+    "https://openalex.org/W4402803470",
+    "https://openalex.org/W4402923960",
+    "https://openalex.org/W4403221916",
+    "https://openalex.org/W4403602870",
+    "https://openalex.org/W4403707449",
+    "https://openalex.org/W4405175378",
+    "https://openalex.org/W4405569949",
+    "https://openalex.org/W4406616455",
+    "https://openalex.org/W4406800456",
+    "https://openalex.org/W4407004608",
+    "https://openalex.org/W4407046765",
+    "https://openalex.org/W4409828991",
+    "https://openalex.org/W4411338368",
+    "https://openalex.org/W4411511231",
+    "https://openalex.org/W4411615844",
+    "https://openalex.org/W4413076918",
+    "https://openalex.org/W4413469963",
+    "https://openalex.org/W4413651813",
+    "https://openalex.org/W4413876084",
+    "https://openalex.org/W4414210547"
+   ],
+   "related_works": [
+    "https://openalex.org/W4388487628",
+    "https://openalex.org/W4403707449",
+    "https://openalex.org/W3022428321",
+    "https://openalex.org/W7169844027",
+    "https://openalex.org/W1576348920",
+    "https://openalex.org/W4412914029",
+    "https://openalex.org/W7157340930",
+    "https://openalex.org/W4414313155",
+    "https://openalex.org/W2940301309",
+    "https://openalex.org/W4413923437"
+   ],
+   "abstract_inverted_index": {
+    "In": [
+     0,
+     68,
+     141,
+     188
+    ],
+    "recent": [
+     1,
+     60
+    ],
+    "years,": [
+     2
+    ],
+    "with": [
+     3,
+     174
+    ],
+    "increasing": [
+     4
+    ],
+    "demand": [
+     5
+    ],
+    "for": [
+     6,
+     148
+    ],
+    "sustainable,": [
+     7
+    ],
+    "environmentally": [
+     8
+    ],
+    "friendly": [
+     9
+    ],
+    "materials,": [
+     10
+    ],
+    "bacterial": [
+     11
+    ],
+    "cellulose": [
+     12,
+     53
+    ],
+    "(BC)": [
+     13
+    ],
+    "has": [
+     14,
+     73,
+     212,
+     242
+    ],
+    "attracted": [
+     15
+    ],
+    "significant": [
+     16
+    ],
+    "attention": [
+     17
+    ],
+    "as": [
+     18,
+     77,
+     111,
+     215,
+     269
+    ],
+    "a": [
+     19,
+     106,
+     112,
+     157,
+     216,
+     270
+    ],
+    "promising": [
+     20
+    ],
+    "biomaterial.": [
+     21
+    ],
+    "BC": [
+     22,
+     49,
+     63,
+     72,
+     109,
+     127,
+     145,
+     171,
+     211,
+     228,
+     241,
+     292
+    ],
+    "possesses": [
+     23
+    ],
+    "excellent": [
+     24,
+     244
+    ],
+    "mechanical": [
+     25
+    ],
+    "strength,": [
+     26
+    ],
+    "good": [
+     27
+    ],
+    "biocompatibility,": [
+     28
+    ],
+    "extremely": [
+     29
+    ],
+    "high": [
+     30,
+     259
+    ],
+    "water-holding": [
+     31
+    ],
+    "capacity": [
+     32
+    ],
+    "(more": [
+     33
+    ],
+    "than": [
+     34
+    ],
+    "100": [
+     35
+    ],
+    "times": [
+     36
+    ],
+    "its": [
+     37,
+     152
+    ],
+    "own": [
+     38
+    ],
+    "weight),": [
+     39
+    ],
+    "and": [
+     40,
+     80,
+     100,
+     120,
+     135,
+     163,
+     182,
+     195,
+     203,
+     222,
+     233,
+     246,
+     261,
+     272
+    ],
+    "can": [
+     41,
+     117,
+     155,
+     278
+    ],
+    "be": [
+     42,
+     207
+    ],
+    "easily": [
+     43
+    ],
+    "modified.": [
+     44
+    ],
+    "These": [
+     45
+    ],
+    "unique": [
+     46
+    ],
+    "properties": [
+     47,
+     245
+    ],
+    "make": [
+     48
+    ],
+    "superior": [
+     50
+    ],
+    "to": [
+     51,
+     166,
+     206
+    ],
+    "plant": [
+     52
+    ],
+    "in": [
+     54,
+     62,
+     123,
+     219,
+     249,
+     298
+    ],
+    "many": [
+     55,
+     250
+    ],
+    "applications.": [
+     56
+    ],
+    "This": [
+     57
+    ],
+    "review": [
+     58
+    ],
+    "summarizes": [
+     59
+    ],
+    "progress": [
+     61
+    ],
+    "across": [
+     64
+    ],
+    "several": [
+     65
+    ],
+    "important": [
+     66,
+     296
+    ],
+    "fields.": [
+     67
+    ],
+    "the": [
+     69,
+     83,
+     124,
+     130,
+     142,
+     167,
+     180,
+     191,
+     220,
+     273,
+     285,
+     299
+    ],
+    "food": [
+     70,
+     107
+    ],
+    "industry,": [
+     71
+    ],
+    "been": [
+     74,
+     213
+    ],
+    "widely": [
+     75
+    ],
+    "used": [
+     76,
+     214
+    ],
+    "edible": [
+     78
+    ],
+    "films": [
+     79
+    ],
+    "coatings,": [
+     81
+    ],
+    "enhancing": [
+     82
+    ],
+    "shelf": [
+     84
+    ],
+    "life": [
+     85
+    ],
+    "of": [
+     86,
+     132,
+     160,
+     227,
+     266,
+     275
+    ],
+    "fresh": [
+     87
+    ],
+    "products.": [
+     88
+    ],
+    "Moreover,": [
+     89
+    ],
+    "when": [
+     90
+    ],
+    "natural": [
+     91,
+     178
+    ],
+    "antimicrobial": [
+     92
+    ],
+    "agents": [
+     93
+    ],
+    "or": [
+     94,
+     176
+    ],
+    "pH": [
+     95
+    ],
+    "indicators": [
+     96
+    ],
+    "were": [
+     97,
+     103,
+     185
+    ],
+    "incorporated,": [
+     98
+    ],
+    "active": [
+     99,
+     161
+    ],
+    "intelligent": [
+     101
+    ],
+    "packaging": [
+     102
+    ],
+    "developed.": [
+     104
+    ],
+    "As": [
+     105
+    ],
+    "additive,": [
+     108
+    ],
+    "acts": [
+     110
+    ],
+    "high-quality": [
+     113
+    ],
+    "dietary": [
+     114
+    ],
+    "fiber": [
+     115
+    ],
+    "that": [
+     116,
+     291
+    ],
+    "adsorb": [
+     118
+    ],
+    "cholesterol": [
+     119
+    ],
+    "bile": [
+     121
+    ],
+    "salts": [
+     122
+    ],
+    "gastrointestinal": [
+     125
+    ],
+    "tract.": [
+     126
+    ],
+    "also": [
+     128
+    ],
+    "improves": [
+     129
+    ],
+    "texture": [
+     131
+    ],
+    "low-calorie": [
+     133
+    ],
+    "foods": [
+     134
+    ],
+    "protects": [
+     136
+    ],
+    "probiotic": [
+     137
+    ],
+    "bacteria": [
+     138
+    ],
+    "during": [
+     139
+    ],
+    "storage.": [
+     140
+    ],
+    "cosmetic": [
+     143
+    ],
+    "field,": [
+     144
+    ],
+    "is": [
+     146,
+     289
+    ],
+    "well-suited": [
+     147
+    ],
+    "facial": [
+     149
+    ],
+    "masks": [
+     150
+    ],
+    "because": [
+     151
+    ],
+    "three-dimensional": [
+     153
+    ],
+    "structure": [
+     154
+    ],
+    "hold": [
+     156
+    ],
+    "large": [
+     158,
+     196
+    ],
+    "amount": [
+     159
+    ],
+    "compounds": [
+     162
+    ],
+    "conform": [
+     164
+    ],
+    "well": [
+     165
+    ],
+    "skin": [
+     168
+    ],
+    "surface.": [
+     169
+    ],
+    "When": [
+     170
+    ],
+    "was": [
+     172
+    ],
+    "combined": [
+     173
+    ],
+    "propolis": [
+     175
+    ],
+    "other": [
+     177
+    ],
+    "extracts,": [
+     179
+    ],
+    "antioxidant": [
+     181
+    ],
+    "anti-aging": [
+     183
+    ],
+    "effects": [
+     184
+    ],
+    "greatly": [
+     186,
+     229
+    ],
+    "enhanced.": [
+     187
+    ],
+    "wastewater": [
+     189
+    ],
+    "treatment,": [
+     190
+    ],
+    "abundant": [
+     192
+    ],
+    "hydroxyl": [
+     193
+    ],
+    "groups": [
+     194
+    ],
+    "surface": [
+     197
+    ],
+    "area": [
+     198
+    ],
+    "enable": [
+     199
+    ],
+    "heavy": [
+     200
+    ],
+    "metal": [
+     201
+    ],
+    "ions": [
+     202
+    ],
+    "organic": [
+     204
+    ],
+    "dyes": [
+     205
+    ],
+    "removed": [
+     208
+    ],
+    "effectively.": [
+     209
+    ],
+    "Besides,": [
+     210
+    ],
+    "reinforcement": [
+     217
+    ],
+    "material": [
+     218
+    ],
+    "paper": [
+     221
+    ],
+    "textile": [
+     223
+    ],
+    "industries.": [
+     224
+    ],
+    "The": [
+     225,
+     264
+    ],
+    "addition": [
+     226
+    ],
+    "increases": [
+     230
+    ],
+    "tensile": [
+     231
+    ],
+    "strength": [
+     232
+    ],
+    "provides": [
+     234
+    ],
+    "hydrophobicity": [
+     235
+    ],
+    "while": [
+     236
+    ],
+    "maintaining": [
+     237
+    ],
+    "complete": [
+     238
+    ],
+    "biodegradability.": [
+     239
+    ],
+    "Although": [
+     240
+    ],
+    "numerous": [
+     243
+    ],
+    "great": [
+     247
+    ],
+    "potential": [
+     248
+    ],
+    "fields,": [
+     251
+    ],
+    "large-scale": [
+     252
+    ],
+    "production": [
+     253,
+     281
+    ],
+    "still": [
+     254
+    ],
+    "faces": [
+     255
+    ],
+    "some": [
+     256
+    ],
+    "challenges,": [
+     257
+    ],
+    "mainly": [
+     258
+    ],
+    "costs": [
+     260
+    ],
+    "low": [
+     262
+    ],
+    "yields.": [
+     263
+    ],
+    "use": [
+     265
+    ],
+    "agro-industrial": [
+     267
+    ],
+    "waste": [
+     268
+    ],
+    "substrate": [
+     271
+    ],
+    "development": [
+     274
+    ],
+    "new": [
+     276
+    ],
+    "bioreactors": [
+     277
+    ],
+    "significantly": [
+     279
+    ],
+    "reduce": [
+     280
+    ],
+    "costs.": [
+     282
+    ],
+    "Based": [
+     283
+    ],
+    "on": [
+     284
+    ],
+    "above-mentioned": [
+     286
+    ],
+    "research,": [
+     287
+    ],
+    "it": [
+     288
+    ],
+    "clear": [
+     290
+    ],
+    "will": [
+     293
+    ],
+    "play": [
+     294
+    ],
+    "an": [
+     295
+    ],
+    "role": [
+     297
+    ],
+    "future": [
+     300
+    ],
+    "sustainable": [
+     301
+    ],
+    "industry.": [
+     302
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-11-04T10:54:05.112534",
+   "created_date": "2025-12-17T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7215086588",
+   "doi": "https://doi.org/10.1038/s41579-026-01370-3",
+   "title": "Microbial synthesis and degradation of bio-based biodegradable plastics",
+   "display_name": "Microbial synthesis and degradation of bio-based biodegradable plastics",
+   "publication_year": 2026,
+   "publication_date": "2026-10-01",
+   "ids": {
+    "openalex": "https://openalex.org/W7215086588",
+    "doi": "https://doi.org/10.1038/s41579-026-01370-3",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/42823525"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1038/s41579-026-01370-3",
+    "doi": "https://doi.org/10.1038/s41579-026-01370-3",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/s41579-026-01370-3",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S56802129",
+     "display_name": "Nature Reviews Microbiology",
+     "issn_l": "1740-1526",
+     "issn": [
+      "1740-1526",
+      "1740-1534"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-a",
+      "doyens",
+      "jufo-3",
+      "ki-jl-2",
+      "medline",
+      "norway-1",
+      "poland-200",
+      "russia-white-list-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319908",
+     "host_organization_name": "Nature Portfolio",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319908",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Nature Portfolio",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nature Reviews Microbiology",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "review",
+   "is_traditional": true,
+   "indexed_in": [
+    "crossref",
+    "pubmed"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5022135540",
+      "display_name": "Manuel Bruch",
+      "orcid": "https://orcid.org/0000-0001-7046-4116",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-7046-4116"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Manuel Bruch",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7046-4116",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5034762775",
+      "display_name": "Tanja Narančić",
+      "orcid": "https://orcid.org/0000-0003-3269-2200",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3269-2200"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Tanja Narančić",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5031079825",
+      "display_name": "Rhys Orimaco",
+      "orcid": "https://orcid.org/0009-0002-0290-6431",
+      "observed_orcids": [
+       "https://orcid.org/0009-0002-0290-6431"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rhys Orimaco",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5065032667",
+      "display_name": "Jounghyun Um",
+      "orcid": "https://orcid.org/0000-0002-8454-6072",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-8454-6072"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jounghyun Um",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5000607640",
+      "display_name": "Ciara D. Lynch",
+      "orcid": "https://orcid.org/0000-0003-0147-9810",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0147-9810"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ciara Lynch",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-0147-9810",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5127849785",
+      "display_name": "Si Liu",
+      "orcid": "https://orcid.org/0000-0002-9180-2935",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9180-2935"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Si Liu",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5039162491",
+      "display_name": "Jasmina Nikodinović‐Runić",
+      "orcid": "https://orcid.org/0000-0002-2553-977X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2553-977X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4068193",
+       "display_name": "University of Belgrade",
+       "ror": "https://ror.org/02qsmb048",
+       "country_code": "RS",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4068193"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4391768169",
+       "display_name": "Institute of Molecular Genetics and Genetic Engineering",
+       "ror": "https://ror.org/026ynmk26",
+       "country_code": "RS",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4068193",
+        "https://openalex.org/I4391768169"
+       ]
+      }
+     ],
+     "countries": [
+      "RS"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Jasmina Nikodinovic-Runic",
+     "raw_affiliation_strings": [
+      "Group for Eco-Biotechnology & Drug Development, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Belgrade, Serbia"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-2553-977X",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Group for Eco-Biotechnology & Drug Development, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Belgrade, Serbia",
+       "institution_ids": [
+        "https://openalex.org/I4068193",
+        "https://openalex.org/I4391768169"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5060171750",
+      "display_name": "Ren Wei",
+      "orcid": "https://orcid.org/0000-0003-3876-1350",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3876-1350"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I36522303",
+       "display_name": "Universität Greifswald",
+       "ror": "https://ror.org/00r1edq15",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I36522303"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I887968799",
+       "display_name": "RWTH Aachen University",
+       "ror": "https://ror.org/04xfq0f34",
+       "country_code": "DE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I887968799"
+       ]
+      }
+     ],
+     "countries": [
+      "DE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ren Wei",
+     "raw_affiliation_strings": [
+      "Junior Research Group Plastic Biodegradation, Department of Biotechnology & Enzyme Catalysis, Institute of Biochemistry, University of Greifswald, Greifswald, Germany",
+      "WSS Research Center Catalaix, RWTH Aachen University, Aachen, Germany"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-3876-1350",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Junior Research Group Plastic Biodegradation, Department of Biotechnology & Enzyme Catalysis, Institute of Biochemistry, University of Greifswald, Greifswald, Germany",
+       "institution_ids": [
+        "https://openalex.org/I36522303"
+       ]
+      },
+      {
+       "raw_affiliation_string": "WSS Research Center Catalaix, RWTH Aachen University, Aachen, Germany",
+       "institution_ids": [
+        "https://openalex.org/I887968799"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5043078189",
+      "display_name": "Kevin  Edward O’Connor",
+      "orcid": "https://orcid.org/0000-0001-7202-0076",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-7202-0076"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I100930933",
+       "display_name": "University College Dublin",
+       "ror": "https://ror.org/05m7pjf47",
+       "country_code": "IE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ],
+     "countries": [
+      "IE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Kevin O’Connor",
+     "raw_affiliation_strings": [
+      "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+      "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0001-7202-0076",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "BiOrbic Research Ireland Centre for Bioeconomy, Dublin, Ireland",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "School of Biomolecular and Biomedical Science, University College Dublin, Dublin, Ireland",
+       "institution_ids": [
+        "https://openalex.org/I100930933"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 3,
+   "institutions_distinct_count": 5,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.35717499,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10661",
+    "display_name": "biodegradable polymer synthesis and properties",
+    "score": 0.9994999766349792,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2502",
+     "display_name": "Biomaterials"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/25",
+     "display_name": "Materials Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10661",
+     "display_name": "biodegradable polymer synthesis and properties",
+     "score": 0.9994999766349792,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2502",
+      "display_name": "Biomaterials"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/25",
+      "display_name": "Materials Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10324",
+     "display_name": "Microbial bioremediation and biosurfactants",
+     "score": 0.0003000000142492354,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2310",
+      "display_name": "Pollution"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10753",
+     "display_name": "Microplastics and Plastic Pollution",
+     "score": 9.999999747378752e-05,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2310",
+      "display_name": "Pollution"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/microbial-polymer-production",
+     "display_name": "microbial polymer production",
+     "score": 0.7039999961853027
+    },
+    {
+     "id": "https://openalex.org/keywords/microbial-degradation",
+     "display_name": "microbial degradation",
+     "score": 0.6389999985694885
+    },
+    {
+     "id": "https://openalex.org/keywords/bio-based-polymers",
+     "display_name": "bio-based polymers",
+     "score": 0.9089999794960022
+    },
+    {
+     "id": "https://openalex.org/keywords/circular-bioeconomy",
+     "display_name": "circular bioeconomy",
+     "score": 0.8899999856948853
+    },
+    {
+     "id": "https://openalex.org/keywords/biodegradation",
+     "display_name": "biodegradation",
+     "score": 0.4819999933242798
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2779679103",
+     "wikidata": "https://www.wikidata.org/wiki/Q5251805",
+     "display_name": "Degradation (telecommunications)",
+     "level": 2,
+     "score": 0.7239999771118164
+    },
+    {
+     "id": "https://openalex.org/C175605896",
+     "wikidata": "https://www.wikidata.org/wiki/Q39833",
+     "display_name": "Microorganism",
+     "level": 3,
+     "score": 0.6194000244140625
+    },
+    {
+     "id": "https://openalex.org/C521977710",
+     "wikidata": "https://www.wikidata.org/wiki/Q81163",
+     "display_name": "Polymer",
+     "level": 2,
+     "score": 0.6046000123023987
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.4893999993801117
+    },
+    {
+     "id": "https://openalex.org/C157021035",
+     "wikidata": "https://www.wikidata.org/wiki/Q696715",
+     "display_name": "Biodegradation",
+     "level": 2,
+     "score": 0.47510001063346863
+    },
+    {
+     "id": "https://openalex.org/C196222841",
+     "wikidata": "https://www.wikidata.org/wiki/Q6839252",
+     "display_name": "Microbial biodegradation",
+     "level": 4,
+     "score": 0.4632999897003174
+    },
+    {
+     "id": "https://openalex.org/C523546767",
+     "wikidata": "https://www.wikidata.org/wiki/Q10876",
+     "display_name": "Bacteria",
+     "level": 2,
+     "score": 0.46209999918937683
+    },
+    {
+     "id": "https://openalex.org/C183696295",
+     "wikidata": "https://www.wikidata.org/wiki/Q2487696",
+     "display_name": "Biochemical engineering",
+     "level": 1,
+     "score": 0.44769999384880066
+    },
+    {
+     "id": "https://openalex.org/C58123911",
+     "wikidata": "https://www.wikidata.org/wiki/Q467410",
+     "display_name": "Biofilm",
+     "level": 3,
+     "score": 0.3970000147819519
+    },
+    {
+     "id": "https://openalex.org/C2778348673",
+     "wikidata": "https://www.wikidata.org/wiki/Q739302",
+     "display_name": "Production (economics)",
+     "level": 2,
+     "score": 0.3732999861240387
+    },
+    {
+     "id": "https://openalex.org/C203220038",
+     "wikidata": "https://www.wikidata.org/wiki/Q7226547",
+     "display_name": "Polymer degradation",
+     "level": 3,
+     "score": 0.3325999975204468
+    },
+    {
+     "id": "https://openalex.org/C26517878",
+     "wikidata": "https://www.wikidata.org/wiki/Q228039",
+     "display_name": "Key (lock)",
+     "level": 2,
+     "score": 0.32010000944137573
+    },
+    {
+     "id": "https://openalex.org/C2992437751",
+     "wikidata": "https://www.wikidata.org/wiki/Q2105334",
+     "display_name": "Synthetic polymer",
+     "level": 3,
+     "score": 0.31769999861717224
+    },
+    {
+     "id": "https://openalex.org/C150903083",
+     "wikidata": "https://www.wikidata.org/wiki/Q7108",
+     "display_name": "Biotechnology",
+     "level": 1,
+     "score": 0.3142000138759613
+    },
+    {
+     "id": "https://openalex.org/C42360764",
+     "wikidata": "https://www.wikidata.org/wiki/Q83588",
+     "display_name": "Chemical engineering",
+     "level": 1,
+     "score": 0.30640000104904175
+    },
+    {
+     "id": "https://openalex.org/C192562407",
+     "wikidata": "https://www.wikidata.org/wiki/Q228736",
+     "display_name": "Materials science",
+     "level": 0,
+     "score": 0.3052999973297119
+    },
+    {
+     "id": "https://openalex.org/C45211672",
+     "wikidata": "https://www.wikidata.org/wiki/Q4119016",
+     "display_name": "Biodegradable polymer",
+     "level": 3,
+     "score": 0.30309998989105225
+    },
+    {
+     "id": "https://openalex.org/C89423630",
+     "wikidata": "https://www.wikidata.org/wiki/Q7193",
+     "display_name": "Microbiology",
+     "level": 1,
+     "score": 0.30090001225471497
+    },
+    {
+     "id": "https://openalex.org/C185592680",
+     "wikidata": "https://www.wikidata.org/wiki/Q2329",
+     "display_name": "Chemistry",
+     "level": 0,
+     "score": 0.2962000072002411
+    },
+    {
+     "id": "https://openalex.org/C148043351",
+     "wikidata": "https://www.wikidata.org/wiki/Q4456944",
+     "display_name": "Current (fluid)",
+     "level": 2,
+     "score": 0.2946999967098236
+    },
+    {
+     "id": "https://openalex.org/C31903555",
+     "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+     "display_name": "Food science",
+     "level": 1,
+     "score": 0.2854999899864197
+    },
+    {
+     "id": "https://openalex.org/C101014631",
+     "wikidata": "https://www.wikidata.org/wiki/Q4889568",
+     "display_name": "Microbial metabolism",
+     "level": 3,
+     "score": 0.28439998626708984
+    },
+    {
+     "id": "https://openalex.org/C107872376",
+     "wikidata": "https://www.wikidata.org/wiki/Q321355",
+     "display_name": "Environmental chemistry",
+     "level": 1,
+     "score": 0.27730000019073486
+    },
+    {
+     "id": "https://openalex.org/C528095902",
+     "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+     "display_name": "Pulp and paper industry",
+     "level": 1,
+     "score": 0.266400009393692
+    }
+   ],
+   "mesh": [],
+   "locations_count": 3,
+   "locations": [
+    {
+     "id": "doi:10.1038/s41579-026-01370-3",
+     "doi": "https://doi.org/10.1038/s41579-026-01370-3",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1038/s41579-026-01370-3",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S56802129",
+      "display_name": "Nature Reviews Microbiology",
+      "issn_l": "1740-1526",
+      "issn": [
+       "1740-1526",
+       "1740-1534"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-1",
+       "poland-200",
+       "russia-white-list-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Nature Reviews Microbiology",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmid:42823525",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42823525",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Nature reviews. Microbiology",
+     "raw_type": "Journal Article"
+    },
+    {
+     "id": "pmh:oai:imagine.imgge.bg.ac.rs:123456789/3616",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://imagine.imgge.bg.ac.rs/handle/123456789/3616",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4377196579",
+      "display_name": "IMAGINE - Repository of the Institute of molecular genetics and genetic engineering (University of Belgrade)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4068193",
+      "host_organization_name": "University of Belgrade",
+      "host_organization_lineage": [
+       "https://openalex.org/I4068193"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Nature Reviews Microbiology",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [
+    {
+     "display_name": "Responsible consumption and production",
+     "score": 1.0,
+     "id": "https://metadata.un.org/sdg/12"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 202,
+   "referenced_works": [
+    "https://openalex.org/W1549936434",
+    "https://openalex.org/W1580920166",
+    "https://openalex.org/W1867699539",
+    "https://openalex.org/W1876516252",
+    "https://openalex.org/W1922295711",
+    "https://openalex.org/W1974664624",
+    "https://openalex.org/W1977506167",
+    "https://openalex.org/W1979341604",
+    "https://openalex.org/W1981573351",
+    "https://openalex.org/W1982094863",
+    "https://openalex.org/W1990649005",
+    "https://openalex.org/W1995142168",
+    "https://openalex.org/W1997504151",
+    "https://openalex.org/W1998339030",
+    "https://openalex.org/W2003081124",
+    "https://openalex.org/W2010165540",
+    "https://openalex.org/W2012960672",
+    "https://openalex.org/W2016466394",
+    "https://openalex.org/W2018862233",
+    "https://openalex.org/W2020866548",
+    "https://openalex.org/W2023707757",
+    "https://openalex.org/W2028959441",
+    "https://openalex.org/W2031349028",
+    "https://openalex.org/W2034965864",
+    "https://openalex.org/W2041168832",
+    "https://openalex.org/W2041322713",
+    "https://openalex.org/W2045294022",
+    "https://openalex.org/W2056284336",
+    "https://openalex.org/W2063963003",
+    "https://openalex.org/W2066700018",
+    "https://openalex.org/W2072086541",
+    "https://openalex.org/W2075657458",
+    "https://openalex.org/W2081784316",
+    "https://openalex.org/W2083715472",
+    "https://openalex.org/W2087368617",
+    "https://openalex.org/W2091627935",
+    "https://openalex.org/W2108256427",
+    "https://openalex.org/W2113063842",
+    "https://openalex.org/W2119035159",
+    "https://openalex.org/W2131164625",
+    "https://openalex.org/W2133045323",
+    "https://openalex.org/W2153732592",
+    "https://openalex.org/W2156326383",
+    "https://openalex.org/W2158611924",
+    "https://openalex.org/W2164982984",
+    "https://openalex.org/W2171134842",
+    "https://openalex.org/W2281446551",
+    "https://openalex.org/W2321207353",
+    "https://openalex.org/W2489895522",
+    "https://openalex.org/W2512172815",
+    "https://openalex.org/W2520242598",
+    "https://openalex.org/W2535997916",
+    "https://openalex.org/W2588528637",
+    "https://openalex.org/W2597766572",
+    "https://openalex.org/W2737217596",
+    "https://openalex.org/W2758016727",
+    "https://openalex.org/W2766284957",
+    "https://openalex.org/W2783724112",
+    "https://openalex.org/W2797295663",
+    "https://openalex.org/W2801256450",
+    "https://openalex.org/W2804807141",
+    "https://openalex.org/W2889466042",
+    "https://openalex.org/W2895417149",
+    "https://openalex.org/W2898303110",
+    "https://openalex.org/W2902609800",
+    "https://openalex.org/W2912272845",
+    "https://openalex.org/W2917532651",
+    "https://openalex.org/W2918042478",
+    "https://openalex.org/W2923701509",
+    "https://openalex.org/W2936566509",
+    "https://openalex.org/W2938186730",
+    "https://openalex.org/W2945504065",
+    "https://openalex.org/W2948574679",
+    "https://openalex.org/W2952982270",
+    "https://openalex.org/W2967529931",
+    "https://openalex.org/W2971939292",
+    "https://openalex.org/W2972758198",
+    "https://openalex.org/W2979292905",
+    "https://openalex.org/W2979732035",
+    "https://openalex.org/W2980298838",
+    "https://openalex.org/W2995073383",
+    "https://openalex.org/W2999939473",
+    "https://openalex.org/W3005530308",
+    "https://openalex.org/W3012228581",
+    "https://openalex.org/W3013328719",
+    "https://openalex.org/W3032220059",
+    "https://openalex.org/W3037378858",
+    "https://openalex.org/W3042586994",
+    "https://openalex.org/W3043019582",
+    "https://openalex.org/W3046296665",
+    "https://openalex.org/W3088697341",
+    "https://openalex.org/W3092116354",
+    "https://openalex.org/W3113255693",
+    "https://openalex.org/W3114029585",
+    "https://openalex.org/W3121694646",
+    "https://openalex.org/W3123866115",
+    "https://openalex.org/W3126069294",
+    "https://openalex.org/W3138220533",
+    "https://openalex.org/W3157788918",
+    "https://openalex.org/W3162093860",
+    "https://openalex.org/W3164420176",
+    "https://openalex.org/W3165091813",
+    "https://openalex.org/W3166501155",
+    "https://openalex.org/W3176745748",
+    "https://openalex.org/W3177287813",
+    "https://openalex.org/W3182009741",
+    "https://openalex.org/W3185567511",
+    "https://openalex.org/W3193529142",
+    "https://openalex.org/W3200260303",
+    "https://openalex.org/W3211802378",
+    "https://openalex.org/W4205722716",
+    "https://openalex.org/W4205884797",
+    "https://openalex.org/W4206254319",
+    "https://openalex.org/W4210866876",
+    "https://openalex.org/W4211082288",
+    "https://openalex.org/W4211177925",
+    "https://openalex.org/W4213246275",
+    "https://openalex.org/W4214573264",
+    "https://openalex.org/W4220924386",
+    "https://openalex.org/W4281741775",
+    "https://openalex.org/W4285595480",
+    "https://openalex.org/W4285727071",
+    "https://openalex.org/W4288755830",
+    "https://openalex.org/W4293102330",
+    "https://openalex.org/W4303980862",
+    "https://openalex.org/W4304689113",
+    "https://openalex.org/W4308074793",
+    "https://openalex.org/W4308975374",
+    "https://openalex.org/W4312221820",
+    "https://openalex.org/W4313503902",
+    "https://openalex.org/W4317434233",
+    "https://openalex.org/W4319987513",
+    "https://openalex.org/W4320482886",
+    "https://openalex.org/W4321786756",
+    "https://openalex.org/W4323308655",
+    "https://openalex.org/W4366447408",
+    "https://openalex.org/W4367360024",
+    "https://openalex.org/W4380051288",
+    "https://openalex.org/W4385728247",
+    "https://openalex.org/W4386921971",
+    "https://openalex.org/W4387047926",
+    "https://openalex.org/W4387708894",
+    "https://openalex.org/W4388487687",
+    "https://openalex.org/W4389409578",
+    "https://openalex.org/W4390036468",
+    "https://openalex.org/W4390238531",
+    "https://openalex.org/W4390551339",
+    "https://openalex.org/W4391258085",
+    "https://openalex.org/W4391289318",
+    "https://openalex.org/W4391386979",
+    "https://openalex.org/W4391608255",
+    "https://openalex.org/W4393930997",
+    "https://openalex.org/W4394785938",
+    "https://openalex.org/W4396518581",
+    "https://openalex.org/W4396611747",
+    "https://openalex.org/W4396887471",
+    "https://openalex.org/W4396916311",
+    "https://openalex.org/W4397011997",
+    "https://openalex.org/W4398156645",
+    "https://openalex.org/W4399206958",
+    "https://openalex.org/W4399553378",
+    "https://openalex.org/W4399584191",
+    "https://openalex.org/W4399849636",
+    "https://openalex.org/W4400499311",
+    "https://openalex.org/W4400730636",
+    "https://openalex.org/W4401025268",
+    "https://openalex.org/W4401577645",
+    "https://openalex.org/W4403492476",
+    "https://openalex.org/W4403581182",
+    "https://openalex.org/W4403619103",
+    "https://openalex.org/W4403929588",
+    "https://openalex.org/W4404131024",
+    "https://openalex.org/W4404587407",
+    "https://openalex.org/W4404942749",
+    "https://openalex.org/W4406268670",
+    "https://openalex.org/W4407662145",
+    "https://openalex.org/W4407873589",
+    "https://openalex.org/W4407924834",
+    "https://openalex.org/W4408536850",
+    "https://openalex.org/W4408546681",
+    "https://openalex.org/W4408589504",
+    "https://openalex.org/W4409524876",
+    "https://openalex.org/W4409818204",
+    "https://openalex.org/W4409897122",
+    "https://openalex.org/W4410260817",
+    "https://openalex.org/W4410519697",
+    "https://openalex.org/W4411125598",
+    "https://openalex.org/W4411150005",
+    "https://openalex.org/W4411609121",
+    "https://openalex.org/W4412975232",
+    "https://openalex.org/W4413049123",
+    "https://openalex.org/W4414015406",
+    "https://openalex.org/W4414159377",
+    "https://openalex.org/W4414189955",
+    "https://openalex.org/W4414210547",
+    "https://openalex.org/W4414630520",
+    "https://openalex.org/W4415016395",
+    "https://openalex.org/W4415424640",
+    "https://openalex.org/W4415576041",
+    "https://openalex.org/W4416422265",
+    "https://openalex.org/W7091323278",
+    "https://openalex.org/W7127649349"
+   ],
+   "related_works": [
+    "https://openalex.org/W4389130959",
+    "https://openalex.org/W7213357988",
+    "https://openalex.org/W7170153225",
+    "https://openalex.org/W7118088724",
+    "https://openalex.org/W4405739947",
+    "https://openalex.org/W4413422438",
+    "https://openalex.org/W4377220119",
+    "https://openalex.org/W3163355680",
+    "https://openalex.org/W7203573539",
+    "https://openalex.org/W4413908847"
+   ],
+   "abstract_inverted_index": null,
+   "counts_by_year": [],
+   "updated_date": "2026-11-06T12:05:46.655746",
+   "created_date": "2026-10-02T00:00:00"
+  }
+ ]
+}

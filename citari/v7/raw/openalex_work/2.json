@@ -1,0 +1,1177 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "2",
+ "payload": {
+  "id": "https://openalex.org/W4313819645",
+  "doi": "https://doi.org/10.17930/agl2021124",
+  "title": "NUTRITIONAL AND FUNCTIONAL PROPERTIES OF SOME PROTEIN SOURCES",
+  "display_name": "NUTRITIONAL AND FUNCTIONAL PROPERTIES OF SOME PROTEIN SOURCES",
+  "publication_year": 2021,
+  "publication_date": "2021-06-30",
+  "ids": {
+   "openalex": "https://openalex.org/W4313819645",
+   "doi": "https://doi.org/10.17930/agl2021124"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.17930/agl2021124",
+   "doi": "https://doi.org/10.17930/agl2021124",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.17930/agl2021124",
+   "pdf_url": "https://doi.org/10.17930/agl2021124",
+   "source": {
+    "id": "https://openalex.org/S2737085538",
+    "display_name": "AgroLife Scientific Journal",
+    "issn_l": "2285-5718",
+    "issn": [
+     "2285-5718",
+     "2285-5726",
+     "2286-0126"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": false,
+    "listed_in": [
+     "doaj",
+     "dongbi-c",
+     "jufo-1",
+     "norway-1",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": "https://openalex.org/P4310314562",
+    "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310314562"
+    ],
+    "host_organization_lineage_names": [
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "AgroLife Scientific Journal",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "is_traditional": true,
+  "indexed_in": [
+   "crossref",
+   "doaj"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "diamond",
+   "oa_url": "https://doi.org/10.17930/agl2021124",
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801529014",
+      "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "ror": "https://ror.org/04rssyw40",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2801529014"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Gabriela Daniela STAMATIE",
+    "raw_affiliation_strings": [
+     "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania",
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     },
+     {
+      "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Denisa Eglantina DUTA",
+    "raw_affiliation_strings": [
+     "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5024489548",
+     "display_name": "Nastasia Belc",
+     "orcid": "https://orcid.org/0000-0002-8732-4539",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8732-4539"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nastasia BELC",
+    "raw_affiliation_strings": [
+     "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of R & D for Food Bioresources -IBA Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5074499984",
+     "display_name": "Claudia Zoani",
+     "orcid": "https://orcid.org/0000-0002-8328-5894",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8328-5894"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I110120368",
+      "display_name": "National Agency for New Technologies, Energy and Sustainable Economic Development",
+      "ror": "https://ror.org/02an8es95",
+      "country_code": "IT",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Claudia ZOANI",
+    "raw_affiliation_strings": [
+     "Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA), Italy",
+      "institution_ids": [
+       "https://openalex.org/I110120368"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5050801350",
+     "display_name": "Florentina Israel-Roming",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2801529014",
+      "display_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "ror": "https://ror.org/04rssyw40",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Florentina ISRAELROMING",
+    "raw_affiliation_strings": [
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "University of Agronomic Sciences and Veterinary Medicine of Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I2801529014"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5116710859"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I2801529014",
+   "https://openalex.org/I4210109653"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.4953,
+  "has_fulltext": true,
+  "cited_by_count": 8,
+  "citation_normalized_percentile": {
+   "value": 0.62563901,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+   "min": 88,
+   "max": 97
+  },
+  "biblio": {
+   "volume": "10",
+   "issue": "1",
+   "first_page": "214",
+   "last_page": "220"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10411",
+   "display_name": "Proteins in Food Systems",
+   "score": 0.9398999810218811,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1106",
+    "display_name": "Food Science"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/11",
+    "display_name": "Agricultural and Biological Sciences"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/1",
+    "display_name": "Life Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10411",
+    "display_name": "Proteins in Food Systems",
+    "score": 0.9398999810218811,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T14127",
+    "display_name": "Food Nutrient Composition and Product Development",
+    "score": 0.05570000037550926,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11561",
+    "display_name": "Protein Hydrolysis and Bioactive Peptides",
+    "score": 0.0010999999940395355,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/protein-sources",
+    "display_name": "protein sources",
+    "score": 0.8539999723434448
+   },
+   {
+    "id": "https://openalex.org/keywords/functional-properties",
+    "display_name": "functional properties",
+    "score": 0.8740000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/water-holding-capacity",
+    "display_name": "water holding capacity",
+    "score": 0.6850000023841858
+   },
+   {
+    "id": "https://openalex.org/keywords/oil-absorption-capacity",
+    "display_name": "oil absorption capacity",
+    "score": 0.8730000257492065
+   },
+   {
+    "id": "https://openalex.org/keywords/foaming-capacity",
+    "display_name": "foaming capacity",
+    "score": 0.925000011920929
+   },
+   {
+    "id": "https://openalex.org/keywords/foam-stability",
+    "display_name": "foam stability",
+    "score": 0.8080000281333923
+   },
+   {
+    "id": "https://openalex.org/keywords/emulsifying-properties",
+    "display_name": "emulsifying properties",
+    "score": 0.9369999766349792
+   },
+   {
+    "id": "https://openalex.org/keywords/gelling-properties",
+    "display_name": "gelling properties",
+    "score": 0.7630000114440918
+   },
+   {
+    "id": "https://openalex.org/keywords/protein-digestibility",
+    "display_name": "protein digestibility",
+    "score": 0.7599999904632568
+   },
+   {
+    "id": "https://openalex.org/keywords/amino-acid-content",
+    "display_name": "amino acid content",
+    "score": 0.7300000190734863
+   },
+   {
+    "id": "https://openalex.org/keywords/milk-protein",
+    "display_name": "milk protein",
+    "score": 0.8539999723434448
+   },
+   {
+    "id": "https://openalex.org/keywords/whey-protein",
+    "display_name": "whey protein",
+    "score": 0.9980000257492065
+   },
+   {
+    "id": "https://openalex.org/keywords/soy-protein",
+    "display_name": "soy protein",
+    "score": 0.7400000095367432
+   },
+   {
+    "id": "https://openalex.org/keywords/pea-protein",
+    "display_name": "pea protein",
+    "score": 0.9269999861717224
+   },
+   {
+    "id": "https://openalex.org/keywords/corn-protein",
+    "display_name": "corn protein",
+    "score": 0.8569999933242798
+   },
+   {
+    "id": "https://openalex.org/keywords/oat-protein",
+    "display_name": "oat protein",
+    "score": 0.9359999895095825
+   },
+   {
+    "id": "https://openalex.org/keywords/hemp-protein",
+    "display_name": "hemp protein",
+    "score": 0.996999979019165
+   },
+   {
+    "id": "https://openalex.org/keywords/wheat-flour",
+    "display_name": "wheat flour",
+    "score": 0.753000020980835
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.7811369895935059
+   },
+   {
+    "id": "https://openalex.org/C2780589914",
+    "wikidata": "https://www.wikidata.org/wiki/Q10675206",
+    "display_name": "Ingredient",
+    "level": 2,
+    "score": 0.714720606803894
+   },
+   {
+    "id": "https://openalex.org/C2777897731",
+    "wikidata": "https://www.wikidata.org/wiki/Q424430",
+    "display_name": "Whey protein",
+    "level": 2,
+    "score": 0.6629935503005981
+   },
+   {
+    "id": "https://openalex.org/C168314062",
+    "wikidata": "https://www.wikidata.org/wiki/Q2550696",
+    "display_name": "Absorption of water",
+    "level": 2,
+    "score": 0.6430250406265259
+   },
+   {
+    "id": "https://openalex.org/C185592680",
+    "wikidata": "https://www.wikidata.org/wiki/Q2329",
+    "display_name": "Chemistry",
+    "level": 0,
+    "score": 0.6023784279823303
+   },
+   {
+    "id": "https://openalex.org/C2777014122",
+    "wikidata": "https://www.wikidata.org/wiki/Q7571993",
+    "display_name": "Soy protein",
+    "level": 2,
+    "score": 0.5667827725410461
+   },
+   {
+    "id": "https://openalex.org/C2994067018",
+    "wikidata": "https://www.wikidata.org/wiki/Q1402691",
+    "display_name": "Water holding capacity",
+    "level": 2,
+    "score": 0.507757306098938
+   },
+   {
+    "id": "https://openalex.org/C2781283633",
+    "wikidata": "https://www.wikidata.org/wiki/Q7157196",
+    "display_name": "Pea protein",
+    "level": 2,
+    "score": 0.48451918363571167
+   },
+   {
+    "id": "https://openalex.org/C2993156956",
+    "wikidata": "https://www.wikidata.org/wiki/Q903485",
+    "display_name": "Protein isolate",
+    "level": 2,
+    "score": 0.4559701979160309
+   },
+   {
+    "id": "https://openalex.org/C3019009989",
+    "wikidata": "https://www.wikidata.org/wiki/Q8054",
+    "display_name": "Plant protein",
+    "level": 2,
+    "score": 0.41945332288742065
+   },
+   {
+    "id": "https://openalex.org/C86803240",
+    "wikidata": "https://www.wikidata.org/wiki/Q420",
+    "display_name": "Biology",
+    "level": 0,
+    "score": 0.1607939600944519
+   },
+   {
+    "id": "https://openalex.org/C59822182",
+    "wikidata": "https://www.wikidata.org/wiki/Q441",
+    "display_name": "Botany",
+    "level": 1,
+    "score": 0.12911829352378845
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.17930/agl2021124",
+    "doi": "https://doi.org/10.17930/agl2021124",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.17930/agl2021124",
+    "pdf_url": "https://doi.org/10.17930/agl2021124",
+    "source": {
+     "id": "https://openalex.org/S2737085538",
+     "display_name": "AgroLife Scientific Journal",
+     "issn_l": "2285-5718",
+     "issn": [
+      "2285-5718",
+      "2285-5726",
+      "2286-0126"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": false,
+     "listed_in": [
+      "doaj",
+      "dongbi-c",
+      "jufo-1",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": "https://openalex.org/P4310314562",
+     "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310314562"
+     ],
+     "host_organization_lineage_names": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AgroLife Scientific Journal",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:ojs2.usamv.validapps.ro:article/306",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/view/306",
+    "pdf_url": "https://agrolifejournal.usamv.ro/index.php/agrolife/article/download/306/305",
+    "source": {
+     "id": "https://openalex.org/S2737085538",
+     "display_name": "AgroLife Scientific Journal",
+     "issn_l": "2285-5718",
+     "issn": [
+      "2285-5718",
+      "2285-5726",
+      "2286-0126"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": false,
+     "listed_in": [
+      "doaj",
+      "dongbi-c",
+      "jufo-1",
+      "norway-1",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": "https://openalex.org/P4310314562",
+     "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310314562"
+     ],
+     "host_organization_lineage_names": [
+      "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2285-5718",
+    "raw_type": "info:eu-repo/semantics/article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.17930/agl2021124",
+   "doi": "https://doi.org/10.17930/agl2021124",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.17930/agl2021124",
+   "pdf_url": "https://doi.org/10.17930/agl2021124",
+   "source": {
+    "id": "https://openalex.org/S2737085538",
+    "display_name": "AgroLife Scientific Journal",
+    "issn_l": "2285-5718",
+    "issn": [
+     "2285-5718",
+     "2285-5726",
+     "2286-0126"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": false,
+    "listed_in": [
+     "doaj",
+     "dongbi-c",
+     "jufo-1",
+     "norway-1",
+     "poland-20",
+     "russia-white-list-4"
+    ],
+    "host_organization": "https://openalex.org/P4310314562",
+    "host_organization_name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310314562"
+    ],
+    "host_organization_lineage_names": [
+     "University of Agronomic Sciences and Veterinary Medicine of Bucharest"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "AgroLife Scientific Journal",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "id": "https://metadata.un.org/sdg/2",
+    "score": 0.958299994468689,
+    "display_name": "Zero hunger"
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320315989",
+    "display_name": "National Authority for Scientific Research and Innovation",
+    "ror": null
+   },
+   {
+    "id": "https://openalex.org/F4320323444",
+    "display_name": "Autoritatea Natională pentru Cercetare Stiintifică",
+    "ror": "https://ror.org/03padf885"
+   },
+   {
+    "id": "https://openalex.org/F4320323983",
+    "display_name": "Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii",
+    "ror": "https://ror.org/01q7jq182"
+   },
+   {
+    "id": "https://openalex.org/F4320327146",
+    "display_name": "Coordination of European Transnational Research in Organic Food and Farming Systems",
+    "ror": "https://ror.org/00sd0cm11"
+   },
+   {
+    "id": "https://openalex.org/F4320336189",
+    "display_name": "Colegiul Consultativ pentru Cercetare-Dezvoltare şi Inovare",
+    "ror": "https://ror.org/03mc0m715"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4313819645.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4313819645.grobid-xml"
+  },
+  "referenced_works_count": 21,
+  "referenced_works": [
+   "https://openalex.org/W1706272588",
+   "https://openalex.org/W1896524503",
+   "https://openalex.org/W1985679975",
+   "https://openalex.org/W2045941714",
+   "https://openalex.org/W2079924190",
+   "https://openalex.org/W2243395688",
+   "https://openalex.org/W2264907454",
+   "https://openalex.org/W2569760779",
+   "https://openalex.org/W2593152791",
+   "https://openalex.org/W2791903335",
+   "https://openalex.org/W2901361701",
+   "https://openalex.org/W2943891617",
+   "https://openalex.org/W2944013468",
+   "https://openalex.org/W2946408733",
+   "https://openalex.org/W2952373831",
+   "https://openalex.org/W2996435226",
+   "https://openalex.org/W2999473461",
+   "https://openalex.org/W3007518737",
+   "https://openalex.org/W3012154420",
+   "https://openalex.org/W3021788075",
+   "https://openalex.org/W3021953629"
+  ],
+  "related_works": [
+   "https://openalex.org/W4302041805",
+   "https://openalex.org/W2467884733",
+   "https://openalex.org/W2013829322",
+   "https://openalex.org/W7055134480",
+   "https://openalex.org/W4293198760",
+   "https://openalex.org/W1972754140",
+   "https://openalex.org/W2203357530",
+   "https://openalex.org/W2040498979",
+   "https://openalex.org/W2009411777",
+   "https://openalex.org/W3191074850"
+  ],
+  "abstract_inverted_index": {
+   "Nine": [
+    0
+   ],
+   "ingredients": [
+    1,
+    131
+   ],
+   "protein": [
+    2,
+    25,
+    66,
+    89,
+    104,
+    110,
+    121,
+    128,
+    158
+   ],
+   "sources": [
+    3
+   ],
+   "were": [
+    4,
+    34
+   ],
+   "examined:": [
+    5
+   ],
+   "milk": [
+    6,
+    88,
+    109
+   ],
+   "protein,": [
+    7,
+    9,
+    14,
+    16,
+    18,
+    20,
+    22
+   ],
+   "whey": [
+    8
+   ],
+   "Pleurotus": [
+    10
+   ],
+   "mushroom": [
+    11
+   ],
+   "flour,": [
+    12
+   ],
+   "pea": [
+    13
+   ],
+   "corn": [
+    15,
+    120
+   ],
+   "soy": [
+    17
+   ],
+   "oat": [
+    19,
+    127
+   ],
+   "hemp": [
+    21,
+    103
+   ],
+   "sea": [
+    23
+   ],
+   "buckthorn": [
+    24
+   ],
+   "in": [
+    26,
+    68,
+    140,
+    151
+   ],
+   "comparison": [
+    27
+   ],
+   "with": [
+    28
+   ],
+   "wheat": [
+    29
+   ],
+   "flour": [
+    30
+   ],
+   "(as": [
+    31
+   ],
+   "control).": [
+    32
+   ],
+   "They": [
+    33
+   ],
+   "subjected": [
+    35
+   ],
+   "to": [
+    36,
+    106,
+    124
+   ],
+   "physicochemical": [
+    37
+   ],
+   "(protein,": [
+    38
+   ],
+   "fat,": [
+    39
+   ],
+   "ash,": [
+    40
+   ],
+   "carbohydrates,": [
+    41
+   ],
+   "aminoacids": [
+    42
+   ],
+   "contents": [
+    43
+   ],
+   "and": [
+    44,
+    46,
+    57,
+    143
+   ],
+   "digestibility)": [
+    45
+   ],
+   "functional": [
+    47,
+    134
+   ],
+   "analyzes": [
+    48
+   ],
+   "(water": [
+    49
+   ],
+   "absorption": [
+    50,
+    53,
+    74,
+    83
+   ],
+   "capacity,": [
+    51,
+    54
+   ],
+   "oil": [
+    52,
+    82
+   ],
+   "foaming": [
+    55,
+    97
+   ],
+   "property": [
+    56,
+    61
+   ],
+   "foam": [
+    58
+   ],
+   "stability,": [
+    59
+   ],
+   "gelling": [
+    60
+   ],
+   "for": [
+    62,
+    87,
+    102,
+    108,
+    118,
+    126,
+    155
+   ],
+   "mixtures": [
+    63
+   ],
+   "of": [
+    64,
+    160
+   ],
+   "10%": [
+    65
+   ],
+   "ingredient": [
+    67
+   ],
+   "water,": [
+    69
+   ],
+   "emulsification": [
+    70,
+    113
+   ],
+   "capacity).": [
+    71
+   ],
+   "The": [
+    72,
+    80,
+    96,
+    112
+   ],
+   "water": [
+    73
+   ],
+   "capacity": [
+    75,
+    84,
+    98,
+    114
+   ],
+   "ranged": [
+    76,
+    99
+   ],
+   "from": [
+    77,
+    100,
+    116
+   ],
+   "0.54-3.22": [
+    78
+   ],
+   "WHC.": [
+    79
+   ],
+   "highest": [
+    81
+   ],
+   "was": [
+    85
+   ],
+   "identified": [
+    86
+   ],
+   "sample": [
+    90,
+    105,
+    123
+   ],
+   "1.07": [
+    91
+   ],
+   "WHC": [
+    92
+   ],
+   "(g": [
+    93
+   ],
+   "oil/g": [
+    94
+   ],
+   "sample).": [
+    95
+   ],
+   "0%": [
+    101
+   ],
+   "91.5%": [
+    107
+   ],
+   "sample.": [
+    111,
+    129
+   ],
+   "varied": [
+    115
+   ],
+   "69.23%": [
+    117
+   ],
+   "the": [
+    119,
+    157
+   ],
+   "hydrolyzate": [
+    122
+   ],
+   "54.69%": [
+    125
+   ],
+   "Protein": [
+    130
+   ],
+   "have": [
+    132
+   ],
+   "different": [
+    133,
+    152
+   ],
+   "properties": [
+    135
+   ],
+   "which": [
+    136,
+    146
+   ],
+   "determine": [
+    137
+   ],
+   "their": [
+    138
+   ],
+   "behaviour": [
+    139
+   ],
+   "food": [
+    141,
+    153,
+    161
+   ],
+   "systems": [
+    142
+   ],
+   "based": [
+    144
+   ],
+   "on": [
+    145
+   ],
+   "they": [
+    147
+   ],
+   "can": [
+    148
+   ],
+   "be": [
+    149
+   ],
+   "used": [
+    150
+   ],
+   "applications,": [
+    154
+   ],
+   "improving": [
+    156
+   ],
+   "content": [
+    159
+   ],
+   "products": [
+    162
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 2
+   }
+  ],
+  "updated_date": "2026-11-07T11:25:07.637180",
+  "created_date": "2023-01-09T00:00:00"
+ }
+}

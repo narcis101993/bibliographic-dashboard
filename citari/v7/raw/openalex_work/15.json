@@ -1,0 +1,1399 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "15",
+ "payload": {
+  "id": "https://openalex.org/W7213466976",
+  "doi": "https://doi.org/10.3390/agronomy16181832",
+  "title": "Soil Water Deficit During Wheat Grain Filling Drives Wholemeal Bread Texture in an Extreme Climatic Year",
+  "display_name": "Soil Water Deficit During Wheat Grain Filling Drives Wholemeal Bread Texture in an Extreme Climatic Year",
+  "publication_year": 2026,
+  "publication_date": "2026-09-17",
+  "ids": {
+   "openalex": "https://openalex.org/W7213466976",
+   "doi": "https://doi.org/10.3390/agronomy16181832"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.3390/agronomy16181832",
+   "doi": "https://doi.org/10.3390/agronomy16181832",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/agronomy16181832",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2738977497",
+    "display_name": "Agronomy",
+    "issn_l": "2073-4395",
+    "issn": [
+     "2073-4395"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "ki-jl-1",
+     "norway-1",
+     "oarl",
+     "poland-100",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Agronomy",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "is_traditional": true,
+  "indexed_in": [
+   "crossref",
+   "doaj"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.3390/agronomy16181832",
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5011468777",
+     "display_name": "Valeria Gagiu",
+     "orcid": "https://orcid.org/0000-0003-0771-6119",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-0771-6119"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Valeria Gagiu",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-0771-6119",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036772751",
+     "display_name": "Denisa Eglantina Duță",
+     "orcid": "https://orcid.org/0000-0002-8821-7268",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8821-7268"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Denisa Eglantina Duta",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-8821-7268",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5067788843",
+     "display_name": "Cristian Mihai Pomohaci",
+     "orcid": "https://orcid.org/0000-0001-6844-2380",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-6844-2380"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Cristian Mihai Pomohaci",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-6844-2380",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela Daniela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5119052458",
+     "display_name": "Elena-Iulia Lazăr Bănuţă",
+     "orcid": "https://orcid.org/0000-0003-3920-584X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3920-584X"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Elena Iulia Lazar",
+    "raw_affiliation_strings": [
+     "SC Sapte Spice SA, 240275 Ramnicu Valcea, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "SC Sapte Spice SA, 240275 Ramnicu Valcea, Romania",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5018145435",
+     "display_name": "Cristian Lazar",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "Cristian Lazar",
+    "raw_affiliation_strings": [
+     "SC Sapte Spice SA, 240275 Ramnicu Valcea, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "SC Sapte Spice SA, 240275 Ramnicu Valcea, Romania",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5113847312",
+     "display_name": "Oana Alexandra Oprea",
+     "orcid": "https://orcid.org/0000-0003-3158-9113",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3158-9113"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210110581",
+      "display_name": "Administraţia Naţională de Meteorologie",
+      "ror": "https://ror.org/01sa63389",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210110581"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Oana Alexandra Oprea",
+    "raw_affiliation_strings": [
+     "National Meteorological Administration (METEO-Romania), 013686 Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Meteorological Administration (METEO-Romania), 013686 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210110581"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5023370555",
+     "display_name": "Elena Mateescu",
+     "orcid": "https://orcid.org/0000-0002-1015-4084",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1015-4084"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210110581",
+      "display_name": "Administraţia Naţională de Meteorologie",
+      "ror": "https://ror.org/01sa63389",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210110581"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Elena Mateescu",
+    "raw_affiliation_strings": [
+     "National Meteorological Administration (METEO-Romania), 013686 Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Meteorological Administration (METEO-Romania), 013686 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210110581"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5024489548",
+     "display_name": "Nastasia Belc",
+     "orcid": "https://orcid.org/0000-0002-8732-4539",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8732-4539"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nastasia Belc",
+    "raw_affiliation_strings": [
+     "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-8732-4539",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research & Development Institute for Food Bioresources (IBA Bucharest), 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5011468777",
+   "https://openalex.org/A5036772751"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I4210109653"
+  ],
+  "apc_list": {
+   "value": 2600,
+   "currency": "CHF",
+   "value_usd": 3137
+  },
+  "apc_paid": {
+   "value": 2600,
+   "currency": "CHF",
+   "value_usd": 3137
+  },
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+   "value": 0.63889865,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": "16",
+   "issue": "18",
+   "first_page": "1832",
+   "last_page": "1832"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10140",
+   "display_name": "Food composition and properties",
+   "score": 0.8690999746322632,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2916",
+    "display_name": "Nutrition and Dietetics"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/29",
+    "display_name": "Nursing"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10140",
+    "display_name": "Food composition and properties",
+    "score": 0.8690999746322632,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10733",
+    "display_name": "Wheat and Barley Genetics and Pathology",
+    "score": 0.04910000041127205,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1110",
+     "display_name": "Plant Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11229",
+    "display_name": "Genetics and Plant Breeding",
+    "score": 0.024700000882148743,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1110",
+     "display_name": "Plant Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/whole-grain-bread",
+    "display_name": "whole grain bread",
+    "score": 0.777999997138977
+   },
+   {
+    "id": "https://openalex.org/keywords/bread-crumb-texture",
+    "display_name": "bread crumb texture",
+    "score": 0.9200000166893005
+   },
+   {
+    "id": "https://openalex.org/keywords/wheat-grain-filling",
+    "display_name": "wheat grain filling",
+    "score": 0.8769999742507935
+   },
+   {
+    "id": "https://openalex.org/keywords/soil-water-deficit",
+    "display_name": "soil water deficit",
+    "score": 0.9990000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/drought",
+    "display_name": "drought",
+    "score": 0.8270000219345093
+   },
+   {
+    "id": "https://openalex.org/keywords/precipitation",
+    "display_name": "precipitation",
+    "score": 0.5889999866485596
+   },
+   {
+    "id": "https://openalex.org/keywords/grain-filling-duration",
+    "display_name": "grain filling stage",
+    "score": 0.7269999980926514
+   },
+   {
+    "id": "https://openalex.org/keywords/wheat-protein-quality",
+    "display_name": "wheat protein quality",
+    "score": 0.7450000047683716
+   },
+   {
+    "id": "https://openalex.org/keywords/mycotoxins",
+    "display_name": "mycotoxins",
+    "score": 0.8399999737739563
+   },
+   {
+    "id": "https://openalex.org/keywords/deoxynivalenol",
+    "display_name": "deoxynivalenol",
+    "score": 0.9649999737739563
+   },
+   {
+    "id": "https://openalex.org/keywords/aflatoxin-b1",
+    "display_name": "aflatoxin B1",
+    "score": 0.9869999885559082
+   },
+   {
+    "id": "https://openalex.org/keywords/ochratoxin-a",
+    "display_name": "ochratoxin A",
+    "score": 0.9990000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/fungal-contamination",
+    "display_name": "fungal contamination",
+    "score": 0.7760000228881836
+   },
+   {
+    "id": "https://openalex.org/keywords/extreme-climate-events",
+    "display_name": "climate extremes",
+    "score": 0.6240000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/bread-quality",
+    "display_name": "bread quality",
+    "score": 0.5590000152587891
+   },
+   {
+    "id": "https://openalex.org/keywords/romania",
+    "display_name": "Romania",
+    "score": 0.4320000112056732
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C175963888",
+    "wikidata": "https://www.wikidata.org/wiki/Q5026010",
+    "display_name": "Soil texture",
+    "level": 3,
+    "score": 0.6078000068664551
+   },
+   {
+    "id": "https://openalex.org/C39432304",
+    "wikidata": "https://www.wikidata.org/wiki/Q188847",
+    "display_name": "Environmental science",
+    "level": 0,
+    "score": 0.5712000131607056
+   },
+   {
+    "id": "https://openalex.org/C6557445",
+    "wikidata": "https://www.wikidata.org/wiki/Q173113",
+    "display_name": "Agronomy",
+    "level": 1,
+    "score": 0.49000000953674316
+   },
+   {
+    "id": "https://openalex.org/C24939127",
+    "wikidata": "https://www.wikidata.org/wiki/Q373499",
+    "display_name": "Water content",
+    "level": 2,
+    "score": 0.46209999918937683
+   },
+   {
+    "id": "https://openalex.org/C2781195486",
+    "wikidata": "https://www.wikidata.org/wiki/Q289436",
+    "display_name": "Texture (cosmology)",
+    "level": 3,
+    "score": 0.4341000020503998
+   },
+   {
+    "id": "https://openalex.org/C40758303",
+    "wikidata": "https://www.wikidata.org/wiki/Q212936",
+    "display_name": "Aflatoxin",
+    "level": 2,
+    "score": 0.4092000126838684
+   },
+   {
+    "id": "https://openalex.org/C107054158",
+    "wikidata": "https://www.wikidata.org/wiki/Q25257",
+    "display_name": "Precipitation",
+    "level": 2,
+    "score": 0.3935999870300293
+   },
+   {
+    "id": "https://openalex.org/C84699730",
+    "wikidata": "https://www.wikidata.org/wiki/Q422449",
+    "display_name": "Mycotoxin",
+    "level": 2,
+    "score": 0.38119998574256897
+   },
+   {
+    "id": "https://openalex.org/C64248961",
+    "wikidata": "https://www.wikidata.org/wiki/Q791576",
+    "display_name": "Water activity",
+    "level": 3,
+    "score": 0.3750999867916107
+   },
+   {
+    "id": "https://openalex.org/C51592225",
+    "wikidata": "https://www.wikidata.org/wiki/Q2498665",
+    "display_name": "Food quality",
+    "level": 2,
+    "score": 0.3644999861717224
+   },
+   {
+    "id": "https://openalex.org/C159750122",
+    "wikidata": "https://www.wikidata.org/wiki/Q96621023",
+    "display_name": "Soil water",
+    "level": 2,
+    "score": 0.35269999504089355
+   },
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.350600004196167
+   },
+   {
+    "id": "https://openalex.org/C176864760",
+    "wikidata": "https://www.wikidata.org/wiki/Q217651",
+    "display_name": "Moisture",
+    "level": 2,
+    "score": 0.3334999978542328
+   },
+   {
+    "id": "https://openalex.org/C3018661444",
+    "wikidata": "https://www.wikidata.org/wiki/Q6977574",
+    "display_name": "Winter wheat",
+    "level": 2,
+    "score": 0.33090001344680786
+   },
+   {
+    "id": "https://openalex.org/C3020154045",
+    "wikidata": "https://www.wikidata.org/wiki/Q940999",
+    "display_name": "Wheat bread",
+    "level": 3,
+    "score": 0.3179999887943268
+   },
+   {
+    "id": "https://openalex.org/C3020060512",
+    "wikidata": "https://www.wikidata.org/wiki/Q15645384",
+    "display_name": "Wheat grain",
+    "level": 2,
+    "score": 0.3149999976158142
+   },
+   {
+    "id": "https://openalex.org/C2778520195",
+    "wikidata": "https://www.wikidata.org/wiki/Q16249780",
+    "display_name": "Grain quality",
+    "level": 2,
+    "score": 0.30559998750686646
+   },
+   {
+    "id": "https://openalex.org/C112570922",
+    "wikidata": "https://www.wikidata.org/wiki/Q60528603",
+    "display_name": "Contamination",
+    "level": 2,
+    "score": 0.3037000000476837
+   },
+   {
+    "id": "https://openalex.org/C3019985465",
+    "wikidata": "https://www.wikidata.org/wiki/Q2249305",
+    "display_name": "Wheat flour",
+    "level": 2,
+    "score": 0.29319998621940613
+   },
+   {
+    "id": "https://openalex.org/C132651083",
+    "wikidata": "https://www.wikidata.org/wiki/Q7942",
+    "display_name": "Climate change",
+    "level": 2,
+    "score": 0.29100000858306885
+   },
+   {
+    "id": "https://openalex.org/C2987718291",
+    "wikidata": "https://www.wikidata.org/wiki/Q2095",
+    "display_name": "Food products",
+    "level": 2,
+    "score": 0.27720001339912415
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.3390/agronomy16181832",
+    "doi": "https://doi.org/10.3390/agronomy16181832",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/agronomy16181832",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2738977497",
+     "display_name": "Agronomy",
+     "issn_l": "2073-4395",
+     "issn": [
+      "2073-4395"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "ki-jl-1",
+      "norway-1",
+      "oarl",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Agronomy",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:doaj.org/article:d4220afbbecb413786ad7e97ec8367e5",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://doaj.org/article/d4220afbbecb413786ad7e97ec8367e5",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401280",
+     "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Agronomy, Vol 16, Iss 18, p 1832 (2026)",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.3390/agronomy16181832",
+   "doi": "https://doi.org/10.3390/agronomy16181832",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/agronomy16181832",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2738977497",
+    "display_name": "Agronomy",
+    "issn_l": "2073-4395",
+    "issn": [
+     "2073-4395"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "ki-jl-1",
+     "norway-1",
+     "oarl",
+     "poland-100",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Agronomy",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Zero hunger",
+    "score": 1.0,
+    "id": "https://metadata.un.org/sdg/2"
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 35,
+  "referenced_works": [
+   "https://openalex.org/W158869594",
+   "https://openalex.org/W1494196694",
+   "https://openalex.org/W2002473773",
+   "https://openalex.org/W2004281058",
+   "https://openalex.org/W2037831994",
+   "https://openalex.org/W2042873388",
+   "https://openalex.org/W2085319865",
+   "https://openalex.org/W2087478596",
+   "https://openalex.org/W2090510643",
+   "https://openalex.org/W2120889976",
+   "https://openalex.org/W2145036255",
+   "https://openalex.org/W2145266392",
+   "https://openalex.org/W2152170501",
+   "https://openalex.org/W2161187187",
+   "https://openalex.org/W2326764501",
+   "https://openalex.org/W2791694053",
+   "https://openalex.org/W2998799529",
+   "https://openalex.org/W3118812151",
+   "https://openalex.org/W4214837352",
+   "https://openalex.org/W4290759703",
+   "https://openalex.org/W4292087014",
+   "https://openalex.org/W4293526803",
+   "https://openalex.org/W4309604656",
+   "https://openalex.org/W4321789247",
+   "https://openalex.org/W4383957147",
+   "https://openalex.org/W4389130115",
+   "https://openalex.org/W4400689697",
+   "https://openalex.org/W4400788247",
+   "https://openalex.org/W4405838640",
+   "https://openalex.org/W4406470349",
+   "https://openalex.org/W4408772080",
+   "https://openalex.org/W4412737604",
+   "https://openalex.org/W4415189480",
+   "https://openalex.org/W4415641628",
+   "https://openalex.org/W4416267564"
+  ],
+  "related_works": [
+   "https://openalex.org/W1996596751",
+   "https://openalex.org/W4406470349",
+   "https://openalex.org/W2741600576",
+   "https://openalex.org/W2904243672",
+   "https://openalex.org/W2107661264",
+   "https://openalex.org/W2620985166",
+   "https://openalex.org/W4405854412",
+   "https://openalex.org/W2093506202",
+   "https://openalex.org/W3201849079",
+   "https://openalex.org/W2393809125"
+  ],
+  "abstract_inverted_index": {
+   "Crumb": [
+    0
+   ],
+   "texture": [
+    1,
+    41
+   ],
+   "is": [
+    2
+   ],
+   "an": [
+    3
+   ],
+   "essential": [
+    4
+   ],
+   "attribute": [
+    5
+   ],
+   "of": [
+    6,
+    11,
+    22,
+    72,
+    109,
+    148
+   ],
+   "bread": [
+    7,
+    24,
+    156
+   ],
+   "quality,": [
+    8
+   ],
+   "influencing": [
+    9
+   ],
+   "perceptions": [
+    10
+   ],
+   "freshness": [
+    12
+   ],
+   "and": [
+    13,
+    35,
+    54,
+    56,
+    64,
+    69,
+    75,
+    79,
+    86,
+    112,
+    119,
+    130,
+    139,
+    155,
+    161,
+    167,
+    176
+   ],
+   "consumer": [
+    14
+   ],
+   "acceptability.": [
+    15
+   ],
+   "This": [
+    16
+   ],
+   "study": [
+    17
+   ],
+   "characterized": [
+    18
+   ],
+   "the": [
+    19,
+    37,
+    57,
+    94,
+    134,
+    145
+   ],
+   "textural": [
+    20,
+    128
+   ],
+   "properties": [
+    21
+   ],
+   "wholemeal": [
+    23
+   ],
+   "crumb—prepared": [
+    25
+   ],
+   "without": [
+    26
+   ],
+   "enzymes": [
+    27
+   ],
+   "or": [
+    28,
+    133
+   ],
+   "preservatives—from": [
+    29
+   ],
+   "Romanian": [
+    30
+   ],
+   "wheat": [
+    31,
+    152
+   ],
+   "stored": [
+    32
+   ],
+   "during": [
+    33
+   ],
+   "2024–2025,": [
+    34
+   ],
+   "identified": [
+    36
+   ],
+   "main": [
+    38
+   ],
+   "factors": [
+    39
+   ],
+   "controlling": [
+    40
+   ],
+   "variability.": [
+    42
+   ],
+   "Texture": [
+    43
+   ],
+   "profile": [
+    44
+   ],
+   "analysis": [
+    45
+   ],
+   "(TPA)": [
+    46
+   ],
+   "was": [
+    47,
+    106,
+    113
+   ],
+   "used": [
+    48
+   ],
+   "to": [
+    49,
+    93
+   ],
+   "evaluate": [
+    50
+   ],
+   "firmness,": [
+    51
+   ],
+   "cohesiveness,": [
+    52,
+    78
+   ],
+   "elasticity,": [
+    53
+   ],
+   "gumminess,": [
+    55
+   ],
+   "results": [
+    58
+   ],
+   "were": [
+    59,
+    81,
+    125
+   ],
+   "correlated": [
+    60
+   ],
+   "with": [
+    61,
+    65,
+    84,
+    116
+   ],
+   "agrometeorological": [
+    62
+   ],
+   "data": [
+    63
+   ],
+   "physicochemical,": [
+    66
+   ],
+   "rheological,": [
+    67
+   ],
+   "microbiological,": [
+    68
+   ],
+   "mycotoxicological": [
+    70
+   ],
+   "indicators": [
+    71
+   ],
+   "wheat,": [
+    73
+   ],
+   "flour,": [
+    74
+   ],
+   "bread.": [
+    76
+   ],
+   "Firmness,": [
+    77
+   ],
+   "gumminess": [
+    80
+   ],
+   "predominantly": [
+    82
+   ],
+   "associated": [
+    83,
+    115
+   ],
+   "precipitation": [
+    85
+   ],
+   "soil": [
+    87
+   ],
+   "water": [
+    88,
+    149
+   ],
+   "deficit": [
+    89
+   ],
+   "in": [
+    90,
+    151,
+    159
+   ],
+   "June,": [
+    91
+   ],
+   "corresponding": [
+    92
+   ],
+   "critical": [
+    95
+   ],
+   "grain-filling": [
+    96
+   ],
+   "period,": [
+    97
+   ],
+   "whereas": [
+    98
+   ],
+   "air": [
+    99
+   ],
+   "temperature": [
+    100
+   ],
+   "had": [
+    101
+   ],
+   "no": [
+    102
+   ],
+   "significant": [
+    103,
+    123
+   ],
+   "effect.": [
+    104
+   ],
+   "Elasticity": [
+    105
+   ],
+   "relatively": [
+    107
+   ],
+   "independent": [
+    108
+   ],
+   "environmental": [
+    110
+   ],
+   "conditions": [
+    111
+   ],
+   "mainly": [
+    114
+   ],
+   "protein": [
+    117
+   ],
+   "quality": [
+    118,
+    170
+   ],
+   "flour": [
+    120
+   ],
+   "hydration.": [
+    121
+   ],
+   "No": [
+    122
+   ],
+   "correlations": [
+    124
+   ],
+   "found": [
+    126
+   ],
+   "between": [
+    127
+   ],
+   "parameters": [
+    129
+   ],
+   "fungal": [
+    131
+   ],
+   "contamination": [
+    132
+   ],
+   "mycotoxins": [
+    135
+   ],
+   "deoxynivalenol,": [
+    136
+   ],
+   "aflatoxin": [
+    137
+   ],
+   "B1,": [
+    138
+   ],
+   "ochratoxin": [
+    140
+   ],
+   "A.": [
+    141
+   ],
+   "These": [
+    142
+   ],
+   "findings": [
+    143
+   ],
+   "highlight": [
+    144
+   ],
+   "central": [
+    146
+   ],
+   "role": [
+    147
+   ],
+   "availability": [
+    150
+   ],
+   "grain": [
+    153
+   ],
+   "formation": [
+    154
+   ],
+   "texture,": [
+    157
+   ],
+   "particularly": [
+    158
+   ],
+   "Romania": [
+    160
+   ],
+   "drought-prone": [
+    162
+   ],
+   "Southeastern": [
+    163
+   ],
+   "European": [
+    164
+   ],
+   "cereal": [
+    165
+   ],
+   "systems,": [
+    166
+   ],
+   "support": [
+    168
+   ],
+   "climate-smart": [
+    169
+   ],
+   "management": [
+    171
+   ],
+   "through": [
+    172
+   ],
+   "targeted": [
+    173
+   ],
+   "grain-lot": [
+    174
+   ],
+   "segregation": [
+    175
+   ],
+   "differentiated": [
+    177
+   ],
+   "cereal–bakery": [
+    178
+   ],
+   "processing": [
+    179
+   ],
+   "strategies": [
+    180
+   ],
+   "under": [
+    181
+   ],
+   "increasingly": [
+    182
+   ],
+   "frequent": [
+    183
+   ],
+   "climate": [
+    184
+   ],
+   "extremes.": [
+    185
+   ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-10-12T09:40:04.860316",
+  "created_date": "2026-09-17T00:00:00"
+ }
+}

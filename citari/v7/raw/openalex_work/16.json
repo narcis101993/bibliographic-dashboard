@@ -1,0 +1,1381 @@
+{
+ "retrievedOn": "2026-11-07",
+ "publicationId": "16",
+ "payload": {
+  "id": "https://openalex.org/W7222287239",
+  "doi": "https://doi.org/10.3390/dietetics5040063",
+  "title": "Consumer Preferences and Nutritional Expectations Toward Reformulated Bakery and Fruit-Based Products: An Exploratory Cross-Sectional Survey in Romania",
+  "display_name": "Consumer Preferences and Nutritional Expectations Toward Reformulated Bakery and Fruit-Based Products: An Exploratory Cross-Sectional Survey in Romania",
+  "publication_year": 2026,
+  "publication_date": "2026-10-15",
+  "ids": {
+   "openalex": "https://openalex.org/W7222287239",
+   "doi": "https://doi.org/10.3390/dietetics5040063"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.3390/dietetics5040063",
+   "doi": "https://doi.org/10.3390/dietetics5040063",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/dietetics5040063",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4386621787",
+    "display_name": "Dietetics",
+    "issn_l": "2674-0311",
+    "issn": [
+     "2674-0311"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Dietetics",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "is_traditional": true,
+  "indexed_in": [
+   "crossref",
+   "doaj"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.3390/dietetics5040063",
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5082665172",
+     "display_name": "Fulvia-Ancuța Manolache",
+     "orcid": "https://orcid.org/0000-0002-1158-0552",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1158-0552"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Fulvia-Ancuța Manolache",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-1158-0552",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5007345448",
+     "display_name": "Teodora-Alexandra Iordache",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Teodora-Alexandra Iordache",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5158781463",
+     "display_name": "Alexandru-Bogdan Tompa",
+     "orcid": "https://orcid.org/0009-0006-1417-5196",
+     "observed_orcids": [
+      "https://orcid.org/0009-0006-1417-5196"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Alexandru-Bogdan Tompa",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0006-1417-5196",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5116710859",
+     "display_name": "Gabriela Daniela Criveanu-Stamatie",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Gabriela-Daniela Criveanu-Stamatie",
+    "raw_affiliation_strings": [
+     "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5114900867",
+     "display_name": "Cătălina-Beatrice Poteraș",
+     "orcid": "https://orcid.org/0009-0009-4692-3429",
+     "observed_orcids": [
+      "https://orcid.org/0009-0009-4692-3429"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I4210109653",
+      "display_name": "National Research & Development Institute for Food Bioresources ‒ IBA Bucharest",
+      "ror": "https://ror.org/01q2zc414",
+      "country_code": "RO",
+      "type": "facility",
+      "lineage": [
+       "https://openalex.org/I4210109653"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I61641377",
+      "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "ror": "https://ror.org/0558j5q12",
+      "country_code": "RO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I61641377"
+      ]
+     }
+    ],
+    "countries": [
+     "RO"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Cătălina-Beatrice Poteraș",
+    "raw_affiliation_strings": [
+     "Faculty of Chemical Engineering and Biotechnology, National University of Science and Technology POLITEHNICA Bucharest, 1-7 Polizu St., 011061 Bucharest, Romania",
+     "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania"
+    ],
+    "raw_orcid": "https://orcid.org/0009-0009-4692-3429",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Faculty of Chemical Engineering and Biotechnology, National University of Science and Technology POLITEHNICA Bucharest, 1-7 Polizu St., 011061 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I61641377"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National Research and Development Institute for Food Bioresources—IBA Bucharest, Ancuta Street no. 5, 020323 Bucharest, Romania",
+      "institution_ids": [
+       "https://openalex.org/I4210109653"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5007345448",
+   "https://openalex.org/A5114900867"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I4210109653",
+   "https://openalex.org/I61641377"
+  ],
+  "apc_list": {
+   "value": 1000,
+   "currency": "CHF",
+   "value_usd": 1207
+  },
+  "apc_paid": {
+   "value": 1000,
+   "currency": "CHF",
+   "value_usd": 1207
+  },
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+   "value": 0.81253666,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": "5",
+   "issue": "4",
+   "first_page": "63",
+   "last_page": "63"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T12057",
+   "display_name": "Consumer Attitudes and Food Labeling",
+   "score": 0.9990000128746033,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2739",
+    "display_name": "Public Health, Environmental and Occupational Health"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/27",
+    "display_name": "Medicine"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/4",
+    "display_name": "Health Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T12057",
+    "display_name": "Consumer Attitudes and Food Labeling",
+    "score": 0.9990000128746033,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2739",
+     "display_name": "Public Health, Environmental and Occupational Health"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/27",
+     "display_name": "Medicine"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12873",
+    "display_name": "Nutrition, Health and Food Behavior",
+    "score": 0.000699999975040555,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2916",
+     "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/29",
+     "display_name": "Nursing"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/4",
+     "display_name": "Health Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12114",
+    "display_name": "Sensory Analysis and Statistical Methods",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1106",
+     "display_name": "Food Science"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/11",
+     "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/1",
+     "display_name": "Life Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/consumer-preferences",
+    "display_name": "consumer preferences",
+    "score": 0.8999999761581421
+   },
+   {
+    "id": "https://openalex.org/keywords/food-reformulation",
+    "display_name": "food reformulation",
+    "score": 0.9869999885559082
+   },
+   {
+    "id": "https://openalex.org/keywords/bakery-products",
+    "display_name": "bakery products",
+    "score": 0.9829999804496765
+   },
+   {
+    "id": "https://openalex.org/keywords/fruit-products",
+    "display_name": "fruit products",
+    "score": 0.9589999914169312
+   },
+   {
+    "id": "https://openalex.org/keywords/clean-label-food",
+    "display_name": "clean-label food",
+    "score": 0.656000018119812
+   },
+   {
+    "id": "https://openalex.org/keywords/reduced-sugar",
+    "display_name": "reduced sugar",
+    "score": 0.597000002861023
+   },
+   {
+    "id": "https://openalex.org/keywords/antioxidant-rich-foods",
+    "display_name": "antioxidant-rich foods",
+    "score": 0.6830000281333923
+   },
+   {
+    "id": "https://openalex.org/keywords/healthy-eating",
+    "display_name": "healthy eating",
+    "score": 0.7480000257492065
+   },
+   {
+    "id": "https://openalex.org/keywords/balanced-diet",
+    "display_name": "balanced diet",
+    "score": 0.6299999952316284
+   },
+   {
+    "id": "https://openalex.org/keywords/romanian-consumers",
+    "display_name": "Romanian consumers",
+    "score": 0.5389999747276306
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C162853370",
+    "wikidata": "https://www.wikidata.org/wiki/Q39809",
+    "display_name": "Marketing",
+    "level": 1,
+    "score": 0.5109999775886536
+   },
+   {
+    "id": "https://openalex.org/C2910226413",
+    "wikidata": "https://www.wikidata.org/wiki/Q13485782",
+    "display_name": "Convenience food",
+    "level": 2,
+    "score": 0.5041000247001648
+   },
+   {
+    "id": "https://openalex.org/C2908647359",
+    "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+    "display_name": "Population",
+    "level": 2,
+    "score": 0.4832000136375427
+   },
+   {
+    "id": "https://openalex.org/C85973986",
+    "wikidata": "https://www.wikidata.org/wiki/Q1091731",
+    "display_name": "Exploratory research",
+    "level": 2,
+    "score": 0.4828999936580658
+   },
+   {
+    "id": "https://openalex.org/C3020707900",
+    "wikidata": "https://www.wikidata.org/wiki/Q25099819",
+    "display_name": "Healthy food",
+    "level": 2,
+    "score": 0.4569000005722046
+   },
+   {
+    "id": "https://openalex.org/C18767781",
+    "wikidata": "https://www.wikidata.org/wiki/Q5465445",
+    "display_name": "Food choice",
+    "level": 2,
+    "score": 0.4345000088214874
+   },
+   {
+    "id": "https://openalex.org/C15744967",
+    "wikidata": "https://www.wikidata.org/wiki/Q9418",
+    "display_name": "Psychology",
+    "level": 0,
+    "score": 0.41819998621940613
+   },
+   {
+    "id": "https://openalex.org/C99454951",
+    "wikidata": "https://www.wikidata.org/wiki/Q932068",
+    "display_name": "Environmental health",
+    "level": 1,
+    "score": 0.4115999937057495
+   },
+   {
+    "id": "https://openalex.org/C2987718291",
+    "wikidata": "https://www.wikidata.org/wiki/Q2095",
+    "display_name": "Food products",
+    "level": 2,
+    "score": 0.37459999322891235
+   },
+   {
+    "id": "https://openalex.org/C129400051",
+    "wikidata": "https://www.wikidata.org/wiki/Q7913",
+    "display_name": "Romanian",
+    "level": 2,
+    "score": 0.3693000078201294
+   },
+   {
+    "id": "https://openalex.org/C65067816",
+    "wikidata": "https://www.wikidata.org/wiki/Q2295139",
+    "display_name": "Computer-assisted web interviewing",
+    "level": 2,
+    "score": 0.366100013256073
+   },
+   {
+    "id": "https://openalex.org/C3017896982",
+    "wikidata": "https://www.wikidata.org/wiki/Q5906358",
+    "display_name": "Healthy eating",
+    "level": 3,
+    "score": 0.3450999855995178
+   },
+   {
+    "id": "https://openalex.org/C144133560",
+    "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+    "display_name": "Business",
+    "level": 0,
+    "score": 0.33469998836517334
+   },
+   {
+    "id": "https://openalex.org/C2777607137",
+    "wikidata": "https://www.wikidata.org/wiki/Q17011065",
+    "display_name": "Added sugar",
+    "level": 3,
+    "score": 0.33219999074935913
+   },
+   {
+    "id": "https://openalex.org/C142546437",
+    "wikidata": "https://www.wikidata.org/wiki/Q2661195",
+    "display_name": "Descriptive research",
+    "level": 2,
+    "score": 0.31279999017715454
+   },
+   {
+    "id": "https://openalex.org/C112698675",
+    "wikidata": "https://www.wikidata.org/wiki/Q37038",
+    "display_name": "Advertising",
+    "level": 1,
+    "score": 0.2930000126361847
+   },
+   {
+    "id": "https://openalex.org/C31903555",
+    "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+    "display_name": "Food science",
+    "level": 1,
+    "score": 0.2913999855518341
+   },
+   {
+    "id": "https://openalex.org/C3019123661",
+    "wikidata": "https://www.wikidata.org/wiki/Q5906358",
+    "display_name": "Healthy diet",
+    "level": 2,
+    "score": 0.2883000075817108
+   },
+   {
+    "id": "https://openalex.org/C39896193",
+    "wikidata": "https://www.wikidata.org/wiki/Q380344",
+    "display_name": "Descriptive statistics",
+    "level": 2,
+    "score": 0.2759999930858612
+   },
+   {
+    "id": "https://openalex.org/C63412515",
+    "wikidata": "https://www.wikidata.org/wiki/Q1531970",
+    "display_name": "Nutrition facts label",
+    "level": 2,
+    "score": 0.27079999446868896
+   },
+   {
+    "id": "https://openalex.org/C2993572104",
+    "wikidata": "https://www.wikidata.org/wiki/Q6980681",
+    "display_name": "Natural food",
+    "level": 2,
+    "score": 0.25679999589920044
+   },
+   {
+    "id": "https://openalex.org/C2780662849",
+    "wikidata": "https://www.wikidata.org/wiki/Q48768339",
+    "display_name": "Food frequency questionnaire",
+    "level": 2,
+    "score": 0.25029999017715454
+   },
+   {
+    "id": "https://openalex.org/C129230472",
+    "wikidata": "https://www.wikidata.org/wiki/Q767036",
+    "display_name": "Food group",
+    "level": 2,
+    "score": 0.25
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.3390/dietetics5040063",
+    "doi": "https://doi.org/10.3390/dietetics5040063",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/dietetics5040063",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4386621787",
+     "display_name": "Dietetics",
+     "issn_l": "2674-0311",
+     "issn": [
+      "2674-0311"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj"
+     ],
+     "host_organization": "https://openalex.org/P4310310987",
+     "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310310987"
+     ],
+     "host_organization_lineage_names": [
+      "Multidisciplinary Digital Publishing Institute"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Dietetics",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:doaj.org/article:360327d4c3d04283959009bfa9a371a5",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://doaj.org/article/360327d4c3d04283959009bfa9a371a5",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306401280",
+     "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Dietetics, Vol 5, Iss 4, p 63 (2026)",
+    "raw_type": "article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.3390/dietetics5040063",
+   "doi": "https://doi.org/10.3390/dietetics5040063",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/dietetics5040063",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4386621787",
+    "display_name": "Dietetics",
+    "issn_l": "2674-0311",
+    "issn": [
+     "2674-0311"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Dietetics",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+   {
+    "display_name": "Zero hunger",
+    "id": "https://metadata.un.org/sdg/2",
+    "score": 0.9208999872207642
+   },
+   {
+    "display_name": "Good health and well-being",
+    "id": "https://metadata.un.org/sdg/3",
+    "score": 0.6240000128746033
+   }
+  ],
+  "study_designs": [
+   {
+    "display_name": "Observational Study",
+    "id": "https://openalex.org/study-designs/observational-study"
+   }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 28,
+  "referenced_works": [
+   "https://openalex.org/W879345882",
+   "https://openalex.org/W1859708271",
+   "https://openalex.org/W1973012451",
+   "https://openalex.org/W2113700360",
+   "https://openalex.org/W2158131091",
+   "https://openalex.org/W2161578926",
+   "https://openalex.org/W2519766541",
+   "https://openalex.org/W2608708799",
+   "https://openalex.org/W2610345163",
+   "https://openalex.org/W3007254975",
+   "https://openalex.org/W3087625541",
+   "https://openalex.org/W4207076712",
+   "https://openalex.org/W4213324626",
+   "https://openalex.org/W4323364888",
+   "https://openalex.org/W4386215498",
+   "https://openalex.org/W4398778619",
+   "https://openalex.org/W4399368527",
+   "https://openalex.org/W4402284585",
+   "https://openalex.org/W4404105994",
+   "https://openalex.org/W4407700244",
+   "https://openalex.org/W4412366260",
+   "https://openalex.org/W4415460315",
+   "https://openalex.org/W4415644469",
+   "https://openalex.org/W4415930874",
+   "https://openalex.org/W7153033677",
+   "https://openalex.org/W7154454477",
+   "https://openalex.org/W7165639272",
+   "https://openalex.org/W7203608467"
+  ],
+  "related_works": [
+   "https://openalex.org/W7214723419",
+   "https://openalex.org/W2793597372",
+   "https://openalex.org/W7167822940",
+   "https://openalex.org/W4398778619",
+   "https://openalex.org/W7120567124",
+   "https://openalex.org/W2994627186",
+   "https://openalex.org/W7161827433",
+   "https://openalex.org/W4383746234",
+   "https://openalex.org/W2514226151",
+   "https://openalex.org/W2129000685"
+  ],
+  "abstract_inverted_index": {
+   "The": [
+    0,
+    102
+   ],
+   "growing": [
+    1
+   ],
+   "interest": [
+    2,
+    183
+   ],
+   "in": [
+    3,
+    68,
+    76,
+    99,
+    114,
+    184
+   ],
+   "healthy": [
+    4
+   ],
+   "eating": [
+    5
+   ],
+   "has": [
+    6
+   ],
+   "increased": [
+    7
+   ],
+   "consumers’": [
+    8,
+    44
+   ],
+   "expectations": [
+    9,
+    24,
+    60
+   ],
+   "for": [
+    10,
+    55,
+    128
+   ],
+   "food": [
+    11,
+    31,
+    63,
+    230
+   ],
+   "products": [
+    12,
+    39,
+    64,
+    170
+   ],
+   "that": [
+    13,
+    40,
+    105
+   ],
+   "combine": [
+    14
+   ],
+   "nutritional": [
+    15,
+    23,
+    52
+   ],
+   "value,": [
+    16
+   ],
+   "natural": [
+    17,
+    140
+   ],
+   "ingredients": [
+    18
+   ],
+   "and": [
+    19,
+    34,
+    59,
+    93,
+    144,
+    147,
+    156,
+    165,
+    171,
+    188,
+    199,
+    220
+   ],
+   "convenience.": [
+    20
+   ],
+   "Understanding": [
+    21
+   ],
+   "these": [
+    22
+   ],
+   "may": [
+    25,
+    226
+   ],
+   "provide": [
+    26
+   ],
+   "valuable": [
+    27
+   ],
+   "insights": [
+    28
+   ],
+   "to": [
+    29,
+    215,
+    239
+   ],
+   "guide": [
+    30,
+    228
+   ],
+   "reformulation": [
+    32,
+    231
+   ],
+   "strategies": [
+    33
+   ],
+   "support": [
+    35
+   ],
+   "the": [
+    36,
+    51,
+    100,
+    160,
+    176,
+    240,
+    245
+   ],
+   "development": [
+    37
+   ],
+   "of": [
+    38,
+    107,
+    142,
+    244
+   ],
+   "better": [
+    41
+   ],
+   "align": [
+    42
+   ],
+   "with": [
+    43
+   ],
+   "expressed": [
+    45
+   ],
+   "preferences.": [
+    46
+   ],
+   "Therefore,": [
+    47
+   ],
+   "this": [
+    48,
+    210
+   ],
+   "study": [
+    49
+   ],
+   "investigated": [
+    50
+   ],
+   "preferences,": [
+    53
+   ],
+   "motivations": [
+    54,
+    196
+   ],
+   "trying": [
+    56,
+    129
+   ],
+   "new": [
+    57,
+    131
+   ],
+   "foods": [
+    58
+   ],
+   "regarding": [
+    61
+   ],
+   "reformulated": [
+    62
+   ],
+   "among": [
+    65,
+    179,
+    195
+   ],
+   "respondents": [
+    66,
+    108,
+    213
+   ],
+   "recruited": [
+    67,
+    89
+   ],
+   "Romania.": [
+    69
+   ],
+   "A": [
+    70
+   ],
+   "cross-sectional": [
+    71
+   ],
+   "online": [
+    72
+   ],
+   "survey": [
+    73
+   ],
+   "was": [
+    74
+   ],
+   "conducted": [
+    75
+   ],
+   "August": [
+    77
+   ],
+   "2024,": [
+    78
+   ],
+   "using": [
+    79
+   ],
+   "a": [
+    80,
+    116,
+    126,
+    130
+   ],
+   "structured": [
+    81
+   ],
+   "questionnaire": [
+    82
+   ],
+   "distributed": [
+    83
+   ],
+   "through": [
+    84,
+    90
+   ],
+   "Google": [
+    85
+   ],
+   "Forms.": [
+    86
+   ],
+   "Participants": [
+    87
+   ],
+   "were": [
+    88,
+    97,
+    109,
+    121,
+    151,
+    159,
+    192,
+    197
+   ],
+   "convenience": [
+    91,
+    211
+   ],
+   "sampling,": [
+    92
+   ],
+   "200": [
+    94
+   ],
+   "complete": [
+    95
+   ],
+   "responses": [
+    96
+   ],
+   "included": [
+    98
+   ],
+   "analysis.": [
+    101
+   ],
+   "results": [
+    103
+   ],
+   "showed": [
+    104
+   ],
+   "79.5%": [
+    106
+   ],
+   "interested": [
+    110,
+    113
+   ],
+   "or": [
+    111
+   ],
+   "very": [
+    112
+   ],
+   "maintaining": [
+    115
+   ],
+   "balanced": [
+    117,
+    222
+   ],
+   "diet.": [
+    118
+   ],
+   "Health": [
+    119
+   ],
+   "benefits": [
+    120
+   ],
+   "selected": [
+    122,
+    163
+   ],
+   "by": [
+    123
+   ],
+   "83.5%": [
+    124
+   ],
+   "as": [
+    125
+   ],
+   "motivation": [
+    127
+   ],
+   "product.": [
+    132
+   ],
+   "In": [
+    133
+   ],
+   "separate": [
+    134
+   ],
+   "questions,": [
+    135
+   ],
+   "reduced": [
+    136
+   ],
+   "sugar": [
+    137
+   ],
+   "content": [
+    138
+   ],
+   "(77%),": [
+    139
+   ],
+   "sources": [
+    141
+   ],
+   "vitamins": [
+    143
+   ],
+   "minerals": [
+    145
+   ],
+   "(64%)": [
+    146
+   ],
+   "additive-free": [
+    148,
+    172
+   ],
+   "formulations": [
+    149
+   ],
+   "(60%)": [
+    150
+   ],
+   "regularly": [
+    152
+   ],
+   "selected.": [
+    153
+   ],
+   "Low-carbohydrate": [
+    154
+   ],
+   "pasta": [
+    155
+   ],
+   "antioxidant-rich": [
+    157
+   ],
+   "bars": [
+    158
+   ],
+   "most": [
+    161,
+    177
+   ],
+   "frequently": [
+    162
+   ],
+   "bakery": [
+    164
+   ],
+   "cereal-based": [
+    166
+   ],
+   "concepts.": [
+    167
+   ],
+   "Fiber-enriched": [
+    168
+   ],
+   "fruit": [
+    169,
+    173
+   ],
+   "preserves": [
+    174
+   ],
+   "received": [
+    175
+   ],
+   "selections": [
+    178
+   ],
+   "fruit-based": [
+    180
+   ],
+   "concepts": [
+    181
+   ],
+   "suggesting": [
+    182
+   ],
+   "clean-label": [
+    185
+   ],
+   "products.": [
+    186
+   ],
+   "Descriptive": [
+    187
+   ],
+   "exploratory": [
+    189
+   ],
+   "association": [
+    190
+   ],
+   "analyses": [
+    191
+   ],
+   "performed;": [
+    193
+   ],
+   "correlations": [
+    194
+   ],
+   "weak,": [
+    198
+   ],
+   "age-related": [
+    200
+   ],
+   "associations": [
+    201
+   ],
+   "did": [
+    202
+   ],
+   "not": [
+    203,
+    236
+   ],
+   "remain": [
+    204
+   ],
+   "significant": [
+    205
+   ],
+   "after": [
+    206
+   ],
+   "Holm": [
+    207
+   ],
+   "correction.": [
+    208
+   ],
+   "Within": [
+    209
+   ],
+   "sample,": [
+    212
+   ],
+   "tended": [
+    214
+   ],
+   "prefer": [
+    216
+   ],
+   "healthier,": [
+    217
+   ],
+   "more": [
+    218
+   ],
+   "natural,": [
+    219
+   ],
+   "nutritionally": [
+    221
+   ],
+   "foods.": [
+    223
+   ],
+   "These": [
+    224
+   ],
+   "findings": [
+    225
+   ],
+   "help": [
+    227
+   ],
+   "future": [
+    229
+   ],
+   "efforts,": [
+    232
+   ],
+   "although": [
+    233
+   ],
+   "they": [
+    234
+   ],
+   "should": [
+    235
+   ],
+   "be": [
+    237
+   ],
+   "generalized": [
+    238
+   ],
+   "Romanian": [
+    241
+   ],
+   "population": [
+    242
+   ],
+   "because": [
+    243
+   ],
+   "sampling": [
+    246
+   ],
+   "method.": [
+    247
+   ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-10-29T09:56:32.521200",
+  "created_date": "2026-10-16T00:00:00"
+ }
+}

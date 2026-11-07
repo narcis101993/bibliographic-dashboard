@@ -1,7 +1,7 @@
 # Citation changelog
 
 Generated: 2026-11-07T00:00:00+00:00
-Input digest: `sha256:59d1a3cc07d7b2f9c8502edc3f25f358594457179e72c65214f89aa383d4cfc0`
+Input digest: `sha256:1392c17e2dcb4b87455215d247ac10c5a239f2b32bbced988aea85fb1a957240`
 Work identity: Citation works are matched by DOI, then by folded title and year.
 
 ## Between dataset versions
@@ -17,6 +17,10 @@ Work identity: Citation works are matched by DOI, then by folded title and year.
   - publication 4: 42 → 44 (+2)
   - publication 11: 28 → 29 (+1)
   - publication 12: 3 → 4 (+1)
+- **v6 → v7**: works 112 → 116, links 115 → 119, 4 added, 0 removed
+  - publication 2: 6 → 7 (+1)
+  - publication 4: 44 → 46 (+2)
+  - publication 11: 29 → 30 (+1)
 
 ## Since the previous build
 
