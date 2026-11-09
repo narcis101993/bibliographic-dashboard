@@ -6,15 +6,15 @@
   --border: #dde4ec;
   --border-strong: #c8d3e0;
   --text: #1c2a3a;
-  --muted: #64748b;
-  --muted-2: #94a3b8;
+  --muted: #55657d;
+  --muted-2: #5b6b82;
   --navy: #12324d;
   --navy-2: #1b4a6f;
-  --accent: #2a7396;
+  --accent: #22617f;
   --accent-soft: #e3f0f6;
-  --ok: #2f8a5b;
+  --ok: #23714a;
   --ok-soft: #e6f4ec;
-  --warn: #9a6a12;
+  --warn: #7d560d;
   --warn-soft: #fbf1dc;
   --self: #fff4d6;
   --self-border: #e2b84b;
@@ -31,7 +31,7 @@
   --border-strong: #374151;
   --text: #e5e7eb;
   --muted: #9ca3af;
-  --muted-2: #6b7280;
+  --muted-2: #94a3b8;
   --navy: #e5e7eb;
   --navy-2: #cbd5e1;
   --accent: #60a5fa;
@@ -60,6 +60,9 @@ body {
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
+/* Inline links inside text must not rely on color alone (Lighthouse
+   link-in-text-block): keep them underlined outside buttons. */
+.title-block p a, .page-foot a { text-decoration: underline; text-underline-offset: 2px; }
 
 .app {
   max-width: 1440px;
@@ -831,6 +834,20 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
   margin-right: 6px;
   line-height: 1;
 }
+.pub-expand-btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 2px;
+  margin-right: 6px;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+}
+.pub-expand-btn:hover { color: var(--navy); }
+.pub-expand-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.pub-expanded .pub-expand-btn { transform: rotate(90deg); }
 .pub-expanded .pub-expand-icon {
   transform: rotate(90deg);
 }
@@ -1149,7 +1166,7 @@ tbody tr.row-self:hover td { background: var(--accent-soft); }
     color: #e5e7eb;
   }
   .field input::placeholder {
-    color: #6b7280;
+    color: #9ca3af;
   }
   .check {
     background: #111827;

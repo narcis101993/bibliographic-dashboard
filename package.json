@@ -1,0 +1,13 @@
+{
+  "name": "bibliographic-dashboard",
+  "private": true,
+  "description": "Build tools only: custom Chart.js bundle (bar + doughnut) and app.js minification. The shipped site is static; these devDependencies are never served.",
+  "scripts": {
+    "build:charts": "python3 scripts/build_chart_bundle.py",
+    "build:app": "python3 scripts/minify_app_js.py"
+  },
+  "devDependencies": {
+    "chart.js": "4.4.7",
+    "esbuild": "0.25.10"
+  }
+}

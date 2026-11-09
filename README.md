@@ -14,9 +14,10 @@ Bibliographic dashboard/
 ├── dashboard/              Aplicația web (HTML/CSS/JS + Chart.js)
 │   ├── index.html
 │   ├── styles.css
-│   ├── app.js
+│   ├── app.js              Sursă lizibilă (testată static)
+│   ├── app.min.js          Generat din app.js (scripts/minify_app_js.py)
 │   ├── vendor/
-│   │   └── chart.umd.min.js
+│   │   └── chart.min.js      Bundle Chart.js redus: bar + doughnut (scripts/build_chart_bundle.py)
 │   └── data/
 │       ├── dashboard-data.js      Date încorporate (funcționează pe file://)
 │       ├── version-manifest.json  Versiuni detectate + surse

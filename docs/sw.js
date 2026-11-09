@@ -2,14 +2,14 @@
    The dashboard data refreshes monthly, so we always try the network
    first and only fall back to cache when offline. Bump CACHE_VERSION
    when sw.js itself changes to force a clean cache. */
-var CACHE_VERSION = "biblio-dashboard-v2";
+var CACHE_VERSION = "biblio-dashboard-v3";
 var CORE_ASSETS = [
   ".",
   "index.html",
   "styles.css",
-  "app.js",
+  "app.min.js",
   "manifest.webmanifest",
-  "vendor/chart.umd.min.js",
+  "vendor/chart.min.js",
   "assets/brand-192.png",
   "assets/brand-512.png"
 ];

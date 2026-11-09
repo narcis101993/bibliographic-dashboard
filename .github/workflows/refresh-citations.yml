@@ -101,6 +101,13 @@ jobs:
           cd scripts
           python3 build_dashboard_data.py
 
+      - name: Rebuild minified JS + trimmed Chart.js bundle
+        run: |
+          npm install --ignore-scripts
+          python3 scripts/minify_app_js.py
+          python3 scripts/build_chart_bundle.py
+          node tests/test_app_js_smoke.js
+
       - name: Sync dashboard to docs for GitHub Pages
         run: |
           rsync -a --delete dashboard/ docs/

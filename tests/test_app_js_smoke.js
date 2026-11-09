@@ -1,7 +1,9 @@
-// Smoke test for dashboard/app.js — loads the browser bundle in Node with
-// DOM stubs and asserts it initialises without throwing (regression guard
-// for the null.innerHTML style crashes). NOT a full DOM emulation: it only
-// proves the top-level code and the init/error paths run cleanly.
+// Smoke test for dashboard/app.min.js — loads the shipped (minified) browser
+// bundle in Node with DOM stubs and asserts it initialises without throwing
+// (regression guard for the null.innerHTML style crashes). NOT a full DOM
+// emulation: it only proves the top-level code and the init/error paths run
+// cleanly. Regenerate the bundle after editing app.js:
+//   python3 scripts/minify_app_js.py
 //
 // Run:  node tests/test_app_js_smoke.js
 
@@ -82,7 +84,7 @@ const sandbox = {
 sandbox.window.document = documentStub;
 sandbox.globalThis = sandbox;
 
-const code = fs.readFileSync(path.join(__dirname, "..", "dashboard", "app.js"), "utf-8");
+const code = fs.readFileSync(path.join(__dirname, "..", "dashboard", "app.min.js"), "utf-8");
 vm.createContext(sandbox);
 vm.runInContext(code, sandbox, { filename: "app.js" });
 

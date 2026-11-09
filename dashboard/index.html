@@ -62,12 +62,12 @@
               </div>
             </div>
 
-            <div class="charts-row" id="pubChartsRow" aria-label="Publication charts">
+            <div class="charts-row" id="pubChartsRow" role="group" aria-label="Publication charts">
               <div class="card chart-card">
                 <div class="card-head">
                   <h3 data-i18n="pubByYear">Publicații pe an</h3>
                 </div>
-                <div class="chart-wrap"><canvas id="pubYearChart" aria-label="Publications per year"></canvas></div>
+                <div class="chart-wrap"><canvas id="pubYearChart" role="img" aria-label="Publications per year"></canvas></div>
                 <p class="chart-caption" data-i18n="pubByYearCap">Înregistrări pe an de publicare (filtrate).</p>
               </div>
 
@@ -75,12 +75,12 @@
                 <div class="card-head">
                   <h3 data-i18n="pubTypes">Tipuri de publicații</h3>
                 </div>
-                <div class="chart-wrap"><canvas id="pubTypeChart" aria-label="Publication types"></canvas></div>
+                <div class="chart-wrap"><canvas id="pubTypeChart" role="img" aria-label="Publication types"></canvas></div>
                 <p class="chart-caption" data-i18n="pubTypesCap">Distribuție pe tipuri (filtrate).</p>
               </div>
             </div>
 
-            <div class="filterbar" aria-label="Publication filters">
+            <div class="filterbar" role="group" aria-label="Publication filters">
               <label class="field field-search">
                 <span data-i18n="search">Caută</span>
                 <input type="search" id="pubSearch" data-i18n-placeholder="pubSearchPh" placeholder="Titlu, autor, DOI…" autocomplete="off">
@@ -186,12 +186,12 @@
               </div>
             </div>
 
-            <div class="charts-row" id="citChartsRow" aria-label="Citation charts">
+            <div class="charts-row" id="citChartsRow" role="group" aria-label="Citation charts">
               <div class="card chart-card">
                 <div class="card-head">
                   <h3 data-i18n="citByYear">Citări pe an</h3>
                 </div>
-                <div class="chart-wrap"><canvas id="citYearChart" aria-label="Citation links per year"></canvas></div>
+                <div class="chart-wrap"><canvas id="citYearChart" role="img" aria-label="Citation links per year"></canvas></div>
                 <p class="chart-caption" data-i18n="citByYearCap">Legături de citare pe an de citare (filtrate).</p>
               </div>
 
@@ -199,12 +199,12 @@
                 <div class="card-head">
                   <h3 data-i18n="topCited">Top articole citate</h3>
                 </div>
-                <div class="chart-wrap"><canvas id="citTopChart" aria-label="Most cited articles"></canvas></div>
+                <div class="chart-wrap"><canvas id="citTopChart" role="img" aria-label="Most cited articles"></canvas></div>
                 <p class="chart-caption" data-i18n="topCitedCap">Legături de citare per articol (filtrate).</p>
               </div>
             </div>
 
-            <div class="filterbar" aria-label="Citation filters">
+            <div class="filterbar" role="group" aria-label="Citation filters">
               <label class="field field-search">
                 <span data-i18n="search">Caută</span>
                 <input type="search" id="citSearch" data-i18n-placeholder="citSearchPh" placeholder="Lucrare citată, autor, DOI…" autocomplete="off">
@@ -372,7 +372,7 @@
                   <div class="card-head">
                     <h3 data-i18n="citTypes">Tipuri de lucrări citante</h3>
                   </div>
-                  <div class="chart-wrap"><canvas id="citTypeChart" aria-label="Citing work types"></canvas></div>
+                  <div class="chart-wrap"><canvas id="citTypeChart" role="img" aria-label="Citing work types"></canvas></div>
                 </div>
 
                 <div class="card">
@@ -416,8 +416,8 @@
     <p style="padding:16px">This dashboard needs JavaScript to load the bibliography data. / Dashboard-ul necesită JavaScript.</p>
   </noscript>
 
-  <script src="vendor/chart.umd.min.js"></script>
+  <script src="vendor/chart.min.js"></script>
   <script src="data/dashboard-data.js"></script>
-  <script src="app.js"></script>
+  <script src="app.min.js"></script>
 </body>
 </html>

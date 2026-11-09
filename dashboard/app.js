@@ -1389,8 +1389,8 @@
         : text;
       return '<div class="detail-row"><span class="detail-label">' + label + '</span><span class="detail-value">' + valueHtml + "</span></div>";
     }).join("");
-    return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\" aria-expanded=\"false\">" +
-      '<td class="num" data-label="' + esc(t("colNr")) + '"><span class="pub-expand-icon">▸</span>' + esc(pub.id) + "</td>" +
+    return "<tr class=\"pub-main\" data-id=\"" + esc(pub.id) + "\">" +
+      '<td class="num" data-label="' + esc(t("colNr")) + '"><button type="button" class="pub-expand-btn" aria-expanded="false" aria-controls="pub-detail-' + esc(pub.id) + '" aria-label="' + esc(t("pubDetails")) + '">▸</button>' + esc(pub.id) + "</td>" +
       '<td class="num" data-label="' + esc(t("colYear")) + '">' + esc(pub.year == null ? "—" : pub.year) + "</td>" +
       '<td class="cell-title" data-label="' + esc(t("colTitle")) + '">' + esc(pub.title || t("untitled")) + "</td>" +
       '<td data-label="' + esc(t("colVenue")) + '">' + esc(pub.venue || "—") + "</td>" +
@@ -1402,7 +1402,7 @@
       '<td class="cell-notes" data-label="' + esc(t("colNotes")) + '">' + esc(notesText) + "</td>" +
       '<td data-label="' + esc(t("colLink")) + '">' + link + "</td>" +
       "</tr>" +
-      "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"11\" class=\"detail-cell\">" +
+      "<tr class=\"pub-detail\" data-id=\"" + esc(pub.id) + "\" id=\"pub-detail-" + esc(pub.id) + "\" style=\"display:none\"><td colspan=\"11\" class=\"detail-cell\">" +
       '<div class="detail-panel">' + detailRows + "</div>" +
       "</td></tr>";
   }
@@ -1561,7 +1561,8 @@
           var isHidden = detail.style.display === "none";
           detail.style.display = isHidden ? "" : "none";
           row.classList.toggle("pub-expanded", isHidden);
-          row.setAttribute("aria-expanded", isHidden ? "true" : "false");
+          var expandBtn = row.querySelector(".pub-expand-btn");
+          if (expandBtn) expandBtn.setAttribute("aria-expanded", isHidden ? "true" : "false");
         }
       });
     });
@@ -1623,7 +1624,7 @@
   function chartColors() {
     return state.dark
       ? { tick: "#9ca3af", grid: "#1f2937", border: "#111827" }
-      : { tick: "#64748b", grid: "#edf1f6", border: "#ffffff" };
+      : { tick: "#55657d", grid: "#edf1f6", border: "#ffffff" };
   }
 
   function cartesianOptions(horizontal) {
